@@ -12,3 +12,8 @@ data/raw/*
 *.Rproj
 
 *.Rproj
+
+.RData
+.RDataTmp*
+.RHistory
+.Rhistory
