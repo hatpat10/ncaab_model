@@ -250,10 +250,12 @@ def load_barttorvik() -> pd.DataFrame:
 
 
 def load_espn_games() -> pd.DataFrame:
-    """Load ESPN games from SQLite games_raw, normalize team names."""
+    """Load current season (2026) ESPN games from SQLite games_raw, normalize team names."""
     log.info("Loading ESPN games from SQLite: %s", DB_PATH)
     con = sqlite3.connect(DB_PATH)
-    df = pd.read_sql("SELECT * FROM games_raw", con)
+    # Only load current season — historical seasons are handled by historical_feature_builder.py
+    # Using season=2026 to avoid duplicating data already in feature_matrix_historical.parquet
+    df = pd.read_sql("SELECT * FROM games_raw WHERE season = 2026 OR season IS NULL", con)
     con.close()
 
     for col in ["home_team", "away_team", "home_team_name", "away_team_name"]:

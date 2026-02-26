@@ -1,0 +1,27 @@
+{
+  "spread": {
+    "high_edge_threshold": 6.0,
+    "display_threshold": 2.0,
+    "suppress_above": 20.0
+  },
+  "totals": {
+    "high_edge_threshold": 8.0,
+    "display_threshold": 3.0,
+    "suppress_above": 12.0
+  },
+  "moneyline": {
+    "enabled": false,
+    "min_edge_pct": 5.0
+  },
+  "output": {
+    "show_nan_odds": false,
+    "max_flags_per_slate": 20
+  },
+  "backtesting": {
+    "last_run": null,
+    "games_graded": 0,
+    "spread_mae": null,
+    "spread_ats": null,
+    "recommended_spread_threshold": null
+  }
+}

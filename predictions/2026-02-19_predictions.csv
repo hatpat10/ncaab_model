@@ -1,0 +1,53 @@
+date,away_team,home_team,predicted_margin,home_win_prob,predicted_total,vegas_spread,spread_edge,vegas_total,total_edge,ou_lean,bets
+2026-02-19,Vermont Catamounts,UMBC Retrievers,2.3,0.536,141.5,-10.5,-8.2,139.5,2.0,OVER,SPREAD AWAY
+2026-02-19,New Hampshire Wildcats,UMass Lowell River Hawks,9.7,0.666,149.1,-10.5,-0.8,146.5,2.6,OVER,
+2026-02-19,Binghamton Bearcats,Bryant Bulldogs,0.1,0.592,141.6,-10.5,-10.4,139.5,2.1,OVER,SPREAD AWAY
+2026-02-19,Florida International Panthers,Liberty Flames,10.6,0.786,143.2,1.5,12.1,153.5,-10.3,UNDER,"SPREAD HOME, TOTAL UNDER"
+2026-02-19,South Carolina Upstate Spartans,Winthrop Eagles,17.1,0.881,150.8,6.5,23.6,162.5,-11.7,UNDER,"SPREAD HOME, TOTAL UNDER"
+2026-02-19,Marshall Thundering Herd,App State Mountaineers,7.0,0.666,138.6,,,,,,
+2026-02-19,Memphis Tigers,South Florida Bulls,4.2,0.606,159.3,21.2,25.4,137.2,22.1,OVER,"SPREAD HOME, TOTAL OVER"
+2026-02-19,UNC Asheville Bulldogs,High Point Panthers,14.2,0.786,156.3,11.5,25.7,150.5,5.8,OVER,"SPREAD HOME, TOTAL OVER"
+2026-02-19,Longwood Lancers,Presbyterian Blue Hose,-0.9,0.415,147.5,11.5,10.6,150.5,-3.0,UNDER,SPREAD HOME
+2026-02-19,Gardner-Webb Runnin' Bulldogs,Radford Highlanders,5.5,0.666,152.0,-6.5,-1.0,154.5,-2.5,UNDER,
+2026-02-19,IU Indianapolis Jaguars,Wright State Raiders,19.8,0.936,150.4,,,,,,
+2026-02-19,Wagner Seahawks,Mercyhurst Lakers,6.1,0.606,129.4,-2.5,3.6,140.5,-11.1,UNDER,"SPREAD HOME, TOTAL UNDER"
+2026-02-19,Long Island University Sharks,Saint Francis Red Flash,-0.7,0.536,141.9,-5.5,-6.2,140.5,1.4,OVER,SPREAD AWAY
+2026-02-19,Le Moyne Dolphins,Central Connecticut Blue Devils,4.5,0.606,148.6,-2.5,2.0,140.5,8.1,OVER,TOTAL OVER
+2026-02-19,Fairleigh Dickinson Knights,Chicago State Cougars,-0.5,0.536,144.9,,,,,,
+2026-02-19,UAlbany Great Danes,NJIT Highlanders,0.7,0.606,150.7,,,,,,
+2026-02-19,Monmouth Hawks,UNC Wilmington Seahawks,9.4,0.674,143.1,-12.5,-3.1,146.5,-3.4,UNDER,SPREAD AWAY
+2026-02-19,Drexel Dragons,Northeastern Huskies,-4.2,0.415,145.5,-11.5,-15.7,165.5,-20.0,UNDER,"SPREAD AWAY, TOTAL UNDER"
+2026-02-19,William & Mary Tribe,Campbell Fighting Camels,5.5,0.666,152.8,-1.5,4.0,141.5,11.3,OVER,"SPREAD HOME, TOTAL OVER"
+2026-02-19,Charleston Cougars,North Carolina A&T Aggies,-7.1,0.141,152.7,-12.5,-19.6,146.5,6.2,OVER,"SPREAD AWAY, TOTAL OVER"
+2026-02-19,Samford Bulldogs,The Citadel Bulldogs,-7.7,0.197,152.5,,,,,,
+2026-02-19,Chattanooga Mocs,Mercer Bears,-0.8,0.485,156.7,,,,,,
+2026-02-19,Austin Peay Governors,North Florida Ospreys,-0.4,0.468,160.0,5.5,5.1,161.5,-1.5,UNDER,SPREAD HOME
+2026-02-19,Alabama State Hornets,Bethune-Cookman Wildcats,6.7,0.666,138.5,1.5,8.2,142.5,-4.0,UNDER,"SPREAD HOME, TOTAL UNDER"
+2026-02-19,Kansas City Roos,North Dakota Fighting Hawks,-0.0,0.485,149.0,-3.5,-3.5,154.5,-5.5,UNDER,"SPREAD AWAY, TOTAL UNDER"
+2026-02-19,Hampton Pirates,Hofstra Pride,11.6,0.881,138.0,,,,,,
+2026-02-19,Texas State Bobcats,South Alabama Jaguars,6.5,0.666,143.7,-26.8,-20.3,140.2,3.5,OVER,SPREAD AWAY
+2026-02-19,Arkansas State Red Wolves,Louisiana Ragin' Cajuns,-7.5,0.343,144.4,,,,,,
+2026-02-19,Georgia Southern Eagles,Georgia State Panthers,1.8,0.587,147.6,,,,,,
+2026-02-19,Central Arkansas Bears,Stetson Hatters,0.8,0.536,151.4,-6.5,-5.7,139.5,11.9,OVER,"SPREAD AWAY, TOTAL OVER"
+2026-02-19,California Baptist Lancers,Utah Valley Wolverines,4.9,0.606,141.5,-15.5,-10.6,142.0,-0.5,UNDER,SPREAD AWAY
+2026-02-19,Utah Tech Trailblazers,UT Arlington Mavericks,7.5,0.666,149.2,-6.5,1.0,134.0,15.2,OVER,TOTAL OVER
+2026-02-19,Southern Utah Thunderbirds,Tarleton State Texans,3.0,0.553,137.1,-15.5,-12.5,142.0,-4.9,UNDER,"SPREAD AWAY, TOTAL UNDER"
+2026-02-19,UT Martin Skyhawks,Little Rock Trojans,3.2,0.666,146.9,-2.5,0.7,140.5,6.4,OVER,TOTAL OVER
+2026-02-19,Southern Indiana Screaming Eagles,Western Illinois Leathernecks,1.4,0.536,141.2,-14.5,-13.1,135.5,5.7,OVER,"SPREAD AWAY, TOTAL OVER"
+2026-02-19,Lindenwood Lions,Tennessee State Tigers,6.7,0.666,148.7,,,,,,
+2026-02-19,Morehead State Eagles,Eastern Illinois Panthers,-4.5,0.343,131.1,-8.5,-13.0,144.5,-13.4,UNDER,"SPREAD AWAY, TOTAL UNDER"
+2026-02-19,Prairie View A&M Panthers,Mississippi Valley State Delta Devils,-6.1,0.333,147.3,,,,,,
+2026-02-19,SIU Edwardsville Cougars,Tennessee Tech Golden Eagles,-1.4,0.536,138.9,-8.5,-9.9,135.5,3.4,OVER,SPREAD AWAY
+2026-02-19,Texas Southern Tigers,Arkansas-Pine Bluff Golden Lions,-5.9,0.419,148.2,,,,,,
+2026-02-19,Cal State Northridge Matadors,UC Santa Barbara Gauchos,3.1,0.606,155.7,-11.0,-7.9,143.5,12.2,OVER,"SPREAD AWAY, TOTAL OVER"
+2026-02-19,South Dakota Coyotes,Denver Pioneers,4.8,0.592,167.0,3.5,8.3,155.5,11.5,OVER,"SPREAD HOME, TOTAL OVER"
+2026-02-19,Montana State Bobcats,Weber State Wildcats,1.0,0.536,149.2,,,,,,
+2026-02-19,Montana Grizzlies,Idaho State Bengals,-4.5,0.197,145.8,,,,,,
+2026-02-19,Idaho Vandals,Portland State Vikings,5.9,0.666,140.3,,,,,,
+2026-02-19,Tulane Green Wave,North Texas Mean Green,9.4,0.674,144.5,,,,,,
+2026-02-19,Alabama A&M Bulldogs,Florida A&M Rattlers,4.6,0.536,141.4,-9.5,-4.9,147.5,-6.1,UNDER,"SPREAD AWAY, TOTAL UNDER"
+2026-02-19,Cal State Bakersfield Roadrunners,UC Riverside Highlanders,2.7,0.536,144.5,-11.0,-8.3,143.5,1.0,OVER,SPREAD AWAY
+2026-02-19,UC Davis Aggies,Cal State Fullerton Titans,-1.4,0.536,146.5,,,,,,
+2026-02-19,UC Irvine Anteaters,Long Beach State Beach,-7.2,0.343,151.0,,,,,,
+2026-02-19,Eastern Washington Eagles,Sacramento State Hornets,1.2,0.536,155.3,,,,,,
+2026-02-19,Cal Poly Mustangs,Hawai'i Rainbow Warriors,7.6,0.674,158.1,1.5,9.1,150.0,8.1,OVER,"SPREAD HOME, TOTAL OVER"

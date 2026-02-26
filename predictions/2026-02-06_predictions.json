@@ -1,0 +1,260 @@
+[
+  {
+    "game_id": "401822932",
+    "date": "2026-02-06",
+    "home_team": "St. John's Red Storm",
+    "away_team": "UConn Huskies",
+    "tipoff": "2026-02-07T01:00Z",
+    "venue": "Madison Square Garden",
+    "neutral": false,
+    "status": "STATUS_FINAL",
+    "predictions": {
+      "predicted_margin": 1.0,
+      "home_win_prob": 0.485,
+      "away_win_prob": 0.515,
+      "predicted_total": 148.2
+    },
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 81,
+      "away_score": 72,
+      "margin": 9,
+      "total": 153
+    }
+  },
+  {
+    "game_id": "401828413",
+    "date": "2026-02-06",
+    "home_team": "Davidson Wildcats",
+    "away_team": "Loyola Chicago Ramblers",
+    "tipoff": "2026-02-06T23:00Z",
+    "venue": "John M. Belk Arena",
+    "neutral": false,
+    "status": "STATUS_FINAL",
+    "predictions": {
+      "predicted_margin": 0.2,
+      "home_win_prob": 0.536,
+      "away_win_prob": 0.464,
+      "predicted_total": 137.0
+    },
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 84,
+      "away_score": 64,
+      "margin": 20,
+      "total": 148
+    }
+  },
+  {
+    "game_id": "401828414",
+    "date": "2026-02-06",
+    "home_team": "VCU Rams",
+    "away_team": "Dayton Flyers",
+    "tipoff": "2026-02-07T00:00Z",
+    "venue": "Siegel Center",
+    "neutral": false,
+    "status": "STATUS_FINAL",
+    "predictions": {
+      "predicted_margin": 4.3,
+      "home_win_prob": 0.606,
+      "away_win_prob": 0.394,
+      "predicted_total": 147.2
+    },
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 99,
+      "away_score": 73,
+      "margin": 26,
+      "total": 172
+    }
+  },
+  {
+    "game_id": "401818312",
+    "date": "2026-02-06",
+    "home_team": "Yale Bulldogs",
+    "away_team": "Brown Bears",
+    "tipoff": "2026-02-07T00:00Z",
+    "venue": "John J. Lee Amphitheater",
+    "neutral": false,
+    "status": "STATUS_FINAL",
+    "predictions": {
+      "predicted_margin": 11.4,
+      "home_win_prob": 0.881,
+      "away_win_prob": 0.119,
+      "predicted_total": 146.4
+    },
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 81,
+      "away_score": 69,
+      "margin": 12,
+      "total": 150
+    }
+  },
+  {
+    "game_id": "401830293",
+    "date": "2026-02-06",
+    "home_team": "Valparaiso Beacons",
+    "away_team": "Evansville Purple Aces",
+    "tipoff": "2026-02-07T01:00Z",
+    "venue": "Athletics-Recreation Center",
+    "neutral": false,
+    "status": "STATUS_FINAL",
+    "predictions": {
+      "predicted_margin": 0.2,
+      "home_win_prob": 0.606,
+      "away_win_prob": 0.394,
+      "predicted_total": 137.8
+    },
+    "edge": {
+      "spread_edge": -0.8,
+      "vegas_spread": -1.0,
+      "model_spread": 0.2,
+      "total_edge": -13.7,
+      "vegas_total": 151.5,
+      "model_total": 137.8,
+      "ou_lean": "UNDER",
+      "model_win_prob": 0.606,
+      "vegas_implied_prob": 0.612,
+      "win_prob_edge": -0.006
+    },
+    "bets": [
+      {
+        "market": "TOTAL",
+        "lean": "UNDER",
+        "edge_pts": 13.7,
+        "confidence": "HIGH"
+      }
+    ],
+    "actual": {
+      "home_score": 70,
+      "away_score": 63,
+      "margin": 7,
+      "total": 133
+    }
+  },
+  {
+    "game_id": "401830292",
+    "date": "2026-02-06",
+    "home_team": "Southern Illinois Salukis",
+    "away_team": "Murray State Racers",
+    "tipoff": "2026-02-07T01:00Z",
+    "venue": "Banterra Center",
+    "neutral": false,
+    "status": "STATUS_FINAL",
+    "predictions": {
+      "predicted_margin": 0.7,
+      "home_win_prob": 0.536,
+      "away_win_prob": 0.464,
+      "predicted_total": 131.5
+    },
+    "edge": {
+      "spread_edge": -12.1,
+      "vegas_spread": -12.8,
+      "model_spread": 0.7,
+      "total_edge": 10.0,
+      "vegas_total": 121.5,
+      "model_total": 131.5,
+      "ou_lean": "OVER",
+      "model_win_prob": 0.536,
+      "vegas_implied_prob": NaN,
+      "win_prob_edge": NaN
+    },
+    "bets": [
+      {
+        "market": "SPREAD",
+        "lean": "AWAY",
+        "edge_pts": 12.1,
+        "confidence": "HIGH"
+      },
+      {
+        "market": "TOTAL",
+        "lean": "OVER",
+        "edge_pts": 10.0,
+        "confidence": "HIGH"
+      }
+    ],
+    "actual": {
+      "home_score": 81,
+      "away_score": 91,
+      "margin": -10,
+      "total": 172
+    }
+  },
+  {
+    "game_id": "401830291",
+    "date": "2026-02-06",
+    "home_team": "Illinois State Redbirds",
+    "away_team": "Drake Bulldogs",
+    "tipoff": "2026-02-07T01:00Z",
+    "venue": "CEFCU Arena",
+    "neutral": false,
+    "status": "STATUS_FINAL",
+    "predictions": {
+      "predicted_margin": 0.8,
+      "home_win_prob": 0.536,
+      "away_win_prob": 0.464,
+      "predicted_total": 137.2
+    },
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 86,
+      "away_score": 76,
+      "margin": 10,
+      "total": 162
+    }
+  },
+  {
+    "game_id": "401830226",
+    "date": "2026-02-06",
+    "home_team": "Northern Iowa Panthers",
+    "away_team": "Bradley Braves",
+    "tipoff": "2026-02-07T01:00Z",
+    "venue": "McLeod Center",
+    "neutral": false,
+    "status": "STATUS_FINAL",
+    "predictions": {
+      "predicted_margin": -2.2,
+      "home_win_prob": 0.415,
+      "away_win_prob": 0.585,
+      "predicted_total": 133.2
+    },
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 61,
+      "away_score": 49,
+      "margin": 12,
+      "total": 110
+    }
+  },
+  {
+    "game_id": "401830211",
+    "date": "2026-02-06",
+    "home_team": "UIC Flames",
+    "away_team": "Belmont Bruins",
+    "tipoff": "2026-02-07T02:00Z",
+    "venue": "Credit Union 1 Arena",
+    "neutral": false,
+    "status": "STATUS_FINAL",
+    "predictions": {
+      "predicted_margin": 0.2,
+      "home_win_prob": 0.536,
+      "away_win_prob": 0.464,
+      "predicted_total": 147.1
+    },
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 62,
+      "away_score": 68,
+      "margin": -6,
+      "total": 130
+    }
+  }
+]

@@ -1,0 +1,119 @@
+{
+  "generated_at": "2026-02-25T21:02:50.466654",
+  "games_graded": 111,
+  "date_range": {
+    "min": "2026-02-01",
+    "max": "2026-02-25"
+  },
+  "spread": {
+    "mae": 10.941,
+    "overall_ats": 0.7027,
+    "by_bucket": [
+      {
+        "edge_min": 0,
+        "edge_max": 2,
+        "n_games": 11,
+        "wins": 6,
+        "win_rate": 0.5455,
+        "roi_pct": 4.13,
+        "profitable": true
+      },
+      {
+        "edge_min": 2,
+        "edge_max": 4,
+        "n_games": 14,
+        "wins": 7,
+        "win_rate": 0.5,
+        "roi_pct": -4.55,
+        "profitable": true
+      },
+      {
+        "edge_min": 4,
+        "edge_max": 6,
+        "n_games": 12,
+        "wins": 8,
+        "win_rate": 0.6667,
+        "roi_pct": 27.27,
+        "profitable": true
+      },
+      {
+        "edge_min": 6,
+        "edge_max": 8,
+        "n_games": 8,
+        "wins": 6,
+        "win_rate": 0.75,
+        "roi_pct": 43.18,
+        "profitable": true
+      },
+      {
+        "edge_min": 8,
+        "edge_max": 10,
+        "n_games": 17,
+        "wins": 10,
+        "win_rate": 0.5882,
+        "roi_pct": 12.3,
+        "profitable": true
+      },
+      {
+        "edge_min": 10,
+        "edge_max": 15,
+        "n_games": 29,
+        "wins": 21,
+        "win_rate": 0.7241,
+        "roi_pct": 38.24,
+        "profitable": true
+      },
+      {
+        "edge_min": 15,
+        "edge_max": "+",
+        "n_games": 20,
+        "wins": 20,
+        "win_rate": 1.0,
+        "roi_pct": 90.91,
+        "profitable": true
+      }
+    ],
+    "recommended_threshold": 0
+  },
+  "totals": {
+    "mae": 14.083,
+    "by_bucket": [
+      {
+        "edge_min": 0,
+        "edge_max": 3,
+        "n_games": 34,
+        "wins": 20,
+        "win_rate": 0.5882,
+        "roi_pct": 12.3,
+        "profitable": true
+      },
+      {
+        "edge_min": 3,
+        "edge_max": 6,
+        "n_games": 24,
+        "wins": 13,
+        "win_rate": 0.5417,
+        "roi_pct": 3.41,
+        "profitable": true
+      },
+      {
+        "edge_min": 6,
+        "edge_max": 9,
+        "n_games": 15,
+        "wins": 9,
+        "win_rate": 0.6,
+        "roi_pct": 14.55,
+        "profitable": true
+      },
+      {
+        "edge_min": 9,
+        "edge_max": 12,
+        "n_games": 14,
+        "wins": 10,
+        "win_rate": 0.7143,
+        "roi_pct": 36.36,
+        "profitable": true
+      }
+    ]
+  }
+}
