@@ -605,6 +605,7 @@ def save_predictions_to_db(predictions: list[dict], date_str: str):
             win_prob_edge    REAL,
             actual_margin    REAL,    -- filled in after game completes
             actual_total     REAL,    -- filled in after game completes
+            is_neutral       INTEGER DEFAULT 0,
             created_at       TEXT,
             PRIMARY KEY (game_id, date)
         )
@@ -627,6 +628,7 @@ def save_predictions_to_db(predictions: list[dict], date_str: str):
             edge.get("total_edge"),
             edge.get("win_prob_edge"),
             None, None,  # actual results filled in later
+            int(p.get("neutral", False)),
             now,
         ))
 
@@ -634,8 +636,8 @@ def save_predictions_to_db(predictions: list[dict], date_str: str):
         INSERT OR REPLACE INTO predictions
         (game_id, date, home_team, away_team, predicted_margin, home_win_prob,
          predicted_total, vegas_spread, vegas_total, spread_edge, total_edge,
-         win_prob_edge, actual_margin, actual_total, created_at)
-        VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+         win_prob_edge, actual_margin, actual_total, is_neutral, created_at)
+        VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
     """, rows)
     con.commit()
     con.close()
