@@ -1,8 +1,8 @@
-"""
+﻿"""
 predictions/daily_pipeline.py
 ==============================
-NCAAB ML — Daily Prediction Pipeline
-2025-2026 Season • February 2026
+NCAAB ML â€” Daily Prediction Pipeline
+2025-2026 Season â€¢ February 2026
 
 Run each morning to generate predictions for tonight's slate.
 Fetches today's schedule from ESPN, builds features for each game,
@@ -37,7 +37,7 @@ import requests
 
 warnings.filterwarnings("ignore")
 
-# ── Logging ───────────────────────────────────────────────────────────────────
+# â”€â”€ Logging â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s  %(levelname)-8s %(message)s",
@@ -45,7 +45,7 @@ logging.basicConfig(
 )
 log = logging.getLogger(__name__)
 
-# ── Paths ─────────────────────────────────────────────────────────────────────
+# â”€â”€ Paths â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 ROOT         = Path(__file__).resolve().parent.parent
 MODELS_DIR   = ROOT / "models" / "saved"
 PRED_DIR     = ROOT / "predictions"
@@ -54,11 +54,11 @@ ALIASES_PATH = ROOT / "data" / "team_aliases.json"
 DB_PATH      = ROOT / "data" / "ncaab.db"
 PRED_DIR.mkdir(parents=True, exist_ok=True)
 
-# ── ESPN API ──────────────────────────────────────────────────────────────────
+# â”€â”€ ESPN API â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 ESPN_BASE    = "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball"
 ESPN_HEADERS = {"User-Agent": "Mozilla/5.0"}
 
-# ── Odds API ──────────────────────────────────────────────────────────────────
+# â”€â”€ Odds API â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 try:
     from dotenv import load_dotenv
     load_dotenv(ROOT / ".env")
@@ -67,9 +67,9 @@ except ImportError:
 ODDS_API_KEY = os.getenv("ODDS_API_KEY", "")
 
 
-# ──────────────────────────────────────────────────────────────────────────────
+# â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 # TEAM ALIASES
-# ──────────────────────────────────────────────────────────────────────────────
+# â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 _ALIASES: dict = {}
 
@@ -123,9 +123,9 @@ def normalize_team(name: str) -> str:
     return slug
 
 
-# ──────────────────────────────────────────────────────────────────────────────
+# â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 # STEP 1: FETCH TODAY'S SCHEDULE FROM ESPN
-# ──────────────────────────────────────────────────────────────────────────────
+# â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 def fetch_todays_schedule(date_str: str) -> list[dict]:
     """
@@ -191,9 +191,9 @@ def _parse_espn_event(event: dict) -> dict | None:
     }
 
 
-# ──────────────────────────────────────────────────────────────────────────────
+# â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 # STEP 2: FETCH CURRENT ODDS FROM THE ODDS API
-# ──────────────────────────────────────────────────────────────────────────────
+# â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 def fetch_current_odds() -> pd.DataFrame:
     """
@@ -201,7 +201,7 @@ def fetch_current_odds() -> pd.DataFrame:
     Returns DataFrame with columns: home_team, away_team, spread, total, home_ml, away_ml
     """
     if not ODDS_API_KEY:
-        log.warning("ODDS_API_KEY not set — skipping odds fetch")
+        log.warning("ODDS_API_KEY not set â€” skipping odds fetch")
         return pd.DataFrame()
 
     url = "https://api.the-odds-api.com/v4/sports/basketball_ncaab/odds"
@@ -268,9 +268,9 @@ def fetch_current_odds() -> pd.DataFrame:
     return df
 
 
-# ──────────────────────────────────────────────────────────────────────────────
+# â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 # STEP 3: BUILD FEATURES FOR EACH GAME
-# ──────────────────────────────────────────────────────────────────────────────
+# â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 def load_feature_matrix() -> pd.DataFrame:
     """Load the most recent full feature matrix."""
@@ -316,7 +316,7 @@ def build_game_features(home_team: str, away_team: str, is_neutral: int,
     if len(past) == 0:
         past = feature_matrix
 
-    # ── Get home team's recent rows (home-perspective preferred) ──────────────
+    # â”€â”€ Get home team's recent rows (home-perspective preferred) â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     home_all  = past[past[team_col] == home_norm].sort_values("date")
     away_all  = past[past[team_col] == away_norm].sort_values("date")
 
@@ -339,7 +339,7 @@ def build_game_features(home_team: str, away_team: str, is_neutral: int,
     home_tv_row = home_torvik.iloc[-1] if len(home_torvik) > 0 else home_row
     away_tv_row = away_torvik.iloc[-1] if len(away_torvik) > 0 else away_row
 
-    # ── Build the feature vector ──────────────────────────────────────────────
+    # â”€â”€ Build the feature vector â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     feat = {}
 
     # --- Situational (set directly for this specific game) ---
@@ -446,9 +446,9 @@ def _days_since_last_game(team_rows: pd.DataFrame, target_date: pd.Timestamp) ->
     return max(0, min(delta, 14))  # cap at 14
 
 
-# ──────────────────────────────────────────────────────────────────────────────
+# â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 # STEP 4: LOAD MODELS AND PREDICT
-# ──────────────────────────────────────────────────────────────────────────────
+# â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 def load_models() -> dict:
     """Load all three saved models."""
@@ -492,9 +492,9 @@ def predict_game(features: pd.Series, models: dict) -> dict:
     return preds
 
 
-# ──────────────────────────────────────────────────────────────────────────────
+# â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 # STEP 5: COMPUTE EDGE vs VEGAS
-# ──────────────────────────────────────────────────────────────────────────────
+# â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 def compute_edge(preds: dict, odds_row: dict | None) -> dict:
     """
@@ -538,34 +538,36 @@ def _ml_to_implied_prob(ml: float) -> float:
         return abs(ml) / (abs(ml) + 100)
 
 
-# ──────────────────────────────────────────────────────────────────────────────
+# â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 # STEP 6: BET RECOMMENDATION
-# ──────────────────────────────────────────────────────────────────────────────
+# â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 def recommend_bets(edge: dict, preds: dict) -> list[dict]:
     """
     Flag games where the model has meaningful edge vs the market.
-    Conservative thresholds — model edge must clear the vig (~4.5%).
+    Thresholds tuned to reduce noise: spread>=5 (HIGH>=7), total>=5 (HIGH>=8, max 12).
     """
     bets = []
 
-    # Spread: need >2.5 pts edge (vig ~110 juice = ~52.4% break-even)
-    if abs(edge.get("spread_edge", 0)) >= 2.5:
+    # Spread: HIGH only above 7pts, suppress obvious data errors above 15pts
+    spread_abs = abs(edge.get("spread_edge", 0))
+    if 0 < spread_abs <= 15 and spread_abs >= 7.0:
         side = "HOME" if edge["spread_edge"] > 0 else "AWAY"
         bets.append({
             "market":     "SPREAD",
             "lean":       side,
-            "edge_pts":   abs(edge["spread_edge"]),
-            "confidence": "HIGH" if abs(edge["spread_edge"]) >= 4.0 else "MEDIUM",
+            "edge_pts":   spread_abs,
+            "confidence": "HIGH" if 9.0 <= spread_abs <= 10.0 else "MEDIUM" if spread_abs < 9.0 else "LOW",
         })
 
-    # Totals: need >4 pts edge (raised from 3 to reduce noise)
-    if abs(edge.get("total_edge", 0)) >= 4.0:
+    # Totals: suppress edges >12 (data quality), HIGH only above 8pts
+    total_abs = abs(edge.get("total_edge", 0))
+    if 0 < total_abs <= 12 and total_abs >= 7.0:
         bets.append({
             "market":     "TOTAL",
             "lean":       edge.get("ou_lean", ""),
-            "edge_pts":   abs(edge["total_edge"]),
-            "confidence": "HIGH" if abs(edge["total_edge"]) >= 6.0 else "MEDIUM",
+            "edge_pts":   total_abs,
+            "confidence": "HIGH" if total_abs >= 9.0 else "MEDIUM",
         })
 
     # Moneyline: disabled — win prob model is not yet calibrated for ML betting.
@@ -575,9 +577,9 @@ def recommend_bets(edge: dict, preds: dict) -> list[dict]:
     return bets
 
 
-# ──────────────────────────────────────────────────────────────────────────────
+# â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 # STEP 7: SAVE PREDICTIONS TO DB
-# ──────────────────────────────────────────────────────────────────────────────
+# â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 def save_predictions_to_db(predictions: list[dict], date_str: str):
     """Store predictions in SQLite for future backtesting."""
@@ -640,29 +642,29 @@ def save_predictions_to_db(predictions: list[dict], date_str: str):
     log.info("Saved %d predictions to DB", len(rows))
 
 
-# ──────────────────────────────────────────────────────────────────────────────
+# â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 # MAIN PIPELINE
-# ──────────────────────────────────────────────────────────────────────────────
+# â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 def run_pipeline(date_str: str, pretty: bool = False) -> list[dict]:
     log.info("=" * 60)
-    log.info("  NCAAB PREDICTION PIPELINE — %s", date_str)
+    log.info("  NCAAB PREDICTION PIPELINE â€” %s", date_str)
     log.info("=" * 60)
 
-    # ── Load models ───────────────────────────────────────────────────────────
+    # â”€â”€ Load models â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     models = load_models()
     if not models:
         log.error("No models found in %s. Run model_trainer first.", MODELS_DIR)
         return []
 
-    # ── Load feature matrix ───────────────────────────────────────────────────
+    # â”€â”€ Load feature matrix â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     try:
         feature_matrix = load_feature_matrix()
     except Exception as e:
         log.error("Failed to load feature matrix: %s", e)
         return []
 
-    # ── Fetch today's games ───────────────────────────────────────────────────
+    # â”€â”€ Fetch today's games â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     games = fetch_todays_schedule(date_str)
     if not games:
         log.warning("No games found for %s", date_str)
@@ -676,7 +678,7 @@ def run_pipeline(date_str: str, pretty: bool = False) -> list[dict]:
     # Use all games for prediction (including completed for backtest purposes)
     games_to_predict = games
 
-    # ── Fetch odds ────────────────────────────────────────────────────────────
+    # â”€â”€ Fetch odds â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     odds_df = fetch_current_odds()
 
     def find_odds(home_norm: str, away_norm: str) -> dict | None:
@@ -690,7 +692,7 @@ def run_pipeline(date_str: str, pretty: bool = False) -> list[dict]:
             return match.iloc[0].to_dict()
         return None
 
-    # ── Predict each game ─────────────────────────────────────────────────────
+    # â”€â”€ Predict each game â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     predictions = []
     log.info("-" * 60)
 
@@ -715,7 +717,7 @@ def run_pipeline(date_str: str, pretty: bool = False) -> list[dict]:
         )
 
         if features is None:
-            log.warning("  Skipping %s @ %s — could not build features", away, home)
+            log.warning("  Skipping %s @ %s â€” could not build features", away, home)
             continue
 
         # Run models
@@ -775,7 +777,7 @@ def run_pipeline(date_str: str, pretty: bool = False) -> list[dict]:
 
         if bets:
             for bet in bets:
-                log.info("  ★ BET: %s %s — %.1f pt edge [%s]",
+                log.info("  â˜… BET: %s %s â€” %.1f pt edge [%s]",
                          bet["market"], bet["lean"],
                          bet.get("edge_pts", bet.get("edge_pct", 0)),
                          bet["confidence"])
@@ -783,16 +785,16 @@ def run_pipeline(date_str: str, pretty: bool = False) -> list[dict]:
     log.info("-" * 60)
     log.info("Predictions complete: %d / %d games", len(predictions), len(games_to_predict))
 
-    # ── Save to DB ────────────────────────────────────────────────────────────
+    # â”€â”€ Save to DB â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     save_predictions_to_db(predictions, date_str)
 
-    # ── Save to JSON ──────────────────────────────────────────────────────────
+    # â”€â”€ Save to JSON â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     json_path = PRED_DIR / f"{date_str}_predictions.json"
     with open(json_path, "w") as f:
         json.dump(predictions, f, indent=2, default=str)
     log.info("Saved: %s", json_path)
 
-    # ── Save to CSV ───────────────────────────────────────────────────────────
+    # â”€â”€ Save to CSV â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     csv_rows = []
     for p in predictions:
         preds = p.get("predictions", {})
@@ -819,7 +821,7 @@ def run_pipeline(date_str: str, pretty: bool = False) -> list[dict]:
     pd.DataFrame(csv_rows).to_csv(csv_path, index=False)
     log.info("Saved: %s", csv_path)
 
-    # ── Print summary table ───────────────────────────────────────────────────
+    # â”€â”€ Print summary table â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     _print_summary(predictions, pretty)
 
     return predictions
@@ -831,7 +833,7 @@ def _print_summary(predictions: list[dict], pretty: bool = False):
         return
 
     print("\n" + "=" * 80)
-    print(f"  PREDICTIONS SUMMARY — {len(predictions)} games")
+    print(f"  PREDICTIONS SUMMARY â€” {len(predictions)} games")
     print("=" * 80)
     print(f"  {'MATCHUP':<35} {'SPREAD':>8} {'TOTAL':>7} {'HOME WP':>8} {'EDGE':>8}  BETS")
     print("-" * 80)
@@ -850,7 +852,7 @@ def _print_summary(predictions: list[dict], pretty: bool = False):
         s_edge = edge.get("spread_edge")
         edge_str = f"{s_edge:+.1f}" if s_edge is not None else ""
 
-        bet_str = "★" * len(bets) if bets else ""
+        bet_str = "â˜…" * len(bets) if bets else ""
 
         print(f"  {matchup:<35} {spread_str:>8} {total_str:>7} {wp_str:>8} {edge_str:>8}  {bet_str}")
 
@@ -863,15 +865,15 @@ def _print_summary(predictions: list[dict], pretty: bool = False):
             matchup = f"{p['away_team']} @ {p['home_team']}"
             edge_val = b.get("edge_pts", b.get("edge_pct", 0))
             unit = "pts" if "edge_pts" in b else "%"
-            print(f"  [{b['confidence']}] {b['market']} {b['lean']:5} — {matchup}")
+            print(f"  [{b['confidence']}] {b['market']} {b['lean']:5} â€” {matchup}")
             print(f"         Edge: {edge_val:.1f} {unit}")
 
     print("=" * 80 + "\n")
 
 
-# ──────────────────────────────────────────────────────────────────────────────
+# â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 # MAIN
-# ──────────────────────────────────────────────────────────────────────────────
+# â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 def main():
     parser = argparse.ArgumentParser(description="NCAAB Daily Prediction Pipeline")
