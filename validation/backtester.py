@@ -13,7 +13,12 @@ def load_graded_predictions(min_date=None):
     with sqlite3.connect(DB_PATH) as con:
         con.row_factory = sqlite3.Row
         cur = con.cursor()
-        query = """SELECT * FROM predictions WHERE actual_margin IS NOT NULL AND actual_total IS NOT NULL AND spread_edge IS NOT NULL AND total_edge IS NOT NULL"""
+        query = """SELECT * FROM predictions 
+           WHERE actual_margin IS NOT NULL 
+           AND actual_total IS NOT NULL 
+           AND spread_edge IS NOT NULL 
+           AND total_edge IS NOT NULL
+           AND DATE(created_at) <= date"""
         params = []
         if min_date:
             query += " AND date >= ?"

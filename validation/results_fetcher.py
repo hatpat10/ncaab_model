@@ -2,215 +2,307 @@
 validation/results_fetcher.py
 Fetches actual game results from ESPN and fills in predictions database.
 
+Uses the ESPN game summary endpoint (per game_id) instead of the scoreboard,
+so results are available indefinitely regardless of how old the game is.
+
 Usage:
     python -m validation.results_fetcher --date 2026-02-24
     python -m validation.results_fetcher --start 2026-02-01 --end 2026-02-23
-    python -m validation.results_fetcher --start 2026-02-01 --end 2026-02-23 --dry-run
     python -m validation.results_fetcher --coverage
+    python -m validation.results_fetcher --backfill        # grade all pending
 """
-
 import requests
 import sqlite3
 import argparse
 import logging
+import time
 from datetime import datetime, timedelta
 from pathlib import Path
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 log = logging.getLogger(__name__)
 
-DB_PATH = Path("data/ncaab.db")
-ESPN_SCOREBOARD = "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard"
+DB_PATH      = Path("data/ncaab.db")
+ESPN_SUMMARY = "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary"
+ESPN_BOARD   = "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard"
 
 
-def fetch_espn_results(date_str: str) -> dict:
+# ── Per-game fetch (never expires) ───────────────────────────────────────────
+
+def fetch_game_result(game_id: str) -> dict | None:
     """
-    Fetch completed game results from ESPN for a given date.
-    Returns dict keyed by ESPN game_id (string) -> result dict.
-    date_str: YYYY-MM-DD
+    Fetch result for a single game by ESPN game_id.
+    Returns result dict or None if not completed / not found.
     """
-    espn_date = date_str.replace("-", "")
-    url = f"{ESPN_SCOREBOARD}?dates={espn_date}&limit=200"
     try:
-        r = requests.get(url, timeout=15)
+        r = requests.get(ESPN_SUMMARY, params={"event": game_id}, timeout=10)
         r.raise_for_status()
         data = r.json()
     except Exception as e:
-        log.error(f"ESPN fetch failed for {date_str}: {e}")
+        log.debug("ESPN summary failed for %s: %s", game_id, e)
+        return None
+
+    # Pull from header > competitions
+    header = data.get("header", {})
+    comps  = header.get("competitions", [{}])
+    if not comps:
+        return None
+    comp = comps[0]
+
+    status = comp.get("status", {}).get("type", {})
+    if not status.get("completed", False):
+        return None   # game not finished yet
+
+    competitors = comp.get("competitors", [])
+    home = next((c for c in competitors if c.get("homeAway") == "home"), None)
+    away = next((c for c in competitors if c.get("homeAway") == "away"), None)
+    if not home or not away:
+        return None
+
+    try:
+        home_score = int(home.get("score", 0) or 0)
+        away_score = int(away.get("score", 0) or 0)
+    except (ValueError, TypeError):
+        return None
+
+    if home_score == 0 and away_score == 0:
+        return None  # scores not populated yet
+
+    return {
+        "game_id":       game_id,
+        "home_score":    home_score,
+        "away_score":    away_score,
+        "actual_margin": home_score - away_score,
+        "actual_total":  home_score + away_score,
+    }
+
+
+# ── Scoreboard fetch (fast, but limited window) ───────────────────────────────
+
+def fetch_scoreboard_results(date_str: str) -> dict:
+    """
+    Fast path: fetch all completed games from ESPN scoreboard for a date.
+    Only works for recent dates (ESPN drops old games from the feed).
+    Returns dict keyed by game_id.
+    """
+    espn_date = date_str.replace("-", "")
+    try:
+        r = requests.get(ESPN_BOARD, params={"dates": espn_date, "limit": 300}, timeout=15)
+        r.raise_for_status()
+        data = r.json()
+    except Exception as e:
+        log.warning("Scoreboard fetch failed for %s: %s", date_str, e)
         return {}
 
     results = {}
-    total = 0
-    completed = 0
     for event in data.get("events", []):
-        total += 1
         status = event.get("status", {}).get("type", {})
         if not status.get("completed"):
             continue
-        completed += 1
-
         game_id = str(event.get("id", ""))
-        comps = event.get("competitions", [{}])[0]
-        competitors = comps.get("competitors", [])
-        if len(competitors) != 2:
-            continue
-
-        home = next((c for c in competitors if c.get("homeAway") == "home"), None)
-        away = next((c for c in competitors if c.get("homeAway") == "away"), None)
+        comps   = event.get("competitions", [{}])[0]
+        comps_list = comps.get("competitors", [])
+        home = next((c for c in comps_list if c.get("homeAway") == "home"), None)
+        away = next((c for c in comps_list if c.get("homeAway") == "away"), None)
         if not home or not away:
             continue
-
-        home_score = int(home.get("score", 0) or 0)
-        away_score = int(away.get("score", 0) or 0)
-
+        try:
+            home_score = int(home.get("score", 0) or 0)
+            away_score = int(away.get("score", 0) or 0)
+        except (ValueError, TypeError):
+            continue
+        if home_score == 0 and away_score == 0:
+            continue
         results[game_id] = {
-            "game_id": game_id,
-            "home_team": home.get("team", {}).get("displayName", ""),
-            "away_team": away.get("team", {}).get("displayName", ""),
-            "home_score": home_score,
-            "away_score": away_score,
+            "game_id":       game_id,
+            "home_score":    home_score,
+            "away_score":    away_score,
             "actual_margin": home_score - away_score,
-            "actual_total": home_score + away_score,
+            "actual_total":  home_score + away_score,
         }
 
-    log.info(f"{date_str}: {completed}/{total} games completed on ESPN")
+    log.info("Scoreboard: %d completed games for %s", len(results), date_str)
     return results
 
 
-def fill_results(date_str: str, dry_run: bool = False) -> dict:
-    """Fetch ESPN results for date and update predictions table in ncaab.db."""
+# ── Main fill function ────────────────────────────────────────────────────────
+
+def fill_results(date_str: str, dry_run: bool = False, delay: float = 0.15) -> dict:
+    """
+    Grade all ungraded predictions for a given date.
+
+    Strategy:
+    1. Try scoreboard first (fast, covers recent games)
+    2. For any remaining ungraded, fetch per game_id (always works)
+    """
     if not DB_PATH.exists():
-        log.error(f"Database not found: {DB_PATH.resolve()}")
-        log.error("Make sure you're running from D:\\ncaab_model")
-        return {"filled": 0, "not_found": 0, "total_espn": 0}
-
-    espn_results = fetch_espn_results(date_str)
-    if not espn_results:
-        return {"filled": 0, "not_found": 0, "total_espn": 0}
-
-    filled = 0
-    not_found = 0
-    already_filled = 0
+        log.error("Database not found: %s", DB_PATH.resolve())
+        return {"filled": 0, "not_found": 0, "already_filled": 0, "total_predictions": 0}
 
     with sqlite3.connect(DB_PATH) as con:
         cur = con.cursor()
-
-        # Get all predictions for this date
         cur.execute("""
-            SELECT game_id, home_team, away_team, actual_margin
+            SELECT game_id, actual_margin
             FROM predictions
             WHERE date = ?
         """, (date_str,))
-        pred_rows = cur.fetchall()
+        rows = cur.fetchall()
 
-        if not pred_rows:
-            log.warning(f"No predictions found for {date_str} in DB")
-            cur.execute("SELECT DISTINCT date FROM predictions ORDER BY date DESC LIMIT 10")
-            dates = [r[0] for r in cur.fetchall()]
-            log.info(f"Prediction dates available in DB: {dates}")
-            return {"filled": 0, "not_found": 0, "total_espn": len(espn_results)}
+    if not rows:
+        log.warning("No predictions found for %s", date_str)
+        return {"filled": 0, "not_found": 0, "already_filled": 0, "total_predictions": 0}
 
-        for game_id, home_team, away_team, existing_margin in pred_rows:
-            if existing_margin is not None:
-                already_filled += 1
-                continue
+    already_filled = sum(1 for _, m in rows if m is not None)
+    pending = [(gid,) for gid, m in rows if m is None]
 
-            if game_id in espn_results:
-                result = espn_results[game_id]
+    log.info("%s: %d predictions, %d already graded, %d pending",
+             date_str, len(rows), already_filled, len(pending))
+
+    if not pending:
+        return {
+            "filled": 0, "not_found": 0,
+            "already_filled": already_filled,
+            "total_predictions": len(rows),
+        }
+
+    # Step 1: scoreboard fast-path
+    board_results = fetch_scoreboard_results(date_str)
+    pending_ids   = {gid for (gid,) in pending}
+    board_hits    = {gid: r for gid, r in board_results.items() if gid in pending_ids}
+
+    # Step 2: per-game fetch for remaining
+    remaining_ids = pending_ids - set(board_hits.keys())
+    per_game      = {}
+    if remaining_ids:
+        log.info("Fetching %d games individually via ESPN summary...", len(remaining_ids))
+        for gid in sorted(remaining_ids):
+            result = fetch_game_result(gid)
+            if result:
+                per_game[gid] = result
+            time.sleep(delay)  # be polite to ESPN API
+
+    all_results = {**board_hits, **per_game}
+
+    # Write to DB
+    filled    = 0
+    not_found = 0
+    with sqlite3.connect(DB_PATH) as con:
+        for (gid,) in pending:
+            if gid in all_results:
+                r = all_results[gid]
                 if not dry_run:
-                    cur.execute("""
+                    con.execute("""
                         UPDATE predictions
                         SET actual_margin = ?, actual_total = ?
-                        WHERE game_id = ? AND date = ?
-                    """, (result["actual_margin"], result["actual_total"],
-                          game_id, date_str))
+                        WHERE game_id = ?
+                    """, (r["actual_margin"], r["actual_total"], gid))
                 filled += 1
-                log.info(f"{'[DRY] ' if dry_run else ''}Filled {away_team} @ {home_team}: "
-                         f"margin={result['actual_margin']:+.0f}, total={result['actual_total']}")
             else:
-                log.debug(f"No ESPN result for game_id={game_id} ({away_team} @ {home_team})")
                 not_found += 1
-
         if not dry_run:
             con.commit()
 
-    summary = {
-        "date": date_str,
-        "filled": filled,
-        "not_found": not_found,
-        "already_filled": already_filled,
-        "total_espn": len(espn_results),
-        "total_predictions": len(pred_rows),
+    log.info("Results for %s: filled=%d  not_found=%d  already=%d  total=%d",
+             date_str, filled, not_found, already_filled, len(rows))
+
+    return {
+        "date":             date_str,
+        "filled":           filled,
+        "not_found":        not_found,
+        "already_filled":   already_filled,
+        "total_predictions": len(rows),
     }
-    log.info(f"Results for {date_str}: {summary}")
-    return summary
 
 
-def fill_date_range(start_date: str, end_date: str, dry_run: bool = False) -> dict:
-    """Fill results for a range of dates."""
-    start = datetime.strptime(start_date, "%Y-%m-%d")
-    end = datetime.strptime(end_date, "%Y-%m-%d")
-    totals = {"filled": 0, "not_found": 0, "already_filled": 0, "total_espn": 0}
-    current = start
-    while current <= end:
-        result = fill_results(current.strftime("%Y-%m-%d"), dry_run=dry_run)
-        for k in totals:
-            totals[k] += result.get(k, 0)
+def fill_date_range(start: str, end: str, dry_run: bool = False):
+    """Grade all dates from start to end inclusive."""
+    start_dt = datetime.strptime(start, "%Y-%m-%d")
+    end_dt   = datetime.strptime(end,   "%Y-%m-%d")
+    current  = start_dt
+    total_filled = 0
+    while current <= end_dt:
+        date_str = current.strftime("%Y-%m-%d")
+        result   = fill_results(date_str, dry_run=dry_run)
+        total_filled += result.get("filled", 0)
         current += timedelta(days=1)
-    log.info(f"Range {start_date} -> {end_date} complete: {totals}")
-    return totals
+    log.info("Total filled across range: %d", total_filled)
 
 
-def check_coverage() -> None:
-    """Print a coverage report: how many predictions have actuals filled."""
+def backfill_all_pending(dry_run: bool = False):
+    """Grade every ungraded prediction in the DB regardless of date."""
     if not DB_PATH.exists():
-        log.error(f"Database not found: {DB_PATH.resolve()}")
+        log.error("Database not found")
         return
     with sqlite3.connect(DB_PATH) as con:
-        cur = con.cursor()
-        cur.execute("""
-            SELECT
-                date,
-                COUNT(*) as total,
-                SUM(CASE WHEN actual_margin IS NOT NULL THEN 1 ELSE 0 END) as graded,
-                SUM(CASE WHEN actual_margin IS NULL THEN 1 ELSE 0 END) as pending
+        rows = con.execute("""
+            SELECT DISTINCT date FROM predictions
+            WHERE actual_margin IS NULL
+            ORDER BY date
+        """).fetchall()
+    dates = [r[0] for r in rows]
+    log.info("Backfilling %d dates with pending predictions...", len(dates))
+    total = 0
+    for date_str in dates:
+        result = fill_results(date_str, dry_run=dry_run)
+        total += result.get("filled", 0)
+    log.info("Backfill complete. Total filled: %d", total)
+
+
+def print_coverage():
+    """Print grading coverage report."""
+    if not DB_PATH.exists():
+        log.error("Database not found")
+        return
+    with sqlite3.connect(DB_PATH) as con:
+        rows = con.execute("""
+            SELECT date,
+                   COUNT(*) as total,
+                   SUM(CASE WHEN actual_margin IS NOT NULL THEN 1 ELSE 0 END) as graded
             FROM predictions
             GROUP BY date
             ORDER BY date DESC
-            LIMIT 30
-        """)
-        rows = cur.fetchall()
-        print(f"\n{'Date':<14} {'Total':>6} {'Graded':>8} {'Pending':>9}")
-        print("-" * 40)
-        for date, total, graded, pending in rows:
-            print(f"{date:<14} {total:>6} {graded:>8} {pending:>9}")
+        """).fetchall()
 
-        # Overall summary
-        cur.execute("""
-            SELECT COUNT(*), 
-                   SUM(CASE WHEN actual_margin IS NOT NULL THEN 1 ELSE 0 END)
-            FROM predictions
-        """)
-        total, graded = cur.fetchone()
-        print(f"\nTotal: {graded}/{total} predictions graded ({graded/total*100:.1f}%)\n")
+    total_all  = sum(r[1] for r in rows)
+    graded_all = sum(r[2] for r in rows)
+
+    print(f"\n{'Date':<16} {'Total':>7} {'Graded':>8} {'Pending':>9}")
+    print("-" * 44)
+    for date, total, graded in rows:
+        pending = total - graded
+        print(f"{date:<16} {total:>7} {graded:>8} {pending:>9}")
+    print(f"\nTotal: {graded_all}/{total_all} predictions graded "
+          f"({100*graded_all/total_all:.1f}%)")
 
 
-if __name__ == "__main__":
+# ── CLI ───────────────────────────────────────────────────────────────────────
+
+def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--date", help="Single date YYYY-MM-DD")
-    parser.add_argument("--start", help="Start date for range YYYY-MM-DD")
-    parser.add_argument("--end", help="End date for range YYYY-MM-DD")
-    parser.add_argument("--dry-run", action="store_true", help="Preview without writing to DB")
-    parser.add_argument("--coverage", action="store_true", help="Print coverage report and exit")
+    parser.add_argument("--date",     help="Grade a specific date (YYYY-MM-DD)")
+    parser.add_argument("--start",    help="Start of date range")
+    parser.add_argument("--end",      help="End of date range")
+    parser.add_argument("--backfill", action="store_true",
+                        help="Grade all pending predictions in DB")
+    parser.add_argument("--coverage", action="store_true",
+                        help="Print coverage report")
+    parser.add_argument("--dry-run",  action="store_true",
+                        help="Don't write to DB")
     args = parser.parse_args()
 
     if args.coverage:
-        check_coverage()
-    elif args.start and args.end:
-        fill_date_range(args.start, args.end, dry_run=args.dry_run)
+        print_coverage()
+    elif args.backfill:
+        backfill_all_pending(dry_run=args.dry_run)
     elif args.date:
         fill_results(args.date, dry_run=args.dry_run)
+    elif args.start and args.end:
+        fill_date_range(args.start, args.end, dry_run=args.dry_run)
     else:
+        # Default: grade yesterday
         yesterday = (datetime.now() - timedelta(days=1)).strftime("%Y-%m-%d")
-        log.info(f"No date specified, using yesterday: {yesterday}")
         fill_results(yesterday, dry_run=args.dry_run)
+
+
+if __name__ == "__main__":
+    main()

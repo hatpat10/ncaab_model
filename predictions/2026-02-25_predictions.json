@@ -1,1330 +1,5 @@
 [
   {
-    "game_id": "401826824",
-    "date": "2026-02-25",
-    "home_team": "Army Black Knights",
-    "away_team": "Bucknell Bison",
-    "tipoff": "2026-02-25T16:00Z",
-    "venue": "Christl Arena",
-    "neutral": false,
-    "status": "STATUS_SCHEDULED",
-    "predictions": {
-      "predicted_margin": -4.2,
-      "home_win_prob": 0.468,
-      "away_win_prob": 0.532,
-      "predicted_total": 141.5
-    },
-    "edge": {
-      "spread_edge": -6.7,
-      "vegas_spread": -2.5,
-      "model_spread": -4.2,
-      "total_edge": 0.0,
-      "vegas_total": 141.5,
-      "model_total": 141.5,
-      "ou_lean": "UNDER",
-      "model_win_prob": 0.468,
-      "vegas_implied_prob": 0.612,
-      "win_prob_edge": -0.144
-    },
-    "bets": [
-      {
-        "market": "SPREAD",
-        "lean": "AWAY",
-        "edge_pts": 6.7,
-        "confidence": "HIGH"
-      }
-    ]
-  },
-  {
-    "game_id": "401861277",
-    "date": "2026-02-25",
-    "home_team": "South Carolina State Bulldogs",
-    "away_team": "Morgan State Bears",
-    "tipoff": "2026-02-25T23:00Z",
-    "venue": "Smith-Hammond-Middleton Memorial Center",
-    "neutral": false,
-    "status": "STATUS_SCHEDULED",
-    "predictions": {
-      "predicted_margin": 1.1,
-      "home_win_prob": 0.419,
-      "away_win_prob": 0.581,
-      "predicted_total": 136.3
-    },
-    "edge": {},
-    "bets": []
-  },
-  {
-    "game_id": "401820764",
-    "date": "2026-02-25",
-    "home_team": "Boston College Eagles",
-    "away_team": "Wake Forest Demon Deacons",
-    "tipoff": "2026-02-25T23:00Z",
-    "venue": "Conte Forum",
-    "neutral": false,
-    "status": "STATUS_SCHEDULED",
-    "predictions": {
-      "predicted_margin": -4.0,
-      "home_win_prob": 0.415,
-      "away_win_prob": 0.585,
-      "predicted_total": 143.9
-    },
-    "edge": {
-      "spread_edge": 0.5,
-      "vegas_spread": 4.5,
-      "model_spread": -4.0,
-      "total_edge": -1.6,
-      "vegas_total": 145.5,
-      "model_total": 143.9,
-      "ou_lean": "UNDER",
-      "model_win_prob": 0.415,
-      "vegas_implied_prob": 0.373,
-      "win_prob_edge": 0.042
-    },
-    "bets": []
-  },
-  {
-    "game_id": "401809384",
-    "date": "2026-02-25",
-    "home_team": "Furman Paladins",
-    "away_team": "The Citadel Bulldogs",
-    "tipoff": "2026-02-25T23:00Z",
-    "venue": "Timmons Arena",
-    "neutral": false,
-    "status": "STATUS_SCHEDULED",
-    "predictions": {
-      "predicted_margin": 11.6,
-      "home_win_prob": 0.881,
-      "away_win_prob": 0.119,
-      "predicted_total": 143.1
-    },
-    "edge": {
-      "spread_edge": -4.9,
-      "vegas_spread": -16.5,
-      "model_spread": 11.6,
-      "total_edge": 0.9,
-      "vegas_total": 142.2,
-      "model_total": 143.1,
-      "ou_lean": "OVER",
-      "model_win_prob": 0.881,
-      "vegas_implied_prob": 0.96,
-      "win_prob_edge": -0.079
-    },
-    "bets": [
-      {
-        "market": "SPREAD",
-        "lean": "AWAY",
-        "edge_pts": 4.9,
-        "confidence": "HIGH"
-      }
-    ]
-  },
-  {
-    "game_id": "401817684",
-    "date": "2026-02-25",
-    "home_team": "IU Indianapolis Jaguars",
-    "away_team": "Oakland Golden Grizzlies",
-    "tipoff": "2026-02-25T23:30Z",
-    "venue": "The Jungle",
-    "neutral": false,
-    "status": "STATUS_SCHEDULED",
-    "predictions": {
-      "predicted_margin": -12.7,
-      "home_win_prob": 0.197,
-      "away_win_prob": 0.803,
-      "predicted_total": 145.3
-    },
-    "edge": {
-      "spread_edge": -7.2,
-      "vegas_spread": 5.5,
-      "model_spread": -12.7,
-      "total_edge": -26.9,
-      "vegas_total": 172.2,
-      "model_total": 145.3,
-      "ou_lean": "UNDER",
-      "model_win_prob": 0.197,
-      "vegas_implied_prob": 0.333,
-      "win_prob_edge": -0.136
-    },
-    "bets": [
-      {
-        "market": "SPREAD",
-        "lean": "AWAY",
-        "edge_pts": 7.2,
-        "confidence": "HIGH"
-      },
-      {
-        "market": "TOTAL",
-        "lean": "UNDER",
-        "edge_pts": 26.9,
-        "confidence": "HIGH"
-      }
-    ]
-  },
-  {
-    "game_id": "401822959",
-    "date": "2026-02-25",
-    "home_team": "UConn Huskies",
-    "away_team": "St. John's Red Storm",
-    "tipoff": "2026-02-26T00:00Z",
-    "venue": "PeoplesBank Arena",
-    "neutral": false,
-    "status": "STATUS_SCHEDULED",
-    "predictions": {
-      "predicted_margin": 7.6,
-      "home_win_prob": 0.674,
-      "away_win_prob": 0.326,
-      "predicted_total": 146.5
-    },
-    "edge": {
-      "spread_edge": 3.1,
-      "vegas_spread": -4.5,
-      "model_spread": 7.6,
-      "total_edge": 0.5,
-      "vegas_total": 146.0,
-      "model_total": 146.5,
-      "ou_lean": "OVER",
-      "model_win_prob": 0.674,
-      "vegas_implied_prob": 0.679,
-      "win_prob_edge": -0.005
-    },
-    "bets": [
-      {
-        "market": "SPREAD",
-        "lean": "HOME",
-        "edge_pts": 3.1,
-        "confidence": "MEDIUM"
-      }
-    ]
-  },
-  {
-    "game_id": "401808264",
-    "date": "2026-02-25",
-    "home_team": "Texas Longhorns",
-    "away_team": "Florida Gators",
-    "tipoff": "2026-02-26T00:00Z",
-    "venue": "Moody Center",
-    "neutral": false,
-    "status": "STATUS_SCHEDULED",
-    "predictions": {
-      "predicted_margin": -2.3,
-      "home_win_prob": 0.536,
-      "away_win_prob": 0.464,
-      "predicted_total": 158.0
-    },
-    "edge": {
-      "spread_edge": 4.2,
-      "vegas_spread": 6.5,
-      "model_spread": -2.3,
-      "total_edge": -0.8,
-      "vegas_total": 158.8,
-      "model_total": 158.0,
-      "ou_lean": "UNDER",
-      "model_win_prob": 0.536,
-      "vegas_implied_prob": 0.308,
-      "win_prob_edge": 0.228
-    },
-    "bets": [
-      {
-        "market": "SPREAD",
-        "lean": "HOME",
-        "edge_pts": 4.2,
-        "confidence": "HIGH"
-      }
-    ]
-  },
-  {
-    "game_id": "401825541",
-    "date": "2026-02-25",
-    "home_team": "Nebraska Cornhuskers",
-    "away_team": "Maryland Terrapins",
-    "tipoff": "2026-02-26T00:00Z",
-    "venue": "Pinnacle Bank Arena",
-    "neutral": false,
-    "status": "STATUS_SCHEDULED",
-    "predictions": {
-      "predicted_margin": 5.1,
-      "home_win_prob": 0.606,
-      "away_win_prob": 0.394,
-      "predicted_total": 143.8
-    },
-    "edge": {
-      "spread_edge": -12.7,
-      "vegas_spread": -17.8,
-      "model_spread": 5.1,
-      "total_edge": 2.0,
-      "vegas_total": 141.8,
-      "model_total": 143.8,
-      "ou_lean": "OVER",
-      "model_win_prob": 0.606,
-      "vegas_implied_prob": 0.97,
-      "win_prob_edge": -0.364
-    },
-    "bets": [
-      {
-        "market": "SPREAD",
-        "lean": "AWAY",
-        "edge_pts": 12.7,
-        "confidence": "HIGH"
-      }
-    ]
-  },
-  {
-    "game_id": "401808261",
-    "date": "2026-02-25",
-    "home_team": "Vanderbilt Commodores",
-    "away_team": "Georgia Bulldogs",
-    "tipoff": "2026-02-26T00:00Z",
-    "venue": "Memorial Gymnasium (TN)",
-    "neutral": false,
-    "status": "STATUS_SCHEDULED",
-    "predictions": {
-      "predicted_margin": -1.3,
-      "home_win_prob": 0.536,
-      "away_win_prob": 0.464,
-      "predicted_total": 155.3
-    },
-    "edge": {
-      "spread_edge": -10.5,
-      "vegas_spread": -9.2,
-      "model_spread": -1.3,
-      "total_edge": -11.5,
-      "vegas_total": 166.8,
-      "model_total": 155.3,
-      "ou_lean": "UNDER",
-      "model_win_prob": 0.536,
-      "vegas_implied_prob": 0.827,
-      "win_prob_edge": -0.291
-    },
-    "bets": [
-      {
-        "market": "SPREAD",
-        "lean": "AWAY",
-        "edge_pts": 10.5,
-        "confidence": "HIGH"
-      },
-      {
-        "market": "TOTAL",
-        "lean": "UNDER",
-        "edge_pts": 11.5,
-        "confidence": "HIGH"
-      }
-    ]
-  },
-  {
-    "game_id": "401830312",
-    "date": "2026-02-25",
-    "home_team": "Northern Iowa Panthers",
-    "away_team": "Illinois State Redbirds",
-    "tipoff": "2026-02-26T00:00Z",
-    "venue": "McLeod Center",
-    "neutral": false,
-    "status": "STATUS_SCHEDULED",
-    "predictions": {
-      "predicted_margin": 7.1,
-      "home_win_prob": 0.674,
-      "away_win_prob": 0.326,
-      "predicted_total": 136.0
-    },
-    "edge": {
-      "spread_edge": 1.6,
-      "vegas_spread": -5.5,
-      "model_spread": 7.1,
-      "total_edge": 6.0,
-      "vegas_total": 130.0,
-      "model_total": 136.0,
-      "ou_lean": "OVER",
-      "model_win_prob": 0.674,
-      "vegas_implied_prob": 0.718,
-      "win_prob_edge": -0.044
-    },
-    "bets": [
-      {
-        "market": "TOTAL",
-        "lean": "OVER",
-        "edge_pts": 6.0,
-        "confidence": "HIGH"
-      }
-    ]
-  },
-  {
-    "game_id": "401829410",
-    "date": "2026-02-25",
-    "home_team": "Colgate Raiders",
-    "away_team": "Lafayette Leopards",
-    "tipoff": "2026-02-26T00:00Z",
-    "venue": "Cotterell Court",
-    "neutral": false,
-    "status": "STATUS_SCHEDULED",
-    "predictions": {
-      "predicted_margin": 8.7,
-      "home_win_prob": 0.674,
-      "away_win_prob": 0.326,
-      "predicted_total": 140.0
-    },
-    "edge": {
-      "spread_edge": NaN,
-      "vegas_spread": NaN,
-      "model_spread": 8.7,
-      "total_edge": NaN,
-      "vegas_total": NaN,
-      "model_total": 140.0,
-      "ou_lean": "UNDER",
-      "model_win_prob": 0.674,
-      "vegas_implied_prob": NaN,
-      "win_prob_edge": NaN
-    },
-    "bets": []
-  },
-  {
-    "game_id": "401828680",
-    "date": "2026-02-25",
-    "home_team": "American University Eagles",
-    "away_team": "Lehigh Mountain Hawks",
-    "tipoff": "2026-02-26T00:00Z",
-    "venue": "Bender Arena",
-    "neutral": false,
-    "status": "STATUS_SCHEDULED",
-    "predictions": {
-      "predicted_margin": 4.8,
-      "home_win_prob": 0.666,
-      "away_win_prob": 0.334,
-      "predicted_total": 140.7
-    },
-    "edge": {
-      "spread_edge": -1.7,
-      "vegas_spread": -6.5,
-      "model_spread": 4.8,
-      "total_edge": 1.2,
-      "vegas_total": 139.5,
-      "model_total": 140.7,
-      "ou_lean": "OVER",
-      "model_win_prob": 0.666,
-      "vegas_implied_prob": NaN,
-      "win_prob_edge": NaN
-    },
-    "bets": []
-  },
-  {
-    "game_id": "401828446",
-    "date": "2026-02-25",
-    "home_team": "Saint Joseph's Hawks",
-    "away_team": "George Mason Patriots",
-    "tipoff": "2026-02-26T00:00Z",
-    "venue": "Michael J. Hagan '85 Arena",
-    "neutral": false,
-    "status": "STATUS_SCHEDULED",
-    "predictions": {
-      "predicted_margin": 1.6,
-      "home_win_prob": 0.536,
-      "away_win_prob": 0.464,
-      "predicted_total": 139.5
-    },
-    "edge": {
-      "spread_edge": 3.1,
-      "vegas_spread": 1.5,
-      "model_spread": 1.6,
-      "total_edge": 1.3,
-      "vegas_total": 138.2,
-      "model_total": 139.5,
-      "ou_lean": "OVER",
-      "model_win_prob": 0.536,
-      "vegas_implied_prob": 0.01,
-      "win_prob_edge": 0.526
-    },
-    "bets": [
-      {
-        "market": "SPREAD",
-        "lean": "HOME",
-        "edge_pts": 3.1,
-        "confidence": "MEDIUM"
-      }
-    ]
-  },
-  {
-    "game_id": "401828445",
-    "date": "2026-02-25",
-    "home_team": "Duquesne Dukes",
-    "away_team": "Davidson Wildcats",
-    "tipoff": "2026-02-26T00:00Z",
-    "venue": "UPMC Cooper Fieldhouse",
-    "neutral": false,
-    "status": "STATUS_SCHEDULED",
-    "predictions": {
-      "predicted_margin": 3.4,
-      "home_win_prob": 0.536,
-      "away_win_prob": 0.464,
-      "predicted_total": 141.4
-    },
-    "edge": {
-      "spread_edge": 0.6,
-      "vegas_spread": -2.8,
-      "model_spread": 3.4,
-      "total_edge": -1.4,
-      "vegas_total": 142.8,
-      "model_total": 141.4,
-      "ou_lean": "UNDER",
-      "model_win_prob": 0.536,
-      "vegas_implied_prob": 0.621,
-      "win_prob_edge": -0.085
-    },
-    "bets": []
-  },
-  {
-    "game_id": "401828244",
-    "date": "2026-02-25",
-    "home_team": "Charlotte 49ers",
-    "away_team": "North Texas Mean Green",
-    "tipoff": "2026-02-26T00:00Z",
-    "venue": "Halton Arena",
-    "neutral": false,
-    "status": "STATUS_SCHEDULED",
-    "predictions": {
-      "predicted_margin": -2.2,
-      "home_win_prob": 0.415,
-      "away_win_prob": 0.585,
-      "predicted_total": 133.5
-    },
-    "edge": {
-      "spread_edge": -2.7,
-      "vegas_spread": -0.5,
-      "model_spread": -2.2,
-      "total_edge": -4.0,
-      "vegas_total": 137.5,
-      "model_total": 133.5,
-      "ou_lean": "UNDER",
-      "model_win_prob": 0.415,
-      "vegas_implied_prob": 0.528,
-      "win_prob_edge": -0.113
-    },
-    "bets": [
-      {
-        "market": "SPREAD",
-        "lean": "AWAY",
-        "edge_pts": 2.7,
-        "confidence": "MEDIUM"
-      },
-      {
-        "market": "TOTAL",
-        "lean": "UNDER",
-        "edge_pts": 4.0,
-        "confidence": "MEDIUM"
-      }
-    ]
-  },
-  {
-    "game_id": "401824376",
-    "date": "2026-02-25",
-    "home_team": "Boston University Terriers",
-    "away_team": "Holy Cross Crusaders",
-    "tipoff": "2026-02-26T00:00Z",
-    "venue": "Case Gym",
-    "neutral": false,
-    "status": "STATUS_SCHEDULED",
-    "predictions": {
-      "predicted_margin": 8.6,
-      "home_win_prob": 0.674,
-      "away_win_prob": 0.326,
-      "predicted_total": 144.6
-    },
-    "edge": {},
-    "bets": []
-  },
-  {
-    "game_id": "401822961",
-    "date": "2026-02-25",
-    "home_team": "Villanova Wildcats",
-    "away_team": "Butler Bulldogs",
-    "tipoff": "2026-02-26T00:00Z",
-    "venue": "Finneran Pavilion",
-    "neutral": false,
-    "status": "STATUS_SCHEDULED",
-    "predictions": {
-      "predicted_margin": 8.3,
-      "home_win_prob": 0.786,
-      "away_win_prob": 0.214,
-      "predicted_total": 145.0
-    },
-    "edge": {
-      "spread_edge": -1.5,
-      "vegas_spread": -9.8,
-      "model_spread": 8.3,
-      "total_edge": -1.8,
-      "vegas_total": 146.8,
-      "model_total": 145.0,
-      "ou_lean": "UNDER",
-      "model_win_prob": 0.786,
-      "vegas_implied_prob": 0.847,
-      "win_prob_edge": -0.061
-    },
-    "bets": []
-  },
-  {
-    "game_id": "401820176",
-    "date": "2026-02-25",
-    "home_team": "Loyola Maryland Greyhounds",
-    "away_team": "Navy Midshipmen",
-    "tipoff": "2026-02-26T00:00Z",
-    "venue": "Reitz Arena",
-    "neutral": false,
-    "status": "STATUS_SCHEDULED",
-    "predictions": {
-      "predicted_margin": 1.9,
-      "home_win_prob": 0.536,
-      "away_win_prob": 0.464,
-      "predicted_total": 147.9
-    },
-    "edge": {},
-    "bets": []
-  },
-  {
-    "game_id": "401818434",
-    "date": "2026-02-25",
-    "home_team": "South Dakota Coyotes",
-    "away_team": "Omaha Mavericks",
-    "tipoff": "2026-02-26T00:00Z",
-    "venue": "Sanford Coyote Sports Center",
-    "neutral": false,
-    "status": "STATUS_SCHEDULED",
-    "predictions": {
-      "predicted_margin": -1.3,
-      "home_win_prob": 0.536,
-      "away_win_prob": 0.464,
-      "predicted_total": 155.4
-    },
-    "edge": {
-      "spread_edge": 0.2,
-      "vegas_spread": 1.5,
-      "model_spread": -1.3,
-      "total_edge": -1.1,
-      "vegas_total": 156.5,
-      "model_total": 155.4,
-      "ou_lean": "UNDER",
-      "model_win_prob": 0.536,
-      "vegas_implied_prob": NaN,
-      "win_prob_edge": NaN
-    },
-    "bets": []
-  },
-  {
-    "game_id": "401817683",
-    "date": "2026-02-25",
-    "home_team": "Robert Morris Colonials",
-    "away_team": "Detroit Mercy Titans",
-    "tipoff": "2026-02-26T00:00Z",
-    "venue": "UPMC Events Center",
-    "neutral": false,
-    "status": "STATUS_SCHEDULED",
-    "predictions": {
-      "predicted_margin": 8.4,
-      "home_win_prob": 0.786,
-      "away_win_prob": 0.214,
-      "predicted_total": 147.9
-    },
-    "edge": {
-      "spread_edge": -0.1,
-      "vegas_spread": -8.5,
-      "model_spread": 8.4,
-      "total_edge": -2.6,
-      "vegas_total": 150.5,
-      "model_total": 147.9,
-      "ou_lean": "UNDER",
-      "model_win_prob": 0.786,
-      "vegas_implied_prob": NaN,
-      "win_prob_edge": NaN
-    },
-    "bets": []
-  },
-  {
-    "game_id": "401817682",
-    "date": "2026-02-25",
-    "home_team": "Purdue Fort Wayne Mastodons",
-    "away_team": "Wright State Raiders",
-    "tipoff": "2026-02-26T00:00Z",
-    "venue": "Memorial Coliseum (IN)",
-    "neutral": false,
-    "status": "STATUS_SCHEDULED",
-    "predictions": {
-      "predicted_margin": 1.4,
-      "home_win_prob": 0.606,
-      "away_win_prob": 0.394,
-      "predicted_total": 151.8
-    },
-    "edge": {},
-    "bets": []
-  },
-  {
-    "game_id": "401817681",
-    "date": "2026-02-25",
-    "home_team": "Cleveland State Vikings",
-    "away_team": "Northern Kentucky Norse",
-    "tipoff": "2026-02-26T00:00Z",
-    "venue": "Wolstein Center",
-    "neutral": false,
-    "status": "STATUS_SCHEDULED",
-    "predictions": {
-      "predicted_margin": 1.7,
-      "home_win_prob": 0.536,
-      "away_win_prob": 0.464,
-      "predicted_total": 154.7
-    },
-    "edge": {},
-    "bets": []
-  },
-  {
-    "game_id": "401809385",
-    "date": "2026-02-25",
-    "home_team": "Western Carolina Catamounts",
-    "away_team": "Mercer Bears",
-    "tipoff": "2026-02-26T00:00Z",
-    "venue": "Ramsey Center",
-    "neutral": false,
-    "status": "STATUS_SCHEDULED",
-    "predictions": {
-      "predicted_margin": 5.9,
-      "home_win_prob": 0.666,
-      "away_win_prob": 0.334,
-      "predicted_total": 150.0
-    },
-    "edge": {
-      "spread_edge": 7.4,
-      "vegas_spread": 1.5,
-      "model_spread": 5.9,
-      "total_edge": -10.5,
-      "vegas_total": 160.5,
-      "model_total": 150.0,
-      "ou_lean": "UNDER",
-      "model_win_prob": 0.666,
-      "vegas_implied_prob": NaN,
-      "win_prob_edge": NaN
-    },
-    "bets": [
-      {
-        "market": "SPREAD",
-        "lean": "HOME",
-        "edge_pts": 7.4,
-        "confidence": "HIGH"
-      },
-      {
-        "market": "TOTAL",
-        "lean": "UNDER",
-        "edge_pts": 10.5,
-        "confidence": "HIGH"
-      }
-    ]
-  },
-  {
-    "game_id": "401809383",
-    "date": "2026-02-25",
-    "home_team": "East Tennessee State Buccaneers",
-    "away_team": "Wofford Terriers",
-    "tipoff": "2026-02-26T00:00Z",
-    "venue": "Freedom Hall (TN)",
-    "neutral": false,
-    "status": "STATUS_SCHEDULED",
-    "predictions": {
-      "predicted_margin": 3.6,
-      "home_win_prob": 0.666,
-      "away_win_prob": 0.334,
-      "predicted_total": 145.2
-    },
-    "edge": {},
-    "bets": []
-  },
-  {
-    "game_id": "401807761",
-    "date": "2026-02-25",
-    "home_team": "West Georgia Wolves",
-    "away_team": "Lipscomb Bisons",
-    "tipoff": "2026-02-26T00:00Z",
-    "venue": "The Coliseum",
-    "neutral": false,
-    "status": "STATUS_SCHEDULED",
-    "predictions": {
-      "predicted_margin": -9.2,
-      "home_win_prob": 0.343,
-      "away_win_prob": 0.657,
-      "predicted_total": 154.5
-    },
-    "edge": {
-      "spread_edge": -3.7,
-      "vegas_spread": 5.5,
-      "model_spread": -9.2,
-      "total_edge": 2.0,
-      "vegas_total": 152.5,
-      "model_total": 154.5,
-      "ou_lean": "OVER",
-      "model_win_prob": 0.343,
-      "vegas_implied_prob": NaN,
-      "win_prob_edge": NaN
-    },
-    "bets": [
-      {
-        "market": "SPREAD",
-        "lean": "AWAY",
-        "edge_pts": 3.7,
-        "confidence": "MEDIUM"
-      }
-    ]
-  },
-  {
-    "game_id": "401807757",
-    "date": "2026-02-25",
-    "home_team": "Eastern Kentucky Colonels",
-    "away_team": "Queens University Royals",
-    "tipoff": "2026-02-26T00:00Z",
-    "venue": "Baptist Health Arena",
-    "neutral": false,
-    "status": "STATUS_SCHEDULED",
-    "predictions": {
-      "predicted_margin": 1.3,
-      "home_win_prob": 0.536,
-      "away_win_prob": 0.464,
-      "predicted_total": 158.2
-    },
-    "edge": {
-      "spread_edge": 2.8,
-      "vegas_spread": 1.5,
-      "model_spread": 1.3,
-      "total_edge": -7.3,
-      "vegas_total": 165.5,
-      "model_total": 158.2,
-      "ou_lean": "UNDER",
-      "model_win_prob": 0.536,
-      "vegas_implied_prob": NaN,
-      "win_prob_edge": NaN
-    },
-    "bets": [
-      {
-        "market": "SPREAD",
-        "lean": "HOME",
-        "edge_pts": 2.8,
-        "confidence": "MEDIUM"
-      },
-      {
-        "market": "TOTAL",
-        "lean": "UNDER",
-        "edge_pts": 7.3,
-        "confidence": "HIGH"
-      }
-    ]
-  },
-  {
-    "game_id": "401830216",
-    "date": "2026-02-25",
-    "home_team": "Belmont Bruins",
-    "away_team": "Evansville Purple Aces",
-    "tipoff": "2026-02-26T00:30Z",
-    "venue": "Curb Event Center Arena",
-    "neutral": false,
-    "status": "STATUS_SCHEDULED",
-    "predictions": {
-      "predicted_margin": 10.0,
-      "home_win_prob": 0.786,
-      "away_win_prob": 0.214,
-      "predicted_total": 152.4
-    },
-    "edge": {
-      "spread_edge": -9.8,
-      "vegas_spread": -19.8,
-      "model_spread": 10.0,
-      "total_edge": 1.2,
-      "vegas_total": 151.2,
-      "model_total": 152.4,
-      "ou_lean": "OVER",
-      "model_win_prob": 0.786,
-      "vegas_implied_prob": 0.974,
-      "win_prob_edge": -0.188
-    },
-    "bets": [
-      {
-        "market": "SPREAD",
-        "lean": "AWAY",
-        "edge_pts": 9.8,
-        "confidence": "HIGH"
-      }
-    ]
-  },
-  {
-    "game_id": "401828248",
-    "date": "2026-02-25",
-    "home_team": "Tulane Green Wave",
-    "away_team": "Tulsa Golden Hurricane",
-    "tipoff": "2026-02-26T00:30Z",
-    "venue": "Devlin Fieldhouse",
-    "neutral": false,
-    "status": "STATUS_SCHEDULED",
-    "predictions": {
-      "predicted_margin": 1.6,
-      "home_win_prob": 0.666,
-      "away_win_prob": 0.334,
-      "predicted_total": 147.1
-    },
-    "edge": {
-      "spread_edge": 6.8,
-      "vegas_spread": 5.2,
-      "model_spread": 1.6,
-      "total_edge": -10.4,
-      "vegas_total": 157.5,
-      "model_total": 147.1,
-      "ou_lean": "UNDER",
-      "model_win_prob": 0.666,
-      "vegas_implied_prob": 0.35,
-      "win_prob_edge": 0.316
-    },
-    "bets": [
-      {
-        "market": "SPREAD",
-        "lean": "HOME",
-        "edge_pts": 6.8,
-        "confidence": "HIGH"
-      },
-      {
-        "market": "TOTAL",
-        "lean": "UNDER",
-        "edge_pts": 10.4,
-        "confidence": "HIGH"
-      }
-    ]
-  },
-  {
-    "game_id": "401822958",
-    "date": "2026-02-25",
-    "home_team": "Providence Friars",
-    "away_team": "Xavier Musketeers",
-    "tipoff": "2026-02-26T00:30Z",
-    "venue": "Amica Mutual Pavilion",
-    "neutral": false,
-    "status": "STATUS_SCHEDULED",
-    "predictions": {
-      "predicted_margin": 1.1,
-      "home_win_prob": 0.468,
-      "away_win_prob": 0.532,
-      "predicted_total": 161.9
-    },
-    "edge": {
-      "spread_edge": -5.4,
-      "vegas_spread": -6.5,
-      "model_spread": 1.1,
-      "total_edge": -7.6,
-      "vegas_total": 169.5,
-      "model_total": 161.9,
-      "ou_lean": "UNDER",
-      "model_win_prob": 0.468,
-      "vegas_implied_prob": 0.729,
-      "win_prob_edge": -0.261
-    },
-    "bets": [
-      {
-        "market": "SPREAD",
-        "lean": "AWAY",
-        "edge_pts": 5.4,
-        "confidence": "HIGH"
-      },
-      {
-        "market": "TOTAL",
-        "lean": "UNDER",
-        "edge_pts": 7.6,
-        "confidence": "HIGH"
-      }
-    ]
-  },
-  {
-    "game_id": "401830314",
-    "date": "2026-02-25",
-    "home_team": "Valparaiso Beacons",
-    "away_team": "Drake Bulldogs",
-    "tipoff": "2026-02-26T01:00Z",
-    "venue": "Athletics-Recreation Center",
-    "neutral": false,
-    "status": "STATUS_SCHEDULED",
-    "predictions": {
-      "predicted_margin": -6.4,
-      "home_win_prob": 0.333,
-      "away_win_prob": 0.667,
-      "predicted_total": 143.8
-    },
-    "edge": {
-      "spread_edge": -11.2,
-      "vegas_spread": -4.8,
-      "model_spread": -6.4,
-      "total_edge": -4.7,
-      "vegas_total": 148.5,
-      "model_total": 143.8,
-      "ou_lean": "UNDER",
-      "model_win_prob": 0.333,
-      "vegas_implied_prob": 0.695,
-      "win_prob_edge": -0.362
-    },
-    "bets": [
-      {
-        "market": "SPREAD",
-        "lean": "AWAY",
-        "edge_pts": 11.2,
-        "confidence": "HIGH"
-      },
-      {
-        "market": "TOTAL",
-        "lean": "UNDER",
-        "edge_pts": 4.7,
-        "confidence": "MEDIUM"
-      }
-    ]
-  },
-  {
-    "game_id": "401830313",
-    "date": "2026-02-25",
-    "home_team": "Southern Illinois Salukis",
-    "away_team": "Indiana State Sycamores",
-    "tipoff": "2026-02-26T01:00Z",
-    "venue": "Banterra Center",
-    "neutral": false,
-    "status": "STATUS_SCHEDULED",
-    "predictions": {
-      "predicted_margin": -0.4,
-      "home_win_prob": 0.536,
-      "away_win_prob": 0.464,
-      "predicted_total": 146.0
-    },
-    "edge": {
-      "spread_edge": -9.2,
-      "vegas_spread": -8.8,
-      "model_spread": -0.4,
-      "total_edge": 0.5,
-      "vegas_total": 145.5,
-      "model_total": 146.0,
-      "ou_lean": "OVER",
-      "model_win_prob": 0.536,
-      "vegas_implied_prob": 0.829,
-      "win_prob_edge": -0.293
-    },
-    "bets": [
-      {
-        "market": "SPREAD",
-        "lean": "AWAY",
-        "edge_pts": 9.2,
-        "confidence": "HIGH"
-      }
-    ]
-  },
-  {
-    "game_id": "401828247",
-    "date": "2026-02-25",
-    "home_team": "Rice Owls",
-    "away_team": "South Florida Bulls",
-    "tipoff": "2026-02-26T01:00Z",
-    "venue": "Tudor Fieldhouse",
-    "neutral": false,
-    "status": "STATUS_SCHEDULED",
-    "predictions": {
-      "predicted_margin": -4.1,
-      "home_win_prob": 0.415,
-      "away_win_prob": 0.585,
-      "predicted_total": 150.7
-    },
-    "edge": {
-      "spread_edge": 6.4,
-      "vegas_spread": 10.5,
-      "model_spread": -4.1,
-      "total_edge": -6.5,
-      "vegas_total": 157.2,
-      "model_total": 150.7,
-      "ou_lean": "UNDER",
-      "model_win_prob": 0.415,
-      "vegas_implied_prob": 0.18,
-      "win_prob_edge": 0.235
-    },
-    "bets": [
-      {
-        "market": "SPREAD",
-        "lean": "HOME",
-        "edge_pts": 6.4,
-        "confidence": "HIGH"
-      },
-      {
-        "market": "TOTAL",
-        "lean": "UNDER",
-        "edge_pts": 6.5,
-        "confidence": "HIGH"
-      }
-    ]
-  },
-  {
-    "game_id": "401828245",
-    "date": "2026-02-25",
-    "home_team": "UTSA Roadrunners",
-    "away_team": "East Carolina Pirates",
-    "tipoff": "2026-02-26T01:00Z",
-    "venue": "UTSA Convocation Center",
-    "neutral": false,
-    "status": "STATUS_SCHEDULED",
-    "predictions": {
-      "predicted_margin": -7.5,
-      "home_win_prob": 0.343,
-      "away_win_prob": 0.657,
-      "predicted_total": 149.8
-    },
-    "edge": {
-      "spread_edge": -3.0,
-      "vegas_spread": 4.5,
-      "model_spread": -7.5,
-      "total_edge": -0.7,
-      "vegas_total": 150.5,
-      "model_total": 149.8,
-      "ou_lean": "UNDER",
-      "model_win_prob": 0.343,
-      "vegas_implied_prob": NaN,
-      "win_prob_edge": NaN
-    },
-    "bets": [
-      {
-        "market": "SPREAD",
-        "lean": "AWAY",
-        "edge_pts": 3.0,
-        "confidence": "MEDIUM"
-      }
-    ]
-  },
-  {
-    "game_id": "401820768",
-    "date": "2026-02-25",
-    "home_team": "Stanford Cardinal",
-    "away_team": "Pittsburgh Panthers",
-    "tipoff": "2026-02-26T01:00Z",
-    "venue": "Maples Pavilion",
-    "neutral": false,
-    "status": "STATUS_SCHEDULED",
-    "predictions": {
-      "predicted_margin": -6.5,
-      "home_win_prob": 0.343,
-      "away_win_prob": 0.657,
-      "predicted_total": 147.6
-    },
-    "edge": {
-      "spread_edge": -14.7,
-      "vegas_spread": -8.2,
-      "model_spread": -6.5,
-      "total_edge": 10.8,
-      "vegas_total": 136.8,
-      "model_total": 147.6,
-      "ou_lean": "OVER",
-      "model_win_prob": 0.343,
-      "vegas_implied_prob": 0.786,
-      "win_prob_edge": -0.443
-    },
-    "bets": [
-      {
-        "market": "SPREAD",
-        "lean": "AWAY",
-        "edge_pts": 14.7,
-        "confidence": "HIGH"
-      },
-      {
-        "market": "TOTAL",
-        "lean": "OVER",
-        "edge_pts": 10.8,
-        "confidence": "HIGH"
-      }
-    ]
-  },
-  {
-    "game_id": "401817685",
-    "date": "2026-02-25",
-    "home_team": "Milwaukee Panthers",
-    "away_team": "Youngstown State Penguins",
-    "tipoff": "2026-02-26T01:00Z",
-    "venue": "UW-Milwaukee Panther Arena",
-    "neutral": false,
-    "status": "STATUS_SCHEDULED",
-    "predictions": {
-      "predicted_margin": -5.4,
-      "home_win_prob": 0.415,
-      "away_win_prob": 0.585,
-      "predicted_total": 154.0
-    },
-    "edge": {
-      "spread_edge": -3.9,
-      "vegas_spread": 1.5,
-      "model_spread": -5.4,
-      "total_edge": 4.5,
-      "vegas_total": 149.5,
-      "model_total": 154.0,
-      "ou_lean": "OVER",
-      "model_win_prob": 0.415,
-      "vegas_implied_prob": NaN,
-      "win_prob_edge": NaN
-    },
-    "bets": [
-      {
-        "market": "SPREAD",
-        "lean": "AWAY",
-        "edge_pts": 3.9,
-        "confidence": "MEDIUM"
-      },
-      {
-        "market": "TOTAL",
-        "lean": "OVER",
-        "edge_pts": 4.5,
-        "confidence": "MEDIUM"
-      }
-    ]
-  },
-  {
-    "game_id": "401808692",
-    "date": "2026-02-25",
-    "home_team": "James Madison Dukes",
-    "away_team": "Georgia Southern Eagles",
-    "tipoff": "2026-02-26T01:00Z",
-    "venue": "Atlantic Union Bank Center",
-    "neutral": false,
-    "status": "STATUS_SCHEDULED",
-    "predictions": {
-      "predicted_margin": 8.7,
-      "home_win_prob": 0.786,
-      "away_win_prob": 0.214,
-      "predicted_total": 150.5
-    },
-    "edge": {
-      "spread_edge": 3.2,
-      "vegas_spread": -5.5,
-      "model_spread": 8.7,
-      "total_edge": -4.0,
-      "vegas_total": 154.5,
-      "model_total": 150.5,
-      "ou_lean": "UNDER",
-      "model_win_prob": 0.786,
-      "vegas_implied_prob": NaN,
-      "win_prob_edge": NaN
-    },
-    "bets": [
-      {
-        "market": "SPREAD",
-        "lean": "HOME",
-        "edge_pts": 3.2,
-        "confidence": "MEDIUM"
-      },
-      {
-        "market": "TOTAL",
-        "lean": "UNDER",
-        "edge_pts": 4.0,
-        "confidence": "MEDIUM"
-      }
-    ]
-  },
-  {
-    "game_id": "401808693",
-    "date": "2026-02-25",
-    "home_team": "South Alabama Jaguars",
-    "away_team": "UL Monroe Warhawks",
-    "tipoff": "2026-02-26T01:30Z",
-    "venue": "Mitchell Center",
-    "neutral": false,
-    "status": "STATUS_SCHEDULED",
-    "predictions": {
-      "predicted_margin": 8.9,
-      "home_win_prob": 0.674,
-      "away_win_prob": 0.326,
-      "predicted_total": 147.3
-    },
-    "edge": {
-      "spread_edge": -5.6,
-      "vegas_spread": -14.5,
-      "model_spread": 8.9,
-      "total_edge": -7.2,
-      "vegas_total": 154.5,
-      "model_total": 147.3,
-      "ou_lean": "UNDER",
-      "model_win_prob": 0.674,
-      "vegas_implied_prob": NaN,
-      "win_prob_edge": NaN
-    },
-    "bets": [
-      {
-        "market": "SPREAD",
-        "lean": "AWAY",
-        "edge_pts": 5.6,
-        "confidence": "HIGH"
-      },
-      {
-        "market": "TOTAL",
-        "lean": "UNDER",
-        "edge_pts": 7.2,
-        "confidence": "HIGH"
-      }
-    ]
-  },
-  {
-    "game_id": "401807759",
-    "date": "2026-02-25",
-    "home_team": "Austin Peay Governors",
-    "away_team": "Central Arkansas Bears",
-    "tipoff": "2026-02-26T01:30Z",
-    "venue": "F&M Bank Arena",
-    "neutral": false,
-    "status": "STATUS_SCHEDULED",
-    "predictions": {
-      "predicted_margin": 9.3,
-      "home_win_prob": 0.674,
-      "away_win_prob": 0.326,
-      "predicted_total": 152.2
-    },
-    "edge": {
-      "spread_edge": 5.8,
-      "vegas_spread": -3.5,
-      "model_spread": 9.3,
-      "total_edge": 1.7,
-      "vegas_total": 150.5,
-      "model_total": 152.2,
-      "ou_lean": "OVER",
-      "model_win_prob": 0.674,
-      "vegas_implied_prob": NaN,
-      "win_prob_edge": NaN
-    },
-    "bets": [
-      {
-        "market": "SPREAD",
-        "lean": "HOME",
-        "edge_pts": 5.8,
-        "confidence": "HIGH"
-      }
-    ]
-  },
-  {
-    "game_id": "401807758",
-    "date": "2026-02-25",
-    "home_team": "North Alabama Lions",
-    "away_team": "Bellarmine Knights",
-    "tipoff": "2026-02-26T01:45Z",
-    "venue": "Flowers Hall",
-    "neutral": false,
-    "status": "STATUS_SCHEDULED",
-    "predictions": {
-      "predicted_margin": 0.7,
-      "home_win_prob": 0.536,
-      "away_win_prob": 0.464,
-      "predicted_total": 145.8
-    },
-    "edge": {
-      "spread_edge": 3.2,
-      "vegas_spread": 2.5,
-      "model_spread": 0.7,
-      "total_edge": -2.7,
-      "vegas_total": 148.5,
-      "model_total": 145.8,
-      "ou_lean": "UNDER",
-      "model_win_prob": 0.536,
-      "vegas_implied_prob": NaN,
-      "win_prob_edge": NaN
-    },
-    "bets": [
-      {
-        "market": "SPREAD",
-        "lean": "HOME",
-        "edge_pts": 3.2,
-        "confidence": "MEDIUM"
-      }
-    ]
-  },
-  {
     "game_id": "401829260",
     "date": "2026-02-25",
     "home_team": "Gonzaga Bulldogs",
@@ -1332,33 +7,10 @@
     "tipoff": "2026-02-26T02:00Z",
     "venue": "McCarthey Athletic Center",
     "neutral": false,
-    "status": "STATUS_SCHEDULED",
-    "predictions": {
-      "predicted_margin": 30.3,
-      "home_win_prob": 1.0,
-      "away_win_prob": 0.0,
-      "predicted_total": 152.5
-    },
-    "edge": {
-      "spread_edge": 3.8,
-      "vegas_spread": -26.5,
-      "model_spread": 30.3,
-      "total_edge": 2.7,
-      "vegas_total": 149.8,
-      "model_total": 152.5,
-      "ou_lean": "OVER",
-      "model_win_prob": 1.0,
-      "vegas_implied_prob": 0.993,
-      "win_prob_edge": 0.007
-    },
-    "bets": [
-      {
-        "market": "SPREAD",
-        "lean": "HOME",
-        "edge_pts": 3.8,
-        "confidence": "MEDIUM"
-      }
-    ]
+    "status": "STATUS_IN_PROGRESS",
+    "predictions": {},
+    "edge": {},
+    "bets": []
   },
   {
     "game_id": "401808263",
@@ -1368,25 +20,9 @@
     "tipoff": "2026-02-26T02:00Z",
     "venue": "Coleman Coliseum",
     "neutral": false,
-    "status": "STATUS_SCHEDULED",
-    "predictions": {
-      "predicted_margin": 14.5,
-      "home_win_prob": 0.786,
-      "away_win_prob": 0.214,
-      "predicted_total": 171.5
-    },
-    "edge": {
-      "spread_edge": -0.5,
-      "vegas_spread": -15.0,
-      "model_spread": 14.5,
-      "total_edge": -3.5,
-      "vegas_total": 175.0,
-      "model_total": 171.5,
-      "ou_lean": "UNDER",
-      "model_win_prob": 0.786,
-      "vegas_implied_prob": 0.952,
-      "win_prob_edge": -0.166
-    },
+    "status": "STATUS_IN_PROGRESS",
+    "predictions": {},
+    "edge": {},
     "bets": []
   },
   {
@@ -1394,36 +30,26 @@
     "date": "2026-02-25",
     "home_team": "Arkansas Razorbacks",
     "away_team": "Texas A&M Aggies",
-    "tipoff": "2026-02-26T02:00Z",
+    "tipoff": "2026-02-26T02:10Z",
     "venue": "Bud Walton Arena",
     "neutral": false,
-    "status": "STATUS_SCHEDULED",
-    "predictions": {
-      "predicted_margin": -0.5,
-      "home_win_prob": 0.536,
-      "away_win_prob": 0.464,
-      "predicted_total": 157.7
-    },
-    "edge": {
-      "spread_edge": -9.7,
-      "vegas_spread": -9.2,
-      "model_spread": -0.5,
-      "total_edge": -0.8,
-      "vegas_total": 158.5,
-      "model_total": 157.7,
-      "ou_lean": "UNDER",
-      "model_win_prob": 0.536,
-      "vegas_implied_prob": 0.83,
-      "win_prob_edge": -0.294
-    },
-    "bets": [
-      {
-        "market": "SPREAD",
-        "lean": "AWAY",
-        "edge_pts": 9.7,
-        "confidence": "HIGH"
-      }
-    ]
+    "status": "STATUS_HALFTIME",
+    "predictions": {},
+    "edge": {},
+    "bets": []
+  },
+  {
+    "game_id": "401807759",
+    "date": "2026-02-25",
+    "home_team": "Austin Peay Governors",
+    "away_team": "Central Arkansas Bears",
+    "tipoff": "2026-02-26T01:30Z",
+    "venue": "F&M Bank Arena",
+    "neutral": false,
+    "status": "STATUS_IN_PROGRESS",
+    "predictions": {},
+    "edge": {},
+    "bets": []
   },
   {
     "game_id": "401829263",
@@ -1433,33 +59,10 @@
     "tipoff": "2026-02-26T02:00Z",
     "venue": "Firestone Fieldhouse",
     "neutral": false,
-    "status": "STATUS_SCHEDULED",
-    "predictions": {
-      "predicted_margin": -8.0,
-      "home_win_prob": 0.343,
-      "away_win_prob": 0.657,
-      "predicted_total": 145.8
-    },
-    "edge": {
-      "spread_edge": -2.5,
-      "vegas_spread": 5.5,
-      "model_spread": -8.0,
-      "total_edge": 1.0,
-      "vegas_total": 144.8,
-      "model_total": 145.8,
-      "ou_lean": "OVER",
-      "model_win_prob": 0.343,
-      "vegas_implied_prob": 0.344,
-      "win_prob_edge": -0.001
-    },
-    "bets": [
-      {
-        "market": "SPREAD",
-        "lean": "AWAY",
-        "edge_pts": 2.5,
-        "confidence": "MEDIUM"
-      }
-    ]
+    "status": "STATUS_IN_PROGRESS",
+    "predictions": {},
+    "edge": {},
+    "bets": []
   },
   {
     "game_id": "401827706",
@@ -1469,33 +72,10 @@
     "tipoff": "2026-02-26T02:00Z",
     "venue": "CU Events Center",
     "neutral": false,
-    "status": "STATUS_SCHEDULED",
-    "predictions": {
-      "predicted_margin": 2.0,
-      "home_win_prob": 0.536,
-      "away_win_prob": 0.464,
-      "predicted_total": 148.2
-    },
-    "edge": {
-      "spread_edge": -6.5,
-      "vegas_spread": -8.5,
-      "model_spread": 2.0,
-      "total_edge": -0.3,
-      "vegas_total": 148.5,
-      "model_total": 148.2,
-      "ou_lean": "UNDER",
-      "model_win_prob": 0.536,
-      "vegas_implied_prob": 0.81,
-      "win_prob_edge": -0.274
-    },
-    "bets": [
-      {
-        "market": "SPREAD",
-        "lean": "AWAY",
-        "edge_pts": 6.5,
-        "confidence": "HIGH"
-      }
-    ]
+    "status": "STATUS_IN_PROGRESS",
+    "predictions": {},
+    "edge": {},
+    "bets": []
   },
   {
     "game_id": "401825540",
@@ -1505,39 +85,10 @@
     "tipoff": "2026-02-26T02:00Z",
     "venue": "Carver-Hawkeye Arena",
     "neutral": false,
-    "status": "STATUS_SCHEDULED",
-    "predictions": {
-      "predicted_margin": 0.3,
-      "home_win_prob": 0.536,
-      "away_win_prob": 0.464,
-      "predicted_total": 150.8
-    },
-    "edge": {
-      "spread_edge": -5.7,
-      "vegas_spread": -6.0,
-      "model_spread": 0.3,
-      "total_edge": 9.3,
-      "vegas_total": 141.5,
-      "model_total": 150.8,
-      "ou_lean": "OVER",
-      "model_win_prob": 0.536,
-      "vegas_implied_prob": 0.74,
-      "win_prob_edge": -0.204
-    },
-    "bets": [
-      {
-        "market": "SPREAD",
-        "lean": "AWAY",
-        "edge_pts": 5.7,
-        "confidence": "HIGH"
-      },
-      {
-        "market": "TOTAL",
-        "lean": "OVER",
-        "edge_pts": 9.3,
-        "confidence": "HIGH"
-      }
-    ]
+    "status": "STATUS_IN_PROGRESS",
+    "predictions": {},
+    "edge": {},
+    "bets": []
   },
   {
     "game_id": "401823804",
@@ -1547,39 +98,10 @@
     "tipoff": "2026-02-26T02:00Z",
     "venue": "Global Credit Union Arena",
     "neutral": false,
-    "status": "STATUS_SCHEDULED",
-    "predictions": {
-      "predicted_margin": 2.9,
-      "home_win_prob": 0.536,
-      "away_win_prob": 0.464,
-      "predicted_total": 143.3
-    },
-    "edge": {
-      "spread_edge": -5.1,
-      "vegas_spread": -8.0,
-      "model_spread": 2.9,
-      "total_edge": -9.7,
-      "vegas_total": 153.0,
-      "model_total": 143.3,
-      "ou_lean": "UNDER",
-      "model_win_prob": 0.536,
-      "vegas_implied_prob": 0.789,
-      "win_prob_edge": -0.253
-    },
-    "bets": [
-      {
-        "market": "SPREAD",
-        "lean": "AWAY",
-        "edge_pts": 5.1,
-        "confidence": "HIGH"
-      },
-      {
-        "market": "TOTAL",
-        "lean": "UNDER",
-        "edge_pts": 9.7,
-        "confidence": "HIGH"
-      }
-    ]
+    "status": "STATUS_HALFTIME",
+    "predictions": {},
+    "edge": {},
+    "bets": []
   },
   {
     "game_id": "401822960",
@@ -1589,39 +111,10 @@
     "tipoff": "2026-02-26T02:00Z",
     "venue": "CHI Health Center Omaha",
     "neutral": false,
-    "status": "STATUS_SCHEDULED",
-    "predictions": {
-      "predicted_margin": 13.3,
-      "home_win_prob": 0.936,
-      "away_win_prob": 0.064,
-      "predicted_total": 145.5
-    },
-    "edge": {
-      "spread_edge": 8.1,
-      "vegas_spread": -5.2,
-      "model_spread": 13.3,
-      "total_edge": 5.0,
-      "vegas_total": 140.5,
-      "model_total": 145.5,
-      "ou_lean": "OVER",
-      "model_win_prob": 0.936,
-      "vegas_implied_prob": 0.697,
-      "win_prob_edge": 0.239
-    },
-    "bets": [
-      {
-        "market": "SPREAD",
-        "lean": "HOME",
-        "edge_pts": 8.1,
-        "confidence": "HIGH"
-      },
-      {
-        "market": "TOTAL",
-        "lean": "OVER",
-        "edge_pts": 5.0,
-        "confidence": "MEDIUM"
-      }
-    ]
+    "status": "STATUS_IN_PROGRESS",
+    "predictions": {},
+    "edge": {},
+    "bets": []
   },
   {
     "game_id": "401808258",
@@ -1631,25 +124,22 @@
     "tipoff": "2026-02-26T02:00Z",
     "venue": "The Sandy and John Black Pavilion at Ole Miss",
     "neutral": false,
-    "status": "STATUS_SCHEDULED",
-    "predictions": {
-      "predicted_margin": 0.8,
-      "home_win_prob": 0.536,
-      "away_win_prob": 0.464,
-      "predicted_total": 150.4
-    },
-    "edge": {
-      "spread_edge": -0.7,
-      "vegas_spread": -1.5,
-      "model_spread": 0.8,
-      "total_edge": 2.9,
-      "vegas_total": 147.5,
-      "model_total": 150.4,
-      "ou_lean": "OVER",
-      "model_win_prob": 0.536,
-      "vegas_implied_prob": 0.561,
-      "win_prob_edge": -0.025
-    },
+    "status": "STATUS_HALFTIME",
+    "predictions": {},
+    "edge": {},
+    "bets": []
+  },
+  {
+    "game_id": "401807758",
+    "date": "2026-02-25",
+    "home_team": "North Alabama Lions",
+    "away_team": "Bellarmine Knights",
+    "tipoff": "2026-02-26T02:27Z",
+    "venue": "Flowers Hall",
+    "neutral": false,
+    "status": "STATUS_IN_PROGRESS",
+    "predictions": {},
+    "edge": {},
     "bets": []
   },
   {
@@ -1660,33 +150,10 @@
     "tipoff": "2026-02-26T03:00Z",
     "venue": "Gill Coliseum",
     "neutral": false,
-    "status": "STATUS_SCHEDULED",
-    "predictions": {
-      "predicted_margin": 10.9,
-      "home_win_prob": 0.744,
-      "away_win_prob": 0.256,
-      "predicted_total": 146.5
-    },
-    "edge": {
-      "spread_edge": 4.4,
-      "vegas_spread": -6.5,
-      "model_spread": 10.9,
-      "total_edge": 2.3,
-      "vegas_total": 144.2,
-      "model_total": 146.5,
-      "ou_lean": "OVER",
-      "model_win_prob": 0.744,
-      "vegas_implied_prob": 0.756,
-      "win_prob_edge": -0.012
-    },
-    "bets": [
-      {
-        "market": "SPREAD",
-        "lean": "HOME",
-        "edge_pts": 4.4,
-        "confidence": "HIGH"
-      }
-    ]
+    "status": "STATUS_IN_PROGRESS",
+    "predictions": {},
+    "edge": {},
+    "bets": []
   },
   {
     "game_id": "401820765",
@@ -1696,33 +163,713 @@
     "tipoff": "2026-02-26T03:00Z",
     "venue": "Haas Pavilion",
     "neutral": false,
-    "status": "STATUS_SCHEDULED",
-    "predictions": {
-      "predicted_margin": -4.0,
-      "home_win_prob": 0.419,
-      "away_win_prob": 0.581,
-      "predicted_total": 152.6
-    },
-    "edge": {
-      "spread_edge": -0.5,
-      "vegas_spread": 3.5,
-      "model_spread": -4.0,
-      "total_edge": -9.6,
-      "vegas_total": 162.2,
-      "model_total": 152.6,
-      "ou_lean": "UNDER",
-      "model_win_prob": 0.419,
-      "vegas_implied_prob": 0.407,
-      "win_prob_edge": 0.012
-    },
-    "bets": [
-      {
-        "market": "TOTAL",
-        "lean": "UNDER",
-        "edge_pts": 9.6,
-        "confidence": "HIGH"
-      }
-    ]
+    "status": "STATUS_IN_PROGRESS",
+    "predictions": {},
+    "edge": {},
+    "bets": []
+  },
+  {
+    "game_id": "401822959",
+    "date": "2026-02-25",
+    "home_team": "UConn Huskies",
+    "away_team": "St. John's Red Storm",
+    "tipoff": "2026-02-26T00:00Z",
+    "venue": "PeoplesBank Arena",
+    "neutral": false,
+    "status": "STATUS_FINAL",
+    "predictions": {},
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 72,
+      "away_score": 40,
+      "margin": 32,
+      "total": 112
+    }
+  },
+  {
+    "game_id": "401808264",
+    "date": "2026-02-25",
+    "home_team": "Texas Longhorns",
+    "away_team": "Florida Gators",
+    "tipoff": "2026-02-26T00:00Z",
+    "venue": "Moody Center",
+    "neutral": false,
+    "status": "STATUS_FINAL",
+    "predictions": {},
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 71,
+      "away_score": 84,
+      "margin": -13,
+      "total": 155
+    }
+  },
+  {
+    "game_id": "401825541",
+    "date": "2026-02-25",
+    "home_team": "Nebraska Cornhuskers",
+    "away_team": "Maryland Terrapins",
+    "tipoff": "2026-02-26T00:00Z",
+    "venue": "Pinnacle Bank Arena",
+    "neutral": false,
+    "status": "STATUS_FINAL",
+    "predictions": {},
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 74,
+      "away_score": 61,
+      "margin": 13,
+      "total": 135
+    }
+  },
+  {
+    "game_id": "401808261",
+    "date": "2026-02-25",
+    "home_team": "Vanderbilt Commodores",
+    "away_team": "Georgia Bulldogs",
+    "tipoff": "2026-02-26T00:00Z",
+    "venue": "Memorial Gymnasium (TN)",
+    "neutral": false,
+    "status": "STATUS_FINAL",
+    "predictions": {},
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 88,
+      "away_score": 80,
+      "margin": 8,
+      "total": 168
+    }
+  },
+  {
+    "game_id": "401826824",
+    "date": "2026-02-25",
+    "home_team": "Army Black Knights",
+    "away_team": "Bucknell Bison",
+    "tipoff": "2026-02-25T16:00Z",
+    "venue": "Christl Arena",
+    "neutral": false,
+    "status": "STATUS_FINAL",
+    "predictions": {},
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 73,
+      "away_score": 75,
+      "margin": -2,
+      "total": 148
+    }
+  },
+  {
+    "game_id": "401861277",
+    "date": "2026-02-25",
+    "home_team": "South Carolina State Bulldogs",
+    "away_team": "Morgan State Bears",
+    "tipoff": "2026-02-25T23:00Z",
+    "venue": "Smith-Hammond-Middleton Memorial Center",
+    "neutral": false,
+    "status": "STATUS_FINAL",
+    "predictions": {},
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 83,
+      "away_score": 90,
+      "margin": -7,
+      "total": 173
+    }
+  },
+  {
+    "game_id": "401820764",
+    "date": "2026-02-25",
+    "home_team": "Boston College Eagles",
+    "away_team": "Wake Forest Demon Deacons",
+    "tipoff": "2026-02-25T23:00Z",
+    "venue": "Conte Forum",
+    "neutral": false,
+    "status": "STATUS_FINAL",
+    "predictions": {},
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 68,
+      "away_score": 67,
+      "margin": 1,
+      "total": 135
+    }
+  },
+  {
+    "game_id": "401809384",
+    "date": "2026-02-25",
+    "home_team": "Furman Paladins",
+    "away_team": "The Citadel Bulldogs",
+    "tipoff": "2026-02-25T23:00Z",
+    "venue": "Timmons Arena",
+    "neutral": false,
+    "status": "STATUS_FINAL",
+    "predictions": {},
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 72,
+      "away_score": 51,
+      "margin": 21,
+      "total": 123
+    }
+  },
+  {
+    "game_id": "401817684",
+    "date": "2026-02-25",
+    "home_team": "IU Indianapolis Jaguars",
+    "away_team": "Oakland Golden Grizzlies",
+    "tipoff": "2026-02-25T23:30Z",
+    "venue": "The Jungle",
+    "neutral": false,
+    "status": "STATUS_FINAL",
+    "predictions": {},
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 74,
+      "away_score": 86,
+      "margin": -12,
+      "total": 160
+    }
+  },
+  {
+    "game_id": "401830312",
+    "date": "2026-02-25",
+    "home_team": "Northern Iowa Panthers",
+    "away_team": "Illinois State Redbirds",
+    "tipoff": "2026-02-26T00:00Z",
+    "venue": "McLeod Center",
+    "neutral": false,
+    "status": "STATUS_FINAL",
+    "predictions": {},
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 69,
+      "away_score": 71,
+      "margin": -2,
+      "total": 140
+    }
+  },
+  {
+    "game_id": "401829410",
+    "date": "2026-02-25",
+    "home_team": "Colgate Raiders",
+    "away_team": "Lafayette Leopards",
+    "tipoff": "2026-02-26T00:00Z",
+    "venue": "Cotterell Court",
+    "neutral": false,
+    "status": "STATUS_FINAL",
+    "predictions": {},
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 69,
+      "away_score": 70,
+      "margin": -1,
+      "total": 139
+    }
+  },
+  {
+    "game_id": "401828680",
+    "date": "2026-02-25",
+    "home_team": "American University Eagles",
+    "away_team": "Lehigh Mountain Hawks",
+    "tipoff": "2026-02-26T00:00Z",
+    "venue": "Bender Arena",
+    "neutral": false,
+    "status": "STATUS_FINAL",
+    "predictions": {},
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 73,
+      "away_score": 78,
+      "margin": -5,
+      "total": 151
+    }
+  },
+  {
+    "game_id": "401828446",
+    "date": "2026-02-25",
+    "home_team": "Saint Joseph's Hawks",
+    "away_team": "George Mason Patriots",
+    "tipoff": "2026-02-26T00:00Z",
+    "venue": "Michael J. Hagan '85 Arena",
+    "neutral": false,
+    "status": "STATUS_FINAL",
+    "predictions": {},
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 81,
+      "away_score": 63,
+      "margin": 18,
+      "total": 144
+    }
+  },
+  {
+    "game_id": "401828445",
+    "date": "2026-02-25",
+    "home_team": "Duquesne Dukes",
+    "away_team": "Davidson Wildcats",
+    "tipoff": "2026-02-26T00:00Z",
+    "venue": "UPMC Cooper Fieldhouse",
+    "neutral": false,
+    "status": "STATUS_FINAL",
+    "predictions": {},
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 56,
+      "away_score": 67,
+      "margin": -11,
+      "total": 123
+    }
+  },
+  {
+    "game_id": "401828244",
+    "date": "2026-02-25",
+    "home_team": "Charlotte 49ers",
+    "away_team": "North Texas Mean Green",
+    "tipoff": "2026-02-26T00:00Z",
+    "venue": "Halton Arena",
+    "neutral": false,
+    "status": "STATUS_FINAL",
+    "predictions": {},
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 80,
+      "away_score": 79,
+      "margin": 1,
+      "total": 159
+    }
+  },
+  {
+    "game_id": "401824376",
+    "date": "2026-02-25",
+    "home_team": "Boston University Terriers",
+    "away_team": "Holy Cross Crusaders",
+    "tipoff": "2026-02-26T00:00Z",
+    "venue": "Case Gym",
+    "neutral": false,
+    "status": "STATUS_FINAL",
+    "predictions": {},
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 78,
+      "away_score": 63,
+      "margin": 15,
+      "total": 141
+    }
+  },
+  {
+    "game_id": "401822961",
+    "date": "2026-02-25",
+    "home_team": "Villanova Wildcats",
+    "away_team": "Butler Bulldogs",
+    "tipoff": "2026-02-26T00:00Z",
+    "venue": "Finneran Pavilion",
+    "neutral": false,
+    "status": "STATUS_FINAL",
+    "predictions": {},
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 82,
+      "away_score": 73,
+      "margin": 9,
+      "total": 155
+    }
+  },
+  {
+    "game_id": "401820176",
+    "date": "2026-02-25",
+    "home_team": "Loyola Maryland Greyhounds",
+    "away_team": "Navy Midshipmen",
+    "tipoff": "2026-02-26T00:00Z",
+    "venue": "Reitz Arena",
+    "neutral": false,
+    "status": "STATUS_FINAL",
+    "predictions": {},
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 51,
+      "away_score": 78,
+      "margin": -27,
+      "total": 129
+    }
+  },
+  {
+    "game_id": "401818434",
+    "date": "2026-02-25",
+    "home_team": "South Dakota Coyotes",
+    "away_team": "Omaha Mavericks",
+    "tipoff": "2026-02-26T00:00Z",
+    "venue": "Sanford Coyote Sports Center",
+    "neutral": false,
+    "status": "STATUS_FINAL",
+    "predictions": {},
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 89,
+      "away_score": 72,
+      "margin": 17,
+      "total": 161
+    }
+  },
+  {
+    "game_id": "401817683",
+    "date": "2026-02-25",
+    "home_team": "Robert Morris Colonials",
+    "away_team": "Detroit Mercy Titans",
+    "tipoff": "2026-02-26T00:00Z",
+    "venue": "UPMC Events Center",
+    "neutral": false,
+    "status": "STATUS_FINAL",
+    "predictions": {},
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 73,
+      "away_score": 62,
+      "margin": 11,
+      "total": 135
+    }
+  },
+  {
+    "game_id": "401817682",
+    "date": "2026-02-25",
+    "home_team": "Purdue Fort Wayne Mastodons",
+    "away_team": "Wright State Raiders",
+    "tipoff": "2026-02-26T00:00Z",
+    "venue": "Memorial Coliseum (IN)",
+    "neutral": false,
+    "status": "STATUS_FINAL",
+    "predictions": {},
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 70,
+      "away_score": 74,
+      "margin": -4,
+      "total": 144
+    }
+  },
+  {
+    "game_id": "401817681",
+    "date": "2026-02-25",
+    "home_team": "Cleveland State Vikings",
+    "away_team": "Northern Kentucky Norse",
+    "tipoff": "2026-02-26T00:00Z",
+    "venue": "Wolstein Center",
+    "neutral": false,
+    "status": "STATUS_FINAL",
+    "predictions": {},
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 70,
+      "away_score": 81,
+      "margin": -11,
+      "total": 151
+    }
+  },
+  {
+    "game_id": "401809385",
+    "date": "2026-02-25",
+    "home_team": "Western Carolina Catamounts",
+    "away_team": "Mercer Bears",
+    "tipoff": "2026-02-26T00:00Z",
+    "venue": "Ramsey Center",
+    "neutral": false,
+    "status": "STATUS_FINAL",
+    "predictions": {},
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 78,
+      "away_score": 74,
+      "margin": 4,
+      "total": 152
+    }
+  },
+  {
+    "game_id": "401809383",
+    "date": "2026-02-25",
+    "home_team": "East Tennessee State Buccaneers",
+    "away_team": "Wofford Terriers",
+    "tipoff": "2026-02-26T00:00Z",
+    "venue": "Freedom Hall (TN)",
+    "neutral": false,
+    "status": "STATUS_FINAL",
+    "predictions": {},
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 69,
+      "away_score": 72,
+      "margin": -3,
+      "total": 141
+    }
+  },
+  {
+    "game_id": "401807761",
+    "date": "2026-02-25",
+    "home_team": "West Georgia Wolves",
+    "away_team": "Lipscomb Bisons",
+    "tipoff": "2026-02-26T00:00Z",
+    "venue": "The Coliseum",
+    "neutral": false,
+    "status": "STATUS_FINAL",
+    "predictions": {},
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 84,
+      "away_score": 77,
+      "margin": 7,
+      "total": 161
+    }
+  },
+  {
+    "game_id": "401807757",
+    "date": "2026-02-25",
+    "home_team": "Eastern Kentucky Colonels",
+    "away_team": "Queens University Royals",
+    "tipoff": "2026-02-26T00:00Z",
+    "venue": "Baptist Health Arena",
+    "neutral": false,
+    "status": "STATUS_FINAL",
+    "predictions": {},
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 79,
+      "away_score": 96,
+      "margin": -17,
+      "total": 175
+    }
+  },
+  {
+    "game_id": "401830216",
+    "date": "2026-02-25",
+    "home_team": "Belmont Bruins",
+    "away_team": "Evansville Purple Aces",
+    "tipoff": "2026-02-26T00:30Z",
+    "venue": "Curb Event Center Arena",
+    "neutral": false,
+    "status": "STATUS_FINAL",
+    "predictions": {},
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 98,
+      "away_score": 64,
+      "margin": 34,
+      "total": 162
+    }
+  },
+  {
+    "game_id": "401828248",
+    "date": "2026-02-25",
+    "home_team": "Tulane Green Wave",
+    "away_team": "Tulsa Golden Hurricane",
+    "tipoff": "2026-02-26T00:30Z",
+    "venue": "Devlin Fieldhouse",
+    "neutral": false,
+    "status": "STATUS_FINAL",
+    "predictions": {},
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 56,
+      "away_score": 90,
+      "margin": -34,
+      "total": 146
+    }
+  },
+  {
+    "game_id": "401822958",
+    "date": "2026-02-25",
+    "home_team": "Providence Friars",
+    "away_team": "Xavier Musketeers",
+    "tipoff": "2026-02-26T00:30Z",
+    "venue": "Amica Mutual Pavilion",
+    "neutral": false,
+    "status": "STATUS_FINAL",
+    "predictions": {},
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 94,
+      "away_score": 84,
+      "margin": 10,
+      "total": 178
+    }
+  },
+  {
+    "game_id": "401830314",
+    "date": "2026-02-25",
+    "home_team": "Valparaiso Beacons",
+    "away_team": "Drake Bulldogs",
+    "tipoff": "2026-02-26T01:00Z",
+    "venue": "Athletics-Recreation Center",
+    "neutral": false,
+    "status": "STATUS_FINAL",
+    "predictions": {},
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 74,
+      "away_score": 71,
+      "margin": 3,
+      "total": 145
+    }
+  },
+  {
+    "game_id": "401830313",
+    "date": "2026-02-25",
+    "home_team": "Southern Illinois Salukis",
+    "away_team": "Indiana State Sycamores",
+    "tipoff": "2026-02-26T01:00Z",
+    "venue": "Banterra Center",
+    "neutral": false,
+    "status": "STATUS_FINAL",
+    "predictions": {},
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 66,
+      "away_score": 55,
+      "margin": 11,
+      "total": 121
+    }
+  },
+  {
+    "game_id": "401828247",
+    "date": "2026-02-25",
+    "home_team": "Rice Owls",
+    "away_team": "South Florida Bulls",
+    "tipoff": "2026-02-26T01:00Z",
+    "venue": "Tudor Fieldhouse",
+    "neutral": false,
+    "status": "STATUS_FINAL",
+    "predictions": {},
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 56,
+      "away_score": 75,
+      "margin": -19,
+      "total": 131
+    }
+  },
+  {
+    "game_id": "401828245",
+    "date": "2026-02-25",
+    "home_team": "UTSA Roadrunners",
+    "away_team": "East Carolina Pirates",
+    "tipoff": "2026-02-26T01:00Z",
+    "venue": "UTSA Convocation Center",
+    "neutral": false,
+    "status": "STATUS_FINAL",
+    "predictions": {},
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 81,
+      "away_score": 82,
+      "margin": -1,
+      "total": 163
+    }
+  },
+  {
+    "game_id": "401820768",
+    "date": "2026-02-25",
+    "home_team": "Stanford Cardinal",
+    "away_team": "Pittsburgh Panthers",
+    "tipoff": "2026-02-26T01:00Z",
+    "venue": "Maples Pavilion",
+    "neutral": false,
+    "status": "STATUS_FINAL",
+    "predictions": {},
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 75,
+      "away_score": 67,
+      "margin": 8,
+      "total": 142
+    }
+  },
+  {
+    "game_id": "401817685",
+    "date": "2026-02-25",
+    "home_team": "Milwaukee Panthers",
+    "away_team": "Youngstown State Penguins",
+    "tipoff": "2026-02-26T01:00Z",
+    "venue": "UW-Milwaukee Panther Arena",
+    "neutral": false,
+    "status": "STATUS_FINAL",
+    "predictions": {},
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 78,
+      "away_score": 65,
+      "margin": 13,
+      "total": 143
+    }
+  },
+  {
+    "game_id": "401808692",
+    "date": "2026-02-25",
+    "home_team": "James Madison Dukes",
+    "away_team": "Georgia Southern Eagles",
+    "tipoff": "2026-02-26T01:00Z",
+    "venue": "Atlantic Union Bank Center",
+    "neutral": false,
+    "status": "STATUS_FINAL",
+    "predictions": {},
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 82,
+      "away_score": 66,
+      "margin": 16,
+      "total": 148
+    }
+  },
+  {
+    "game_id": "401808693",
+    "date": "2026-02-25",
+    "home_team": "South Alabama Jaguars",
+    "away_team": "UL Monroe Warhawks",
+    "tipoff": "2026-02-26T01:30Z",
+    "venue": "Mitchell Center",
+    "neutral": false,
+    "status": "STATUS_FINAL",
+    "predictions": {},
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 89,
+      "away_score": 54,
+      "margin": 35,
+      "total": 143
+    }
   },
   {
     "game_id": "401829264",
@@ -1733,38 +880,9 @@
     "venue": "Gersten Pavilion",
     "neutral": false,
     "status": "STATUS_SCHEDULED",
-    "predictions": {
-      "predicted_margin": -8.3,
-      "home_win_prob": 0.343,
-      "away_win_prob": 0.657,
-      "predicted_total": 145.6
-    },
-    "edge": {
-      "spread_edge": -9.8,
-      "vegas_spread": -1.5,
-      "model_spread": -8.3,
-      "total_edge": -6.6,
-      "vegas_total": 152.2,
-      "model_total": 145.6,
-      "ou_lean": "UNDER",
-      "model_win_prob": 0.343,
-      "vegas_implied_prob": 0.541,
-      "win_prob_edge": -0.198
-    },
-    "bets": [
-      {
-        "market": "SPREAD",
-        "lean": "AWAY",
-        "edge_pts": 9.8,
-        "confidence": "HIGH"
-      },
-      {
-        "market": "TOTAL",
-        "lean": "UNDER",
-        "edge_pts": 6.6,
-        "confidence": "HIGH"
-      }
-    ]
+    "predictions": {},
+    "edge": {},
+    "bets": []
   },
   {
     "game_id": "401829262",
@@ -1775,38 +893,9 @@
     "venue": "University Credit Union Pavilion",
     "neutral": false,
     "status": "STATUS_SCHEDULED",
-    "predictions": {
-      "predicted_margin": 10.8,
-      "home_win_prob": 0.936,
-      "away_win_prob": 0.064,
-      "predicted_total": 141.5
-    },
-    "edge": {
-      "spread_edge": 5.8,
-      "vegas_spread": -5.0,
-      "model_spread": 10.8,
-      "total_edge": -10.3,
-      "vegas_total": 151.8,
-      "model_total": 141.5,
-      "ou_lean": "UNDER",
-      "model_win_prob": 0.936,
-      "vegas_implied_prob": 0.701,
-      "win_prob_edge": 0.235
-    },
-    "bets": [
-      {
-        "market": "SPREAD",
-        "lean": "HOME",
-        "edge_pts": 5.8,
-        "confidence": "HIGH"
-      },
-      {
-        "market": "TOTAL",
-        "lean": "UNDER",
-        "edge_pts": 10.3,
-        "confidence": "HIGH"
-      }
-    ]
+    "predictions": {},
+    "edge": {},
+    "bets": []
   },
   {
     "game_id": "401825542",
@@ -1817,32 +906,9 @@
     "venue": "Matthew Knight Arena",
     "neutral": false,
     "status": "STATUS_SCHEDULED",
-    "predictions": {
-      "predicted_margin": -6.6,
-      "home_win_prob": 0.343,
-      "away_win_prob": 0.657,
-      "predicted_total": 145.0
-    },
-    "edge": {
-      "spread_edge": -2.1,
-      "vegas_spread": 4.5,
-      "model_spread": -6.6,
-      "total_edge": -7.2,
-      "vegas_total": 152.2,
-      "model_total": 145.0,
-      "ou_lean": "UNDER",
-      "model_win_prob": 0.343,
-      "vegas_implied_prob": 0.373,
-      "win_prob_edge": -0.03
-    },
-    "bets": [
-      {
-        "market": "TOTAL",
-        "lean": "UNDER",
-        "edge_pts": 7.2,
-        "confidence": "HIGH"
-      }
-    ]
+    "predictions": {},
+    "edge": {},
+    "bets": []
   },
   {
     "game_id": "401823784",
@@ -1853,12 +919,7 @@
     "venue": "Viejas Arena",
     "neutral": false,
     "status": "STATUS_SCHEDULED",
-    "predictions": {
-      "predicted_margin": 6.4,
-      "home_win_prob": 0.666,
-      "away_win_prob": 0.334,
-      "predicted_total": 144.5
-    },
+    "predictions": {},
     "edge": {},
     "bets": []
   }

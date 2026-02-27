@@ -1,0 +1,416 @@
+[
+  {
+    "game_id": "401814590",
+    "date": "2026-02-27",
+    "home_team": "Western Michigan Broncos",
+    "away_team": "Miami (OH) RedHawks",
+    "tipoff": "2026-02-27T23:00Z",
+    "venue": "University Arena (MI)",
+    "neutral": false,
+    "status": "STATUS_SCHEDULED",
+    "predictions": {
+      "predicted_margin": -3.0,
+      "home_win_prob": 0.415,
+      "away_win_prob": 0.585,
+      "predicted_total": 149.1
+    },
+    "edge": {
+      "spread_edge": 9.5,
+      "vegas_spread": 12.5,
+      "model_spread": -3.0,
+      "total_edge": -15.4,
+      "vegas_total": 164.5,
+      "model_total": 149.1,
+      "ou_lean": "UNDER",
+      "model_win_prob": 0.415,
+      "vegas_implied_prob": NaN,
+      "win_prob_edge": NaN
+    },
+    "bets": [
+      {
+        "market": "SPREAD",
+        "lean": "HOME",
+        "edge_pts": 9.5,
+        "confidence": "HIGH"
+      }
+    ]
+  },
+  {
+    "game_id": "401818335",
+    "date": "2026-02-27",
+    "home_team": "Cornell Big Red",
+    "away_team": "Yale Bulldogs",
+    "tipoff": "2026-02-27T23:00Z",
+    "venue": "Newman Arena",
+    "neutral": false,
+    "status": "STATUS_SCHEDULED",
+    "predictions": {
+      "predicted_margin": -1.8,
+      "home_win_prob": 0.415,
+      "away_win_prob": 0.585,
+      "predicted_total": 160.9
+    },
+    "edge": {},
+    "bets": []
+  },
+  {
+    "game_id": "401813395",
+    "date": "2026-02-27",
+    "home_team": "Niagara Purple Eagles",
+    "away_team": "Quinnipiac Bobcats",
+    "tipoff": "2026-02-27T23:30Z",
+    "venue": "Gallagher Center",
+    "neutral": false,
+    "status": "STATUS_SCHEDULED",
+    "predictions": {
+      "predicted_margin": -5.0,
+      "home_win_prob": 0.343,
+      "away_win_prob": 0.657,
+      "predicted_total": 142.4
+    },
+    "edge": {},
+    "bets": []
+  },
+  {
+    "game_id": "401828448",
+    "date": "2026-02-27",
+    "home_team": "George Washington Revolutionaries",
+    "away_team": "Dayton Flyers",
+    "tipoff": "2026-02-28T00:00Z",
+    "venue": "Charles E. Smith Center",
+    "neutral": false,
+    "status": "STATUS_SCHEDULED",
+    "predictions": {
+      "predicted_margin": 0.1,
+      "home_win_prob": 0.419,
+      "away_win_prob": 0.581,
+      "predicted_total": 146.5
+    },
+    "edge": {},
+    "bets": []
+  },
+  {
+    "game_id": "401823856",
+    "date": "2026-02-27",
+    "home_team": "Iona Gaels",
+    "away_team": "Rider Broncs",
+    "tipoff": "2026-02-28T00:00Z",
+    "venue": "Hynes Athletics Center",
+    "neutral": false,
+    "status": "STATUS_SCHEDULED",
+    "predictions": {
+      "predicted_margin": 2.4,
+      "home_win_prob": 0.606,
+      "away_win_prob": 0.394,
+      "predicted_total": 139.2
+    },
+    "edge": {},
+    "bets": []
+  },
+  {
+    "game_id": "401818546",
+    "date": "2026-02-27",
+    "home_team": "Columbia Lions",
+    "away_team": "Brown Bears",
+    "tipoff": "2026-02-28T00:00Z",
+    "venue": "Levien Gymnasium",
+    "neutral": false,
+    "status": "STATUS_SCHEDULED",
+    "predictions": {
+      "predicted_margin": 2.0,
+      "home_win_prob": 0.536,
+      "away_win_prob": 0.464,
+      "predicted_total": 151.3
+    },
+    "edge": {},
+    "bets": []
+  },
+  {
+    "game_id": "401813432",
+    "date": "2026-02-27",
+    "home_team": "Fairfield Stags",
+    "away_team": "Siena Saints",
+    "tipoff": "2026-02-28T00:00Z",
+    "venue": "Leo D. Mahoney Arena",
+    "neutral": false,
+    "status": "STATUS_SCHEDULED",
+    "predictions": {
+      "predicted_margin": 5.6,
+      "home_win_prob": 0.666,
+      "away_win_prob": 0.334,
+      "predicted_total": 145.4
+    },
+    "edge": {},
+    "bets": []
+  },
+  {
+    "game_id": "401813418",
+    "date": "2026-02-27",
+    "home_team": "Sacred Heart Pioneers",
+    "away_team": "Mount St. Mary's Mountaineers",
+    "tipoff": "2026-02-28T00:00Z",
+    "venue": "William H. Pitt Center",
+    "neutral": false,
+    "status": "STATUS_SCHEDULED",
+    "predictions": {
+      "predicted_margin": -0.1,
+      "home_win_prob": 0.419,
+      "away_win_prob": 0.581,
+      "predicted_total": 152.5
+    },
+    "edge": {},
+    "bets": []
+  },
+  {
+    "game_id": "401813371",
+    "date": "2026-02-27",
+    "home_team": "Canisius Golden Griffins",
+    "away_team": "Merrimack Warriors",
+    "tipoff": "2026-02-28T00:00Z",
+    "venue": "Koessler Athletic Center",
+    "neutral": false,
+    "status": "STATUS_SCHEDULED",
+    "predictions": {
+      "predicted_margin": -4.7,
+      "home_win_prob": 0.415,
+      "away_win_prob": 0.585,
+      "predicted_total": 130.8
+    },
+    "edge": {},
+    "bets": []
+  },
+  {
+    "game_id": "401813318",
+    "date": "2026-02-27",
+    "home_team": "Saint Peter's Peacocks",
+    "away_team": "Manhattan Jaspers",
+    "tipoff": "2026-02-28T00:00Z",
+    "venue": "Yanitelli Center",
+    "neutral": false,
+    "status": "STATUS_SCHEDULED",
+    "predictions": {
+      "predicted_margin": 6.7,
+      "home_win_prob": 0.674,
+      "away_win_prob": 0.326,
+      "predicted_total": 145.8
+    },
+    "edge": {},
+    "bets": []
+  },
+  {
+    "game_id": "401812623",
+    "date": "2026-02-27",
+    "home_team": "Princeton Tigers",
+    "away_team": "Harvard Crimson",
+    "tipoff": "2026-02-28T00:00Z",
+    "venue": "Jadwin Gymnasium",
+    "neutral": false,
+    "status": "STATUS_SCHEDULED",
+    "predictions": {
+      "predicted_margin": 6.6,
+      "home_win_prob": 0.606,
+      "away_win_prob": 0.394,
+      "predicted_total": 141.1
+    },
+    "edge": {},
+    "bets": []
+  },
+  {
+    "game_id": "401812596",
+    "date": "2026-02-27",
+    "home_team": "Pennsylvania Quakers",
+    "away_team": "Dartmouth Big Green",
+    "tipoff": "2026-02-28T00:00Z",
+    "venue": "The Palestra",
+    "neutral": false,
+    "status": "STATUS_SCHEDULED",
+    "predictions": {
+      "predicted_margin": 1.7,
+      "home_win_prob": 0.666,
+      "away_win_prob": 0.334,
+      "predicted_total": 145.0
+    },
+    "edge": {},
+    "bets": []
+  },
+  {
+    "game_id": "401808700",
+    "date": "2026-02-27",
+    "home_team": "Troy Trojans",
+    "away_team": "UL Monroe Warhawks",
+    "tipoff": "2026-02-28T00:00Z",
+    "venue": "Trojan Arena",
+    "neutral": false,
+    "status": "STATUS_SCHEDULED",
+    "predictions": {
+      "predicted_margin": 7.3,
+      "home_win_prob": 0.666,
+      "away_win_prob": 0.334,
+      "predicted_total": 143.9
+    },
+    "edge": {},
+    "bets": []
+  },
+  {
+    "game_id": "401808694",
+    "date": "2026-02-27",
+    "home_team": "Georgia State Panthers",
+    "away_team": "Old Dominion Monarchs",
+    "tipoff": "2026-02-28T00:30Z",
+    "venue": "GSU Convocation Center",
+    "neutral": false,
+    "status": "STATUS_SCHEDULED",
+    "predictions": {
+      "predicted_margin": 4.1,
+      "home_win_prob": 0.592,
+      "away_win_prob": 0.408,
+      "predicted_total": 146.4
+    },
+    "edge": {},
+    "bets": []
+  },
+  {
+    "game_id": "401825544",
+    "date": "2026-02-27",
+    "home_team": "Illinois Fighting Illini",
+    "away_team": "Michigan Wolverines",
+    "tipoff": "2026-02-28T01:00Z",
+    "venue": "State Farm Center",
+    "neutral": false,
+    "status": "STATUS_SCHEDULED",
+    "predictions": {
+      "predicted_margin": 8.6,
+      "home_win_prob": 0.881,
+      "away_win_prob": 0.119,
+      "predicted_total": 151.6
+    },
+    "edge": {
+      "spread_edge": 10.1,
+      "vegas_spread": 1.5,
+      "model_spread": 8.6,
+      "total_edge": -4.4,
+      "vegas_total": 156.0,
+      "model_total": 151.6,
+      "ou_lean": "UNDER",
+      "model_win_prob": 0.881,
+      "vegas_implied_prob": 0.524,
+      "win_prob_edge": 0.357
+    },
+    "bets": [
+      {
+        "market": "SPREAD",
+        "lean": "HOME",
+        "edge_pts": 10.1,
+        "confidence": "LOW"
+      }
+    ]
+  },
+  {
+    "game_id": "401814586",
+    "date": "2026-02-27",
+    "home_team": "Kent State Golden Flashes",
+    "away_team": "Akron Zips",
+    "tipoff": "2026-02-28T01:00Z",
+    "venue": "M.A.C. Center",
+    "neutral": false,
+    "status": "STATUS_SCHEDULED",
+    "predictions": {
+      "predicted_margin": -3.1,
+      "home_win_prob": 0.415,
+      "away_win_prob": 0.585,
+      "predicted_total": 151.0
+    },
+    "edge": {},
+    "bets": []
+  },
+  {
+    "game_id": "401808697",
+    "date": "2026-02-27",
+    "home_team": "Texas State Bobcats",
+    "away_team": "App State Mountaineers",
+    "tipoff": "2026-02-28T01:00Z",
+    "venue": "Strahan Arena at the University Events Center",
+    "neutral": false,
+    "status": "STATUS_SCHEDULED",
+    "predictions": {
+      "predicted_margin": 0.6,
+      "home_win_prob": 0.536,
+      "away_win_prob": 0.464,
+      "predicted_total": 139.6
+    },
+    "edge": {},
+    "bets": []
+  },
+  {
+    "game_id": "401808695",
+    "date": "2026-02-27",
+    "home_team": "James Madison Dukes",
+    "away_team": "Coastal Carolina Chanticleers",
+    "tipoff": "2026-02-28T01:00Z",
+    "venue": "Atlantic Union Bank Center",
+    "neutral": false,
+    "status": "STATUS_SCHEDULED",
+    "predictions": {
+      "predicted_margin": 9.4,
+      "home_win_prob": 0.936,
+      "away_win_prob": 0.064,
+      "predicted_total": 147.3
+    },
+    "edge": {},
+    "bets": []
+  },
+  {
+    "game_id": "401808699",
+    "date": "2026-02-27",
+    "home_team": "South Alabama Jaguars",
+    "away_team": "Southern Miss Golden Eagles",
+    "tipoff": "2026-02-28T01:30Z",
+    "venue": "Mitchell Center",
+    "neutral": false,
+    "status": "STATUS_SCHEDULED",
+    "predictions": {
+      "predicted_margin": 8.7,
+      "home_win_prob": 0.674,
+      "away_win_prob": 0.326,
+      "predicted_total": 148.0
+    },
+    "edge": {},
+    "bets": []
+  },
+  {
+    "game_id": "401808698",
+    "date": "2026-02-27",
+    "home_team": "Arkansas State Red Wolves",
+    "away_team": "Louisiana Ragin' Cajuns",
+    "tipoff": "2026-02-28T01:30Z",
+    "venue": "First National Bank Arena",
+    "neutral": false,
+    "status": "STATUS_SCHEDULED",
+    "predictions": {
+      "predicted_margin": 13.3,
+      "home_win_prob": 0.881,
+      "away_win_prob": 0.119,
+      "predicted_total": 151.7
+    },
+    "edge": {},
+    "bets": []
+  },
+  {
+    "game_id": "401808696",
+    "date": "2026-02-27",
+    "home_team": "Marshall Thundering Herd",
+    "away_team": "Georgia Southern Eagles",
+    "tipoff": "2026-02-28T02:00Z",
+    "venue": "Cam Henderson Center",
+    "neutral": false,
+    "status": "STATUS_SCHEDULED",
+    "predictions": {
+      "predicted_margin": 5.6,
+      "home_win_prob": 0.666,
+      "away_win_prob": 0.334,
+      "predicted_total": 157.9
+    },
+    "edge": {},
+    "bets": []
+  }
+]
