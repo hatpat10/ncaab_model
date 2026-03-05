@@ -52,6 +52,27 @@ PRED_DIR     = ROOT / "predictions"
 DATA_PROC    = ROOT / "data" / "processed"
 ALIASES_PATH = ROOT / "data" / "team_aliases.json"
 DB_PATH      = ROOT / "data" / "ncaab.db"
+CONF_LOOKUP_PATH = ROOT / "data" / "processed" / "espn_conf_lookup.json"
+
+_CONF_LOOKUP: dict = {}
+
+def _load_conf_lookup() -> dict:
+    global _CONF_LOOKUP
+    if _CONF_LOOKUP:
+        return _CONF_LOOKUP
+    if CONF_LOOKUP_PATH.exists():
+        with open(CONF_LOOKUP_PATH) as f:
+            _CONF_LOOKUP = json.load(f)
+    return _CONF_LOOKUP
+
+def get_game_tier(home_team: str, away_team: str) -> str:
+    """Return the WEAKEST tier among both teams (low-major contaminates the game)."""
+    lookup = _load_conf_lookup()
+    home_tier = lookup.get(home_team, {}).get("tier", "unknown")
+    away_tier = lookup.get(away_team, {}).get("tier", "unknown")
+    tier_rank = {"low": 0, "mid": 1, "high": 2, "unknown": 3}
+    weakest = min(home_tier, away_tier, key=lambda t: tier_rank.get(t, 3))
+    return weakest
 PRED_DIR.mkdir(parents=True, exist_ok=True)
 
 # â”€â”€ ESPN API â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
@@ -542,45 +563,74 @@ def _ml_to_implied_prob(ml: float) -> float:
 # STEP 6: BET RECOMMENDATION
 # â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
-def recommend_bets(edge: dict, preds: dict) -> list[dict]:
+def recommend_bets(edge: dict, preds: dict, game_tier: str = "unknown") -> list[dict]:
     """
     Flag games where the model has meaningful edge vs the market.
-    Thresholds tuned to reduce noise: spread>=5 (HIGH>=7), total>=5 (HIGH>=8, max 12).
+
+    Confidence tiers (spread):
+      HIGH   : edge 9-15 pts, high-major conference only
+      MEDIUM : edge 7-9 pts, high or mid-major only
+      LOW    : edge 7-15 pts, any conference (shown but not recommended)
+
+    Edges > 15 pts (spread) or > 12 pts (totals) are suppressed as likely bad odds data.
+    NaN edges are always suppressed.
     """
+    import math
     bets = []
 
-    # Spread: HIGH only above 7pts, suppress obvious data errors above 15pts
-    spread_abs = abs(edge.get("spread_edge", 0))
-    if 0 < spread_abs <= 15 and spread_abs >= 7.0:
-        side = "HOME" if edge["spread_edge"] > 0 else "AWAY"
+    # -- Spread ---------------------------------------------------------------
+    raw_spread = edge.get("spread_edge", 0) or 0
+    spread_abs = abs(raw_spread)
+    if math.isnan(spread_abs):
+        spread_abs = 0
+
+    if 7.0 <= spread_abs <= 15.0:
+        side = "HOME" if raw_spread > 0 else "AWAY"
+        raw_conf = "HIGH" if spread_abs >= 9.0 else "MEDIUM"
+
+        if game_tier == "low":
+            conf = "LOW"
+        elif game_tier in ("mid", "unknown") and raw_conf == "HIGH":
+            conf = "MEDIUM"
+        else:
+            conf = raw_conf
+
         bets.append({
             "market":     "SPREAD",
             "lean":       side,
             "edge_pts":   spread_abs,
-            "confidence": "HIGH" if 9.0 <= spread_abs <= 10.0 else "MEDIUM" if spread_abs < 9.0 else "LOW",
+            "confidence": conf,
         })
 
-    # Totals: suppress edges >12 (data quality), HIGH only above 8pts
-    total_abs = abs(edge.get("total_edge", 0))
-    if 0 < total_abs <= 12 and total_abs >= 7.0:
+    # -- Totals ---------------------------------------------------------------
+    raw_total = edge.get("total_edge", 0) or 0
+    total_abs = abs(raw_total)
+    if math.isnan(total_abs):
+        total_abs = 0
+
+    if 7.0 <= total_abs <= 12.0:
+        lean = edge.get("ou_lean", "")
+        raw_conf = "HIGH" if total_abs >= 9.0 else "MEDIUM"
+
+        if game_tier == "low":
+            conf = "LOW"
+        elif game_tier in ("mid", "unknown") and raw_conf == "HIGH":
+            conf = "MEDIUM"
+        else:
+            conf = raw_conf
+
         bets.append({
             "market":     "TOTAL",
-            "lean":       edge.get("ou_lean", ""),
+            "lean":       lean,
             "edge_pts":   total_abs,
-            "confidence": "HIGH" if total_abs >= 9.0 else "MEDIUM",
+            "confidence": conf,
         })
 
-    # Moneyline: disabled — win prob model is not yet calibrated for ML betting.
+    # Moneyline: disabled -- win prob model not yet calibrated for ML betting.
     # Re-enable once we have a dedicated ML calibration layer.
     # if abs(edge.get("win_prob_edge", 0)) >= 0.05: ...
 
     return bets
-
-
-# â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
-# STEP 7: SAVE PREDICTIONS TO DB
-# â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
-
 def save_predictions_to_db(predictions: list[dict], date_str: str):
     """Store predictions in SQLite for future backtesting."""
     if not predictions:
@@ -607,6 +657,7 @@ def save_predictions_to_db(predictions: list[dict], date_str: str):
             actual_total     REAL,    -- filled in after game completes
             is_neutral       INTEGER DEFAULT 0,
             created_at       TEXT,
+            game_tier        TEXT,
             PRIMARY KEY (game_id, date)
         )
     """)
@@ -630,14 +681,15 @@ def save_predictions_to_db(predictions: list[dict], date_str: str):
             None, None,  # actual results filled in later
             int(p.get("neutral", False)),
             now,
+            p.get("game_tier", "unknown"),
         ))
 
     con.executemany("""
         INSERT OR REPLACE INTO predictions
         (game_id, date, home_team, away_team, predicted_margin, home_win_prob,
          predicted_total, vegas_spread, vegas_total, spread_edge, total_edge,
-         win_prob_edge, actual_margin, actual_total, is_neutral, created_at)
-        VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+         win_prob_edge, actual_margin, actual_total, is_neutral, created_at, game_tier)
+        VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
     """, rows)
     con.commit()
     con.close()
@@ -728,8 +780,11 @@ def run_pipeline(date_str: str, pretty: bool = False) -> list[dict]:
         # Compute edge vs Vegas
         edge = compute_edge(preds, odds_row)
 
+        # Compute game tier BEFORE bet recommendations so tier filtering works
+        game_tier = get_game_tier(home, away)
+
         # Bet recommendations
-        bets = recommend_bets(edge, preds)
+        bets = recommend_bets(edge, preds, game_tier=game_tier)
 
         # Assemble output
         result = {
@@ -740,6 +795,7 @@ def run_pipeline(date_str: str, pretty: bool = False) -> list[dict]:
             "tipoff":     game.get("tipoff_time", ""),
             "venue":      game.get("venue", ""),
             "neutral":    bool(game.get("neutral", 0)),
+            "game_tier":  game_tier,
             "status":     game.get("status", ""),
             "predictions": preds,
             "edge":        edge,
@@ -899,3 +955,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+

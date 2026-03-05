@@ -1,0 +1,1822 @@
+{
+  "Abilene Christian Wildcats": {
+    "conf": "WAC",
+    "tier": "mid",
+    "barthag": 0.400231
+  },
+  "Air Force Falcons": {
+    "conf": "MWC",
+    "tier": "mid",
+    "barthag": 0.351397
+  },
+  "Akron Zips": {
+    "conf": "MAC",
+    "tier": "low",
+    "barthag": 0.587988
+  },
+  "Alabama A&M Bulldogs": {
+    "conf": "SWAC",
+    "tier": "low",
+    "barthag": 0.159774
+  },
+  "Alabama Crimson Tide": {
+    "conf": "SEC",
+    "tier": "high",
+    "barthag": 0.915401
+  },
+  "Alabama State Hornets": {
+    "conf": "SWAC",
+    "tier": "low",
+    "barthag": 0.187552
+  },
+  "Alcorn State Braves": {
+    "conf": "SWAC",
+    "tier": "low",
+    "barthag": 0.246185
+  },
+  "American University Eagles": {
+    "conf": "Pat",
+    "tier": "low",
+    "barthag": 0.234954
+  },
+  "App State Mountaineers": {
+    "conf": "SB",
+    "tier": "mid",
+    "barthag": 0.694046
+  },
+  "Arizona State Sun Devils": {
+    "conf": "B12",
+    "tier": "high",
+    "barthag": 0.606741
+  },
+  "Arizona Wildcats": {
+    "conf": "B12",
+    "tier": "high",
+    "barthag": 0.950121
+  },
+  "Arkansas Razorbacks": {
+    "conf": "SEC",
+    "tier": "high",
+    "barthag": 0.683863
+  },
+  "Arkansas State Red Wolves": {
+    "conf": "SB",
+    "tier": "mid",
+    "barthag": 0.589584
+  },
+  "Arkansas-Pine Bluff Golden Lions": {
+    "conf": "SWAC",
+    "tier": "low",
+    "barthag": 0.147092
+  },
+  "Army Black Knights": {
+    "conf": "Pat",
+    "tier": "low",
+    "barthag": 0.105294
+  },
+  "Auburn Tigers": {
+    "conf": "SEC",
+    "tier": "high",
+    "barthag": 0.953417
+  },
+  "Austin Peay Governors": {
+    "conf": "ASun",
+    "tier": "low",
+    "barthag": 0.308695
+  },
+  "BYU Cougars": {
+    "conf": "B12",
+    "tier": "high",
+    "barthag": 0.889688
+  },
+  "Ball State Cardinals": {
+    "conf": "MAC",
+    "tier": "low",
+    "barthag": 0.30689
+  },
+  "Baylor Bears": {
+    "conf": "B12",
+    "tier": "high",
+    "barthag": 0.902824
+  },
+  "Bellarmine Knights": {
+    "conf": "ASun",
+    "tier": "low",
+    "barthag": 0.226896
+  },
+  "Belmont Bruins": {
+    "conf": "MVC",
+    "tier": "mid",
+    "barthag": 0.689009
+  },
+  "Bethune-Cookman Wildcats": {
+    "conf": "SWAC",
+    "tier": "low",
+    "barthag": 0.216962
+  },
+  "Binghamton Bearcats": {
+    "conf": "AE",
+    "tier": "low",
+    "barthag": 0.284324
+  },
+  "Boise State Broncos": {
+    "conf": "MWC",
+    "tier": "mid",
+    "barthag": 0.849688
+  },
+  "Boston College Eagles": {
+    "conf": "ACC",
+    "tier": "high",
+    "barthag": 0.760253
+  },
+  "Boston University Terriers": {
+    "conf": "Pat",
+    "tier": "low",
+    "barthag": 0.246013
+  },
+  "Bowling Green Falcons": {
+    "conf": "MAC",
+    "tier": "low",
+    "barthag": 0.349892
+  },
+  "Bradley Braves": {
+    "conf": "MVC",
+    "tier": "mid",
+    "barthag": 0.801388
+  },
+  "Brown Bears": {
+    "conf": "Ivy",
+    "tier": "mid",
+    "barthag": 0.461491
+  },
+  "Bryant Bulldogs": {
+    "conf": "AE",
+    "tier": "low",
+    "barthag": 0.477446
+  },
+  "Bucknell Bison": {
+    "conf": "Pat",
+    "tier": "low",
+    "barthag": 0.286887
+  },
+  "Buffalo Bulls": {
+    "conf": "MAC",
+    "tier": "low",
+    "barthag": 0.109377
+  },
+  "Butler Bulldogs": {
+    "conf": "BE",
+    "tier": "high",
+    "barthag": 0.815973
+  },
+  "Cal Poly Mustangs": {
+    "conf": "BW",
+    "tier": "mid",
+    "barthag": 0.114796
+  },
+  "Cal State Bakersfield Roadrunners": {
+    "conf": "BW",
+    "tier": "mid",
+    "barthag": 0.326088
+  },
+  "Cal State Fullerton Titans": {
+    "conf": "BW",
+    "tier": "mid",
+    "barthag": 0.355737
+  },
+  "Cal State Northridge Matadors": {
+    "conf": "BW",
+    "tier": "mid",
+    "barthag": 0.338632
+  },
+  "California Baptist Lancers": {
+    "conf": "WAC",
+    "tier": "mid",
+    "barthag": 0.375708
+  },
+  "California Golden Bears": {
+    "conf": "ACC",
+    "tier": "high",
+    "barthag": 0.628572
+  },
+  "Campbell Fighting Camels": {
+    "conf": "CAA",
+    "tier": "mid",
+    "barthag": 0.2224
+  },
+  "Canisius Golden Griffins": {
+    "conf": "MAAC",
+    "tier": "low",
+    "barthag": 0.31702
+  },
+  "Central Arkansas Bears": {
+    "conf": "ASun",
+    "tier": "low",
+    "barthag": 0.128898
+  },
+  "Central Connecticut Blue Devils": {
+    "conf": "NEC",
+    "tier": "low",
+    "barthag": 0.276341
+  },
+  "Central Michigan Chippewas": {
+    "conf": "MAC",
+    "tier": "low",
+    "barthag": 0.290208
+  },
+  "Charleston Cougars": {
+    "conf": "CAA",
+    "tier": "mid",
+    "barthag": 0.70452
+  },
+  "Charleston Southern Buccaneers": {
+    "conf": "BSth",
+    "tier": "mid",
+    "barthag": 0.177812
+  },
+  "Charlotte 49ers": {
+    "conf": "Amer",
+    "tier": "mid",
+    "barthag": 0.671278
+  },
+  "Chattanooga Mocs": {
+    "conf": "SC",
+    "tier": "mid",
+    "barthag": 0.528354
+  },
+  "Chicago State Cougars": {
+    "conf": "NEC",
+    "tier": "low",
+    "barthag": 0.240735
+  },
+  "Cincinnati Bearcats": {
+    "conf": "B12",
+    "tier": "high",
+    "barthag": 0.849544
+  },
+  "Clemson Tigers": {
+    "conf": "ACC",
+    "tier": "high",
+    "barthag": 0.897763
+  },
+  "Cleveland State Vikings": {
+    "conf": "Horz",
+    "tier": "low",
+    "barthag": 0.408767
+  },
+  "Coastal Carolina Chanticleers": {
+    "conf": "SB",
+    "tier": "mid",
+    "barthag": 0.199167
+  },
+  "Colgate Raiders": {
+    "conf": "Pat",
+    "tier": "low",
+    "barthag": 0.498459
+  },
+  "Colorado Buffaloes": {
+    "conf": "B12",
+    "tier": "high",
+    "barthag": 0.890167
+  },
+  "Colorado State Rams": {
+    "conf": "MWC",
+    "tier": "mid",
+    "barthag": 0.852258
+  },
+  "Columbia Lions": {
+    "conf": "Ivy",
+    "tier": "mid",
+    "barthag": 0.407924
+  },
+  "Coppin State Eagles": {
+    "conf": "MEAC",
+    "tier": "low",
+    "barthag": 0.0450381
+  },
+  "Cornell Big Red": {
+    "conf": "Ivy",
+    "tier": "mid",
+    "barthag": 0.659272
+  },
+  "Creighton Bluejays": {
+    "conf": "BE",
+    "tier": "high",
+    "barthag": 0.930859
+  },
+  "Dartmouth Big Green": {
+    "conf": "Ivy",
+    "tier": "mid",
+    "barthag": 0.140584
+  },
+  "Davidson Wildcats": {
+    "conf": "A10",
+    "tier": "mid",
+    "barthag": 0.627877
+  },
+  "Dayton Flyers": {
+    "conf": "A10",
+    "tier": "mid",
+    "barthag": 0.846961
+  },
+  "DePaul Blue Demons": {
+    "conf": "BE",
+    "tier": "high",
+    "barthag": 0.258263
+  },
+  "Delaware Blue Hens": {
+    "conf": "CAA",
+    "tier": "mid",
+    "barthag": 0.5177
+  },
+  "Delaware State Hornets": {
+    "conf": "MEAC",
+    "tier": "low",
+    "barthag": 0.23598
+  },
+  "Denver Pioneers": {
+    "conf": "Sum",
+    "tier": "low",
+    "barthag": 0.263025
+  },
+  "Detroit Mercy Titans": {
+    "conf": "Horz",
+    "tier": "low",
+    "barthag": 0.109343
+  },
+  "Drake Bulldogs": {
+    "conf": "MVC",
+    "tier": "mid",
+    "barthag": 0.828222
+  },
+  "Drexel Dragons": {
+    "conf": "CAA",
+    "tier": "mid",
+    "barthag": 0.601928
+  },
+  "Duke Blue Devils": {
+    "conf": "ACC",
+    "tier": "high",
+    "barthag": 0.939917
+  },
+  "Duquesne Dukes": {
+    "conf": "A10",
+    "tier": "mid",
+    "barthag": 0.754858
+  },
+  "East Carolina Pirates": {
+    "conf": "Amer",
+    "tier": "mid",
+    "barthag": 0.490335
+  },
+  "East Tennessee State Buccaneers": {
+    "conf": "SC",
+    "tier": "mid",
+    "barthag": 0.455703
+  },
+  "Eastern Illinois Panthers": {
+    "conf": "OVC",
+    "tier": "low",
+    "barthag": 0.183627
+  },
+  "Eastern Kentucky Colonels": {
+    "conf": "ASun",
+    "tier": "low",
+    "barthag": 0.409209
+  },
+  "Eastern Michigan Eagles": {
+    "conf": "MAC",
+    "tier": "low",
+    "barthag": 0.173799
+  },
+  "Eastern Washington Eagles": {
+    "conf": "BSky",
+    "tier": "low",
+    "barthag": 0.488869
+  },
+  "Elon Phoenix": {
+    "conf": "CAA",
+    "tier": "mid",
+    "barthag": 0.212125
+  },
+  "Evansville Purple Aces": {
+    "conf": "MVC",
+    "tier": "mid",
+    "barthag": 0.397651
+  },
+  "Fairfield Stags": {
+    "conf": "MAAC",
+    "tier": "low",
+    "barthag": 0.431408
+  },
+  "Fairleigh Dickinson Knights": {
+    "conf": "NEC",
+    "tier": "low",
+    "barthag": 0.133196
+  },
+  "Florida A&M Rattlers": {
+    "conf": "SWAC",
+    "tier": "low",
+    "barthag": 0.116461
+  },
+  "Florida Atlantic Owls": {
+    "conf": "Amer",
+    "tier": "mid",
+    "barthag": 0.816219
+  },
+  "Florida Gators": {
+    "conf": "SEC",
+    "tier": "high",
+    "barthag": 0.893602
+  },
+  "Florida Gulf Coast Eagles": {
+    "conf": "ASun",
+    "tier": "low",
+    "barthag": 0.336036
+  },
+  "Florida International Panthers": {
+    "conf": "CUSA",
+    "tier": "mid",
+    "barthag": 0.249316
+  },
+  "Florida State Seminoles": {
+    "conf": "ACC",
+    "tier": "high",
+    "barthag": 0.747008
+  },
+  "Fordham Rams": {
+    "conf": "A10",
+    "tier": "mid",
+    "barthag": 0.451939
+  },
+  "Fresno State Bulldogs": {
+    "conf": "MWC",
+    "tier": "mid",
+    "barthag": 0.342176
+  },
+  "Furman Paladins": {
+    "conf": "SC",
+    "tier": "mid",
+    "barthag": 0.536262
+  },
+  "Gardner-Webb Runnin' Bulldogs": {
+    "conf": "BSth",
+    "tier": "mid",
+    "barthag": 0.422166
+  },
+  "George Mason Patriots": {
+    "conf": "A10",
+    "tier": "mid",
+    "barthag": 0.713493
+  },
+  "George Washington Revolutionaries": {
+    "conf": "A10",
+    "tier": "mid",
+    "barthag": 0.409876
+  },
+  "Georgetown Hoyas": {
+    "conf": "BE",
+    "tier": "high",
+    "barthag": 0.475885
+  },
+  "Georgia Bulldogs": {
+    "conf": "SEC",
+    "tier": "high",
+    "barthag": 0.770927
+  },
+  "Georgia Southern Eagles": {
+    "conf": "SB",
+    "tier": "mid",
+    "barthag": 0.291451
+  },
+  "Georgia State Panthers": {
+    "conf": "SB",
+    "tier": "mid",
+    "barthag": 0.351389
+  },
+  "Georgia Tech Yellow Jackets": {
+    "conf": "ACC",
+    "tier": "high",
+    "barthag": 0.626233
+  },
+  "Gonzaga Bulldogs": {
+    "conf": "WCC",
+    "tier": "mid",
+    "barthag": 0.926883
+  },
+  "Grambling Tigers": {
+    "conf": "SWAC",
+    "tier": "low",
+    "barthag": 0.301996
+  },
+  "Grand Canyon Lopes": {
+    "conf": "WAC",
+    "tier": "mid",
+    "barthag": 0.795411
+  },
+  "Green Bay Phoenix": {
+    "conf": "Horz",
+    "tier": "low",
+    "barthag": 0.310225
+  },
+  "Hampton Pirates": {
+    "conf": "CAA",
+    "tier": "mid",
+    "barthag": 0.146503
+  },
+  "Harvard Crimson": {
+    "conf": "Ivy",
+    "tier": "mid",
+    "barthag": 0.388192
+  },
+  "Hawai'i Rainbow Warriors": {
+    "conf": "BW",
+    "tier": "mid",
+    "barthag": 0.473632
+  },
+  "High Point Panthers": {
+    "conf": "BSth",
+    "tier": "mid",
+    "barthag": 0.620945
+  },
+  "Hofstra Pride": {
+    "conf": "CAA",
+    "tier": "mid",
+    "barthag": 0.666507
+  },
+  "Holy Cross Crusaders": {
+    "conf": "Pat",
+    "tier": "low",
+    "barthag": 0.0949477
+  },
+  "Houston Christian Huskies": {
+    "conf": "Slnd",
+    "tier": "low",
+    "barthag": 0.0770713
+  },
+  "Houston Cougars": {
+    "conf": "B12",
+    "tier": "high",
+    "barthag": 0.976632
+  },
+  "Howard Bison": {
+    "conf": "MEAC",
+    "tier": "low",
+    "barthag": 0.279989
+  },
+  "IU Indianapolis Jaguars": {
+    "conf": "Horz",
+    "tier": "low",
+    "barthag": 0.0826239
+  },
+  "Idaho State Bengals": {
+    "conf": "BSky",
+    "tier": "low",
+    "barthag": 0.319363
+  },
+  "Idaho Vandals": {
+    "conf": "BSky",
+    "tier": "low",
+    "barthag": 0.199769
+  },
+  "Illinois Fighting Illini": {
+    "conf": "B10",
+    "tier": "high",
+    "barthag": 0.924701
+  },
+  "Illinois State Redbirds": {
+    "conf": "MVC",
+    "tier": "mid",
+    "barthag": 0.429654
+  },
+  "Incarnate Word Cardinals": {
+    "conf": "Slnd",
+    "tier": "low",
+    "barthag": 0.105555
+  },
+  "Indiana Hoosiers": {
+    "conf": "B10",
+    "tier": "high",
+    "barthag": 0.745457
+  },
+  "Indiana State Sycamores": {
+    "conf": "MVC",
+    "tier": "mid",
+    "barthag": 0.852351
+  },
+  "Iona Gaels": {
+    "conf": "MAAC",
+    "tier": "low",
+    "barthag": 0.344818
+  },
+  "Iowa Hawkeyes": {
+    "conf": "B10",
+    "tier": "high",
+    "barthag": 0.821606
+  },
+  "Iowa State Cyclones": {
+    "conf": "B12",
+    "tier": "high",
+    "barthag": 0.951709
+  },
+  "Jackson State Tigers": {
+    "conf": "SWAC",
+    "tier": "low",
+    "barthag": 0.222146
+  },
+  "Jacksonville Dolphins": {
+    "conf": "ASun",
+    "tier": "low",
+    "barthag": 0.231412
+  },
+  "Jacksonville State Gamecocks": {
+    "conf": "CUSA",
+    "tier": "mid",
+    "barthag": 0.397455
+  },
+  "James Madison Dukes": {
+    "conf": "SB",
+    "tier": "mid",
+    "barthag": 0.769744
+  },
+  "Kansas City Roos": {
+    "conf": "Sum",
+    "tier": "low",
+    "barthag": 0.425512
+  },
+  "Kansas Jayhawks": {
+    "conf": "B12",
+    "tier": "high",
+    "barthag": 0.897125
+  },
+  "Kansas State Wildcats": {
+    "conf": "B12",
+    "tier": "high",
+    "barthag": 0.777106
+  },
+  "Kennesaw State Owls": {
+    "conf": "CUSA",
+    "tier": "mid",
+    "barthag": 0.2708
+  },
+  "Kent State Golden Flashes": {
+    "conf": "MAC",
+    "tier": "low",
+    "barthag": 0.483809
+  },
+  "Kentucky Wildcats": {
+    "conf": "SEC",
+    "tier": "high",
+    "barthag": 0.886297
+  },
+  "LSU Tigers": {
+    "conf": "SEC",
+    "tier": "high",
+    "barthag": 0.735552
+  },
+  "La Salle Explorers": {
+    "conf": "A10",
+    "tier": "mid",
+    "barthag": 0.473794
+  },
+  "Lafayette Leopards": {
+    "conf": "Pat",
+    "tier": "low",
+    "barthag": 0.17057
+  },
+  "Lamar Cardinals": {
+    "conf": "Slnd",
+    "tier": "low",
+    "barthag": 0.328994
+  },
+  "Le Moyne Dolphins": {
+    "conf": "NEC",
+    "tier": "low",
+    "barthag": 0.218858
+  },
+  "Lehigh Mountain Hawks": {
+    "conf": "Pat",
+    "tier": "low",
+    "barthag": 0.293751
+  },
+  "Liberty Flames": {
+    "conf": "CUSA",
+    "tier": "mid",
+    "barthag": 0.5508
+  },
+  "Lindenwood Lions": {
+    "conf": "OVC",
+    "tier": "low",
+    "barthag": 0.0778565
+  },
+  "Lipscomb Bisons": {
+    "conf": "ASun",
+    "tier": "low",
+    "barthag": 0.38525
+  },
+  "Little Rock Trojans": {
+    "conf": "OVC",
+    "tier": "low",
+    "barthag": 0.468323
+  },
+  "Long Beach State Beach": {
+    "conf": "BW",
+    "tier": "mid",
+    "barthag": 0.431685
+  },
+  "Long Island University Sharks": {
+    "conf": "NEC",
+    "tier": "low",
+    "barthag": 0.116036
+  },
+  "Longwood Lancers": {
+    "conf": "BSth",
+    "tier": "mid",
+    "barthag": 0.460483
+  },
+  "Louisiana Ragin' Cajuns": {
+    "conf": "SB",
+    "tier": "mid",
+    "barthag": 0.550657
+  },
+  "Louisiana Tech Bulldogs": {
+    "conf": "CUSA",
+    "tier": "mid",
+    "barthag": 0.72217
+  },
+  "Louisville Cardinals": {
+    "conf": "ACC",
+    "tier": "high",
+    "barthag": 0.439846
+  },
+  "Loyola Chicago Ramblers": {
+    "conf": "A10",
+    "tier": "mid",
+    "barthag": 0.72536
+  },
+  "Loyola Maryland Greyhounds": {
+    "conf": "Pat",
+    "tier": "low",
+    "barthag": 0.110776
+  },
+  "Loyola Marymount Lions": {
+    "conf": "WCC",
+    "tier": "mid",
+    "barthag": 0.462005
+  },
+  "Maine Black Bears": {
+    "conf": "AE",
+    "tier": "low",
+    "barthag": 0.324925
+  },
+  "Manhattan Jaspers": {
+    "conf": "MAAC",
+    "tier": "low",
+    "barthag": 0.129476
+  },
+  "Marist Red Foxes": {
+    "conf": "MAAC",
+    "tier": "low",
+    "barthag": 0.382578
+  },
+  "Marquette Golden Eagles": {
+    "conf": "BE",
+    "tier": "high",
+    "barthag": 0.928892
+  },
+  "Marshall Thundering Herd": {
+    "conf": "SB",
+    "tier": "mid",
+    "barthag": 0.333933
+  },
+  "Maryland Eastern Shore Hawks": {
+    "conf": "MEAC",
+    "tier": "low",
+    "barthag": 0.087877
+  },
+  "Maryland Terrapins": {
+    "conf": "B10",
+    "tier": "high",
+    "barthag": 0.777961
+  },
+  "Massachusetts Minutemen": {
+    "conf": "A10",
+    "tier": "mid",
+    "barthag": 0.72038
+  },
+  "McNeese Cowboys": {
+    "conf": "Slnd",
+    "tier": "low",
+    "barthag": 0.733444
+  },
+  "Memphis Tigers": {
+    "conf": "Amer",
+    "tier": "mid",
+    "barthag": 0.728118
+  },
+  "Mercer Bears": {
+    "conf": "SC",
+    "tier": "mid",
+    "barthag": 0.398036
+  },
+  "Mercyhurst Lakers": {
+    "conf": "NEC",
+    "tier": "low",
+    "barthag": NaN
+  },
+  "Merrimack Warriors": {
+    "conf": "MAAC",
+    "tier": "low",
+    "barthag": 0.379422
+  },
+  "Miami (OH) RedHawks": {
+    "conf": "MAC",
+    "tier": "low",
+    "barthag": 0.326248
+  },
+  "Miami Hurricanes": {
+    "conf": "ACC",
+    "tier": "high",
+    "barthag": 0.736239
+  },
+  "Michigan State Spartans": {
+    "conf": "B10",
+    "tier": "high",
+    "barthag": 0.901479
+  },
+  "Michigan Wolverines": {
+    "conf": "B10",
+    "tier": "high",
+    "barthag": 0.636932
+  },
+  "Middle Tennessee Blue Raiders": {
+    "conf": "CUSA",
+    "tier": "mid",
+    "barthag": 0.302798
+  },
+  "Milwaukee Panthers": {
+    "conf": "Horz",
+    "tier": "low",
+    "barthag": 0.339013
+  },
+  "Minnesota Golden Gophers": {
+    "conf": "B10",
+    "tier": "high",
+    "barthag": 0.756668
+  },
+  "Mississippi State Bulldogs": {
+    "conf": "SEC",
+    "tier": "high",
+    "barthag": 0.865174
+  },
+  "Mississippi Valley State Delta Devils": {
+    "conf": "SWAC",
+    "tier": "low",
+    "barthag": 0.0311421
+  },
+  "Missouri State Bears": {
+    "conf": "MVC",
+    "tier": "mid",
+    "barthag": 0.557468
+  },
+  "Missouri Tigers": {
+    "conf": "SEC",
+    "tier": "high",
+    "barthag": 0.5917
+  },
+  "Monmouth Hawks": {
+    "conf": "CAA",
+    "tier": "mid",
+    "barthag": 0.418246
+  },
+  "Montana Grizzlies": {
+    "conf": "BSky",
+    "tier": "low",
+    "barthag": 0.499496
+  },
+  "Montana State Bobcats": {
+    "conf": "BSky",
+    "tier": "low",
+    "barthag": 0.405109
+  },
+  "Morehead State Eagles": {
+    "conf": "OVC",
+    "tier": "low",
+    "barthag": 0.596845
+  },
+  "Morgan State Bears": {
+    "conf": "MEAC",
+    "tier": "low",
+    "barthag": 0.131871
+  },
+  "Mount St. Mary's Mountaineers": {
+    "conf": "MAAC",
+    "tier": "low",
+    "barthag": 0.364222
+  },
+  "Murray State Racers": {
+    "conf": "MVC",
+    "tier": "mid",
+    "barthag": 0.525721
+  },
+  "NC State Wolfpack": {
+    "conf": "ACC",
+    "tier": "high",
+    "barthag": 0.836584
+  },
+  "NJIT Highlanders": {
+    "conf": "AE",
+    "tier": "low",
+    "barthag": 0.150655
+  },
+  "Navy Midshipmen": {
+    "conf": "Pat",
+    "tier": "low",
+    "barthag": 0.155635
+  },
+  "Nebraska Cornhuskers": {
+    "conf": "B10",
+    "tier": "high",
+    "barthag": 0.8882
+  },
+  "Nevada Wolf Pack": {
+    "conf": "MWC",
+    "tier": "mid",
+    "barthag": 0.861671
+  },
+  "New Hampshire Wildcats": {
+    "conf": "AE",
+    "tier": "low",
+    "barthag": 0.271294
+  },
+  "New Mexico Lobos": {
+    "conf": "MWC",
+    "tier": "mid",
+    "barthag": 0.877406
+  },
+  "New Mexico State Aggies": {
+    "conf": "CUSA",
+    "tier": "mid",
+    "barthag": 0.274976
+  },
+  "New Orleans Privateers": {
+    "conf": "Slnd",
+    "tier": "low",
+    "barthag": 0.140278
+  },
+  "Niagara Purple Eagles": {
+    "conf": "MAAC",
+    "tier": "low",
+    "barthag": 0.257717
+  },
+  "Nicholls Colonels": {
+    "conf": "Slnd",
+    "tier": "low",
+    "barthag": 0.339231
+  },
+  "Norfolk State Spartans": {
+    "conf": "MEAC",
+    "tier": "low",
+    "barthag": 0.326355
+  },
+  "North Alabama Lions": {
+    "conf": "ASun",
+    "tier": "low",
+    "barthag": 0.2944
+  },
+  "North Carolina Tar Heels": {
+    "conf": "ACC",
+    "tier": "high",
+    "barthag": 0.936851
+  },
+  "North Dakota Fighting Hawks": {
+    "conf": "Sum",
+    "tier": "low",
+    "barthag": 0.371876
+  },
+  "North Dakota State Bison": {
+    "conf": "Sum",
+    "tier": "low",
+    "barthag": 0.298422
+  },
+  "North Florida Ospreys": {
+    "conf": "ASun",
+    "tier": "low",
+    "barthag": 0.336492
+  },
+  "North Texas Mean Green": {
+    "conf": "Amer",
+    "tier": "mid",
+    "barthag": 0.785702
+  },
+  "Northeastern Huskies": {
+    "conf": "CAA",
+    "tier": "mid",
+    "barthag": 0.396347
+  },
+  "Northern Arizona Lumberjacks": {
+    "conf": "BSky",
+    "tier": "low",
+    "barthag": 0.190436
+  },
+  "Northern Colorado Bears": {
+    "conf": "BSky",
+    "tier": "low",
+    "barthag": 0.39102
+  },
+  "Northern Illinois Huskies": {
+    "conf": "MAC",
+    "tier": "low",
+    "barthag": 0.228603
+  },
+  "Northern Iowa Panthers": {
+    "conf": "MVC",
+    "tier": "mid",
+    "barthag": 0.676451
+  },
+  "Northern Kentucky Norse": {
+    "conf": "Horz",
+    "tier": "low",
+    "barthag": 0.423446
+  },
+  "Northwestern State Demons": {
+    "conf": "Slnd",
+    "tier": "low",
+    "barthag": 0.174052
+  },
+  "Northwestern Wildcats": {
+    "conf": "B10",
+    "tier": "high",
+    "barthag": 0.85922
+  },
+  "Notre Dame Fighting Irish": {
+    "conf": "ACC",
+    "tier": "high",
+    "barthag": 0.617126
+  },
+  "Oakland Golden Grizzlies": {
+    "conf": "Horz",
+    "tier": "low",
+    "barthag": 0.613171
+  },
+  "Ohio Bobcats": {
+    "conf": "MAC",
+    "tier": "low",
+    "barthag": 0.555333
+  },
+  "Ohio State Buckeyes": {
+    "conf": "B10",
+    "tier": "high",
+    "barthag": 0.853608
+  },
+  "Oklahoma Sooners": {
+    "conf": "SEC",
+    "tier": "high",
+    "barthag": 0.831831
+  },
+  "Oklahoma State Cowboys": {
+    "conf": "B12",
+    "tier": "high",
+    "barthag": 0.664972
+  },
+  "Old Dominion Monarchs": {
+    "conf": "SB",
+    "tier": "mid",
+    "barthag": 0.239721
+  },
+  "Ole Miss Rebels": {
+    "conf": "SEC",
+    "tier": "high",
+    "barthag": 0.754191
+  },
+  "Omaha Mavericks": {
+    "conf": "Sum",
+    "tier": "low",
+    "barthag": 0.281086
+  },
+  "Oral Roberts Golden Eagles": {
+    "conf": "Sum",
+    "tier": "low",
+    "barthag": 0.266018
+  },
+  "Oregon Ducks": {
+    "conf": "B10",
+    "tier": "high",
+    "barthag": 0.827007
+  },
+  "Oregon State Beavers": {
+    "conf": "WCC",
+    "tier": "mid",
+    "barthag": 0.546361
+  },
+  "Pacific Tigers": {
+    "conf": "WCC",
+    "tier": "mid",
+    "barthag": 0.0826735
+  },
+  "Penn State Nittany Lions": {
+    "conf": "B10",
+    "tier": "high",
+    "barthag": 0.762926
+  },
+  "Pennsylvania Quakers": {
+    "conf": "Ivy",
+    "tier": "mid",
+    "barthag": 0.415865
+  },
+  "Pepperdine Waves": {
+    "conf": "WCC",
+    "tier": "mid",
+    "barthag": 0.44472
+  },
+  "Pittsburgh Panthers": {
+    "conf": "ACC",
+    "tier": "high",
+    "barthag": 0.871242
+  },
+  "Portland Pilots": {
+    "conf": "WCC",
+    "tier": "mid",
+    "barthag": 0.285593
+  },
+  "Portland State Vikings": {
+    "conf": "BSky",
+    "tier": "low",
+    "barthag": 0.328981
+  },
+  "Prairie View A&M Panthers": {
+    "conf": "SWAC",
+    "tier": "low",
+    "barthag": 0.111173
+  },
+  "Presbyterian Blue Hose": {
+    "conf": "BSth",
+    "tier": "mid",
+    "barthag": 0.271277
+  },
+  "Princeton Tigers": {
+    "conf": "Ivy",
+    "tier": "mid",
+    "barthag": 0.719003
+  },
+  "Providence Friars": {
+    "conf": "BE",
+    "tier": "high",
+    "barthag": 0.816075
+  },
+  "Purdue Boilermakers": {
+    "conf": "B10",
+    "tier": "high",
+    "barthag": 0.964935
+  },
+  "Purdue Fort Wayne Mastodons": {
+    "conf": "Horz",
+    "tier": "low",
+    "barthag": 0.490256
+  },
+  "Queens University Royals": {
+    "conf": "ASun",
+    "tier": "low",
+    "barthag": 0.310109
+  },
+  "Quinnipiac Bobcats": {
+    "conf": "MAAC",
+    "tier": "low",
+    "barthag": 0.495558
+  },
+  "Radford Highlanders": {
+    "conf": "BSth",
+    "tier": "mid",
+    "barthag": 0.40157
+  },
+  "Rhode Island Rams": {
+    "conf": "A10",
+    "tier": "mid",
+    "barthag": 0.41397
+  },
+  "Rice Owls": {
+    "conf": "Amer",
+    "tier": "mid",
+    "barthag": 0.442835
+  },
+  "Richmond Spiders": {
+    "conf": "A10",
+    "tier": "mid",
+    "barthag": 0.747174
+  },
+  "Rider Broncs": {
+    "conf": "MAAC",
+    "tier": "low",
+    "barthag": 0.374221
+  },
+  "Robert Morris Colonials": {
+    "conf": "Horz",
+    "tier": "low",
+    "barthag": 0.195913
+  },
+  "Rutgers Scarlet Knights": {
+    "conf": "B10",
+    "tier": "high",
+    "barthag": 0.680105
+  },
+  "SE Louisiana Lions": {
+    "conf": "Slnd",
+    "tier": "low",
+    "barthag": 0.208442
+  },
+  "SIU Edwardsville Cougars": {
+    "conf": "OVC",
+    "tier": "low",
+    "barthag": 0.249421
+  },
+  "SMU Mustangs": {
+    "conf": "ACC",
+    "tier": "high",
+    "barthag": 0.780488
+  },
+  "Sacramento State Hornets": {
+    "conf": "BSky",
+    "tier": "low",
+    "barthag": 0.207167
+  },
+  "Sacred Heart Pioneers": {
+    "conf": "MAAC",
+    "tier": "low",
+    "barthag": 0.251584
+  },
+  "Saint Francis Red Flash": {
+    "conf": "NEC",
+    "tier": "low",
+    "barthag": 0.177476
+  },
+  "Saint Louis Billikens": {
+    "conf": "A10",
+    "tier": "mid",
+    "barthag": 0.468963
+  },
+  "Sam Houston Bearkats": {
+    "conf": "CUSA",
+    "tier": "mid",
+    "barthag": 0.603597
+  },
+  "Samford Bulldogs": {
+    "conf": "SC",
+    "tier": "mid",
+    "barthag": 0.731222
+  },
+  "San Diego State Aztecs": {
+    "conf": "MWC",
+    "tier": "mid",
+    "barthag": 0.880193
+  },
+  "San Diego Toreros": {
+    "conf": "WCC",
+    "tier": "mid",
+    "barthag": 0.329262
+  },
+  "San Francisco Dons": {
+    "conf": "WCC",
+    "tier": "mid",
+    "barthag": 0.783894
+  },
+  "Santa Clara Broncos": {
+    "conf": "WCC",
+    "tier": "mid",
+    "barthag": 0.637329
+  },
+  "Seattle U Redhawks": {
+    "conf": "WAC",
+    "tier": "mid",
+    "barthag": 0.640516
+  },
+  "Seton Hall Pirates": {
+    "conf": "BE",
+    "tier": "high",
+    "barthag": 0.855809
+  },
+  "Siena Saints": {
+    "conf": "MAAC",
+    "tier": "low",
+    "barthag": 0.0726553
+  },
+  "South Alabama Jaguars": {
+    "conf": "SB",
+    "tier": "mid",
+    "barthag": 0.381286
+  },
+  "South Carolina Gamecocks": {
+    "conf": "SEC",
+    "tier": "high",
+    "barthag": 0.830922
+  },
+  "South Carolina State Bulldogs": {
+    "conf": "MEAC",
+    "tier": "low",
+    "barthag": 0.237445
+  },
+  "South Carolina Upstate Spartans": {
+    "conf": "BSth",
+    "tier": "mid",
+    "barthag": 0.265393
+  },
+  "South Dakota Coyotes": {
+    "conf": "Sum",
+    "tier": "low",
+    "barthag": 0.197847
+  },
+  "South Dakota State Jackrabbits": {
+    "conf": "Sum",
+    "tier": "low",
+    "barthag": 0.581548
+  },
+  "South Florida Bulls": {
+    "conf": "Amer",
+    "tier": "mid",
+    "barthag": 0.737667
+  },
+  "Southeast Missouri State Redhawks": {
+    "conf": "OVC",
+    "tier": "low",
+    "barthag": 0.0806189
+  },
+  "Southern Illinois Salukis": {
+    "conf": "MVC",
+    "tier": "mid",
+    "barthag": 0.638052
+  },
+  "Southern Indiana Screaming Eagles": {
+    "conf": "OVC",
+    "tier": "low",
+    "barthag": 0.158938
+  },
+  "Southern Jaguars": {
+    "conf": "SWAC",
+    "tier": "low",
+    "barthag": 0.328784
+  },
+  "Southern Miss Golden Eagles": {
+    "conf": "SB",
+    "tier": "mid",
+    "barthag": 0.304941
+  },
+  "Southern Utah Thunderbirds": {
+    "conf": "WAC",
+    "tier": "mid",
+    "barthag": 0.324013
+  },
+  "St. Bonaventure Bonnies": {
+    "conf": "A10",
+    "tier": "mid",
+    "barthag": 0.680417
+  },
+  "St. John's Red Storm": {
+    "conf": "BE",
+    "tier": "high",
+    "barthag": 0.906691
+  },
+  "St. Thomas-Minnesota Tommies": {
+    "conf": "Sum",
+    "tier": "low",
+    "barthag": 0.554042
+  },
+  "Stanford Cardinal": {
+    "conf": "ACC",
+    "tier": "high",
+    "barthag": 0.684871
+  },
+  "Stephen F. Austin Lumberjacks": {
+    "conf": "Slnd",
+    "tier": "low",
+    "barthag": 0.448233
+  },
+  "Stetson Hatters": {
+    "conf": "ASun",
+    "tier": "low",
+    "barthag": 0.341538
+  },
+  "Stony Brook Seawolves": {
+    "conf": "CAA",
+    "tier": "mid",
+    "barthag": 0.508405
+  },
+  "Syracuse Orange": {
+    "conf": "ACC",
+    "tier": "high",
+    "barthag": 0.775867
+  },
+  "TCU Horned Frogs": {
+    "conf": "B12",
+    "tier": "high",
+    "barthag": 0.848111
+  },
+  "Tarleton State Texans": {
+    "conf": "WAC",
+    "tier": "mid",
+    "barthag": 0.588414
+  },
+  "Temple Owls": {
+    "conf": "Amer",
+    "tier": "mid",
+    "barthag": 0.448622
+  },
+  "Tennessee State Tigers": {
+    "conf": "OVC",
+    "tier": "low",
+    "barthag": 0.242748
+  },
+  "Tennessee Tech Golden Eagles": {
+    "conf": "OVC",
+    "tier": "low",
+    "barthag": 0.10948
+  },
+  "Tennessee Volunteers": {
+    "conf": "SEC",
+    "tier": "high",
+    "barthag": 0.945495
+  },
+  "Texas A&M Aggies": {
+    "conf": "SEC",
+    "tier": "high",
+    "barthag": 0.866653
+  },
+  "Texas Longhorns": {
+    "conf": "SEC",
+    "tier": "high",
+    "barthag": 0.897975
+  },
+  "Texas Southern Tigers": {
+    "conf": "SWAC",
+    "tier": "low",
+    "barthag": 0.282818
+  },
+  "Texas State Bobcats": {
+    "conf": "SB",
+    "tier": "mid",
+    "barthag": 0.418544
+  },
+  "Texas Tech Red Raiders": {
+    "conf": "B12",
+    "tier": "high",
+    "barthag": 0.866868
+  },
+  "Toledo Rockets": {
+    "conf": "MAC",
+    "tier": "low",
+    "barthag": 0.553981
+  },
+  "Towson Tigers": {
+    "conf": "CAA",
+    "tier": "mid",
+    "barthag": 0.552655
+  },
+  "Troy Trojans": {
+    "conf": "SB",
+    "tier": "mid",
+    "barthag": 0.62316
+  },
+  "Tulane Green Wave": {
+    "conf": "Amer",
+    "tier": "mid",
+    "barthag": 0.549704
+  },
+  "Tulsa Golden Hurricane": {
+    "conf": "Amer",
+    "tier": "mid",
+    "barthag": 0.413008
+  },
+  "UAB Blazers": {
+    "conf": "Amer",
+    "tier": "mid",
+    "barthag": 0.666781
+  },
+  "UAlbany Great Danes": {
+    "conf": "AE",
+    "tier": "low",
+    "barthag": 0.328446
+  },
+  "UC Davis Aggies": {
+    "conf": "BW",
+    "tier": "mid",
+    "barthag": 0.50754
+  },
+  "UC Irvine Anteaters": {
+    "conf": "BW",
+    "tier": "mid",
+    "barthag": 0.723198
+  },
+  "UC Riverside Highlanders": {
+    "conf": "BW",
+    "tier": "mid",
+    "barthag": 0.379926
+  },
+  "UC San Diego Tritons": {
+    "conf": "BW",
+    "tier": "mid",
+    "barthag": 0.577725
+  },
+  "UC Santa Barbara Gauchos": {
+    "conf": "BW",
+    "tier": "mid",
+    "barthag": 0.331082
+  },
+  "UCF Knights": {
+    "conf": "B12",
+    "tier": "high",
+    "barthag": 0.783432
+  },
+  "UCLA Bruins": {
+    "conf": "B10",
+    "tier": "high",
+    "barthag": 0.731735
+  },
+  "UConn Huskies": {
+    "conf": "BE",
+    "tier": "high",
+    "barthag": 0.979889
+  },
+  "UIC Flames": {
+    "conf": "MVC",
+    "tier": "mid",
+    "barthag": 0.468208
+  },
+  "UL Monroe Warhawks": {
+    "conf": "SB",
+    "tier": "mid",
+    "barthag": 0.241371
+  },
+  "UMBC Retrievers": {
+    "conf": "AE",
+    "tier": "low",
+    "barthag": 0.315059
+  },
+  "UMass Lowell River Hawks": {
+    "conf": "AE",
+    "tier": "low",
+    "barthag": 0.485214
+  },
+  "UNC Asheville Bulldogs": {
+    "conf": "BSth",
+    "tier": "mid",
+    "barthag": 0.477086
+  },
+  "UNC Greensboro Spartans": {
+    "conf": "SC",
+    "tier": "mid",
+    "barthag": 0.562162
+  },
+  "UNC Wilmington Seahawks": {
+    "conf": "CAA",
+    "tier": "mid",
+    "barthag": 0.610881
+  },
+  "UNLV Rebels": {
+    "conf": "MWC",
+    "tier": "mid",
+    "barthag": 0.771221
+  },
+  "USC Trojans": {
+    "conf": "B10",
+    "tier": "high",
+    "barthag": 0.776027
+  },
+  "UT Arlington Mavericks": {
+    "conf": "WAC",
+    "tier": "mid",
+    "barthag": 0.650874
+  },
+  "UT Martin Skyhawks": {
+    "conf": "OVC",
+    "tier": "low",
+    "barthag": 0.358857
+  },
+  "UT Rio Grande Valley Vaqueros": {
+    "conf": "Slnd",
+    "tier": "low",
+    "barthag": 0.140349
+  },
+  "UTEP Miners": {
+    "conf": "CUSA",
+    "tier": "mid",
+    "barthag": 0.51269
+  },
+  "UTSA Roadrunners": {
+    "conf": "Amer",
+    "tier": "mid",
+    "barthag": 0.34664
+  },
+  "Utah State Aggies": {
+    "conf": "MWC",
+    "tier": "mid",
+    "barthag": 0.809079
+  },
+  "Utah Tech Trailblazers": {
+    "conf": "WAC",
+    "tier": "mid",
+    "barthag": 0.288021
+  },
+  "Utah Utes": {
+    "conf": "B12",
+    "tier": "high",
+    "barthag": 0.854673
+  },
+  "Utah Valley Wolverines": {
+    "conf": "WAC",
+    "tier": "mid",
+    "barthag": 0.476525
+  },
+  "VCU Rams": {
+    "conf": "A10",
+    "tier": "mid",
+    "barthag": 0.745611
+  },
+  "VMI Keydets": {
+    "conf": "SC",
+    "tier": "mid",
+    "barthag": 0.0654453
+  },
+  "Valparaiso Beacons": {
+    "conf": "MVC",
+    "tier": "mid",
+    "barthag": 0.243691
+  },
+  "Vanderbilt Commodores": {
+    "conf": "SEC",
+    "tier": "high",
+    "barthag": 0.44362
+  },
+  "Vermont Catamounts": {
+    "conf": "AE",
+    "tier": "low",
+    "barthag": 0.652205
+  },
+  "Villanova Wildcats": {
+    "conf": "BE",
+    "tier": "high",
+    "barthag": 0.867425
+  },
+  "Virginia Cavaliers": {
+    "conf": "ACC",
+    "tier": "high",
+    "barthag": 0.798785
+  },
+  "Virginia Tech Hokies": {
+    "conf": "ACC",
+    "tier": "high",
+    "barthag": 0.823028
+  },
+  "Wagner Seahawks": {
+    "conf": "NEC",
+    "tier": "low",
+    "barthag": 0.262472
+  },
+  "Wake Forest Demon Deacons": {
+    "conf": "ACC",
+    "tier": "high",
+    "barthag": 0.862366
+  },
+  "Washington Huskies": {
+    "conf": "B10",
+    "tier": "high",
+    "barthag": 0.806283
+  },
+  "Washington State Cougars": {
+    "conf": "WCC",
+    "tier": "mid",
+    "barthag": 0.854892
+  },
+  "Weber State Wildcats": {
+    "conf": "BSky",
+    "tier": "low",
+    "barthag": 0.503717
+  },
+  "West Georgia Wolves": {
+    "conf": "ASun",
+    "tier": "low",
+    "barthag": NaN
+  },
+  "West Virginia Mountaineers": {
+    "conf": "B12",
+    "tier": "high",
+    "barthag": 0.590682
+  },
+  "Western Carolina Catamounts": {
+    "conf": "SC",
+    "tier": "mid",
+    "barthag": 0.656954
+  },
+  "Western Illinois Leathernecks": {
+    "conf": "OVC",
+    "tier": "low",
+    "barthag": 0.299043
+  },
+  "Western Kentucky Hilltoppers": {
+    "conf": "CUSA",
+    "tier": "mid",
+    "barthag": 0.601209
+  },
+  "Western Michigan Broncos": {
+    "conf": "MAC",
+    "tier": "low",
+    "barthag": 0.191562
+  },
+  "Wichita State Shockers": {
+    "conf": "Amer",
+    "tier": "mid",
+    "barthag": 0.589647
+  },
+  "William & Mary Tribe": {
+    "conf": "CAA",
+    "tier": "mid",
+    "barthag": 0.203668
+  },
+  "Winthrop Eagles": {
+    "conf": "BSth",
+    "tier": "mid",
+    "barthag": 0.495601
+  },
+  "Wisconsin Badgers": {
+    "conf": "B10",
+    "tier": "high",
+    "barthag": 0.889231
+  },
+  "Wofford Terriers": {
+    "conf": "SC",
+    "tier": "mid",
+    "barthag": 0.37886
+  },
+  "Wright State Raiders": {
+    "conf": "Horz",
+    "tier": "low",
+    "barthag": 0.553011
+  },
+  "Wyoming Cowboys": {
+    "conf": "MWC",
+    "tier": "mid",
+    "barthag": 0.530036
+  },
+  "Xavier Musketeers": {
+    "conf": "BE",
+    "tier": "high",
+    "barthag": 0.799677
+  },
+  "Yale Bulldogs": {
+    "conf": "Ivy",
+    "tier": "mid",
+    "barthag": 0.722652
+  },
+  "Youngstown State Penguins": {
+    "conf": "Horz",
+    "tier": "low",
+    "barthag": 0.56805
+  },
+  "North Carolina A&T Aggies": {
+    "conf": "CAA",
+    "tier": "mid",
+    "barthag": 0.111149
+  },
+  "North Carolina Central Eagles": {
+    "conf": "MEAC",
+    "tier": "low",
+    "barthag": 0.295283
+  },
+  "Saint Joseph's Hawks": {
+    "conf": "A10",
+    "tier": "mid",
+    "barthag": 0.721366
+  },
+  "Saint Mary's Gaels": {
+    "conf": "WCC",
+    "tier": "mid",
+    "barthag": 0.912424
+  },
+  "Saint Peter's Peacocks": {
+    "conf": "MAAC",
+    "tier": "low",
+    "barthag": 0.380329
+  },
+  "San Jos? State Spartans": {
+    "conf": "MWC",
+    "tier": "mid",
+    "barthag": 0.372556
+  },
+  "Texas A&M-Corpus Christi Islanders": {
+    "conf": "Slnd",
+    "tier": "low",
+    "barthag": 0.444005
+  },
+  "The Citadel Bulldogs": {
+    "conf": "SC",
+    "tier": "mid",
+    "barthag": 0.275672
+  },
+  "East Texas A&M Lions": {
+    "conf": "NEC",
+    "tier": "low",
+    "barthag": 0.2
+  },
+  "New Haven Chargers": {
+    "conf": "NEC",
+    "tier": "low",
+    "barthag": 0.2
+  }
+}

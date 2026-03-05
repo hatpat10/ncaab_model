@@ -1,0 +1,1882 @@
+{
+  "Abilene Christian": {
+    "conf": "WAC",
+    "tier": "mid",
+    "barthag": 0.400231
+  },
+  "Air Force": {
+    "conf": "MWC",
+    "tier": "mid",
+    "barthag": 0.351397
+  },
+  "Akron": {
+    "conf": "MAC",
+    "tier": "low",
+    "barthag": 0.587988
+  },
+  "Alabama": {
+    "conf": "SEC",
+    "tier": "high",
+    "barthag": 0.915401
+  },
+  "Alabama A&M": {
+    "conf": "SWAC",
+    "tier": "low",
+    "barthag": 0.159774
+  },
+  "Alabama St.": {
+    "conf": "SWAC",
+    "tier": "low",
+    "barthag": 0.187552
+  },
+  "Albany": {
+    "conf": "AE",
+    "tier": "low",
+    "barthag": 0.328446
+  },
+  "Alcorn St.": {
+    "conf": "SWAC",
+    "tier": "low",
+    "barthag": 0.246185
+  },
+  "American": {
+    "conf": "Pat",
+    "tier": "low",
+    "barthag": 0.234954
+  },
+  "Appalachian St.": {
+    "conf": "SB",
+    "tier": "mid",
+    "barthag": 0.694046
+  },
+  "Arizona": {
+    "conf": "B12",
+    "tier": "high",
+    "barthag": 0.950121
+  },
+  "Arizona St.": {
+    "conf": "B12",
+    "tier": "high",
+    "barthag": 0.606741
+  },
+  "Arkansas": {
+    "conf": "SEC",
+    "tier": "high",
+    "barthag": 0.683863
+  },
+  "Arkansas Pine Bluff": {
+    "conf": "SWAC",
+    "tier": "low",
+    "barthag": 0.147092
+  },
+  "Arkansas St.": {
+    "conf": "SB",
+    "tier": "mid",
+    "barthag": 0.589584
+  },
+  "Army": {
+    "conf": "Pat",
+    "tier": "low",
+    "barthag": 0.105294
+  },
+  "Auburn": {
+    "conf": "SEC",
+    "tier": "high",
+    "barthag": 0.953417
+  },
+  "Austin Peay": {
+    "conf": "ASun",
+    "tier": "low",
+    "barthag": 0.308695
+  },
+  "BYU": {
+    "conf": "B12",
+    "tier": "high",
+    "barthag": 0.889688
+  },
+  "Ball St.": {
+    "conf": "MAC",
+    "tier": "low",
+    "barthag": 0.30689
+  },
+  "Baylor": {
+    "conf": "B12",
+    "tier": "high",
+    "barthag": 0.902824
+  },
+  "Bellarmine": {
+    "conf": "ASun",
+    "tier": "low",
+    "barthag": 0.226896
+  },
+  "Belmont": {
+    "conf": "MVC",
+    "tier": "mid",
+    "barthag": 0.689009
+  },
+  "Bethune Cookman": {
+    "conf": "SWAC",
+    "tier": "low",
+    "barthag": 0.216962
+  },
+  "Binghamton": {
+    "conf": "AE",
+    "tier": "low",
+    "barthag": 0.284324
+  },
+  "Boise St.": {
+    "conf": "MWC",
+    "tier": "mid",
+    "barthag": 0.849688
+  },
+  "Boston College": {
+    "conf": "ACC",
+    "tier": "high",
+    "barthag": 0.760253
+  },
+  "Boston University": {
+    "conf": "Pat",
+    "tier": "low",
+    "barthag": 0.246013
+  },
+  "Bowling Green": {
+    "conf": "MAC",
+    "tier": "low",
+    "barthag": 0.349892
+  },
+  "Bradley": {
+    "conf": "MVC",
+    "tier": "mid",
+    "barthag": 0.801388
+  },
+  "Brown": {
+    "conf": "Ivy",
+    "tier": "mid",
+    "barthag": 0.461491
+  },
+  "Bryant": {
+    "conf": "AE",
+    "tier": "low",
+    "barthag": 0.477446
+  },
+  "Bucknell": {
+    "conf": "Pat",
+    "tier": "low",
+    "barthag": 0.286887
+  },
+  "Buffalo": {
+    "conf": "MAC",
+    "tier": "low",
+    "barthag": 0.109377
+  },
+  "Butler": {
+    "conf": "BE",
+    "tier": "high",
+    "barthag": 0.815973
+  },
+  "Cal Baptist": {
+    "conf": "WAC",
+    "tier": "mid",
+    "barthag": 0.375708
+  },
+  "Cal Poly": {
+    "conf": "BW",
+    "tier": "mid",
+    "barthag": 0.114796
+  },
+  "Cal St. Bakersfield": {
+    "conf": "BW",
+    "tier": "mid",
+    "barthag": 0.326088
+  },
+  "Cal St. Fullerton": {
+    "conf": "BW",
+    "tier": "mid",
+    "barthag": 0.355737
+  },
+  "Cal St. Northridge": {
+    "conf": "BW",
+    "tier": "mid",
+    "barthag": 0.338632
+  },
+  "California": {
+    "conf": "ACC",
+    "tier": "high",
+    "barthag": 0.628572
+  },
+  "Campbell": {
+    "conf": "CAA",
+    "tier": "mid",
+    "barthag": 0.2224
+  },
+  "Canisius": {
+    "conf": "MAAC",
+    "tier": "low",
+    "barthag": 0.31702
+  },
+  "Central Arkansas": {
+    "conf": "ASun",
+    "tier": "low",
+    "barthag": 0.128898
+  },
+  "Central Connecticut": {
+    "conf": "NEC",
+    "tier": "low",
+    "barthag": 0.276341
+  },
+  "Central Michigan": {
+    "conf": "MAC",
+    "tier": "low",
+    "barthag": 0.290208
+  },
+  "Charleston": {
+    "conf": "CAA",
+    "tier": "mid",
+    "barthag": 0.70452
+  },
+  "Charleston Southern": {
+    "conf": "BSth",
+    "tier": "mid",
+    "barthag": 0.177812
+  },
+  "Charlotte": {
+    "conf": "Amer",
+    "tier": "mid",
+    "barthag": 0.671278
+  },
+  "Chattanooga": {
+    "conf": "SC",
+    "tier": "mid",
+    "barthag": 0.528354
+  },
+  "Chicago St.": {
+    "conf": "NEC",
+    "tier": "low",
+    "barthag": 0.240735
+  },
+  "Cincinnati": {
+    "conf": "B12",
+    "tier": "high",
+    "barthag": 0.849544
+  },
+  "Clemson": {
+    "conf": "ACC",
+    "tier": "high",
+    "barthag": 0.897763
+  },
+  "Cleveland St.": {
+    "conf": "Horz",
+    "tier": "low",
+    "barthag": 0.408767
+  },
+  "Coastal Carolina": {
+    "conf": "SB",
+    "tier": "mid",
+    "barthag": 0.199167
+  },
+  "Colgate": {
+    "conf": "Pat",
+    "tier": "low",
+    "barthag": 0.498459
+  },
+  "College of Charleston": {
+    "conf": "CAA",
+    "tier": "mid",
+    "barthag": 0.786477
+  },
+  "Colorado": {
+    "conf": "B12",
+    "tier": "high",
+    "barthag": 0.890167
+  },
+  "Colorado St.": {
+    "conf": "MWC",
+    "tier": "mid",
+    "barthag": 0.852258
+  },
+  "Columbia": {
+    "conf": "Ivy",
+    "tier": "mid",
+    "barthag": 0.407924
+  },
+  "Connecticut": {
+    "conf": "BE",
+    "tier": "high",
+    "barthag": 0.979889
+  },
+  "Coppin St.": {
+    "conf": "MEAC",
+    "tier": "low",
+    "barthag": 0.0450381
+  },
+  "Cornell": {
+    "conf": "Ivy",
+    "tier": "mid",
+    "barthag": 0.659272
+  },
+  "Creighton": {
+    "conf": "BE",
+    "tier": "high",
+    "barthag": 0.930859
+  },
+  "Dartmouth": {
+    "conf": "Ivy",
+    "tier": "mid",
+    "barthag": 0.140584
+  },
+  "Davidson": {
+    "conf": "A10",
+    "tier": "mid",
+    "barthag": 0.627877
+  },
+  "Dayton": {
+    "conf": "A10",
+    "tier": "mid",
+    "barthag": 0.846961
+  },
+  "DePaul": {
+    "conf": "BE",
+    "tier": "high",
+    "barthag": 0.258263
+  },
+  "Delaware": {
+    "conf": "CAA",
+    "tier": "mid",
+    "barthag": 0.5177
+  },
+  "Delaware St.": {
+    "conf": "MEAC",
+    "tier": "low",
+    "barthag": 0.23598
+  },
+  "Denver": {
+    "conf": "Sum",
+    "tier": "low",
+    "barthag": 0.263025
+  },
+  "Detroit": {
+    "conf": "Horz",
+    "tier": "low",
+    "barthag": 0.396352
+  },
+  "Detroit Mercy": {
+    "conf": "Horz",
+    "tier": "low",
+    "barthag": 0.109343
+  },
+  "Dixie St.": {
+    "conf": "WAC",
+    "tier": "mid",
+    "barthag": 0.266435
+  },
+  "Drake": {
+    "conf": "MVC",
+    "tier": "mid",
+    "barthag": 0.828222
+  },
+  "Drexel": {
+    "conf": "CAA",
+    "tier": "mid",
+    "barthag": 0.601928
+  },
+  "Duke": {
+    "conf": "ACC",
+    "tier": "high",
+    "barthag": 0.939917
+  },
+  "Duquesne": {
+    "conf": "A10",
+    "tier": "mid",
+    "barthag": 0.754858
+  },
+  "East Carolina": {
+    "conf": "Amer",
+    "tier": "mid",
+    "barthag": 0.490335
+  },
+  "East Tennessee St.": {
+    "conf": "SC",
+    "tier": "mid",
+    "barthag": 0.455703
+  },
+  "Eastern Illinois": {
+    "conf": "OVC",
+    "tier": "low",
+    "barthag": 0.183627
+  },
+  "Eastern Kentucky": {
+    "conf": "ASun",
+    "tier": "low",
+    "barthag": 0.409209
+  },
+  "Eastern Michigan": {
+    "conf": "MAC",
+    "tier": "low",
+    "barthag": 0.173799
+  },
+  "Eastern Washington": {
+    "conf": "BSky",
+    "tier": "low",
+    "barthag": 0.488869
+  },
+  "Elon": {
+    "conf": "CAA",
+    "tier": "mid",
+    "barthag": 0.212125
+  },
+  "Evansville": {
+    "conf": "MVC",
+    "tier": "mid",
+    "barthag": 0.397651
+  },
+  "FIU": {
+    "conf": "CUSA",
+    "tier": "mid",
+    "barthag": 0.249316
+  },
+  "Fairfield": {
+    "conf": "MAAC",
+    "tier": "low",
+    "barthag": 0.431408
+  },
+  "Fairleigh Dickinson": {
+    "conf": "NEC",
+    "tier": "low",
+    "barthag": 0.133196
+  },
+  "Florida": {
+    "conf": "SEC",
+    "tier": "high",
+    "barthag": 0.893602
+  },
+  "Florida A&M": {
+    "conf": "SWAC",
+    "tier": "low",
+    "barthag": 0.116461
+  },
+  "Florida Atlantic": {
+    "conf": "Amer",
+    "tier": "mid",
+    "barthag": 0.816219
+  },
+  "Florida Gulf Coast": {
+    "conf": "ASun",
+    "tier": "low",
+    "barthag": 0.336036
+  },
+  "Florida St.": {
+    "conf": "ACC",
+    "tier": "high",
+    "barthag": 0.747008
+  },
+  "Fordham": {
+    "conf": "A10",
+    "tier": "mid",
+    "barthag": 0.451939
+  },
+  "Fort Wayne": {
+    "conf": "Horz",
+    "tier": "low",
+    "barthag": 0.337853
+  },
+  "Fresno St.": {
+    "conf": "MWC",
+    "tier": "mid",
+    "barthag": 0.342176
+  },
+  "Furman": {
+    "conf": "SC",
+    "tier": "mid",
+    "barthag": 0.536262
+  },
+  "Gardner Webb": {
+    "conf": "BSth",
+    "tier": "mid",
+    "barthag": 0.422166
+  },
+  "George Mason": {
+    "conf": "A10",
+    "tier": "mid",
+    "barthag": 0.713493
+  },
+  "George Washington": {
+    "conf": "A10",
+    "tier": "mid",
+    "barthag": 0.409876
+  },
+  "Georgetown": {
+    "conf": "BE",
+    "tier": "high",
+    "barthag": 0.475885
+  },
+  "Georgia": {
+    "conf": "SEC",
+    "tier": "high",
+    "barthag": 0.770927
+  },
+  "Georgia Southern": {
+    "conf": "SB",
+    "tier": "mid",
+    "barthag": 0.291451
+  },
+  "Georgia St.": {
+    "conf": "SB",
+    "tier": "mid",
+    "barthag": 0.351389
+  },
+  "Georgia Tech": {
+    "conf": "ACC",
+    "tier": "high",
+    "barthag": 0.626233
+  },
+  "Gonzaga": {
+    "conf": "WCC",
+    "tier": "mid",
+    "barthag": 0.926883
+  },
+  "Grambling St.": {
+    "conf": "SWAC",
+    "tier": "low",
+    "barthag": 0.301996
+  },
+  "Grand Canyon": {
+    "conf": "WAC",
+    "tier": "mid",
+    "barthag": 0.795411
+  },
+  "Green Bay": {
+    "conf": "Horz",
+    "tier": "low",
+    "barthag": 0.310225
+  },
+  "Hampton": {
+    "conf": "CAA",
+    "tier": "mid",
+    "barthag": 0.146503
+  },
+  "Hartford": {
+    "conf": "ind",
+    "tier": "low",
+    "barthag": 0.0417858
+  },
+  "Harvard": {
+    "conf": "Ivy",
+    "tier": "mid",
+    "barthag": 0.388192
+  },
+  "Hawaii": {
+    "conf": "BW",
+    "tier": "mid",
+    "barthag": 0.473632
+  },
+  "High Point": {
+    "conf": "BSth",
+    "tier": "mid",
+    "barthag": 0.620945
+  },
+  "Hofstra": {
+    "conf": "CAA",
+    "tier": "mid",
+    "barthag": 0.666507
+  },
+  "Holy Cross": {
+    "conf": "Pat",
+    "tier": "low",
+    "barthag": 0.0949477
+  },
+  "Houston": {
+    "conf": "B12",
+    "tier": "high",
+    "barthag": 0.976632
+  },
+  "Houston Baptist": {
+    "conf": "Slnd",
+    "tier": "low",
+    "barthag": 0.119895
+  },
+  "Houston Christian": {
+    "conf": "Slnd",
+    "tier": "low",
+    "barthag": 0.0770713
+  },
+  "Howard": {
+    "conf": "MEAC",
+    "tier": "low",
+    "barthag": 0.279989
+  },
+  "IU Indy": {
+    "conf": "Horz",
+    "tier": "low",
+    "barthag": 0.0635265
+  },
+  "IUPUI": {
+    "conf": "Horz",
+    "tier": "low",
+    "barthag": 0.0826239
+  },
+  "Idaho": {
+    "conf": "BSky",
+    "tier": "low",
+    "barthag": 0.199769
+  },
+  "Idaho St.": {
+    "conf": "BSky",
+    "tier": "low",
+    "barthag": 0.319363
+  },
+  "Illinois": {
+    "conf": "B10",
+    "tier": "high",
+    "barthag": 0.924701
+  },
+  "Illinois Chicago": {
+    "conf": "MVC",
+    "tier": "mid",
+    "barthag": 0.468208
+  },
+  "Illinois St.": {
+    "conf": "MVC",
+    "tier": "mid",
+    "barthag": 0.429654
+  },
+  "Incarnate Word": {
+    "conf": "Slnd",
+    "tier": "low",
+    "barthag": 0.105555
+  },
+  "Indiana": {
+    "conf": "B10",
+    "tier": "high",
+    "barthag": 0.745457
+  },
+  "Indiana St.": {
+    "conf": "MVC",
+    "tier": "mid",
+    "barthag": 0.852351
+  },
+  "Iona": {
+    "conf": "MAAC",
+    "tier": "low",
+    "barthag": 0.344818
+  },
+  "Iowa": {
+    "conf": "B10",
+    "tier": "high",
+    "barthag": 0.821606
+  },
+  "Iowa St.": {
+    "conf": "B12",
+    "tier": "high",
+    "barthag": 0.951709
+  },
+  "Jackson St.": {
+    "conf": "SWAC",
+    "tier": "low",
+    "barthag": 0.222146
+  },
+  "Jacksonville": {
+    "conf": "ASun",
+    "tier": "low",
+    "barthag": 0.231412
+  },
+  "Jacksonville St.": {
+    "conf": "CUSA",
+    "tier": "mid",
+    "barthag": 0.397455
+  },
+  "James Madison": {
+    "conf": "SB",
+    "tier": "mid",
+    "barthag": 0.769744
+  },
+  "Kansas": {
+    "conf": "B12",
+    "tier": "high",
+    "barthag": 0.897125
+  },
+  "Kansas St.": {
+    "conf": "B12",
+    "tier": "high",
+    "barthag": 0.777106
+  },
+  "Kennesaw St.": {
+    "conf": "CUSA",
+    "tier": "mid",
+    "barthag": 0.2708
+  },
+  "Kent St.": {
+    "conf": "MAC",
+    "tier": "low",
+    "barthag": 0.483809
+  },
+  "Kentucky": {
+    "conf": "SEC",
+    "tier": "high",
+    "barthag": 0.886297
+  },
+  "LIU": {
+    "conf": "NEC",
+    "tier": "low",
+    "barthag": 0.116036
+  },
+  "LIU Brooklyn": {
+    "conf": "NEC",
+    "tier": "low",
+    "barthag": 0.0327578
+  },
+  "LSU": {
+    "conf": "SEC",
+    "tier": "high",
+    "barthag": 0.735552
+  },
+  "La Salle": {
+    "conf": "A10",
+    "tier": "mid",
+    "barthag": 0.473794
+  },
+  "Lafayette": {
+    "conf": "Pat",
+    "tier": "low",
+    "barthag": 0.17057
+  },
+  "Lamar": {
+    "conf": "Slnd",
+    "tier": "low",
+    "barthag": 0.328994
+  },
+  "Le Moyne": {
+    "conf": "NEC",
+    "tier": "low",
+    "barthag": 0.218858
+  },
+  "Lehigh": {
+    "conf": "Pat",
+    "tier": "low",
+    "barthag": 0.293751
+  },
+  "Liberty": {
+    "conf": "CUSA",
+    "tier": "mid",
+    "barthag": 0.5508
+  },
+  "Lindenwood": {
+    "conf": "OVC",
+    "tier": "low",
+    "barthag": 0.0778565
+  },
+  "Lipscomb": {
+    "conf": "ASun",
+    "tier": "low",
+    "barthag": 0.38525
+  },
+  "Little Rock": {
+    "conf": "OVC",
+    "tier": "low",
+    "barthag": 0.468323
+  },
+  "Long Beach St.": {
+    "conf": "BW",
+    "tier": "mid",
+    "barthag": 0.431685
+  },
+  "Longwood": {
+    "conf": "BSth",
+    "tier": "mid",
+    "barthag": 0.460483
+  },
+  "Louisiana": {
+    "conf": "SB",
+    "tier": "mid",
+    "barthag": 0.550657
+  },
+  "Louisiana Lafayette": {
+    "conf": "SB",
+    "tier": "mid",
+    "barthag": 0.729885
+  },
+  "Louisiana Monroe": {
+    "conf": "SB",
+    "tier": "mid",
+    "barthag": 0.241371
+  },
+  "Louisiana Tech": {
+    "conf": "CUSA",
+    "tier": "mid",
+    "barthag": 0.72217
+  },
+  "Louisville": {
+    "conf": "ACC",
+    "tier": "high",
+    "barthag": 0.439846
+  },
+  "Loyola Chicago": {
+    "conf": "A10",
+    "tier": "mid",
+    "barthag": 0.72536
+  },
+  "Loyola MD": {
+    "conf": "Pat",
+    "tier": "low",
+    "barthag": 0.110776
+  },
+  "Loyola Marymount": {
+    "conf": "WCC",
+    "tier": "mid",
+    "barthag": 0.462005
+  },
+  "Maine": {
+    "conf": "AE",
+    "tier": "low",
+    "barthag": 0.324925
+  },
+  "Manhattan": {
+    "conf": "MAAC",
+    "tier": "low",
+    "barthag": 0.129476
+  },
+  "Marist": {
+    "conf": "MAAC",
+    "tier": "low",
+    "barthag": 0.382578
+  },
+  "Marquette": {
+    "conf": "BE",
+    "tier": "high",
+    "barthag": 0.928892
+  },
+  "Marshall": {
+    "conf": "SB",
+    "tier": "mid",
+    "barthag": 0.333933
+  },
+  "Maryland": {
+    "conf": "B10",
+    "tier": "high",
+    "barthag": 0.777961
+  },
+  "Maryland Eastern Shore": {
+    "conf": "MEAC",
+    "tier": "low",
+    "barthag": 0.087877
+  },
+  "Massachusetts": {
+    "conf": "A10",
+    "tier": "mid",
+    "barthag": 0.72038
+  },
+  "McNeese St.": {
+    "conf": "Slnd",
+    "tier": "low",
+    "barthag": 0.733444
+  },
+  "Memphis": {
+    "conf": "Amer",
+    "tier": "mid",
+    "barthag": 0.728118
+  },
+  "Mercer": {
+    "conf": "SC",
+    "tier": "mid",
+    "barthag": 0.398036
+  },
+  "Mercyhurst": {
+    "conf": "NEC",
+    "tier": "low",
+    "barthag": NaN
+  },
+  "Merrimack": {
+    "conf": "MAAC",
+    "tier": "low",
+    "barthag": 0.379422
+  },
+  "Miami FL": {
+    "conf": "ACC",
+    "tier": "high",
+    "barthag": 0.736239
+  },
+  "Miami OH": {
+    "conf": "MAC",
+    "tier": "low",
+    "barthag": 0.326248
+  },
+  "Michigan": {
+    "conf": "B10",
+    "tier": "high",
+    "barthag": 0.636932
+  },
+  "Michigan St.": {
+    "conf": "B10",
+    "tier": "high",
+    "barthag": 0.901479
+  },
+  "Middle Tennessee": {
+    "conf": "CUSA",
+    "tier": "mid",
+    "barthag": 0.302798
+  },
+  "Milwaukee": {
+    "conf": "Horz",
+    "tier": "low",
+    "barthag": 0.339013
+  },
+  "Minnesota": {
+    "conf": "B10",
+    "tier": "high",
+    "barthag": 0.756668
+  },
+  "Mississippi": {
+    "conf": "SEC",
+    "tier": "high",
+    "barthag": 0.754191
+  },
+  "Mississippi St.": {
+    "conf": "SEC",
+    "tier": "high",
+    "barthag": 0.865174
+  },
+  "Mississippi Valley St.": {
+    "conf": "SWAC",
+    "tier": "low",
+    "barthag": 0.0311421
+  },
+  "Missouri": {
+    "conf": "SEC",
+    "tier": "high",
+    "barthag": 0.5917
+  },
+  "Missouri St.": {
+    "conf": "MVC",
+    "tier": "mid",
+    "barthag": 0.557468
+  },
+  "Monmouth": {
+    "conf": "CAA",
+    "tier": "mid",
+    "barthag": 0.418246
+  },
+  "Montana": {
+    "conf": "BSky",
+    "tier": "low",
+    "barthag": 0.499496
+  },
+  "Montana St.": {
+    "conf": "BSky",
+    "tier": "low",
+    "barthag": 0.405109
+  },
+  "Morehead St.": {
+    "conf": "OVC",
+    "tier": "low",
+    "barthag": 0.596845
+  },
+  "Morgan St.": {
+    "conf": "MEAC",
+    "tier": "low",
+    "barthag": 0.131871
+  },
+  "Mount St. Mary's": {
+    "conf": "MAAC",
+    "tier": "low",
+    "barthag": 0.364222
+  },
+  "Murray St.": {
+    "conf": "MVC",
+    "tier": "mid",
+    "barthag": 0.525721
+  },
+  "N.C. State": {
+    "conf": "ACC",
+    "tier": "high",
+    "barthag": 0.836584
+  },
+  "NJIT": {
+    "conf": "AE",
+    "tier": "low",
+    "barthag": 0.150655
+  },
+  "Navy": {
+    "conf": "Pat",
+    "tier": "low",
+    "barthag": 0.155635
+  },
+  "Nebraska": {
+    "conf": "B10",
+    "tier": "high",
+    "barthag": 0.8882
+  },
+  "Nebraska Omaha": {
+    "conf": "Sum",
+    "tier": "low",
+    "barthag": 0.281086
+  },
+  "Nevada": {
+    "conf": "MWC",
+    "tier": "mid",
+    "barthag": 0.861671
+  },
+  "New Hampshire": {
+    "conf": "AE",
+    "tier": "low",
+    "barthag": 0.271294
+  },
+  "New Mexico": {
+    "conf": "MWC",
+    "tier": "mid",
+    "barthag": 0.877406
+  },
+  "New Mexico St.": {
+    "conf": "CUSA",
+    "tier": "mid",
+    "barthag": 0.274976
+  },
+  "New Orleans": {
+    "conf": "Slnd",
+    "tier": "low",
+    "barthag": 0.140278
+  },
+  "Niagara": {
+    "conf": "MAAC",
+    "tier": "low",
+    "barthag": 0.257717
+  },
+  "Nicholls St.": {
+    "conf": "Slnd",
+    "tier": "low",
+    "barthag": 0.339231
+  },
+  "Norfolk St.": {
+    "conf": "MEAC",
+    "tier": "low",
+    "barthag": 0.326355
+  },
+  "North Alabama": {
+    "conf": "ASun",
+    "tier": "low",
+    "barthag": 0.2944
+  },
+  "North Carolina": {
+    "conf": "ACC",
+    "tier": "high",
+    "barthag": 0.936851
+  },
+  "North Carolina A&T": {
+    "conf": "CAA",
+    "tier": "mid",
+    "barthag": 0.111149
+  },
+  "North Carolina Central": {
+    "conf": "MEAC",
+    "tier": "low",
+    "barthag": 0.295283
+  },
+  "North Carolina St.": {
+    "conf": "ACC",
+    "tier": "high",
+    "barthag": 0.827204
+  },
+  "North Dakota": {
+    "conf": "Sum",
+    "tier": "low",
+    "barthag": 0.371876
+  },
+  "North Dakota St.": {
+    "conf": "Sum",
+    "tier": "low",
+    "barthag": 0.298422
+  },
+  "North Florida": {
+    "conf": "ASun",
+    "tier": "low",
+    "barthag": 0.336492
+  },
+  "North Texas": {
+    "conf": "Amer",
+    "tier": "mid",
+    "barthag": 0.785702
+  },
+  "Northeastern": {
+    "conf": "CAA",
+    "tier": "mid",
+    "barthag": 0.396347
+  },
+  "Northern Arizona": {
+    "conf": "BSky",
+    "tier": "low",
+    "barthag": 0.190436
+  },
+  "Northern Colorado": {
+    "conf": "BSky",
+    "tier": "low",
+    "barthag": 0.39102
+  },
+  "Northern Illinois": {
+    "conf": "MAC",
+    "tier": "low",
+    "barthag": 0.228603
+  },
+  "Northern Iowa": {
+    "conf": "MVC",
+    "tier": "mid",
+    "barthag": 0.676451
+  },
+  "Northern Kentucky": {
+    "conf": "Horz",
+    "tier": "low",
+    "barthag": 0.423446
+  },
+  "Northwestern": {
+    "conf": "B10",
+    "tier": "high",
+    "barthag": 0.85922
+  },
+  "Northwestern St.": {
+    "conf": "Slnd",
+    "tier": "low",
+    "barthag": 0.174052
+  },
+  "Notre Dame": {
+    "conf": "ACC",
+    "tier": "high",
+    "barthag": 0.617126
+  },
+  "Oakland": {
+    "conf": "Horz",
+    "tier": "low",
+    "barthag": 0.613171
+  },
+  "Ohio": {
+    "conf": "MAC",
+    "tier": "low",
+    "barthag": 0.555333
+  },
+  "Ohio St.": {
+    "conf": "B10",
+    "tier": "high",
+    "barthag": 0.853608
+  },
+  "Oklahoma": {
+    "conf": "SEC",
+    "tier": "high",
+    "barthag": 0.831831
+  },
+  "Oklahoma St.": {
+    "conf": "B12",
+    "tier": "high",
+    "barthag": 0.664972
+  },
+  "Old Dominion": {
+    "conf": "SB",
+    "tier": "mid",
+    "barthag": 0.239721
+  },
+  "Oral Roberts": {
+    "conf": "Sum",
+    "tier": "low",
+    "barthag": 0.266018
+  },
+  "Oregon": {
+    "conf": "B10",
+    "tier": "high",
+    "barthag": 0.827007
+  },
+  "Oregon St.": {
+    "conf": "WCC",
+    "tier": "mid",
+    "barthag": 0.546361
+  },
+  "Pacific": {
+    "conf": "WCC",
+    "tier": "mid",
+    "barthag": 0.0826735
+  },
+  "Penn": {
+    "conf": "Ivy",
+    "tier": "mid",
+    "barthag": 0.415865
+  },
+  "Penn St.": {
+    "conf": "B10",
+    "tier": "high",
+    "barthag": 0.762926
+  },
+  "Pepperdine": {
+    "conf": "WCC",
+    "tier": "mid",
+    "barthag": 0.44472
+  },
+  "Pittsburgh": {
+    "conf": "ACC",
+    "tier": "high",
+    "barthag": 0.871242
+  },
+  "Portland": {
+    "conf": "WCC",
+    "tier": "mid",
+    "barthag": 0.285593
+  },
+  "Portland St.": {
+    "conf": "BSky",
+    "tier": "low",
+    "barthag": 0.328981
+  },
+  "Prairie View A&M": {
+    "conf": "SWAC",
+    "tier": "low",
+    "barthag": 0.111173
+  },
+  "Presbyterian": {
+    "conf": "BSth",
+    "tier": "mid",
+    "barthag": 0.271277
+  },
+  "Princeton": {
+    "conf": "Ivy",
+    "tier": "mid",
+    "barthag": 0.719003
+  },
+  "Providence": {
+    "conf": "BE",
+    "tier": "high",
+    "barthag": 0.816075
+  },
+  "Purdue": {
+    "conf": "B10",
+    "tier": "high",
+    "barthag": 0.964935
+  },
+  "Purdue Fort Wayne": {
+    "conf": "Horz",
+    "tier": "low",
+    "barthag": 0.490256
+  },
+  "Queens": {
+    "conf": "ASun",
+    "tier": "low",
+    "barthag": 0.310109
+  },
+  "Quinnipiac": {
+    "conf": "MAAC",
+    "tier": "low",
+    "barthag": 0.495558
+  },
+  "Radford": {
+    "conf": "BSth",
+    "tier": "mid",
+    "barthag": 0.40157
+  },
+  "Rhode Island": {
+    "conf": "A10",
+    "tier": "mid",
+    "barthag": 0.41397
+  },
+  "Rice": {
+    "conf": "Amer",
+    "tier": "mid",
+    "barthag": 0.442835
+  },
+  "Richmond": {
+    "conf": "A10",
+    "tier": "mid",
+    "barthag": 0.747174
+  },
+  "Rider": {
+    "conf": "MAAC",
+    "tier": "low",
+    "barthag": 0.374221
+  },
+  "Robert Morris": {
+    "conf": "Horz",
+    "tier": "low",
+    "barthag": 0.195913
+  },
+  "Rutgers": {
+    "conf": "B10",
+    "tier": "high",
+    "barthag": 0.680105
+  },
+  "SIU Edwardsville": {
+    "conf": "OVC",
+    "tier": "low",
+    "barthag": 0.249421
+  },
+  "SMU": {
+    "conf": "ACC",
+    "tier": "high",
+    "barthag": 0.780488
+  },
+  "Sacramento St.": {
+    "conf": "BSky",
+    "tier": "low",
+    "barthag": 0.207167
+  },
+  "Sacred Heart": {
+    "conf": "MAAC",
+    "tier": "low",
+    "barthag": 0.251584
+  },
+  "Saint Francis": {
+    "conf": "NEC",
+    "tier": "low",
+    "barthag": 0.0634402
+  },
+  "Saint Joseph's": {
+    "conf": "A10",
+    "tier": "mid",
+    "barthag": 0.721366
+  },
+  "Saint Louis": {
+    "conf": "A10",
+    "tier": "mid",
+    "barthag": 0.468963
+  },
+  "Saint Mary's": {
+    "conf": "WCC",
+    "tier": "mid",
+    "barthag": 0.912424
+  },
+  "Saint Peter's": {
+    "conf": "MAAC",
+    "tier": "low",
+    "barthag": 0.380329
+  },
+  "Sam Houston St.": {
+    "conf": "CUSA",
+    "tier": "mid",
+    "barthag": 0.603597
+  },
+  "Samford": {
+    "conf": "SC",
+    "tier": "mid",
+    "barthag": 0.731222
+  },
+  "San Diego": {
+    "conf": "WCC",
+    "tier": "mid",
+    "barthag": 0.329262
+  },
+  "San Diego St.": {
+    "conf": "MWC",
+    "tier": "mid",
+    "barthag": 0.880193
+  },
+  "San Francisco": {
+    "conf": "WCC",
+    "tier": "mid",
+    "barthag": 0.783894
+  },
+  "San Jose St.": {
+    "conf": "MWC",
+    "tier": "mid",
+    "barthag": 0.372556
+  },
+  "Santa Clara": {
+    "conf": "WCC",
+    "tier": "mid",
+    "barthag": 0.637329
+  },
+  "Seattle": {
+    "conf": "WAC",
+    "tier": "mid",
+    "barthag": 0.640516
+  },
+  "Seton Hall": {
+    "conf": "BE",
+    "tier": "high",
+    "barthag": 0.855809
+  },
+  "Siena": {
+    "conf": "MAAC",
+    "tier": "low",
+    "barthag": 0.0726553
+  },
+  "South Alabama": {
+    "conf": "SB",
+    "tier": "mid",
+    "barthag": 0.381286
+  },
+  "South Carolina": {
+    "conf": "SEC",
+    "tier": "high",
+    "barthag": 0.830922
+  },
+  "South Carolina St.": {
+    "conf": "MEAC",
+    "tier": "low",
+    "barthag": 0.237445
+  },
+  "South Dakota": {
+    "conf": "Sum",
+    "tier": "low",
+    "barthag": 0.197847
+  },
+  "South Dakota St.": {
+    "conf": "Sum",
+    "tier": "low",
+    "barthag": 0.581548
+  },
+  "South Florida": {
+    "conf": "Amer",
+    "tier": "mid",
+    "barthag": 0.737667
+  },
+  "Southeast Missouri St.": {
+    "conf": "OVC",
+    "tier": "low",
+    "barthag": 0.0806189
+  },
+  "Southeastern Louisiana": {
+    "conf": "Slnd",
+    "tier": "low",
+    "barthag": 0.208442
+  },
+  "Southern": {
+    "conf": "SWAC",
+    "tier": "low",
+    "barthag": 0.328784
+  },
+  "Southern Illinois": {
+    "conf": "MVC",
+    "tier": "mid",
+    "barthag": 0.638052
+  },
+  "Southern Indiana": {
+    "conf": "OVC",
+    "tier": "low",
+    "barthag": 0.158938
+  },
+  "Southern Miss": {
+    "conf": "SB",
+    "tier": "mid",
+    "barthag": 0.304941
+  },
+  "Southern Utah": {
+    "conf": "WAC",
+    "tier": "mid",
+    "barthag": 0.324013
+  },
+  "St. Bonaventure": {
+    "conf": "A10",
+    "tier": "mid",
+    "barthag": 0.680417
+  },
+  "St. Francis NY": {
+    "conf": "NEC",
+    "tier": "low",
+    "barthag": 0.108436
+  },
+  "St. Francis PA": {
+    "conf": "NEC",
+    "tier": "low",
+    "barthag": 0.177476
+  },
+  "St. John's": {
+    "conf": "BE",
+    "tier": "high",
+    "barthag": 0.906691
+  },
+  "St. Thomas": {
+    "conf": "Sum",
+    "tier": "low",
+    "barthag": 0.554042
+  },
+  "Stanford": {
+    "conf": "ACC",
+    "tier": "high",
+    "barthag": 0.684871
+  },
+  "Stephen F. Austin": {
+    "conf": "Slnd",
+    "tier": "low",
+    "barthag": 0.448233
+  },
+  "Stetson": {
+    "conf": "ASun",
+    "tier": "low",
+    "barthag": 0.341538
+  },
+  "Stonehill": {
+    "conf": "NEC",
+    "tier": "low",
+    "barthag": 0.0656378
+  },
+  "Stony Brook": {
+    "conf": "CAA",
+    "tier": "mid",
+    "barthag": 0.508405
+  },
+  "Syracuse": {
+    "conf": "ACC",
+    "tier": "high",
+    "barthag": 0.775867
+  },
+  "TCU": {
+    "conf": "B12",
+    "tier": "high",
+    "barthag": 0.848111
+  },
+  "Tarleton St.": {
+    "conf": "WAC",
+    "tier": "mid",
+    "barthag": 0.588414
+  },
+  "Temple": {
+    "conf": "Amer",
+    "tier": "mid",
+    "barthag": 0.448622
+  },
+  "Tennessee": {
+    "conf": "SEC",
+    "tier": "high",
+    "barthag": 0.945495
+  },
+  "Tennessee Martin": {
+    "conf": "OVC",
+    "tier": "low",
+    "barthag": 0.358857
+  },
+  "Tennessee St.": {
+    "conf": "OVC",
+    "tier": "low",
+    "barthag": 0.242748
+  },
+  "Tennessee Tech": {
+    "conf": "OVC",
+    "tier": "low",
+    "barthag": 0.10948
+  },
+  "Texas": {
+    "conf": "SEC",
+    "tier": "high",
+    "barthag": 0.897975
+  },
+  "Texas A&M": {
+    "conf": "SEC",
+    "tier": "high",
+    "barthag": 0.866653
+  },
+  "Texas A&M Commerce": {
+    "conf": "Slnd",
+    "tier": "low",
+    "barthag": 0.122751
+  },
+  "Texas A&M Corpus Chris": {
+    "conf": "Slnd",
+    "tier": "low",
+    "barthag": 0.444005
+  },
+  "Texas Southern": {
+    "conf": "SWAC",
+    "tier": "low",
+    "barthag": 0.282818
+  },
+  "Texas St.": {
+    "conf": "SB",
+    "tier": "mid",
+    "barthag": 0.418544
+  },
+  "Texas Tech": {
+    "conf": "B12",
+    "tier": "high",
+    "barthag": 0.866868
+  },
+  "The Citadel": {
+    "conf": "SC",
+    "tier": "mid",
+    "barthag": 0.275672
+  },
+  "Toledo": {
+    "conf": "MAC",
+    "tier": "low",
+    "barthag": 0.553981
+  },
+  "Towson": {
+    "conf": "CAA",
+    "tier": "mid",
+    "barthag": 0.552655
+  },
+  "Troy": {
+    "conf": "SB",
+    "tier": "mid",
+    "barthag": 0.62316
+  },
+  "Tulane": {
+    "conf": "Amer",
+    "tier": "mid",
+    "barthag": 0.549704
+  },
+  "Tulsa": {
+    "conf": "Amer",
+    "tier": "mid",
+    "barthag": 0.413008
+  },
+  "UAB": {
+    "conf": "Amer",
+    "tier": "mid",
+    "barthag": 0.666781
+  },
+  "UC Davis": {
+    "conf": "BW",
+    "tier": "mid",
+    "barthag": 0.50754
+  },
+  "UC Irvine": {
+    "conf": "BW",
+    "tier": "mid",
+    "barthag": 0.723198
+  },
+  "UC Riverside": {
+    "conf": "BW",
+    "tier": "mid",
+    "barthag": 0.379926
+  },
+  "UC San Diego": {
+    "conf": "BW",
+    "tier": "mid",
+    "barthag": 0.577725
+  },
+  "UC Santa Barbara": {
+    "conf": "BW",
+    "tier": "mid",
+    "barthag": 0.331082
+  },
+  "UCF": {
+    "conf": "B12",
+    "tier": "high",
+    "barthag": 0.783432
+  },
+  "UCLA": {
+    "conf": "B10",
+    "tier": "high",
+    "barthag": 0.731735
+  },
+  "UMBC": {
+    "conf": "AE",
+    "tier": "low",
+    "barthag": 0.315059
+  },
+  "UMKC": {
+    "conf": "Sum",
+    "tier": "low",
+    "barthag": 0.425512
+  },
+  "UMass Lowell": {
+    "conf": "AE",
+    "tier": "low",
+    "barthag": 0.485214
+  },
+  "UNC Asheville": {
+    "conf": "BSth",
+    "tier": "mid",
+    "barthag": 0.477086
+  },
+  "UNC Greensboro": {
+    "conf": "SC",
+    "tier": "mid",
+    "barthag": 0.562162
+  },
+  "UNC Wilmington": {
+    "conf": "CAA",
+    "tier": "mid",
+    "barthag": 0.610881
+  },
+  "UNLV": {
+    "conf": "MWC",
+    "tier": "mid",
+    "barthag": 0.771221
+  },
+  "USC": {
+    "conf": "B10",
+    "tier": "high",
+    "barthag": 0.776027
+  },
+  "USC Upstate": {
+    "conf": "BSth",
+    "tier": "mid",
+    "barthag": 0.265393
+  },
+  "UT Arlington": {
+    "conf": "WAC",
+    "tier": "mid",
+    "barthag": 0.650874
+  },
+  "UT Rio Grande Valley": {
+    "conf": "Slnd",
+    "tier": "low",
+    "barthag": 0.140349
+  },
+  "UTEP": {
+    "conf": "CUSA",
+    "tier": "mid",
+    "barthag": 0.51269
+  },
+  "UTSA": {
+    "conf": "Amer",
+    "tier": "mid",
+    "barthag": 0.34664
+  },
+  "Utah": {
+    "conf": "B12",
+    "tier": "high",
+    "barthag": 0.854673
+  },
+  "Utah St.": {
+    "conf": "MWC",
+    "tier": "mid",
+    "barthag": 0.809079
+  },
+  "Utah Tech": {
+    "conf": "WAC",
+    "tier": "mid",
+    "barthag": 0.288021
+  },
+  "Utah Valley": {
+    "conf": "WAC",
+    "tier": "mid",
+    "barthag": 0.476525
+  },
+  "VCU": {
+    "conf": "A10",
+    "tier": "mid",
+    "barthag": 0.745611
+  },
+  "VMI": {
+    "conf": "SC",
+    "tier": "mid",
+    "barthag": 0.0654453
+  },
+  "Valparaiso": {
+    "conf": "MVC",
+    "tier": "mid",
+    "barthag": 0.243691
+  },
+  "Vanderbilt": {
+    "conf": "SEC",
+    "tier": "high",
+    "barthag": 0.44362
+  },
+  "Vermont": {
+    "conf": "AE",
+    "tier": "low",
+    "barthag": 0.652205
+  },
+  "Villanova": {
+    "conf": "BE",
+    "tier": "high",
+    "barthag": 0.867425
+  },
+  "Virginia": {
+    "conf": "ACC",
+    "tier": "high",
+    "barthag": 0.798785
+  },
+  "Virginia Tech": {
+    "conf": "ACC",
+    "tier": "high",
+    "barthag": 0.823028
+  },
+  "Wagner": {
+    "conf": "NEC",
+    "tier": "low",
+    "barthag": 0.262472
+  },
+  "Wake Forest": {
+    "conf": "ACC",
+    "tier": "high",
+    "barthag": 0.862366
+  },
+  "Washington": {
+    "conf": "B10",
+    "tier": "high",
+    "barthag": 0.806283
+  },
+  "Washington St.": {
+    "conf": "WCC",
+    "tier": "mid",
+    "barthag": 0.854892
+  },
+  "Weber St.": {
+    "conf": "BSky",
+    "tier": "low",
+    "barthag": 0.503717
+  },
+  "West Georgia": {
+    "conf": "ASun",
+    "tier": "low",
+    "barthag": NaN
+  },
+  "West Virginia": {
+    "conf": "B12",
+    "tier": "high",
+    "barthag": 0.590682
+  },
+  "Western Carolina": {
+    "conf": "SC",
+    "tier": "mid",
+    "barthag": 0.656954
+  },
+  "Western Illinois": {
+    "conf": "OVC",
+    "tier": "low",
+    "barthag": 0.299043
+  },
+  "Western Kentucky": {
+    "conf": "CUSA",
+    "tier": "mid",
+    "barthag": 0.601209
+  },
+  "Western Michigan": {
+    "conf": "MAC",
+    "tier": "low",
+    "barthag": 0.191562
+  },
+  "Wichita St.": {
+    "conf": "Amer",
+    "tier": "mid",
+    "barthag": 0.589647
+  },
+  "William & Mary": {
+    "conf": "CAA",
+    "tier": "mid",
+    "barthag": 0.203668
+  },
+  "Winthrop": {
+    "conf": "BSth",
+    "tier": "mid",
+    "barthag": 0.495601
+  },
+  "Wisconsin": {
+    "conf": "B10",
+    "tier": "high",
+    "barthag": 0.889231
+  },
+  "Wofford": {
+    "conf": "SC",
+    "tier": "mid",
+    "barthag": 0.37886
+  },
+  "Wright St.": {
+    "conf": "Horz",
+    "tier": "low",
+    "barthag": 0.553011
+  },
+  "Wyoming": {
+    "conf": "MWC",
+    "tier": "mid",
+    "barthag": 0.530036
+  },
+  "Xavier": {
+    "conf": "BE",
+    "tier": "high",
+    "barthag": 0.799677
+  },
+  "Yale": {
+    "conf": "Ivy",
+    "tier": "mid",
+    "barthag": 0.722652
+  },
+  "Youngstown St.": {
+    "conf": "Horz",
+    "tier": "low",
+    "barthag": 0.56805
+  }
+}

@@ -1,4 +1,4 @@
-﻿import sqlite3, argparse, json, logging
+import sqlite3, argparse, json, logging
 from datetime import datetime
 from pathlib import Path
 
@@ -18,7 +18,7 @@ def load_graded_predictions(min_date=None):
            AND actual_total IS NOT NULL 
            AND spread_edge IS NOT NULL 
            AND total_edge IS NOT NULL
-           AND DATE(created_at) <= date"""
+           """
         params = []
         if min_date:
             query += " AND date >= ?"
@@ -116,3 +116,4 @@ if __name__ == "__main__":
     parser.add_argument("--output")
     args = parser.parse_args()
     run_backtest(min_date=args.min_date, output_path=args.output)
+

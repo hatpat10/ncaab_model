@@ -1,0 +1,142 @@
+{
+  "generated_at": "2026-02-27 23:14",
+  "since": "2026-02-26",
+  "spread_games": 50,
+  "total_games": 46,
+  "spread_buckets": [
+    {
+      "edge_min": 0,
+      "edge_max": 2,
+      "n": 18,
+      "wins": 11,
+      "win_pct": 0.6111,
+      "roi": 16.67,
+      "ci_low": 0.3862,
+      "ci_high": 0.797,
+      "reliable": false,
+      "profitable": false
+    },
+    {
+      "edge_min": 2,
+      "edge_max": 4,
+      "n": 12,
+      "wins": 8,
+      "win_pct": 0.6667,
+      "roi": 27.27,
+      "ci_low": 0.3906,
+      "ci_high": 0.8619,
+      "reliable": false,
+      "profitable": false
+    },
+    {
+      "edge_min": 4,
+      "edge_max": 6,
+      "n": 11,
+      "wins": 7,
+      "win_pct": 0.6364,
+      "roi": 21.49,
+      "ci_low": 0.3538,
+      "ci_high": 0.8483,
+      "reliable": false,
+      "profitable": false
+    },
+    {
+      "edge_min": 6,
+      "edge_max": 8,
+      "n": 4,
+      "wins": 2,
+      "win_pct": 0.5,
+      "roi": -4.55,
+      "ci_low": 0.15,
+      "ci_high": 0.85,
+      "reliable": false,
+      "profitable": false
+    },
+    {
+      "edge_min": 8,
+      "edge_max": 10,
+      "n": 2,
+      "wins": 1,
+      "win_pct": 0.5,
+      "roi": -4.55,
+      "ci_low": 0.0945,
+      "ci_high": 0.9055,
+      "reliable": false,
+      "profitable": false
+    },
+    {
+      "edge_min": 10,
+      "edge_max": 15,
+      "n": 3,
+      "wins": 1,
+      "win_pct": 0.3333,
+      "roi": -36.36,
+      "ci_low": 0.0615,
+      "ci_high": 0.7923,
+      "reliable": false,
+      "profitable": false
+    }
+  ],
+  "total_buckets": [
+    {
+      "edge_min": 0,
+      "edge_max": 3,
+      "n": 13,
+      "wins": 6,
+      "win_pct": 0.4615,
+      "roi": -11.89,
+      "ci_low": 0.2321,
+      "ci_high": 0.7086,
+      "reliable": false,
+      "profitable": false
+    },
+    {
+      "edge_min": 3,
+      "edge_max": 6,
+      "n": 16,
+      "wins": 11,
+      "win_pct": 0.6875,
+      "roi": 31.25,
+      "ci_low": 0.444,
+      "ci_high": 0.8584,
+      "reliable": false,
+      "profitable": false
+    },
+    {
+      "edge_min": 6,
+      "edge_max": 9,
+      "n": 11,
+      "wins": 7,
+      "win_pct": 0.6364,
+      "roi": 21.49,
+      "ci_low": 0.3538,
+      "ci_high": 0.8483,
+      "reliable": false,
+      "profitable": false
+    },
+    {
+      "edge_min": 9,
+      "edge_max": 12,
+      "n": 5,
+      "wins": 2,
+      "win_pct": 0.4,
+      "roi": -23.64,
+      "ci_low": 0.1176,
+      "ci_high": 0.7693,
+      "reliable": false,
+      "profitable": false
+    },
+    {
+      "edge_min": 12,
+      "edge_max": "+",
+      "n": 1,
+      "wins": 0,
+      "win_pct": 0.0,
+      "roi": -100.0,
+      "ci_low": 0.0,
+      "ci_high": 0.7935,
+      "reliable": false,
+      "profitable": false
+    }
+  ]
+}
