@@ -785,6 +785,9 @@ def run_pipeline(date_str: str, pretty: bool = False) -> list[dict]:
 
         # Bet recommendations
         bets = recommend_bets(edge, preds, game_tier=game_tier)
+        # Stamp game_tier onto each individual bet for backtesting
+        for b in bets:
+            b["game_tier"] = game_tier
 
         # Assemble output
         result = {
