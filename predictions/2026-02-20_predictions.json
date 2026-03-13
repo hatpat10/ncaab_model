@@ -132,9 +132,7 @@
     "bets": [],
     "actual": {
       "home_score": 65,
-      "away_score": 78,
-      "margin": -13,
-      "total": 143
+      "away_score": 78
     }
   },
   {

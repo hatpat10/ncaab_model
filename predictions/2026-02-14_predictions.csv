@@ -1,132 +1,132 @@
 date,away_team,home_team,predicted_margin,home_win_prob,predicted_total,vegas_spread,spread_edge,vegas_total,total_edge,ou_lean,bets
-2026-02-14,Texas Tech Red Raiders,Arizona Wildcats,10.5,0.75,152.0,,,,,,
-2026-02-14,UCLA Bruins,Michigan Wolverines,13.0,0.786,143.5,-7.0,6.0,141.5,2.0,OVER,SPREAD HOME
-2026-02-14,Kansas State Wildcats,Houston Cougars,18.2,1.0,139.8,,,,,,
-2026-02-14,Clemson Tigers,Duke Blue Devils,7.1,0.674,142.3,,,,,,
-2026-02-14,Kansas Jayhawks,Iowa State Cyclones,8.6,0.666,145.7,,,,,,
-2026-02-14,Georgetown Hoyas,UConn Huskies,20.0,1.0,146.1,,,,,,
-2026-02-14,Northwestern Wildcats,Nebraska Cornhuskers,6.7,0.674,143.2,,,,,,
-2026-02-14,Pittsburgh Panthers,North Carolina Tar Heels,6.1,0.666,152.5,,,,,,
-2026-02-14,Gonzaga Bulldogs,Santa Clara Broncos,-5.4,0.343,162.1,-5.5,-10.9,153.5,8.6,OVER,"SPREAD AWAY, TOTAL OVER"
-2026-02-14,Purdue Boilermakers,Iowa Hawkeyes,-4.7,0.343,150.6,-9.5,-14.2,132.8,17.8,OVER,"SPREAD AWAY, TOTAL OVER"
-2026-02-14,Kentucky Wildcats,Florida Gators,11.3,0.674,167.1,-6.5,4.8,164.0,3.1,OVER,SPREAD HOME
-2026-02-14,Virginia Cavaliers,Ohio State Buckeyes,-2.8,0.343,137.2,-9.5,-12.3,132.8,4.4,OVER,"SPREAD AWAY, TOTAL OVER"
-2026-02-14,St. John's Red Storm,Providence Friars,-2.7,0.343,161.3,,,,,,
-2026-02-14,Texas A&M Aggies,Vanderbilt Commodores,-1.3,0.536,153.8,,,,,,
-2026-02-14,Auburn Tigers,Arkansas Razorbacks,-4.2,0.343,164.1,-9.8,-14.0,161.8,2.3,OVER,SPREAD AWAY
-2026-02-14,Colorado Buffaloes,BYU Cougars,9.1,0.674,159.1,,,,,,
-2026-02-14,Louisville Cardinals,Baylor Bears,4.9,0.606,148.9,,,,,,
-2026-02-14,Fordham Rams,Rhode Island Rams,1.5,0.536,142.9,-2.5,-1.0,144.5,-1.6,UNDER,
-2026-02-14,TCU Horned Frogs,Oklahoma State Cowboys,-3.4,0.419,149.7,,,,,,
-2026-02-14,Georgia Tech Yellow Jackets,Notre Dame Fighting Irish,0.6,0.606,147.0,,,,,,
-2026-02-14,California Golden Bears,Boston College Eagles,-3.7,0.415,139.7,,,,,,
-2026-02-14,Navy Midshipmen,Colgate Raiders,8.4,0.786,142.7,,,,,,
-2026-02-14,Samford Bulldogs,East Tennessee State Buccaneers,1.4,0.536,153.6,,,,,,
-2026-02-14,Bucknell Bison,Boston University Terriers,-0.4,0.592,143.6,,,,,,
-2026-02-14,Long Island University Sharks,New Haven Chargers,-0.8,0.343,130.4,,,,,UNDER,
-2026-02-14,Chicago State Cougars,Le Moyne Dolphins,4.2,0.587,142.7,,,,,UNDER,
-2026-02-14,UMBC Retrievers,New Hampshire Wildcats,-3.0,0.485,155.2,,,,,UNDER,
-2026-02-14,Furman Paladins,VMI Keydets,-14.1,0.048,152.2,-18.5,-32.6,154.5,-2.3,UNDER,SPREAD AWAY
-2026-02-14,Mercer Bears,The Citadel Bulldogs,-2.0,0.468,142.0,,,,,,
-2026-02-14,East Carolina Pirates,Rice Owls,2.8,0.587,145.9,21.5,24.3,142.8,3.1,OVER,SPREAD HOME
-2026-02-14,Army Black Knights,American University Eagles,2.6,0.536,140.4,,,,,,
-2026-02-14,Presbyterian Blue Hose,UNC Asheville Bulldogs,3.6,0.666,144.9,12.5,16.1,146.5,-1.6,UNDER,SPREAD HOME
-2026-02-14,High Point Panthers,Gardner-Webb Runnin' Bulldogs,-18.2,0.037,150.7,12.5,-5.7,146.5,4.2,OVER,"SPREAD AWAY, TOTAL OVER"
-2026-02-14,Florida State Seminoles,Virginia Tech Hokies,3.4,0.536,151.2,,,,,,
-2026-02-14,SMU Mustangs,Syracuse Orange,1.5,0.536,151.4,,,,,,
-2026-02-14,North Dakota State Bison,North Dakota Fighting Hawks,-0.2,0.536,153.9,-3.5,-3.7,154.5,-0.6,UNDER,SPREAD AWAY
-2026-02-14,Western Michigan Broncos,Eastern Michigan Eagles,-0.7,0.536,138.8,,,,,,
-2026-02-14,Kent State Golden Flashes,Ball State Cardinals,-0.7,0.419,138.8,,,,,,
-2026-02-14,Mercyhurst Lakers,Saint Francis Red Flash,9.4,0.666,140.7,-5.5,3.9,140.5,0.2,OVER,SPREAD HOME
-2026-02-14,Central Connecticut Blue Devils,Fairleigh Dickinson Knights,-2.0,0.415,139.8,,,,,UNDER,
-2026-02-14,Bryant Bulldogs,Vermont Catamounts,3.9,0.606,141.9,-10.5,-6.6,146.5,-4.6,UNDER,"SPREAD AWAY, TOTAL UNDER"
-2026-02-14,Elon Phoenix,William & Mary Tribe,0.8,0.536,152.3,-11.5,-10.7,165.5,-13.2,UNDER,"SPREAD AWAY, TOTAL UNDER"
-2026-02-14,West Georgia Wolves,Central Arkansas Bears,13.4,0.744,154.6,-3.8,9.6,172.5,-17.9,UNDER,"SPREAD HOME, TOTAL UNDER"
-2026-02-14,Stetson Hatters,Florida Gulf Coast Eagles,6.8,0.606,146.6,5.5,12.3,161.5,-14.9,UNDER,"SPREAD HOME, TOTAL UNDER"
-2026-02-14,Liberty Flames,UTEP Miners,-3.0,0.419,140.3,-6.5,-9.5,140.0,0.3,OVER,SPREAD AWAY
-2026-02-14,Louisiana Tech Bulldogs,Florida International Panthers,-7.7,0.343,146.0,,,,,,
-2026-02-14,Charleston Southern Buccaneers,Radford Highlanders,8.1,0.666,153.2,-6.5,1.6,154.5,-1.3,UNDER,
-2026-02-14,Villanova Wildcats,Creighton Bluejays,-0.1,0.606,145.4,-7.8,-7.9,144.2,1.2,OVER,SPREAD AWAY
-2026-02-14,Penn State Nittany Lions,Oregon Ducks,-0.1,0.536,144.0,5.5,5.4,152.5,-8.5,UNDER,"SPREAD HOME, TOTAL UNDER"
-2026-02-14,South Carolina Upstate Spartans,Longwood Lancers,12.2,0.666,143.9,,,,,,
-2026-02-14,Marquette Golden Eagles,Xavier Musketeers,-3.8,0.343,153.9,,,,,,
-2026-02-14,NJIT Highlanders,Maine Black Bears,5.2,0.666,137.1,,,,,UNDER,
-2026-02-14,UL Monroe Warhawks,Texas State Bobcats,7.9,0.674,140.6,,,,,,
-2026-02-14,South Alabama Jaguars,Arkansas State Red Wolves,5.0,0.606,147.5,,,,,,
-2026-02-14,Southern Utah Thunderbirds,UT Arlington Mavericks,9.0,0.786,151.8,-6.5,2.5,134.0,17.8,OVER,"SPREAD HOME, TOTAL OVER"
-2026-02-14,Delaware Blue Hens,Missouri State Bears,6.1,0.666,145.3,,,,,,
-2026-02-14,Florida A&M Rattlers,Jackson State Tigers,3.0,0.587,147.6,,,,,,
-2026-02-14,Georgia State Panthers,Old Dominion Monarchs,1.3,0.536,152.1,,,,,,
-2026-02-14,Georgia Bulldogs,Oklahoma Sooners,-2.2,0.415,154.7,,,,,,
-2026-02-14,Tennessee State Tigers,Morehead State Eagles,4.5,0.666,142.4,,,,,,
-2026-02-14,Wyoming Cowboys,Colorado State Rams,7.4,0.674,137.3,,,,,,
-2026-02-14,Duquesne Dukes,St. Bonaventure Bonnies,-2.3,0.536,147.4,-2.5,-4.8,144.5,2.9,OVER,SPREAD AWAY
-2026-02-14,Stanford Cardinal,Wake Forest Demon Deacons,2.9,0.536,154.1,,,,,,
-2026-02-14,Miami Hurricanes,NC State Wolfpack,7.8,0.666,154.4,,,,,,
-2026-02-14,UAlbany Great Danes,Binghamton Bearcats,-5.4,0.415,147.1,,,,,UNDER,
-2026-02-14,Hofstra Pride,UNC Wilmington Seahawks,1.1,0.536,142.0,-12.5,-11.4,146.5,-4.5,UNDER,"SPREAD AWAY, TOTAL UNDER"
-2026-02-14,App State Mountaineers,James Madison Dukes,-0.6,0.536,140.6,-8.2,-8.8,146.8,-6.2,UNDER,"SPREAD AWAY, TOTAL UNDER"
-2026-02-14,Portland State Vikings,Northern Colorado Bears,5.1,0.606,152.2,,,,,,
-2026-02-14,North Florida Ospreys,Jacksonville Dolphins,0.4,0.536,151.2,-7.5,-7.1,134.5,16.7,OVER,"SPREAD AWAY, TOTAL OVER"
-2026-02-14,Lipscomb Bisons,Queens University Royals,-1.7,0.536,161.5,,,,,,
-2026-02-14,Tarleton State Texans,Abilene Christian Wildcats,-3.6,0.419,132.3,-3.5,-7.1,139.5,-7.2,UNDER,"SPREAD AWAY, TOTAL UNDER"
-2026-02-14,Delaware State Hornets,Norfolk State Spartans,4.1,0.587,145.4,,,,,,
-2026-02-14,Arkansas-Pine Bluff Golden Lions,Alabama State Hornets,9.2,0.881,151.9,,,,,,
-2026-02-14,Bethune-Cookman Wildcats,Alcorn State Braves,-0.6,0.468,141.4,,,,,,
-2026-02-14,Lamar Cardinals,Texas A&M-Corpus Christi Islanders,1.6,0.592,137.6,,,,,,
-2026-02-14,SE Louisiana Lions,Northwestern State Demons,0.4,0.536,128.3,,,,,,
-2026-02-14,New Orleans Privateers,Houston Christian Huskies,1.0,0.536,144.4,,,,,,
-2026-02-14,UT Martin Skyhawks,SIU Edwardsville Cougars,0.2,0.536,142.3,-14.5,-14.3,135.5,6.8,OVER,"SPREAD AWAY, TOTAL OVER"
-2026-02-14,Southeast Missouri State Redhawks,Lindenwood Lions,0.9,0.536,148.4,-8.5,-7.6,144.5,3.9,OVER,SPREAD AWAY
-2026-02-14,Little Rock Trojans,Eastern Illinois Panthers,-2.8,0.415,133.4,-8.5,-11.3,144.5,-11.1,UNDER,"SPREAD AWAY, TOTAL UNDER"
-2026-02-14,Maryland Eastern Shore Hawks,Howard Bison,10.8,0.881,130.8,,,,,,
-2026-02-14,Lehigh Mountain Hawks,Lafayette Leopards,0.3,0.536,135.9,,,,,,
-2026-02-14,Loyola Marymount Lions,Pepperdine Waves,-12.2,0.343,146.0,10.8,-1.4,142.2,3.8,OVER,
-2026-02-14,Mississippi Valley State Delta Devils,Alabama A&M Bulldogs,15.5,1.0,131.9,,,,,,
-2026-02-14,Grand Canyon Lopes,San José State Spartans,-11.0,0.141,144.5,,,,,,
-2026-02-14,Coppin State Eagles,North Carolina Central Eagles,10.9,0.666,127.4,,,,,,
-2026-02-14,Air Force Falcons,Fresno State Bulldogs,6.7,0.744,133.0,,,,,,
-2026-02-14,Toledo Rockets,Bowling Green Falcons,-0.1,0.415,151.8,,,,,,
-2026-02-14,Northern Illinois Huskies,Central Michigan Chippewas,4.9,0.606,145.3,,,,,,
-2026-02-14,Wofford Terriers,UNC Greensboro Spartans,0.9,0.536,147.3,-4.5,-3.6,156.5,-9.2,UNDER,"SPREAD AWAY, TOTAL UNDER"
-2026-02-14,Western Carolina Catamounts,Chattanooga Mocs,3.4,0.536,145.1,-4.5,-1.1,156.5,-11.4,UNDER,TOTAL UNDER
-2026-02-14,Long Beach State Beach,UC Davis Aggies,7.4,0.666,148.9,1.5,8.9,150.0,-1.1,UNDER,SPREAD HOME
-2026-02-14,Nicholls Colonels,Incarnate Word Cardinals,7.6,0.536,148.4,,,,,,
-2026-02-14,Idaho State Bengals,Idaho Vandals,-1.3,0.485,143.2,-11.5,-12.8,147.5,-4.3,UNDER,"SPREAD AWAY, TOTAL UNDER"
-2026-02-14,Weber State Wildcats,Eastern Washington Eagles,1.3,0.536,147.8,1.5,2.8,156.5,-8.7,UNDER,"SPREAD HOME, TOTAL UNDER"
-2026-02-14,Tennessee Tech Golden Eagles,Southern Indiana Screaming Eagles,-1.4,0.419,139.1,,,,,,
-2026-02-14,Sam Houston Bearkats,Kennesaw State Owls,-0.3,0.419,154.1,,,,,,
-2026-02-14,New Mexico State Aggies,Jacksonville State Gamecocks,2.0,0.666,136.2,,,,,,
-2026-02-14,Grambling Tigers,Texas Southern Tigers,2.0,0.606,142.9,-7.5,-5.5,147.5,-4.6,UNDER,"SPREAD AWAY, TOTAL UNDER"
-2026-02-14,Southern Jaguars,Prairie View A&M Panthers,-3.7,0.415,141.4,-5.5,-9.2,163.5,-22.1,UNDER,"SPREAD AWAY, TOTAL UNDER"
-2026-02-14,Stephen F. Austin Lumberjacks,UT Rio Grande Valley Vaqueros,1.9,0.553,145.4,,,,,,
-2026-02-14,Bellarmine Knights,Austin Peay Governors,5.1,0.666,146.3,-3.8,1.3,172.5,-26.2,UNDER,TOTAL UNDER
-2026-02-14,VCU Rams,Richmond Spiders,-6.6,0.343,142.8,,,,,,
-2026-02-14,West Virginia Mountaineers,UCF Knights,0.3,0.553,147.9,,,,,,
-2026-02-14,Brown Bears,Dartmouth Big Green,-0.1,0.536,147.1,,,,,,
-2026-02-14,Columbia Lions,Princeton Tigers,5.3,0.666,144.4,,,,,,
-2026-02-14,Cornell Big Red,Pennsylvania Quakers,-7.8,0.415,158.3,,,,,,
-2026-02-14,McNeese Cowboys,East Texas A&M Lions,-8.7,0.141,132.5,,,,,,
-2026-02-14,LSU Tigers,Tennessee Volunteers,9.9,0.881,149.5,-4.5,5.4,155.5,-6.0,UNDER,"SPREAD HOME, TOTAL UNDER"
-2026-02-14,Yale Bulldogs,Harvard Crimson,-4.9,0.343,142.8,,,,,,
-2026-02-14,Mississippi State Bulldogs,Ole Miss Rebels,-6.1,0.415,149.4,-28.2,-34.3,191.5,-42.1,UNDER,"SPREAD AWAY, TOTAL UNDER"
-2026-02-14,Tulsa Golden Hurricane,Wichita State Shockers,5.8,0.674,148.2,,,,,,
-2026-02-14,UC Santa Barbara Gauchos,Cal Poly Mustangs,-7.4,0.343,160.8,-4.5,-11.9,160.0,0.8,OVER,SPREAD AWAY
-2026-02-14,Memphis Tigers,Utah State Aggies,5.0,0.606,151.2,-0.5,4.5,146.5,4.7,OVER,"SPREAD HOME, TOTAL OVER"
-2026-02-14,St. Thomas-Minnesota Tommies,Kansas City Roos,1.3,0.415,149.0,11.5,12.8,148.5,0.5,OVER,SPREAD HOME
-2026-02-14,South Dakota State Jackrabbits,Oral Roberts Golden Eagles,-14.9,0.141,148.3,3.5,-11.4,155.5,-7.2,UNDER,"SPREAD AWAY, TOTAL UNDER"
-2026-02-14,Hawai'i Rainbow Warriors,Cal State Northridge Matadors,3.2,0.536,153.1,,,,,,
-2026-02-14,Sacramento State Hornets,Northern Arizona Lumberjacks,0.5,0.536,142.4,-11.5,-11.0,147.5,-5.1,UNDER,"SPREAD AWAY, TOTAL UNDER"
-2026-02-14,Middle Tennessee Blue Raiders,Western Kentucky Hilltoppers,4.9,0.536,139.4,-5.5,-0.6,151.5,-12.1,UNDER,TOTAL UNDER
-2026-02-14,Marshall Thundering Herd,Georgia Southern Eagles,-3.1,0.536,141.9,-8.2,-11.3,146.8,-4.9,UNDER,"SPREAD AWAY, TOTAL UNDER"
-2026-02-14,South Carolina Gamecocks,Alabama Crimson Tide,17.4,0.881,161.5,-28.2,-10.8,191.5,-30.0,UNDER,"SPREAD AWAY, TOTAL UNDER"
-2026-02-14,Troy Trojans,Southern Miss Golden Eagles,-7.5,0.333,144.7,,,,,,
-2026-02-14,Texas Longhorns,Missouri Tigers,-1.5,0.468,150.5,-3.0,-4.5,137.0,13.5,OVER,"SPREAD AWAY, TOTAL OVER"
-2026-02-14,Minnesota Golden Gophers,Washington Huskies,2.3,0.587,142.6,-1.5,0.8,149.5,-6.9,UNDER,TOTAL UNDER
-2026-02-14,Montana State Bobcats,Montana Grizzlies,5.4,0.666,145.5,-7.5,-2.1,162.5,-17.0,UNDER,TOTAL UNDER
-2026-02-14,California Baptist Lancers,Utah Tech Trailblazers,-2.3,0.536,141.8,-3.5,-5.8,139.5,2.3,OVER,SPREAD AWAY
-2026-02-14,Nevada Wolf Pack,San Diego State Aztecs,7.8,0.786,139.3,,,,,,
-2026-02-14,Cal State Fullerton Titans,UC Irvine Anteaters,12.0,0.786,144.5,-1.0,11.0,154.0,-9.5,UNDER,"SPREAD HOME, TOTAL UNDER"
-2026-02-14,UC Riverside Highlanders,UC San Diego Tritons,8.6,0.666,140.3,-15.0,-6.4,150.5,-10.2,UNDER,"SPREAD AWAY, TOTAL UNDER"
-2026-02-14,Saint Mary's Gaels,Pacific Tigers,0.1,0.197,136.2,,,,,,
-2026-02-14,Morgan State Bears,South Carolina State Bulldogs,2.2,0.553,139.9,,,,,,
+2026-02-14,Texas Tech Red Raiders,Arizona Wildcats,,,,,,,,,
+2026-02-14,UCLA Bruins,Michigan Wolverines,,,,,,,,,
+2026-02-14,Kansas State Wildcats,Houston Cougars,,,,,,,,,
+2026-02-14,Clemson Tigers,Duke Blue Devils,,,,,,,,,
+2026-02-14,Kansas Jayhawks,Iowa State Cyclones,,,,,,,,,
+2026-02-14,Georgetown Hoyas,UConn Huskies,,,,,,,,,
+2026-02-14,Northwestern Wildcats,Nebraska Cornhuskers,,,,,,,,,
+2026-02-14,Pittsburgh Panthers,North Carolina Tar Heels,,,,,,,,,
+2026-02-14,Gonzaga Bulldogs,Santa Clara Broncos,,,,,,,,,
+2026-02-14,Purdue Boilermakers,Iowa Hawkeyes,,,,,,,,,
+2026-02-14,Kentucky Wildcats,Florida Gators,,,,,,,,,
+2026-02-14,Virginia Cavaliers,Ohio State Buckeyes,,,,,,,,,
+2026-02-14,St. John's Red Storm,Providence Friars,,,,,,,,,
+2026-02-14,Texas A&M Aggies,Vanderbilt Commodores,,,,,,,,,
+2026-02-14,Auburn Tigers,Arkansas Razorbacks,,,,,,,,,
+2026-02-14,Colorado Buffaloes,BYU Cougars,,,,,,,,,
+2026-02-14,Louisville Cardinals,Baylor Bears,,,,,,,,,
+2026-02-14,Fordham Rams,Rhode Island Rams,,,,,,,,,
+2026-02-14,TCU Horned Frogs,Oklahoma State Cowboys,,,,,,,,,
+2026-02-14,Georgia Tech Yellow Jackets,Notre Dame Fighting Irish,,,,,,,,,
+2026-02-14,California Golden Bears,Boston College Eagles,,,,,,,,,
+2026-02-14,Navy Midshipmen,Colgate Raiders,,,,,,,,,
+2026-02-14,Samford Bulldogs,East Tennessee State Buccaneers,,,,,,,,,
+2026-02-14,Bucknell Bison,Boston University Terriers,,,,,,,,,
+2026-02-14,Long Island University Sharks,New Haven Chargers,,,,,,,,,
+2026-02-14,Chicago State Cougars,Le Moyne Dolphins,,,,,,,,,
+2026-02-14,UMBC Retrievers,New Hampshire Wildcats,,,,,,,,,
+2026-02-14,Furman Paladins,VMI Keydets,,,,,,,,,
+2026-02-14,Mercer Bears,The Citadel Bulldogs,,,,,,,,,
+2026-02-14,East Carolina Pirates,Rice Owls,,,,,,,,,
+2026-02-14,Army Black Knights,American University Eagles,,,,,,,,,
+2026-02-14,Presbyterian Blue Hose,UNC Asheville Bulldogs,,,,,,,,,
+2026-02-14,High Point Panthers,Gardner-Webb Runnin' Bulldogs,,,,,,,,,
+2026-02-14,Florida State Seminoles,Virginia Tech Hokies,,,,,,,,,
+2026-02-14,SMU Mustangs,Syracuse Orange,,,,,,,,,
+2026-02-14,North Dakota State Bison,North Dakota Fighting Hawks,,,,,,,,,
+2026-02-14,Western Michigan Broncos,Eastern Michigan Eagles,,,,,,,,,
+2026-02-14,Kent State Golden Flashes,Ball State Cardinals,,,,,,,,,
+2026-02-14,Mercyhurst Lakers,Saint Francis Red Flash,,,,,,,,,
+2026-02-14,Central Connecticut Blue Devils,Fairleigh Dickinson Knights,,,,,,,,,
+2026-02-14,Bryant Bulldogs,Vermont Catamounts,,,,,,,,,
+2026-02-14,Elon Phoenix,William & Mary Tribe,,,,,,,,,
+2026-02-14,West Georgia Wolves,Central Arkansas Bears,,,,,,,,,
+2026-02-14,Stetson Hatters,Florida Gulf Coast Eagles,,,,,,,,,
+2026-02-14,Liberty Flames,UTEP Miners,,,,,,,,,
+2026-02-14,Louisiana Tech Bulldogs,Florida International Panthers,,,,,,,,,
+2026-02-14,Charleston Southern Buccaneers,Radford Highlanders,,,,,,,,,
+2026-02-14,Villanova Wildcats,Creighton Bluejays,,,,,,,,,
+2026-02-14,Penn State Nittany Lions,Oregon Ducks,,,,,,,,,
+2026-02-14,South Carolina Upstate Spartans,Longwood Lancers,,,,,,,,,
+2026-02-14,Marquette Golden Eagles,Xavier Musketeers,,,,,,,,,
+2026-02-14,NJIT Highlanders,Maine Black Bears,,,,,,,,,
+2026-02-14,UL Monroe Warhawks,Texas State Bobcats,,,,,,,,,
+2026-02-14,South Alabama Jaguars,Arkansas State Red Wolves,,,,,,,,,
+2026-02-14,Southern Utah Thunderbirds,UT Arlington Mavericks,,,,,,,,,
+2026-02-14,Delaware Blue Hens,Missouri State Bears,,,,,,,,,
+2026-02-14,Florida A&M Rattlers,Jackson State Tigers,,,,,,,,,
+2026-02-14,Georgia State Panthers,Old Dominion Monarchs,,,,,,,,,
+2026-02-14,Georgia Bulldogs,Oklahoma Sooners,,,,,,,,,
+2026-02-14,Tennessee State Tigers,Morehead State Eagles,,,,,,,,,
+2026-02-14,Wyoming Cowboys,Colorado State Rams,,,,,,,,,
+2026-02-14,Duquesne Dukes,St. Bonaventure Bonnies,,,,,,,,,
+2026-02-14,Stanford Cardinal,Wake Forest Demon Deacons,,,,,,,,,
+2026-02-14,Miami Hurricanes,NC State Wolfpack,,,,,,,,,
+2026-02-14,UAlbany Great Danes,Binghamton Bearcats,,,,,,,,,
+2026-02-14,Hofstra Pride,UNC Wilmington Seahawks,,,,,,,,,
+2026-02-14,App State Mountaineers,James Madison Dukes,,,,,,,,,
+2026-02-14,Portland State Vikings,Northern Colorado Bears,,,,,,,,,
+2026-02-14,North Florida Ospreys,Jacksonville Dolphins,,,,,,,,,
+2026-02-14,Lipscomb Bisons,Queens University Royals,,,,,,,,,
+2026-02-14,Tarleton State Texans,Abilene Christian Wildcats,,,,,,,,,
+2026-02-14,Delaware State Hornets,Norfolk State Spartans,,,,,,,,,
+2026-02-14,Arkansas-Pine Bluff Golden Lions,Alabama State Hornets,,,,,,,,,
+2026-02-14,Bethune-Cookman Wildcats,Alcorn State Braves,,,,,,,,,
+2026-02-14,Lamar Cardinals,Texas A&M-Corpus Christi Islanders,,,,,,,,,
+2026-02-14,SE Louisiana Lions,Northwestern State Demons,,,,,,,,,
+2026-02-14,New Orleans Privateers,Houston Christian Huskies,,,,,,,,,
+2026-02-14,UT Martin Skyhawks,SIU Edwardsville Cougars,,,,,,,,,
+2026-02-14,Southeast Missouri State Redhawks,Lindenwood Lions,,,,,,,,,
+2026-02-14,Little Rock Trojans,Eastern Illinois Panthers,,,,,,,,,
+2026-02-14,Maryland Eastern Shore Hawks,Howard Bison,,,,,,,,,
+2026-02-14,Lehigh Mountain Hawks,Lafayette Leopards,,,,,,,,,
+2026-02-14,Loyola Marymount Lions,Pepperdine Waves,,,,,,,,,
+2026-02-14,Mississippi Valley State Delta Devils,Alabama A&M Bulldogs,,,,,,,,,
+2026-02-14,Grand Canyon Lopes,San José State Spartans,,,,,,,,,
+2026-02-14,Coppin State Eagles,North Carolina Central Eagles,,,,,,,,,
+2026-02-14,Air Force Falcons,Fresno State Bulldogs,,,,,,,,,
+2026-02-14,Toledo Rockets,Bowling Green Falcons,,,,,,,,,
+2026-02-14,Northern Illinois Huskies,Central Michigan Chippewas,,,,,,,,,
+2026-02-14,Wofford Terriers,UNC Greensboro Spartans,,,,,,,,,
+2026-02-14,Western Carolina Catamounts,Chattanooga Mocs,,,,,,,,,
+2026-02-14,Long Beach State Beach,UC Davis Aggies,,,,,,,,,
+2026-02-14,Nicholls Colonels,Incarnate Word Cardinals,,,,,,,,,
+2026-02-14,Idaho State Bengals,Idaho Vandals,,,,,,,,,
+2026-02-14,Weber State Wildcats,Eastern Washington Eagles,,,,,,,,,
+2026-02-14,Tennessee Tech Golden Eagles,Southern Indiana Screaming Eagles,,,,,,,,,
+2026-02-14,Sam Houston Bearkats,Kennesaw State Owls,,,,,,,,,
+2026-02-14,New Mexico State Aggies,Jacksonville State Gamecocks,,,,,,,,,
+2026-02-14,Grambling Tigers,Texas Southern Tigers,,,,,,,,,
+2026-02-14,Southern Jaguars,Prairie View A&M Panthers,,,,,,,,,
+2026-02-14,Stephen F. Austin Lumberjacks,UT Rio Grande Valley Vaqueros,,,,,,,,,
+2026-02-14,Bellarmine Knights,Austin Peay Governors,,,,,,,,,
+2026-02-14,VCU Rams,Richmond Spiders,,,,,,,,,
+2026-02-14,West Virginia Mountaineers,UCF Knights,,,,,,,,,
+2026-02-14,Brown Bears,Dartmouth Big Green,,,,,,,,,
+2026-02-14,Columbia Lions,Princeton Tigers,,,,,,,,,
+2026-02-14,Cornell Big Red,Pennsylvania Quakers,,,,,,,,,
+2026-02-14,McNeese Cowboys,East Texas A&M Lions,,,,,,,,,
+2026-02-14,LSU Tigers,Tennessee Volunteers,,,,,,,,,
+2026-02-14,Yale Bulldogs,Harvard Crimson,,,,,,,,,
+2026-02-14,Mississippi State Bulldogs,Ole Miss Rebels,,,,,,,,,
+2026-02-14,Tulsa Golden Hurricane,Wichita State Shockers,,,,,,,,,
+2026-02-14,UC Santa Barbara Gauchos,Cal Poly Mustangs,,,,,,,,,
+2026-02-14,Memphis Tigers,Utah State Aggies,,,,,,,,,
+2026-02-14,St. Thomas-Minnesota Tommies,Kansas City Roos,,,,,,,,,
+2026-02-14,South Dakota State Jackrabbits,Oral Roberts Golden Eagles,,,,,,,,,
+2026-02-14,Hawai'i Rainbow Warriors,Cal State Northridge Matadors,,,,,,,,,
+2026-02-14,Sacramento State Hornets,Northern Arizona Lumberjacks,,,,,,,,,
+2026-02-14,Middle Tennessee Blue Raiders,Western Kentucky Hilltoppers,,,,,,,,,
+2026-02-14,Marshall Thundering Herd,Georgia Southern Eagles,,,,,,,,,
+2026-02-14,South Carolina Gamecocks,Alabama Crimson Tide,,,,,,,,,
+2026-02-14,Troy Trojans,Southern Miss Golden Eagles,,,,,,,,,
+2026-02-14,Texas Longhorns,Missouri Tigers,,,,,,,,,
+2026-02-14,Minnesota Golden Gophers,Washington Huskies,,,,,,,,,
+2026-02-14,Montana State Bobcats,Montana Grizzlies,,,,,,,,,
+2026-02-14,California Baptist Lancers,Utah Tech Trailblazers,,,,,,,,,
+2026-02-14,Nevada Wolf Pack,San Diego State Aztecs,,,,,,,,,
+2026-02-14,Cal State Fullerton Titans,UC Irvine Anteaters,,,,,,,,,
+2026-02-14,UC Riverside Highlanders,UC San Diego Tritons,,,,,,,,,
+2026-02-14,Saint Mary's Gaels,Pacific Tigers,,,,,,,,,
+2026-02-14,Morgan State Bears,South Carolina State Bulldogs,,,,,,,,,

@@ -586,7 +586,7 @@ def recommend_bets(edge: dict, preds: dict, game_tier: str = "unknown") -> list[
 
     if 7.0 <= spread_abs <= 15.0:
         side = "HOME" if raw_spread > 0 else "AWAY"
-        raw_conf = "HIGH" if spread_abs >= 9.0 else "MEDIUM"
+        raw_conf = "HIGH" if spread_abs >= 10.0 else "MEDIUM"
 
         if game_tier == "low":
             conf = "LOW"
@@ -610,7 +610,7 @@ def recommend_bets(edge: dict, preds: dict, game_tier: str = "unknown") -> list[
 
     if 7.0 <= total_abs <= 12.0:
         lean = edge.get("ou_lean", "")
-        raw_conf = "HIGH" if total_abs >= 9.0 else "MEDIUM"
+        raw_conf = "HIGH" if total_abs >= 11.0 else "MEDIUM"
 
         if game_tier == "low":
             conf = "LOW"

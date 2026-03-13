@@ -36,9 +36,7 @@
     ],
     "actual": {
       "home_score": 71,
-      "away_score": 51,
-      "margin": 20,
-      "total": 122
+      "away_score": 51
     }
   },
   {
@@ -60,9 +58,7 @@
     "bets": [],
     "actual": {
       "home_score": 79,
-      "away_score": 88,
-      "margin": -9,
-      "total": 167
+      "away_score": 88
     }
   },
   {
@@ -84,9 +80,7 @@
     "bets": [],
     "actual": {
       "home_score": 69,
-      "away_score": 65,
-      "margin": 4,
-      "total": 134
+      "away_score": 65
     }
   },
   {
@@ -95,7 +89,7 @@
     "home_team": "Rutgers Scarlet Knights",
     "away_team": "Maryland Terrapins",
     "tipoff": "2026-02-15T17:00Z",
-    "venue": "Jersey Mike\u2019s Arena",
+    "venue": "Jersey Mike’s Arena",
     "neutral": false,
     "status": "STATUS_FINAL",
     "predictions": {
@@ -108,9 +102,7 @@
     "bets": [],
     "actual": {
       "home_score": 68,
-      "away_score": 57,
-      "margin": 11,
-      "total": 125
+      "away_score": 57
     }
   },
   {
@@ -132,9 +124,7 @@
     "bets": [],
     "actual": {
       "home_score": 83,
-      "away_score": 73,
-      "margin": 10,
-      "total": 156
+      "away_score": 73
     }
   },
   {
@@ -156,9 +146,7 @@
     "bets": [],
     "actual": {
       "home_score": 83,
-      "away_score": 76,
-      "margin": 7,
-      "total": 159
+      "away_score": 76
     }
   },
   {
@@ -180,9 +168,7 @@
     "bets": [],
     "actual": {
       "home_score": 76,
-      "away_score": 70,
-      "margin": 6,
-      "total": 146
+      "away_score": 70
     }
   },
   {
@@ -204,9 +190,7 @@
     "bets": [],
     "actual": {
       "home_score": 65,
-      "away_score": 69,
-      "margin": -4,
-      "total": 134
+      "away_score": 69
     }
   },
   {
@@ -246,9 +230,7 @@
     ],
     "actual": {
       "home_score": 76,
-      "away_score": 75,
-      "margin": 1,
-      "total": 151
+      "away_score": 75
     }
   },
   {
@@ -294,9 +276,7 @@
     ],
     "actual": {
       "home_score": 60,
-      "away_score": 70,
-      "margin": -10,
-      "total": 130
+      "away_score": 70
     }
   },
   {
@@ -342,9 +322,7 @@
     ],
     "actual": {
       "home_score": 62,
-      "away_score": 65,
-      "margin": -3,
-      "total": 127
+      "away_score": 65
     }
   },
   {
@@ -384,9 +362,7 @@
     ],
     "actual": {
       "home_score": 81,
-      "away_score": 83,
-      "margin": -2,
-      "total": 164
+      "away_score": 83
     }
   },
   {
@@ -408,9 +384,7 @@
     "bets": [],
     "actual": {
       "home_score": 54,
-      "away_score": 55,
-      "margin": -1,
-      "total": 109
+      "away_score": 55
     }
   },
   {
@@ -432,9 +406,7 @@
     "bets": [],
     "actual": {
       "home_score": 86,
-      "away_score": 75,
-      "margin": 11,
-      "total": 161
+      "away_score": 75
     }
   },
   {
@@ -456,9 +428,7 @@
     "bets": [],
     "actual": {
       "home_score": 83,
-      "away_score": 74,
-      "margin": 9,
-      "total": 157
+      "away_score": 74
     }
   },
   {
@@ -480,9 +450,7 @@
     "bets": [],
     "actual": {
       "home_score": 49,
-      "away_score": 56,
-      "margin": -7,
-      "total": 105
+      "away_score": 56
     }
   },
   {
@@ -504,9 +472,7 @@
     "bets": [],
     "actual": {
       "home_score": 93,
-      "away_score": 69,
-      "margin": 24,
-      "total": 162
+      "away_score": 69
     }
   },
   {
@@ -528,9 +494,7 @@
     "bets": [],
     "actual": {
       "home_score": 90,
-      "away_score": 102,
-      "margin": -12,
-      "total": 192
+      "away_score": 102
     }
   },
   {
@@ -552,9 +516,7 @@
     "bets": [],
     "actual": {
       "home_score": 83,
-      "away_score": 78,
-      "margin": 5,
-      "total": 161
+      "away_score": 78
     }
   },
   {
@@ -576,9 +538,7 @@
     "bets": [],
     "actual": {
       "home_score": 70,
-      "away_score": 68,
-      "margin": 2,
-      "total": 138
+      "away_score": 68
     }
   },
   {
@@ -600,9 +560,7 @@
     "bets": [],
     "actual": {
       "home_score": 63,
-      "away_score": 67,
-      "margin": -4,
-      "total": 130
+      "away_score": 67
     }
   },
   {
@@ -624,9 +582,7 @@
     "bets": [],
     "actual": {
       "home_score": 86,
-      "away_score": 62,
-      "margin": 24,
-      "total": 148
+      "away_score": 62
     }
   },
   {
@@ -648,9 +604,7 @@
     "bets": [],
     "actual": {
       "home_score": 83,
-      "away_score": 56,
-      "margin": 27,
-      "total": 139
+      "away_score": 56
     }
   },
   {
@@ -696,9 +650,7 @@
     ],
     "actual": {
       "home_score": 75,
-      "away_score": 72,
-      "margin": 3,
-      "total": 147
+      "away_score": 72
     }
   },
   {
@@ -720,9 +672,7 @@
     "bets": [],
     "actual": {
       "home_score": 70,
-      "away_score": 59,
-      "margin": 11,
-      "total": 129
+      "away_score": 59
     }
   },
   {
@@ -768,9 +718,7 @@
     ],
     "actual": {
       "home_score": 84,
-      "away_score": 78,
-      "margin": 6,
-      "total": 162
+      "away_score": 78
     }
   },
   {
@@ -810,9 +758,7 @@
     ],
     "actual": {
       "home_score": 57,
-      "away_score": 62,
-      "margin": -5,
-      "total": 119
+      "away_score": 62
     }
   },
   {
@@ -834,9 +780,7 @@
     "bets": [],
     "actual": {
       "home_score": 70,
-      "away_score": 87,
-      "margin": -17,
-      "total": 157
+      "away_score": 87
     }
   },
   {
@@ -882,9 +826,7 @@
     ],
     "actual": {
       "home_score": 79,
-      "away_score": 92,
-      "margin": -13,
-      "total": 171
+      "away_score": 92
     }
   },
   {
@@ -906,9 +848,7 @@
     "bets": [],
     "actual": {
       "home_score": 56,
-      "away_score": 63,
-      "margin": -7,
-      "total": 119
+      "away_score": 63
     }
   },
   {

@@ -1,0 +1,41 @@
+[
+  {
+    "game_id": "tourn_2026-03-11_kentucky_duke",
+    "date": "2026-03-11",
+    "home_team": "Duke",
+    "away_team": "Kentucky",
+    "home_seed": 2,
+    "away_seed": 7,
+    "region": "East",
+    "round": 2,
+    "round_name": "Round of 32",
+    "neutral": true,
+    "game_tier": "high",
+    "seed_matchup": "#2 vs #7",
+    "predictions": {
+      "predicted_margin": 2.5,
+      "home_win_prob": 0.545,
+      "away_win_prob": 0.455,
+      "predicted_total": 150.4
+    },
+    "edge": {
+      "spread_edge": 6.0,
+      "vegas_spread": 3.5,
+      "model_spread": 2.5,
+      "total_edge": 1.6,
+      "vegas_total": 148.8,
+      "model_total": 150.4,
+      "ou_lean": "OVER",
+      "model_win_prob": 0.545,
+      "vegas_implied_prob": 0.441,
+      "win_prob_edge": 0.104
+    },
+    "bets": [],
+    "favored_team": "Duke",
+    "underdog_team": "Kentucky",
+    "predicted_spread": "Duke -2.5",
+    "home_win_prob_pct": "54.5%",
+    "away_win_prob_pct": "45.5%",
+    "is_upset_alert": false
+  }
+]

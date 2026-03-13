@@ -1,10 +1,10 @@
 date,away_team,home_team,predicted_margin,home_win_prob,predicted_total,vegas_spread,spread_edge,vegas_total,total_edge,ou_lean,bets
-2026-02-06,UConn Huskies,St. John's Red Storm,1.0,0.485,148.2,,,,,,
-2026-02-06,Loyola Chicago Ramblers,Davidson Wildcats,0.2,0.536,137.0,,,,,,
-2026-02-06,Dayton Flyers,VCU Rams,4.3,0.606,147.2,,,,,,
-2026-02-06,Brown Bears,Yale Bulldogs,11.4,0.881,146.4,,,,,,
-2026-02-06,Evansville Purple Aces,Valparaiso Beacons,0.2,0.606,137.8,-1.0,-0.8,151.5,-13.7,UNDER,TOTAL UNDER
-2026-02-06,Murray State Racers,Southern Illinois Salukis,0.7,0.536,131.5,-12.8,-12.1,121.5,10.0,OVER,"SPREAD AWAY, TOTAL OVER"
-2026-02-06,Drake Bulldogs,Illinois State Redbirds,0.8,0.536,137.2,,,,,,
-2026-02-06,Bradley Braves,Northern Iowa Panthers,-2.2,0.415,133.2,,,,,,
-2026-02-06,Belmont Bruins,UIC Flames,0.2,0.536,147.1,,,,,,
+2026-02-06,UConn Huskies,St. John's Red Storm,,,,,,,,,
+2026-02-06,Loyola Chicago Ramblers,Davidson Wildcats,,,,,,,,,
+2026-02-06,Dayton Flyers,VCU Rams,,,,,,,,,
+2026-02-06,Brown Bears,Yale Bulldogs,,,,,,,,,
+2026-02-06,Evansville Purple Aces,Valparaiso Beacons,,,,,,,,,
+2026-02-06,Murray State Racers,Southern Illinois Salukis,,,,,,,,,
+2026-02-06,Drake Bulldogs,Illinois State Redbirds,,,,,,,,,
+2026-02-06,Bradley Braves,Northern Iowa Panthers,,,,,,,,,
+2026-02-06,Belmont Bruins,UIC Flames,,,,,,,,,

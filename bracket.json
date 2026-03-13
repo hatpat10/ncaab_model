@@ -1,0 +1,37 @@
+[
+  {"home": "[East #1 seed]",  "away": "[East #16 seed]", "home_seed": 1,  "away_seed": 16, "region": "East",    "round": 1, "date": "2026-03-20"},
+  {"home": "[East #8 seed]",  "away": "[East #9 seed]",  "home_seed": 8,  "away_seed": 9,  "region": "East",    "round": 1, "date": "2026-03-20"},
+  {"home": "[East #5 seed]",  "away": "[East #12 seed]", "home_seed": 5,  "away_seed": 12, "region": "East",    "round": 1, "date": "2026-03-20"},
+  {"home": "[East #4 seed]",  "away": "[East #13 seed]", "home_seed": 4,  "away_seed": 13, "region": "East",    "round": 1, "date": "2026-03-20"},
+  {"home": "[East #6 seed]",  "away": "[East #11 seed]", "home_seed": 6,  "away_seed": 11, "region": "East",    "round": 1, "date": "2026-03-21"},
+  {"home": "[East #3 seed]",  "away": "[East #14 seed]", "home_seed": 3,  "away_seed": 14, "region": "East",    "round": 1, "date": "2026-03-21"},
+  {"home": "[East #7 seed]",  "away": "[East #10 seed]", "home_seed": 7,  "away_seed": 10, "region": "East",    "round": 1, "date": "2026-03-21"},
+  {"home": "[East #2 seed]",  "away": "[East #15 seed]", "home_seed": 2,  "away_seed": 15, "region": "East",    "round": 1, "date": "2026-03-21"},
+
+  {"home": "[West #1 seed]",  "away": "[West #16 seed]", "home_seed": 1,  "away_seed": 16, "region": "West",    "round": 1, "date": "2026-03-20"},
+  {"home": "[West #8 seed]",  "away": "[West #9 seed]",  "home_seed": 8,  "away_seed": 9,  "region": "West",    "round": 1, "date": "2026-03-20"},
+  {"home": "[West #5 seed]",  "away": "[West #12 seed]", "home_seed": 5,  "away_seed": 12, "region": "West",    "round": 1, "date": "2026-03-20"},
+  {"home": "[West #4 seed]",  "away": "[West #13 seed]", "home_seed": 4,  "away_seed": 13, "region": "West",    "round": 1, "date": "2026-03-20"},
+  {"home": "[West #6 seed]",  "away": "[West #11 seed]", "home_seed": 6,  "away_seed": 11, "region": "West",    "round": 1, "date": "2026-03-21"},
+  {"home": "[West #3 seed]",  "away": "[West #14 seed]", "home_seed": 3,  "away_seed": 14, "region": "West",    "round": 1, "date": "2026-03-21"},
+  {"home": "[West #7 seed]",  "away": "[West #10 seed]", "home_seed": 7,  "away_seed": 10, "region": "West",    "round": 1, "date": "2026-03-21"},
+  {"home": "[West #2 seed]",  "away": "[West #15 seed]", "home_seed": 2,  "away_seed": 15, "region": "West",    "round": 1, "date": "2026-03-21"},
+
+  {"home": "[South #1 seed]", "away": "[South #16 seed]","home_seed": 1,  "away_seed": 16, "region": "South",   "round": 1, "date": "2026-03-22"},
+  {"home": "[South #8 seed]", "away": "[South #9 seed]", "home_seed": 8,  "away_seed": 9,  "region": "South",   "round": 1, "date": "2026-03-22"},
+  {"home": "[South #5 seed]", "away": "[South #12 seed]","home_seed": 5,  "away_seed": 12, "region": "South",   "round": 1, "date": "2026-03-22"},
+  {"home": "[South #4 seed]", "away": "[South #13 seed]","home_seed": 4,  "away_seed": 13, "region": "South",   "round": 1, "date": "2026-03-22"},
+  {"home": "[South #6 seed]", "away": "[South #11 seed]","home_seed": 6,  "away_seed": 11, "region": "South",   "round": 1, "date": "2026-03-23"},
+  {"home": "[South #3 seed]", "away": "[South #14 seed]","home_seed": 3,  "away_seed": 14, "region": "South",   "round": 1, "date": "2026-03-23"},
+  {"home": "[South #7 seed]", "away": "[South #10 seed]","home_seed": 7,  "away_seed": 10, "region": "South",   "round": 1, "date": "2026-03-23"},
+  {"home": "[South #2 seed]", "away": "[South #15 seed]","home_seed": 2,  "away_seed": 15, "region": "South",   "round": 1, "date": "2026-03-23"},
+
+  {"home": "[Midwest #1 seed]","away": "[Midwest #16 seed]","home_seed": 1,"away_seed": 16, "region": "Midwest", "round": 1, "date": "2026-03-22"},
+  {"home": "[Midwest #8 seed]","away": "[Midwest #9 seed]", "home_seed": 8,"away_seed": 9,  "region": "Midwest", "round": 1, "date": "2026-03-22"},
+  {"home": "[Midwest #5 seed]","away": "[Midwest #12 seed]","home_seed": 5,"away_seed": 12, "region": "Midwest", "round": 1, "date": "2026-03-22"},
+  {"home": "[Midwest #4 seed]","away": "[Midwest #13 seed]","home_seed": 4,"away_seed": 13, "region": "Midwest", "round": 1, "date": "2026-03-22"},
+  {"home": "[Midwest #6 seed]","away": "[Midwest #11 seed]","home_seed": 6,"away_seed": 11, "region": "Midwest", "round": 1, "date": "2026-03-23"},
+  {"home": "[Midwest #3 seed]","away": "[Midwest #14 seed]","home_seed": 3,"away_seed": 14, "region": "Midwest", "round": 1, "date": "2026-03-23"},
+  {"home": "[Midwest #7 seed]","away": "[Midwest #10 seed]","home_seed": 7,"away_seed": 10, "region": "Midwest", "round": 1, "date": "2026-03-23"},
+  {"home": "[Midwest #2 seed]","away": "[Midwest #15 seed]","home_seed": 2,"away_seed": 15, "region": "Midwest", "round": 1, "date": "2026-03-23"}
+]

@@ -8,7 +8,7 @@
     "venue": "Fertitta Center",
     "neutral": false,
     "game_tier": "high",
-    "status": "STATUS_FINAL",
+    "status": "STATUS_IN_PROGRESS",
     "predictions": {
       "predicted_margin": 7.0,
       "home_win_prob": 0.833,
@@ -16,24 +16,211 @@
       "predicted_total": 142.0
     },
     "edge": {
-      "spread_edge": 19.5,
-      "vegas_spread": 12.5,
+      "spread_edge": -5.5,
+      "vegas_spread": -12.5,
       "model_spread": 7.0,
-      "total_edge": -6.5,
-      "vegas_total": 148.5,
+      "total_edge": -4.5,
+      "vegas_total": 146.5,
       "model_total": 142.0,
       "ou_lean": "UNDER",
       "model_win_prob": 0.833,
-      "vegas_implied_prob": 0.146,
-      "win_prob_edge": 0.687
+      "vegas_implied_prob": 0.99,
+      "win_prob_edge": -0.157
+    },
+    "bets": []
+  },
+  {
+    "game_id": "401851637",
+    "date": "2026-03-04",
+    "home_team": "Georgia Southern Eagles",
+    "away_team": "Old Dominion Monarchs",
+    "tipoff": "2026-03-05T01:30Z",
+    "venue": "Pensacola Bay Center",
+    "neutral": true,
+    "game_tier": "mid",
+    "status": "STATUS_FINAL",
+    "predictions": {
+      "predicted_margin": -3.0,
+      "home_win_prob": 0.396,
+      "away_win_prob": 0.604,
+      "predicted_total": 144.4
+    },
+    "edge": {
+      "spread_edge": -6.5,
+      "vegas_spread": -3.5,
+      "model_spread": -3.0,
+      "total_edge": -28.1,
+      "vegas_total": 172.5,
+      "model_total": 144.4,
+      "ou_lean": "UNDER",
+      "model_win_prob": 0.396,
+      "vegas_implied_prob": 0.941,
+      "win_prob_edge": -0.545
     },
     "bets": [],
     "actual": {
-      "home_score": 77,
-      "away_score": 64,
-      "margin": 13,
-      "total": 141
+      "home_score": 88,
+      "away_score": 84,
+      "margin": 4,
+      "total": 172
     }
+  },
+  {
+    "game_id": "401820783",
+    "date": "2026-03-04",
+    "home_team": "Pittsburgh Panthers",
+    "away_team": "Florida State Seminoles",
+    "tipoff": "2026-03-05T02:00Z",
+    "venue": "Petersen Events Center",
+    "neutral": false,
+    "game_tier": "high",
+    "status": "STATUS_IN_PROGRESS",
+    "predictions": {
+      "predicted_margin": 1.4,
+      "home_win_prob": 0.486,
+      "away_win_prob": 0.514,
+      "predicted_total": 146.9
+    },
+    "edge": {
+      "spread_edge": 6.2,
+      "vegas_spread": 4.8,
+      "model_spread": 1.4,
+      "total_edge": 3.4,
+      "vegas_total": 143.5,
+      "model_total": 146.9,
+      "ou_lean": "OVER",
+      "model_win_prob": 0.486,
+      "vegas_implied_prob": 0.104,
+      "win_prob_edge": 0.382
+    },
+    "bets": []
+  },
+  {
+    "game_id": "401820782",
+    "date": "2026-03-04",
+    "home_team": "Notre Dame Fighting Irish",
+    "away_team": "Stanford Cardinal",
+    "tipoff": "2026-03-05T02:00Z",
+    "venue": "Purcell Pavilion",
+    "neutral": false,
+    "game_tier": "high",
+    "status": "STATUS_IN_PROGRESS",
+    "predictions": {
+      "predicted_margin": -1.6,
+      "home_win_prob": 0.541,
+      "away_win_prob": 0.459,
+      "predicted_total": 147.9
+    },
+    "edge": {
+      "spread_edge": 3.2,
+      "vegas_spread": 4.8,
+      "model_spread": -1.6,
+      "total_edge": NaN,
+      "vegas_total": NaN,
+      "model_total": 147.9,
+      "ou_lean": "UNDER",
+      "model_win_prob": 0.541,
+      "vegas_implied_prob": 0.059,
+      "win_prob_edge": 0.482
+    },
+    "bets": []
+  },
+  {
+    "game_id": "401851524",
+    "date": "2026-03-04",
+    "home_team": "Lindenwood Lions",
+    "away_team": "Little Rock Trojans",
+    "tipoff": "2026-03-05T02:30Z",
+    "venue": "Ford Center",
+    "neutral": true,
+    "game_tier": "low",
+    "status": "STATUS_IN_PROGRESS",
+    "predictions": {
+      "predicted_margin": -7.7,
+      "home_win_prob": 0.205,
+      "away_win_prob": 0.795,
+      "predicted_total": 145.0
+    },
+    "edge": {
+      "spread_edge": -15.2,
+      "vegas_spread": -7.5,
+      "model_spread": -7.7,
+      "total_edge": 4.8,
+      "vegas_total": 140.2,
+      "model_total": 145.0,
+      "ou_lean": "OVER",
+      "model_win_prob": 0.205,
+      "vegas_implied_prob": 0.865,
+      "win_prob_edge": -0.66
+    },
+    "bets": []
+  },
+  {
+    "game_id": "401830832",
+    "date": "2026-03-04",
+    "home_team": "New Mexico Lobos",
+    "away_team": "Colorado State Rams",
+    "tipoff": "2026-03-05T03:00Z",
+    "venue": "The Pit",
+    "neutral": false,
+    "game_tier": "mid",
+    "status": "STATUS_HALFTIME",
+    "predictions": {
+      "predicted_margin": 4.9,
+      "home_win_prob": 0.686,
+      "away_win_prob": 0.314,
+      "predicted_total": 149.6
+    },
+    "edge": {
+      "spread_edge": 11.7,
+      "vegas_spread": 6.8,
+      "model_spread": 4.9,
+      "total_edge": 4.8,
+      "vegas_total": 144.8,
+      "model_total": 149.6,
+      "ou_lean": "OVER",
+      "model_win_prob": 0.686,
+      "vegas_implied_prob": 0.274,
+      "win_prob_edge": 0.412
+    },
+    "bets": [
+      {
+        "market": "SPREAD",
+        "lean": "HOME",
+        "edge_pts": 11.7,
+        "confidence": "MEDIUM"
+      }
+    ]
+  },
+  {
+    "game_id": "401825558",
+    "date": "2026-03-04",
+    "home_team": "Washington Huskies",
+    "away_team": "USC Trojans",
+    "tipoff": "2026-03-05T03:30Z",
+    "venue": "Alaska Airlines Arena",
+    "neutral": false,
+    "game_tier": "high",
+    "status": "STATUS_IN_PROGRESS",
+    "predictions": {
+      "predicted_margin": -2.7,
+      "home_win_prob": 0.396,
+      "away_win_prob": 0.604,
+      "predicted_total": 149.8
+    },
+    "edge": {
+      "spread_edge": -5.5,
+      "vegas_spread": -2.8,
+      "model_spread": -2.7,
+      "total_edge": -6.4,
+      "vegas_total": 156.2,
+      "model_total": 149.8,
+      "ou_lean": "UNDER",
+      "model_win_prob": 0.396,
+      "vegas_implied_prob": 0.634,
+      "win_prob_edge": -0.238
+    },
+    "bets": []
   },
   {
     "game_id": "401825556",
@@ -51,32 +238,8 @@
       "away_win_prob": 0.848,
       "predicted_total": 145.0
     },
-    "edge": {
-      "spread_edge": -13.3,
-      "vegas_spread": -3.5,
-      "model_spread": -9.8,
-      "total_edge": 11.5,
-      "vegas_total": 133.5,
-      "model_total": 145.0,
-      "ou_lean": "OVER",
-      "model_win_prob": 0.152,
-      "vegas_implied_prob": 0.617,
-      "win_prob_edge": -0.465
-    },
-    "bets": [
-      {
-        "market": "SPREAD",
-        "lean": "AWAY",
-        "edge_pts": 13.3,
-        "confidence": "HIGH"
-      },
-      {
-        "market": "TOTAL",
-        "lean": "OVER",
-        "edge_pts": 11.5,
-        "confidence": "HIGH"
-      }
-    ],
+    "edge": {},
+    "bets": [],
     "actual": {
       "home_score": 66,
       "away_score": 70,
@@ -100,18 +263,7 @@
       "away_win_prob": 0.394,
       "predicted_total": 156.9
     },
-    "edge": {
-      "spread_edge": -1.9,
-      "vegas_spread": -1.5,
-      "model_spread": -0.4,
-      "total_edge": -2.6,
-      "vegas_total": 159.5,
-      "model_total": 156.9,
-      "ou_lean": "UNDER",
-      "model_win_prob": 0.606,
-      "vegas_implied_prob": 0.563,
-      "win_prob_edge": 0.043
-    },
+    "edge": {},
     "bets": [],
     "actual": {
       "home_score": 105,
@@ -136,18 +288,7 @@
       "away_win_prob": 0.17,
       "predicted_total": 155.7
     },
-    "edge": {
-      "spread_edge": 25.9,
-      "vegas_spread": -1.5,
-      "model_spread": 27.4,
-      "total_edge": -4.5,
-      "vegas_total": 160.2,
-      "model_total": 155.7,
-      "ou_lean": "UNDER",
-      "model_win_prob": 0.83,
-      "vegas_implied_prob": 0.563,
-      "win_prob_edge": 0.267
-    },
+    "edge": {},
     "bets": [],
     "actual": {
       "home_score": 69,
@@ -172,18 +313,7 @@
       "away_win_prob": 0.314,
       "predicted_total": 149.9
     },
-    "edge": {
-      "spread_edge": 17.3,
-      "vegas_spread": 7.5,
-      "model_spread": 9.8,
-      "total_edge": 1.1,
-      "vegas_total": 148.8,
-      "model_total": 149.9,
-      "ou_lean": "OVER",
-      "model_win_prob": 0.686,
-      "vegas_implied_prob": 0.28,
-      "win_prob_edge": 0.406
-    },
+    "edge": {},
     "bets": [],
     "actual": {
       "home_score": 79,
@@ -212,9 +342,7 @@
     "bets": [],
     "actual": {
       "home_score": 82,
-      "away_score": 79,
-      "margin": 3,
-      "total": 161
+      "away_score": 79
     }
   },
   {
@@ -233,24 +361,11 @@
       "away_win_prob": 0.528,
       "predicted_total": 144.0
     },
-    "edge": {
-      "spread_edge": -5.9,
-      "vegas_spread": -5.5,
-      "model_spread": -0.4,
-      "total_edge": -1.5,
-      "vegas_total": 145.5,
-      "model_total": 144.0,
-      "ou_lean": "UNDER",
-      "model_win_prob": 0.472,
-      "vegas_implied_prob": 0.695,
-      "win_prob_edge": -0.223
-    },
+    "edge": {},
     "bets": [],
     "actual": {
       "home_score": 69,
-      "away_score": 58,
-      "margin": 11,
-      "total": 127
+      "away_score": 58
     }
   },
   {
@@ -273,9 +388,7 @@
     "bets": [],
     "actual": {
       "home_score": 76,
-      "away_score": 92,
-      "margin": -16,
-      "total": 168
+      "away_score": 92
     }
   },
   {
@@ -298,9 +411,7 @@
     "bets": [],
     "actual": {
       "home_score": 87,
-      "away_score": 72,
-      "margin": 15,
-      "total": 159
+      "away_score": 72
     }
   },
   {
@@ -319,31 +430,11 @@
       "away_win_prob": 0.848,
       "predicted_total": 146.9
     },
-    "edge": {
-      "spread_edge": -13.1,
-      "vegas_spread": -2.8,
-      "model_spread": -10.3,
-      "total_edge": 5.1,
-      "vegas_total": 141.8,
-      "model_total": 146.9,
-      "ou_lean": "OVER",
-      "model_win_prob": 0.152,
-      "vegas_implied_prob": 0.602,
-      "win_prob_edge": -0.45
-    },
-    "bets": [
-      {
-        "market": "SPREAD",
-        "lean": "AWAY",
-        "edge_pts": 13.1,
-        "confidence": "HIGH"
-      }
-    ],
+    "edge": {},
+    "bets": [],
     "actual": {
       "home_score": 59,
-      "away_score": 76,
-      "margin": -17,
-      "total": 135
+      "away_score": 76
     }
   },
   {
@@ -362,31 +453,11 @@
       "away_win_prob": 0.565,
       "predicted_total": 140.1
     },
-    "edge": {
-      "spread_edge": -11.5,
-      "vegas_spread": -10.0,
-      "model_spread": -1.5,
-      "total_edge": -0.1,
-      "vegas_total": 140.2,
-      "model_total": 140.1,
-      "ou_lean": "UNDER",
-      "model_win_prob": 0.435,
-      "vegas_implied_prob": 0.815,
-      "win_prob_edge": -0.38
-    },
-    "bets": [
-      {
-        "market": "SPREAD",
-        "lean": "AWAY",
-        "edge_pts": 11.5,
-        "confidence": "MEDIUM"
-      }
-    ],
+    "edge": {},
+    "bets": [],
     "actual": {
       "home_score": 87,
-      "away_score": 84,
-      "margin": 3,
-      "total": 171
+      "away_score": 84
     }
   },
   {
@@ -405,24 +476,11 @@
       "away_win_prob": 0.394,
       "predicted_total": 142.8
     },
-    "edge": {
-      "spread_edge": -2.7,
-      "vegas_spread": -4.5,
-      "model_spread": 1.8,
-      "total_edge": -6.0,
-      "vegas_total": 148.8,
-      "model_total": 142.8,
-      "ou_lean": "UNDER",
-      "model_win_prob": 0.606,
-      "vegas_implied_prob": 0.653,
-      "win_prob_edge": -0.047
-    },
+    "edge": {},
     "bets": [],
     "actual": {
       "home_score": 77,
-      "away_score": 47,
-      "margin": 30,
-      "total": 124
+      "away_score": 47
     }
   },
   {
@@ -466,18 +524,7 @@
       "away_win_prob": 0.314,
       "predicted_total": 144.1
     },
-    "edge": {
-      "spread_edge": -0.5,
-      "vegas_spread": -5.5,
-      "model_spread": 5.0,
-      "total_edge": 12.6,
-      "vegas_total": 131.5,
-      "model_total": 144.1,
-      "ou_lean": "OVER",
-      "model_win_prob": 0.686,
-      "vegas_implied_prob": 0.671,
-      "win_prob_edge": 0.015
-    },
+    "edge": {},
     "bets": [],
     "actual": {
       "home_score": 70,
@@ -527,26 +574,8 @@
       "away_win_prob": 0.394,
       "predicted_total": 134.2
     },
-    "edge": {
-      "spread_edge": -4.2,
-      "vegas_spread": -8.5,
-      "model_spread": 4.3,
-      "total_edge": -7.3,
-      "vegas_total": 141.5,
-      "model_total": 134.2,
-      "ou_lean": "UNDER",
-      "model_win_prob": 0.606,
-      "vegas_implied_prob": 0.767,
-      "win_prob_edge": -0.161
-    },
-    "bets": [
-      {
-        "market": "TOTAL",
-        "lean": "UNDER",
-        "edge_pts": 7.3,
-        "confidence": "LOW"
-      }
-    ],
+    "edge": {},
+    "bets": [],
     "actual": {
       "home_score": 79,
       "away_score": 75,
@@ -695,26 +724,8 @@
       "away_win_prob": 0.604,
       "predicted_total": 145.0
     },
-    "edge": {
-      "spread_edge": -6.5,
-      "vegas_spread": -1.5,
-      "model_spread": -5.0,
-      "total_edge": 10.5,
-      "vegas_total": 134.5,
-      "model_total": 145.0,
-      "ou_lean": "OVER",
-      "model_win_prob": 0.396,
-      "vegas_implied_prob": 0.556,
-      "win_prob_edge": -0.16
-    },
-    "bets": [
-      {
-        "market": "TOTAL",
-        "lean": "OVER",
-        "edge_pts": 10.5,
-        "confidence": "MEDIUM"
-      }
-    ],
+    "edge": {},
+    "bets": [],
     "actual": {
       "home_score": 64,
       "away_score": 52,
@@ -738,18 +749,7 @@
       "away_win_prob": 0.514,
       "predicted_total": 140.8
     },
-    "edge": {
-      "spread_edge": -3.8,
-      "vegas_spread": -3.0,
-      "model_spread": -0.8,
-      "total_edge": -0.7,
-      "vegas_total": 141.5,
-      "model_total": 140.8,
-      "ou_lean": "UNDER",
-      "model_win_prob": 0.486,
-      "vegas_implied_prob": 0.615,
-      "win_prob_edge": -0.129
-    },
+    "edge": {},
     "bets": [],
     "actual": {
       "home_score": 67,
@@ -799,18 +799,7 @@
       "away_win_prob": 0.667,
       "predicted_total": 159.8
     },
-    "edge": {
-      "spread_edge": -5.7,
-      "vegas_spread": -1.5,
-      "model_spread": -4.2,
-      "total_edge": 3.0,
-      "vegas_total": 156.8,
-      "model_total": 159.8,
-      "ou_lean": "OVER",
-      "model_win_prob": 0.333,
-      "vegas_implied_prob": 0.533,
-      "win_prob_edge": -0.2
-    },
+    "edge": {},
     "bets": [],
     "actual": {
       "home_score": 56,
@@ -835,26 +824,8 @@
       "away_win_prob": 0.528,
       "predicted_total": 153.2
     },
-    "edge": {
-      "spread_edge": -22.4,
-      "vegas_spread": -17.5,
-      "model_spread": -4.9,
-      "total_edge": 9.0,
-      "vegas_total": 144.2,
-      "model_total": 153.2,
-      "ou_lean": "OVER",
-      "model_win_prob": 0.472,
-      "vegas_implied_prob": 0.963,
-      "win_prob_edge": -0.491
-    },
-    "bets": [
-      {
-        "market": "TOTAL",
-        "lean": "OVER",
-        "edge_pts": 9.0,
-        "confidence": "HIGH"
-      }
-    ],
+    "edge": {},
+    "bets": [],
     "actual": {
       "home_score": 65,
       "away_score": 76,
@@ -1003,18 +974,7 @@
       "away_win_prob": 0.314,
       "predicted_total": 151.1
     },
-    "edge": {
-      "spread_edge": -3.4,
-      "vegas_spread": -8.5,
-      "model_spread": 5.1,
-      "total_edge": -4.7,
-      "vegas_total": 155.8,
-      "model_total": 151.1,
-      "ou_lean": "UNDER",
-      "model_win_prob": 0.686,
-      "vegas_implied_prob": 0.771,
-      "win_prob_edge": -0.085
-    },
+    "edge": {},
     "bets": [],
     "actual": {
       "home_score": 78,
@@ -1039,243 +999,13 @@
       "away_win_prob": 0.848,
       "predicted_total": 137.1
     },
-    "edge": {
-      "spread_edge": -13.1,
-      "vegas_spread": -2.8,
-      "model_spread": -10.3,
-      "total_edge": -4.7,
-      "vegas_total": 141.8,
-      "model_total": 137.1,
-      "ou_lean": "UNDER",
-      "model_win_prob": 0.152,
-      "vegas_implied_prob": 0.602,
-      "win_prob_edge": -0.45
-    },
-    "bets": [
-      {
-        "market": "SPREAD",
-        "lean": "AWAY",
-        "edge_pts": 13.1,
-        "confidence": "HIGH"
-      }
-    ],
+    "edge": {},
+    "bets": [],
     "actual": {
       "home_score": 57,
       "away_score": 76,
       "margin": -19,
       "total": 133
-    }
-  },
-  {
-    "game_id": "401851637",
-    "date": "2026-03-04",
-    "home_team": "Georgia Southern Eagles",
-    "away_team": "Old Dominion Monarchs",
-    "tipoff": "2026-03-05T01:30Z",
-    "venue": "Pensacola Bay Center",
-    "neutral": true,
-    "game_tier": "mid",
-    "status": "STATUS_FINAL",
-    "predictions": {
-      "predicted_margin": -3.0,
-      "home_win_prob": 0.396,
-      "away_win_prob": 0.604,
-      "predicted_total": 144.4
-    },
-    "edge": {
-      "spread_edge": -4.5,
-      "vegas_spread": -1.5,
-      "model_spread": -3.0,
-      "total_edge": -6.1,
-      "vegas_total": 150.5,
-      "model_total": 144.4,
-      "ou_lean": "UNDER",
-      "model_win_prob": 0.396,
-      "vegas_implied_prob": 0.526,
-      "win_prob_edge": -0.13
-    },
-    "bets": [],
-    "actual": {
-      "home_score": 88,
-      "away_score": 84,
-      "margin": 4,
-      "total": 172
-    }
-  },
-  {
-    "game_id": "401820783",
-    "date": "2026-03-04",
-    "home_team": "Pittsburgh Panthers",
-    "away_team": "Florida State Seminoles",
-    "tipoff": "2026-03-05T02:00Z",
-    "venue": "Petersen Events Center",
-    "neutral": false,
-    "game_tier": "high",
-    "status": "STATUS_FINAL",
-    "predictions": {
-      "predicted_margin": 1.4,
-      "home_win_prob": 0.486,
-      "away_win_prob": 0.514,
-      "predicted_total": 146.9
-    },
-    "edge": {
-      "spread_edge": -5.1,
-      "vegas_spread": -6.5,
-      "model_spread": 1.4,
-      "total_edge": 5.4,
-      "vegas_total": 141.5,
-      "model_total": 146.9,
-      "ou_lean": "OVER",
-      "model_win_prob": 0.486,
-      "vegas_implied_prob": 0.722,
-      "win_prob_edge": -0.236
-    },
-    "bets": [],
-    "actual": {
-      "home_score": 74,
-      "away_score": 75,
-      "margin": -1,
-      "total": 149
-    }
-  },
-  {
-    "game_id": "401820782",
-    "date": "2026-03-04",
-    "home_team": "Notre Dame Fighting Irish",
-    "away_team": "Stanford Cardinal",
-    "tipoff": "2026-03-05T02:00Z",
-    "venue": "Purcell Pavilion",
-    "neutral": false,
-    "game_tier": "high",
-    "status": "STATUS_FINAL",
-    "predictions": {
-      "predicted_margin": -1.6,
-      "home_win_prob": 0.541,
-      "away_win_prob": 0.459,
-      "predicted_total": 147.9
-    },
-    "edge": {
-      "spread_edge": -0.1,
-      "vegas_spread": 1.5,
-      "model_spread": -1.6,
-      "total_edge": 5.4,
-      "vegas_total": 142.5,
-      "model_total": 147.9,
-      "ou_lean": "OVER",
-      "model_win_prob": 0.541,
-      "vegas_implied_prob": 0.498,
-      "win_prob_edge": 0.043
-    },
-    "bets": [],
-    "actual": {
-      "home_score": 78,
-      "away_score": 86,
-      "margin": -8,
-      "total": 164
-    }
-  },
-  {
-    "game_id": "401851524",
-    "date": "2026-03-04",
-    "home_team": "Lindenwood Lions",
-    "away_team": "Little Rock Trojans",
-    "tipoff": "2026-03-05T02:30Z",
-    "venue": "Ford Center",
-    "neutral": true,
-    "game_tier": "low",
-    "status": "STATUS_FINAL",
-    "predictions": {
-      "predicted_margin": -7.7,
-      "home_win_prob": 0.205,
-      "away_win_prob": 0.795,
-      "predicted_total": 145.0
-    },
-    "edge": {},
-    "bets": [],
-    "actual": {
-      "home_score": 72,
-      "away_score": 62,
-      "margin": 10,
-      "total": 134
-    }
-  },
-  {
-    "game_id": "401830832",
-    "date": "2026-03-04",
-    "home_team": "New Mexico Lobos",
-    "away_team": "Colorado State Rams",
-    "tipoff": "2026-03-05T03:00Z",
-    "venue": "The Pit",
-    "neutral": false,
-    "game_tier": "mid",
-    "status": "STATUS_FINAL",
-    "predictions": {
-      "predicted_margin": 4.9,
-      "home_win_prob": 0.686,
-      "away_win_prob": 0.314,
-      "predicted_total": 149.6
-    },
-    "edge": {
-      "spread_edge": 2.4,
-      "vegas_spread": -2.5,
-      "model_spread": 4.9,
-      "total_edge": -4.9,
-      "vegas_total": 154.5,
-      "model_total": 149.6,
-      "ou_lean": "UNDER",
-      "model_win_prob": 0.686,
-      "vegas_implied_prob": 0.617,
-      "win_prob_edge": 0.069
-    },
-    "bets": [],
-    "actual": {
-      "home_score": 74,
-      "away_score": 82,
-      "margin": -8,
-      "total": 156
-    }
-  },
-  {
-    "game_id": "401825558",
-    "date": "2026-03-04",
-    "home_team": "Washington Huskies",
-    "away_team": "USC Trojans",
-    "tipoff": "2026-03-05T03:30Z",
-    "venue": "Alaska Airlines Arena",
-    "neutral": false,
-    "game_tier": "high",
-    "status": "STATUS_FINAL",
-    "predictions": {
-      "predicted_margin": -2.7,
-      "home_win_prob": 0.396,
-      "away_win_prob": 0.604,
-      "predicted_total": 149.8
-    },
-    "edge": {
-      "spread_edge": -3.2,
-      "vegas_spread": -0.5,
-      "model_spread": -2.7,
-      "total_edge": 8.3,
-      "vegas_total": 141.5,
-      "model_total": 149.8,
-      "ou_lean": "OVER",
-      "model_win_prob": 0.396,
-      "vegas_implied_prob": 0.535,
-      "win_prob_edge": -0.139
-    },
-    "bets": [
-      {
-        "market": "TOTAL",
-        "lean": "OVER",
-        "edge_pts": 8.3,
-        "confidence": "MEDIUM"
-      }
-    ],
-    "actual": {
-      "home_score": 91,
-      "away_score": 72,
-      "margin": 19,
-      "total": 163
     }
   }
 ]

@@ -390,9 +390,7 @@
     "bets": [],
     "actual": {
       "home_score": 88,
-      "away_score": 92,
-      "margin": -4,
-      "total": 180
+      "away_score": 92
     }
   },
   {
@@ -675,7 +673,7 @@
     "game_id": "401829332",
     "date": "2026-02-10",
     "home_team": "UNLV Rebels",
-    "away_team": "San Jos\u00e9 State Spartans",
+    "away_team": "San José State Spartans",
     "tipoff": "2026-02-11T04:00Z",
     "venue": "Thomas & Mack Center",
     "neutral": false,

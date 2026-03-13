@@ -33,7 +33,11 @@
         "edge_pts": 8.6,
         "confidence": "MEDIUM"
       }
-    ]
+    ],
+    "actual": {
+      "home_score": 77,
+      "away_score": 51
+    }
   },
   {
     "game_id": "401827711",
@@ -69,7 +73,11 @@
         "edge_pts": 7.1,
         "confidence": "MEDIUM"
       }
-    ]
+    ],
+    "actual": {
+      "home_score": 102,
+      "away_score": 62
+    }
   },
   {
     "game_id": "401822963",
@@ -105,7 +113,11 @@
         "edge_pts": 8.8,
         "confidence": "MEDIUM"
       }
-    ]
+    ],
+    "actual": {
+      "home_score": 71,
+      "away_score": 67
+    }
   },
   {
     "game_id": "401828453",
@@ -141,7 +153,11 @@
         "edge_pts": 7.2,
         "confidence": "MEDIUM"
       }
-    ]
+    ],
+    "actual": {
+      "home_score": 55,
+      "away_score": 61
+    }
   },
   {
     "game_id": "401825547",
@@ -177,7 +193,11 @@
         "edge_pts": 11.9,
         "confidence": "HIGH"
       }
-    ]
+    ],
+    "actual": {
+      "home_score": 71,
+      "away_score": 69
+    }
   },
   {
     "game_id": "401824377",
@@ -213,7 +233,11 @@
         "edge_pts": 8.3,
         "confidence": "MEDIUM"
       }
-    ]
+    ],
+    "actual": {
+      "home_score": 65,
+      "away_score": 68
+    }
   },
   {
     "game_id": "401820775",
@@ -242,7 +266,11 @@
       "vegas_implied_prob": 0.294,
       "win_prob_edge": 0.125
     },
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 96,
+      "away_score": 90
+    }
   },
   {
     "game_id": "401820772",
@@ -271,7 +299,11 @@
       "vegas_implied_prob": 0.336,
       "win_prob_edge": 0.007
     },
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 71,
+      "away_score": 80
+    }
   },
   {
     "game_id": "401820208",
@@ -300,7 +332,11 @@
       "vegas_implied_prob": 0.55,
       "win_prob_edge": -0.014
     },
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 62,
+      "away_score": 76
+    }
   },
   {
     "game_id": "401828450",
@@ -329,7 +365,11 @@
       "vegas_implied_prob": 0.917,
       "win_prob_edge": -0.131
     },
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 82,
+      "away_score": 63
+    }
   },
   {
     "game_id": "401826825",
@@ -358,7 +398,11 @@
       "vegas_implied_prob": 0.692,
       "win_prob_edge": -0.207
     },
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 83,
+      "away_score": 77
+    }
   },
   {
     "game_id": "401817689",
@@ -400,7 +444,11 @@
         "edge_pts": 9.5,
         "confidence": "HIGH"
       }
-    ]
+    ],
+    "actual": {
+      "home_score": 83,
+      "away_score": 64
+    }
   },
   {
     "game_id": "401812418",
@@ -418,7 +466,11 @@
       "predicted_total": 128.5
     },
     "edge": {},
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 80,
+      "away_score": 61
+    }
   },
   {
     "game_id": "401812400",
@@ -436,7 +488,11 @@
       "predicted_total": 139.3
     },
     "edge": {},
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 69,
+      "away_score": 64
+    }
   },
   {
     "game_id": "401812349",
@@ -454,7 +510,11 @@
       "predicted_total": 137.8
     },
     "edge": {},
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 66,
+      "away_score": 59
+    }
   },
   {
     "game_id": "401812332",
@@ -472,7 +532,11 @@
       "predicted_total": 138.0
     },
     "edge": {},
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 74,
+      "away_score": 60
+    }
   },
   {
     "game_id": "401812171",
@@ -490,7 +554,11 @@
       "predicted_total": 157.8
     },
     "edge": {},
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 60,
+      "away_score": 84
+    }
   },
   {
     "game_id": "401808270",
@@ -508,7 +576,11 @@
       "predicted_total": 150.5
     },
     "edge": {},
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 64,
+      "away_score": 88
+    }
   },
   {
     "game_id": "401804951",
@@ -537,7 +609,11 @@
       "vegas_implied_prob": 0.695,
       "win_prob_edge": -0.089
     },
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 86,
+      "away_score": 85
+    }
   },
   {
     "game_id": "401822965",
@@ -566,7 +642,11 @@
       "vegas_implied_prob": 0.675,
       "win_prob_edge": -0.009
     },
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 91,
+      "away_score": 84
+    }
   },
   {
     "game_id": "401820770",
@@ -608,7 +688,11 @@
         "edge_pts": 7.0,
         "confidence": "MEDIUM"
       }
-    ]
+    ],
+    "actual": {
+      "home_score": 80,
+      "away_score": 75
+    }
   },
   {
     "game_id": "401808268",
@@ -644,7 +728,11 @@
         "edge_pts": 7.9,
         "confidence": "MEDIUM"
       }
-    ]
+    ],
+    "actual": {
+      "home_score": 91,
+      "away_score": 77
+    }
   },
   {
     "game_id": "401857754",
@@ -673,7 +761,11 @@
       "vegas_implied_prob": 0.476,
       "win_prob_edge": -0.133
     },
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 81,
+      "away_score": 87
+    }
   },
   {
     "game_id": "401829400",
@@ -691,7 +783,11 @@
       "predicted_total": 144.9
     },
     "edge": {},
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 89,
+      "away_score": 79
+    }
   },
   {
     "game_id": "401828451",
@@ -727,7 +823,11 @@
         "edge_pts": 9.5,
         "confidence": "HIGH"
       }
-    ]
+    ],
+    "actual": {
+      "home_score": 71,
+      "away_score": 58
+    }
   },
   {
     "game_id": "401827710",
@@ -756,7 +856,11 @@
       "vegas_implied_prob": 0.844,
       "win_prob_edge": -0.178
     },
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 91,
+      "away_score": 68
+    }
   },
   {
     "game_id": "401825546",
@@ -785,7 +889,11 @@
       "vegas_implied_prob": 0.661,
       "win_prob_edge": -0.318
     },
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 63,
+      "away_score": 62
+    }
   },
   {
     "game_id": "401825545",
@@ -814,7 +922,11 @@
       "vegas_implied_prob": 0.512,
       "win_prob_edge": -0.093
     },
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 78,
+      "away_score": 73
+    }
   },
   {
     "game_id": "401823963",
@@ -850,7 +962,11 @@
         "edge_pts": 8.3,
         "confidence": "MEDIUM"
       }
-    ]
+    ],
+    "actual": {
+      "home_score": 71,
+      "away_score": 61
+    }
   },
   {
     "game_id": "401823962",
@@ -868,7 +984,11 @@
       "predicted_total": 142.5
     },
     "edge": {},
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 75,
+      "away_score": 92
+    }
   },
   {
     "game_id": "401823785",
@@ -897,7 +1017,11 @@
       "vegas_implied_prob": 0.695,
       "win_prob_edge": -0.108
     },
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 81,
+      "away_score": 76
+    }
   },
   {
     "game_id": "401820773",
@@ -933,7 +1057,11 @@
         "edge_pts": 12.7,
         "confidence": "LOW"
       }
-    ]
+    ],
+    "actual": {
+      "home_score": 76,
+      "away_score": 54
+    }
   },
   {
     "game_id": "401818437",
@@ -962,7 +1090,11 @@
       "vegas_implied_prob": 0.459,
       "win_prob_edge": -0.04
     },
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 75,
+      "away_score": 70
+    }
   },
   {
     "game_id": "401817690",
@@ -991,7 +1123,11 @@
       "vegas_implied_prob": 0.583,
       "win_prob_edge": -0.164
     },
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 85,
+      "away_score": 63
+    }
   },
   {
     "game_id": "401814589",
@@ -1027,7 +1163,11 @@
         "edge_pts": 7.0,
         "confidence": "MEDIUM"
       }
-    ]
+    ],
+    "actual": {
+      "home_score": 81,
+      "away_score": 62
+    }
   },
   {
     "game_id": "401814588",
@@ -1063,7 +1203,11 @@
         "edge_pts": 7.2,
         "confidence": "MEDIUM"
       }
-    ]
+    ],
+    "actual": {
+      "home_score": 70,
+      "away_score": 75
+    }
   },
   {
     "game_id": "401812172",
@@ -1081,7 +1225,11 @@
       "predicted_total": 144.7
     },
     "edge": {},
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 84,
+      "away_score": 61
+    }
   },
   {
     "game_id": "401812170",
@@ -1099,7 +1247,11 @@
       "predicted_total": 136.7
     },
     "edge": {},
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 74,
+      "away_score": 67
+    }
   },
   {
     "game_id": "401812091",
@@ -1128,7 +1280,11 @@
       "vegas_implied_prob": 0.323,
       "win_prob_edge": 0.092
     },
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 88,
+      "away_score": 91
+    }
   },
   {
     "game_id": "401812089",
@@ -1164,7 +1320,11 @@
         "edge_pts": 7.2,
         "confidence": "MEDIUM"
       }
-    ]
+    ],
+    "actual": {
+      "home_score": 71,
+      "away_score": 67
+    }
   },
   {
     "game_id": "401809392",
@@ -1193,7 +1353,11 @@
       "vegas_implied_prob": 0.9,
       "win_prob_edge": -0.234
     },
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 90,
+      "away_score": 93
+    }
   },
   {
     "game_id": "401809388",
@@ -1222,7 +1386,11 @@
       "vegas_implied_prob": 0.889,
       "win_prob_edge": -0.008
     },
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 86,
+      "away_score": 79
+    }
   },
   {
     "game_id": "401807768",
@@ -1251,7 +1419,11 @@
       "vegas_implied_prob": 0.606,
       "win_prob_edge": -0.07
     },
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 84,
+      "away_score": 79
+    }
   },
   {
     "game_id": "401807767",
@@ -1269,7 +1441,11 @@
       "predicted_total": 152.7
     },
     "edge": {},
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 75,
+      "away_score": 63
+    }
   },
   {
     "game_id": "401807764",
@@ -1287,7 +1463,11 @@
       "predicted_total": 148.2
     },
     "edge": {},
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 78,
+      "away_score": 63
+    }
   },
   {
     "game_id": "401807763",
@@ -1305,7 +1485,11 @@
       "predicted_total": 146.3
     },
     "edge": {},
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 111,
+      "away_score": 97
+    }
   },
   {
     "game_id": "401806512",
@@ -1323,7 +1507,11 @@
       "predicted_total": 141.1
     },
     "edge": {},
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 42,
+      "away_score": 67
+    }
   },
   {
     "game_id": "401823965",
@@ -1341,7 +1529,11 @@
       "predicted_total": 147.5
     },
     "edge": {},
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 90,
+      "away_score": 74
+    }
   },
   {
     "game_id": "401817688",
@@ -1370,7 +1562,11 @@
       "vegas_implied_prob": 0.778,
       "win_prob_edge": 0.222
     },
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 89,
+      "away_score": 95
+    }
   },
   {
     "game_id": "401812090",
@@ -1399,7 +1595,11 @@
       "vegas_implied_prob": 0.621,
       "win_prob_edge": -0.015
     },
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 73,
+      "away_score": 57
+    }
   },
   {
     "game_id": "401808521",
@@ -1417,7 +1617,11 @@
       "predicted_total": 142.8
     },
     "edge": {},
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 82,
+      "away_score": 61
+    }
   },
   {
     "game_id": "401804953",
@@ -1446,7 +1650,11 @@
       "vegas_implied_prob": 0.587,
       "win_prob_edge": 0.079
     },
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 76,
+      "away_score": 84
+    }
   },
   {
     "game_id": "401804952",
@@ -1475,7 +1683,11 @@
       "vegas_implied_prob": 0.852,
       "win_prob_edge": -0.316
     },
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 97,
+      "away_score": 65
+    }
   },
   {
     "game_id": "401827708",
@@ -1493,7 +1705,11 @@
       "predicted_total": 154.7
     },
     "edge": {},
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 73,
+      "away_score": 60
+    }
   },
   {
     "game_id": "401827036",
@@ -1511,7 +1727,11 @@
       "predicted_total": 145.9
     },
     "edge": {},
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 79,
+      "away_score": 82
+    }
   },
   {
     "game_id": "401808267",
@@ -1540,7 +1760,11 @@
       "vegas_implied_prob": 0.27,
       "win_prob_edge": 0.336
     },
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 87,
+      "away_score": 68
+    }
   },
   {
     "game_id": "401827707",
@@ -1569,7 +1793,11 @@
       "vegas_implied_prob": 0.755,
       "win_prob_edge": -0.003
     },
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 84,
+      "away_score": 61
+    }
   },
   {
     "game_id": "401827712",
@@ -1598,7 +1826,11 @@
       "vegas_implied_prob": 0.851,
       "win_prob_edge": -0.177
     },
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 73,
+      "away_score": 82
+    }
   },
   {
     "game_id": "401825548",
@@ -1627,7 +1859,11 @@
       "vegas_implied_prob": 0.379,
       "win_prob_edge": 0.157
     },
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 67,
+      "away_score": 82
+    }
   },
   {
     "game_id": "401830777",
@@ -1656,7 +1892,11 @@
       "vegas_implied_prob": 0.99,
       "win_prob_edge": -0.324
     },
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 66,
+      "away_score": 62
+    }
   },
   {
     "game_id": "401830315",
@@ -1685,7 +1925,11 @@
       "vegas_implied_prob": 0.373,
       "win_prob_edge": 0.18
     },
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 80,
+      "away_score": 79
+    }
   },
   {
     "game_id": "401829267",
@@ -1714,7 +1958,11 @@
       "vegas_implied_prob": 0.556,
       "win_prob_edge": -0.02
     },
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 87,
+      "away_score": 74
+    }
   },
   {
     "game_id": "401828716",
@@ -1732,7 +1980,11 @@
       "predicted_total": 144.4
     },
     "edge": {},
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 59,
+      "away_score": 84
+    }
   },
   {
     "game_id": "401828452",
@@ -1750,7 +2002,11 @@
       "predicted_total": 144.2
     },
     "edge": {},
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 69,
+      "away_score": 66
+    }
   },
   {
     "game_id": "401825549",
@@ -1779,7 +2035,11 @@
       "vegas_implied_prob": 0.0,
       "win_prob_edge": 0.343
     },
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 73,
+      "away_score": 90
+    }
   },
   {
     "game_id": "401823964",
@@ -1797,7 +2057,11 @@
       "predicted_total": 150.0
     },
     "edge": {},
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 74,
+      "away_score": 70
+    }
   },
   {
     "game_id": "401820769",
@@ -1839,7 +2103,11 @@
         "edge_pts": 8.9,
         "confidence": "MEDIUM"
       }
-    ]
+    ],
+    "actual": {
+      "home_score": 56,
+      "away_score": 72
+    }
   },
   {
     "game_id": "401820177",
@@ -1857,7 +2125,11 @@
       "predicted_total": 141.9
     },
     "edge": {},
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 85,
+      "away_score": 69
+    }
   },
   {
     "game_id": "401814591",
@@ -1886,7 +2158,11 @@
       "vegas_implied_prob": 0.535,
       "win_prob_edge": -0.12
     },
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 67,
+      "away_score": 79
+    }
   },
   {
     "game_id": "401814587",
@@ -1922,7 +2198,11 @@
         "edge_pts": 9.5,
         "confidence": "HIGH"
       }
-    ]
+    ],
+    "actual": {
+      "home_score": 43,
+      "away_score": 79
+    }
   },
   {
     "game_id": "401812173",
@@ -1940,7 +2220,11 @@
       "predicted_total": 143.3
     },
     "edge": {},
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 69,
+      "away_score": 52
+    }
   },
   {
     "game_id": "401812093",
@@ -1969,7 +2253,11 @@
       "vegas_implied_prob": 0.649,
       "win_prob_edge": -0.113
     },
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 76,
+      "away_score": 65
+    }
   },
   {
     "game_id": "401808933",
@@ -1987,7 +2275,11 @@
       "predicted_total": 144.5
     },
     "edge": {},
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 68,
+      "away_score": 60
+    }
   },
   {
     "game_id": "401808511",
@@ -2023,7 +2315,11 @@
         "edge_pts": 10.1,
         "confidence": "HIGH"
       }
-    ]
+    ],
+    "actual": {
+      "home_score": 74,
+      "away_score": 68
+    }
   },
   {
     "game_id": "401808486",
@@ -2052,7 +2348,11 @@
       "vegas_implied_prob": 0.592,
       "win_prob_edge": -0.056
     },
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 67,
+      "away_score": 76
+    }
   },
   {
     "game_id": "401808469",
@@ -2081,7 +2381,11 @@
       "vegas_implied_prob": 0.826,
       "win_prob_edge": -0.16
     },
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 88,
+      "away_score": 57
+    }
   },
   {
     "game_id": "401808272",
@@ -2117,7 +2421,11 @@
         "edge_pts": 10.1,
         "confidence": "HIGH"
       }
-    ]
+    ],
+    "actual": {
+      "home_score": 70,
+      "away_score": 76
+    }
   },
   {
     "game_id": "401807766",
@@ -2135,7 +2443,11 @@
       "predicted_total": 156.0
     },
     "edge": {},
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 77,
+      "away_score": 80
+    }
   },
   {
     "game_id": "401806510",
@@ -2164,7 +2476,11 @@
       "vegas_implied_prob": 0.733,
       "win_prob_edge": 0.011
     },
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 89,
+      "away_score": 70
+    }
   },
   {
     "game_id": "401805208",
@@ -2193,7 +2509,11 @@
       "vegas_implied_prob": 0.923,
       "win_prob_edge": -0.249
     },
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 74,
+      "away_score": 67
+    }
   },
   {
     "game_id": "401830245",
@@ -2211,7 +2531,11 @@
       "predicted_total": 135.1
     },
     "edge": {},
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 60,
+      "away_score": 74
+    }
   },
   {
     "game_id": "401823054",
@@ -2229,7 +2553,11 @@
       "predicted_total": 137.8
     },
     "edge": {},
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 69,
+      "away_score": 57
+    }
   },
   {
     "game_id": "401822778",
@@ -2247,7 +2575,11 @@
       "predicted_total": 133.9
     },
     "edge": {},
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 69,
+      "away_score": 75
+    }
   },
   {
     "game_id": "401809389",
@@ -2283,7 +2615,11 @@
         "edge_pts": 7.0,
         "confidence": "MEDIUM"
       }
-    ]
+    ],
+    "actual": {
+      "home_score": 82,
+      "away_score": 76
+    }
   },
   {
     "game_id": "401808974",
@@ -2301,7 +2637,11 @@
       "predicted_total": 134.8
     },
     "edge": {},
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 56,
+      "away_score": 77
+    }
   },
   {
     "game_id": "401806509",
@@ -2343,7 +2683,11 @@
         "edge_pts": 7.7,
         "confidence": "MEDIUM"
       }
-    ]
+    ],
+    "actual": {
+      "home_score": 69,
+      "away_score": 91
+    }
   },
   {
     "game_id": "401806508",
@@ -2372,7 +2716,11 @@
       "vegas_implied_prob": 0.714,
       "win_prob_edge": -0.048
     },
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 77,
+      "away_score": 50
+    }
   },
   {
     "game_id": "401806511",
@@ -2390,12 +2738,16 @@
       "predicted_total": 144.9
     },
     "edge": {},
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 89,
+      "away_score": 73
+    }
   },
   {
     "game_id": "401829333",
     "date": "2026-02-28",
-    "home_team": "San Jos\u00e9 State Spartans",
+    "home_team": "San José State Spartans",
     "away_team": "Colorado State Rams",
     "tipoff": "2026-02-28T22:00Z",
     "venue": "Provident Credit Union Event Center",
@@ -2408,7 +2760,11 @@
       "predicted_total": 145.1
     },
     "edge": {},
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 73,
+      "away_score": 85
+    }
   },
   {
     "game_id": "401828669",
@@ -2426,7 +2782,11 @@
       "predicted_total": 147.4
     },
     "edge": {},
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 82,
+      "away_score": 57
+    }
   },
   {
     "game_id": "401827169",
@@ -2444,7 +2804,11 @@
       "predicted_total": 134.7
     },
     "edge": {},
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 88,
+      "away_score": 89
+    }
   },
   {
     "game_id": "401820497",
@@ -2473,7 +2837,11 @@
       "vegas_implied_prob": 0.5,
       "win_prob_edge": -0.157
     },
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 72,
+      "away_score": 60
+    }
   },
   {
     "game_id": "401818436",
@@ -2491,7 +2859,11 @@
       "predicted_total": 151.5
     },
     "edge": {},
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 96,
+      "away_score": 63
+    }
   },
   {
     "game_id": "401804956",
@@ -2509,7 +2881,11 @@
       "predicted_total": 152.9
     },
     "edge": {},
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 90,
+      "away_score": 82
+    }
   },
   {
     "game_id": "401827714",
@@ -2538,7 +2914,11 @@
       "vegas_implied_prob": 0.472,
       "win_prob_edge": -0.129
     },
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 79,
+      "away_score": 71
+    }
   },
   {
     "game_id": "401827081",
@@ -2556,7 +2936,11 @@
       "predicted_total": 148.2
     },
     "edge": {},
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 72,
+      "away_score": 51
+    }
   },
   {
     "game_id": "401822964",
@@ -2585,7 +2969,11 @@
       "vegas_implied_prob": 0.623,
       "win_prob_edge": 0.043
     },
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 76,
+      "away_score": 79
+    }
   },
   {
     "game_id": "401809391",
@@ -2614,7 +3002,11 @@
       "vegas_implied_prob": 0.535,
       "win_prob_edge": -0.067
     },
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 86,
+      "away_score": 67
+    }
   },
   {
     "game_id": "401808722",
@@ -2632,7 +3024,11 @@
       "predicted_total": 151.5
     },
     "edge": {},
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 63,
+      "away_score": 55
+    }
   },
   {
     "game_id": "401804954",
@@ -2668,7 +3064,11 @@
         "edge_pts": 7.7,
         "confidence": "MEDIUM"
       }
-    ]
+    ],
+    "actual": {
+      "home_score": 86,
+      "away_score": 81
+    }
   },
   {
     "game_id": "401820777",
@@ -2697,7 +3097,11 @@
       "vegas_implied_prob": 0.652,
       "win_prob_edge": -0.116
     },
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 88,
+      "away_score": 83
+    }
   },
   {
     "game_id": "401808271",
@@ -2726,7 +3130,11 @@
       "vegas_implied_prob": 0.6,
       "win_prob_edge": -0.047
     },
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 69,
+      "away_score": 71
+    }
   },
   {
     "game_id": "401829268",
@@ -2762,7 +3170,11 @@
         "edge_pts": 9.7,
         "confidence": "HIGH"
       }
-    ]
+    ],
+    "actual": {
+      "home_score": 61,
+      "away_score": 72
+    }
   },
   {
     "game_id": "401826868",
@@ -2791,7 +3203,11 @@
       "vegas_implied_prob": 0.733,
       "win_prob_edge": -0.059
     },
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 82,
+      "away_score": 61
+    }
   },
   {
     "game_id": "401820776",
@@ -2820,7 +3236,11 @@
       "vegas_implied_prob": 0.952,
       "win_prob_edge": -0.467
     },
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 95,
+      "away_score": 75
+    }
   },
   {
     "game_id": "401818564",
@@ -2849,7 +3269,11 @@
       "vegas_implied_prob": 0.925,
       "win_prob_edge": -0.259
     },
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 86,
+      "away_score": 80
+    }
   },
   {
     "game_id": "401818336",
@@ -2885,7 +3309,11 @@
         "edge_pts": 7.4,
         "confidence": "MEDIUM"
       }
-    ]
+    ],
+    "actual": {
+      "home_score": 54,
+      "away_score": 60
+    }
   },
   {
     "game_id": "401812597",
@@ -2921,7 +3349,11 @@
         "edge_pts": 7.1,
         "confidence": "MEDIUM"
       }
-    ]
+    ],
+    "actual": {
+      "home_score": 64,
+      "away_score": 61
+    }
   },
   {
     "game_id": "401809390",
@@ -2950,7 +3382,11 @@
       "vegas_implied_prob": 0.841,
       "win_prob_edge": -0.249
     },
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 87,
+      "away_score": 78
+    }
   },
   {
     "game_id": "401808888",
@@ -2979,7 +3415,11 @@
       "vegas_implied_prob": 0.256,
       "win_prob_edge": -0.115
     },
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 63,
+      "away_score": 66
+    }
   },
   {
     "game_id": "401808499",
@@ -3015,7 +3455,11 @@
         "edge_pts": 10.6,
         "confidence": "HIGH"
       }
-    ]
+    ],
+    "actual": {
+      "home_score": 73,
+      "away_score": 83
+    }
   },
   {
     "game_id": "401808269",
@@ -3051,7 +3495,11 @@
         "edge_pts": 7.9,
         "confidence": "MEDIUM"
       }
-    ]
+    ],
+    "actual": {
+      "home_score": 67,
+      "away_score": 83
+    }
   },
   {
     "game_id": "401807765",
@@ -3069,7 +3517,11 @@
       "predicted_total": 154.4
     },
     "edge": {},
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 61,
+      "away_score": 85
+    }
   },
   {
     "game_id": "401804955",
@@ -3087,7 +3539,11 @@
       "predicted_total": 139.2
     },
     "edge": {},
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 78,
+      "away_score": 81
+    }
   },
   {
     "game_id": "401827713",
@@ -3105,7 +3561,11 @@
       "predicted_total": 147.3
     },
     "edge": {},
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 68,
+      "away_score": 77
+    }
   },
   {
     "game_id": "401827150",
@@ -3123,7 +3583,11 @@
       "predicted_total": 144.3
     },
     "edge": {},
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 69,
+      "away_score": 70
+    }
   },
   {
     "game_id": "401808946",
@@ -3141,7 +3605,11 @@
       "predicted_total": 139.5
     },
     "edge": {},
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 71,
+      "away_score": 59
+    }
   },
   {
     "game_id": "401817687",
@@ -3235,7 +3703,11 @@
       "predicted_total": 136.0
     },
     "edge": {},
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 59,
+      "away_score": 66
+    }
   },
   {
     "game_id": "401823833",

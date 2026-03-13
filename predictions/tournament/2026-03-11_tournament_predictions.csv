@@ -1,0 +1,2 @@
+round,region,away_seed,away_team,home_seed,home_team,favored,predicted_spread,predicted_total,home_win_prob,away_win_prob,vegas_spread,spread_edge,vegas_total,total_edge,upset_alert,bets,date
+Round of 32,East,7,Kentucky,2,Duke,Duke,Duke -2.5,150.4,54.5%,45.5%,3.5,6.0,148.8,1.6,False,,2026-03-11

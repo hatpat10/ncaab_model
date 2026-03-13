@@ -23,17 +23,21 @@
       "model_total": 148.7,
       "ou_lean": "OVER",
       "model_win_prob": 0.197,
-      "vegas_implied_prob": 0.366,
-      "win_prob_edge": -0.169
+      "vegas_implied_prob": 0.357,
+      "win_prob_edge": -0.16
     },
     "bets": [
       {
         "market": "TOTAL",
         "lean": "OVER",
         "edge_pts": 7.2,
-        "confidence": "MEDIUM"
+        "confidence": "HIGH"
       }
-    ]
+    ],
+    "actual": {
+      "home_score": 71,
+      "away_score": 85
+    }
   },
   {
     "game_id": "401828447",
@@ -54,15 +58,32 @@
       "spread_edge": 5.8,
       "vegas_spread": -2.5,
       "model_spread": 8.3,
-      "total_edge": 4.7,
-      "vegas_total": 145.0,
+      "total_edge": 5.2,
+      "vegas_total": 144.5,
       "model_total": 149.7,
       "ou_lean": "OVER",
       "model_win_prob": 0.674,
-      "vegas_implied_prob": 0.6,
-      "win_prob_edge": 0.074
+      "vegas_implied_prob": 0.609,
+      "win_prob_edge": 0.065
     },
-    "bets": []
+    "bets": [
+      {
+        "market": "SPREAD",
+        "lean": "HOME",
+        "edge_pts": 5.8,
+        "confidence": "HIGH"
+      },
+      {
+        "market": "TOTAL",
+        "lean": "OVER",
+        "edge_pts": 5.2,
+        "confidence": "MEDIUM"
+      }
+    ],
+    "actual": {
+      "home_score": 94,
+      "away_score": 76
+    }
   },
   {
     "game_id": "401812169",
@@ -80,18 +101,22 @@
       "predicted_total": 142.8
     },
     "edge": {
-      "spread_edge": 4.4,
-      "vegas_spread": 1.5,
+      "spread_edge": NaN,
+      "vegas_spread": NaN,
       "model_spread": 2.9,
-      "total_edge": 2.3,
-      "vegas_total": 140.5,
+      "total_edge": NaN,
+      "vegas_total": NaN,
       "model_total": 142.8,
-      "ou_lean": "OVER",
+      "ou_lean": "UNDER",
       "model_win_prob": 0.592,
-      "vegas_implied_prob": 0.476,
-      "win_prob_edge": 0.116
+      "vegas_implied_prob": NaN,
+      "win_prob_edge": NaN
     },
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 65,
+      "away_score": 63
+    }
   },
   {
     "game_id": "401812166",
@@ -109,25 +134,35 @@
       "predicted_total": 154.9
     },
     "edge": {
-      "spread_edge": -7.7,
-      "vegas_spread": -11.5,
+      "spread_edge": -6.7,
+      "vegas_spread": -10.5,
       "model_spread": 3.8,
       "total_edge": 15.4,
       "vegas_total": 139.5,
       "model_total": 154.9,
       "ou_lean": "OVER",
       "model_win_prob": 0.536,
-      "vegas_implied_prob": 0.871,
-      "win_prob_edge": -0.335
+      "vegas_implied_prob": NaN,
+      "win_prob_edge": NaN
     },
     "bets": [
       {
         "market": "SPREAD",
         "lean": "AWAY",
-        "edge_pts": 7.7,
-        "confidence": "MEDIUM"
+        "edge_pts": 6.7,
+        "confidence": "HIGH"
+      },
+      {
+        "market": "TOTAL",
+        "lean": "OVER",
+        "edge_pts": 15.4,
+        "confidence": "HIGH"
       }
-    ]
+    ],
+    "actual": {
+      "home_score": 70,
+      "away_score": 58
+    }
   },
   {
     "game_id": "401827107",
@@ -148,15 +183,32 @@
       "spread_edge": 3.4,
       "vegas_spread": 1.5,
       "model_spread": 1.9,
-      "total_edge": -4.8,
-      "vegas_total": 141.5,
+      "total_edge": -5.8,
+      "vegas_total": 142.5,
       "model_total": 136.7,
       "ou_lean": "UNDER",
       "model_win_prob": 0.536,
-      "vegas_implied_prob": 0.498,
-      "win_prob_edge": 0.038
+      "vegas_implied_prob": NaN,
+      "win_prob_edge": NaN
     },
-    "bets": []
+    "bets": [
+      {
+        "market": "SPREAD",
+        "lean": "HOME",
+        "edge_pts": 3.4,
+        "confidence": "MEDIUM"
+      },
+      {
+        "market": "TOTAL",
+        "lean": "UNDER",
+        "edge_pts": 5.8,
+        "confidence": "MEDIUM"
+      }
+    ],
+    "actual": {
+      "home_score": 71,
+      "away_score": 76
+    }
   },
   {
     "game_id": "401812167",
@@ -174,18 +226,22 @@
       "predicted_total": 141.3
     },
     "edge": {
-      "spread_edge": -5.0,
-      "vegas_spread": -6.5,
+      "spread_edge": NaN,
+      "vegas_spread": NaN,
       "model_spread": 1.5,
-      "total_edge": 5.8,
-      "vegas_total": 135.5,
+      "total_edge": NaN,
+      "vegas_total": NaN,
       "model_total": 141.3,
-      "ou_lean": "OVER",
+      "ou_lean": "UNDER",
       "model_win_prob": 0.536,
-      "vegas_implied_prob": 0.733,
-      "win_prob_edge": -0.197
+      "vegas_implied_prob": NaN,
+      "win_prob_edge": NaN
     },
-    "bets": []
+    "bets": [],
+    "actual": {
+      "home_score": 59,
+      "away_score": 70
+    }
   },
   {
     "game_id": "401828246",
@@ -211,10 +267,17 @@
       "model_total": 148.9,
       "ou_lean": "OVER",
       "model_win_prob": 0.666,
-      "vegas_implied_prob": 0.673,
-      "win_prob_edge": -0.007
+      "vegas_implied_prob": 0.714,
+      "win_prob_edge": -0.048
     },
-    "bets": []
+    "bets": [
+      {
+        "market": "SPREAD",
+        "lean": "HOME",
+        "edge_pts": 2.6,
+        "confidence": "MEDIUM"
+      }
+    ]
   },
   {
     "game_id": "401823961",
@@ -240,15 +303,15 @@
       "model_total": 154.1,
       "ou_lean": "UNDER",
       "model_win_prob": 0.343,
-      "vegas_implied_prob": 0.339,
-      "win_prob_edge": 0.004
+      "vegas_implied_prob": NaN,
+      "win_prob_edge": NaN
     },
     "bets": [
       {
         "market": "TOTAL",
         "lean": "UNDER",
         "edge_pts": 8.4,
-        "confidence": "MEDIUM"
+        "confidence": "HIGH"
       }
     ]
   },
@@ -276,10 +339,17 @@
       "model_total": 149.3,
       "ou_lean": "UNDER",
       "model_win_prob": 0.592,
-      "vegas_implied_prob": 0.73,
-      "win_prob_edge": -0.138
+      "vegas_implied_prob": NaN,
+      "win_prob_edge": NaN
     },
-    "bets": []
+    "bets": [
+      {
+        "market": "TOTAL",
+        "lean": "UNDER",
+        "edge_pts": 5.2,
+        "confidence": "MEDIUM"
+      }
+    ]
   },
   {
     "game_id": "401823959",
@@ -305,10 +375,17 @@
       "model_total": 153.1,
       "ou_lean": "OVER",
       "model_win_prob": 0.197,
-      "vegas_implied_prob": 0.16,
-      "win_prob_edge": 0.037
+      "vegas_implied_prob": NaN,
+      "win_prob_edge": NaN
     },
-    "bets": []
+    "bets": [
+      {
+        "market": "TOTAL",
+        "lean": "OVER",
+        "edge_pts": 6.6,
+        "confidence": "HIGH"
+      }
+    ]
   },
   {
     "game_id": "401823958",
@@ -334,10 +411,17 @@
       "model_total": 150.8,
       "ou_lean": "OVER",
       "model_win_prob": 0.197,
-      "vegas_implied_prob": 0.182,
-      "win_prob_edge": 0.015
+      "vegas_implied_prob": NaN,
+      "win_prob_edge": NaN
     },
-    "bets": []
+    "bets": [
+      {
+        "market": "SPREAD",
+        "lean": "HOME",
+        "edge_pts": 3.2,
+        "confidence": "MEDIUM"
+      }
+    ]
   },
   {
     "game_id": "401812658",
@@ -355,23 +439,23 @@
       "predicted_total": 142.8
     },
     "edge": {
-      "spread_edge": 12.4,
-      "vegas_spread": -3.0,
+      "spread_edge": 12.9,
+      "vegas_spread": -2.5,
       "model_spread": 15.4,
       "total_edge": 2.3,
       "vegas_total": 140.5,
       "model_total": 142.8,
       "ou_lean": "OVER",
       "model_win_prob": 0.744,
-      "vegas_implied_prob": 0.608,
-      "win_prob_edge": 0.136
+      "vegas_implied_prob": NaN,
+      "win_prob_edge": NaN
     },
     "bets": [
       {
         "market": "SPREAD",
         "lean": "HOME",
-        "edge_pts": 12.4,
-        "confidence": "LOW"
+        "edge_pts": 12.9,
+        "confidence": "HIGH"
       }
     ]
   },
@@ -391,25 +475,18 @@
       "predicted_total": 132.4
     },
     "edge": {
-      "spread_edge": 8.3,
-      "vegas_spread": -1.5,
+      "spread_edge": NaN,
+      "vegas_spread": NaN,
       "model_spread": 9.8,
-      "total_edge": 1.9,
-      "vegas_total": 130.5,
+      "total_edge": NaN,
+      "vegas_total": NaN,
       "model_total": 132.4,
-      "ou_lean": "OVER",
+      "ou_lean": "UNDER",
       "model_win_prob": 0.666,
-      "vegas_implied_prob": 0.574,
-      "win_prob_edge": 0.092
+      "vegas_implied_prob": NaN,
+      "win_prob_edge": NaN
     },
-    "bets": [
-      {
-        "market": "SPREAD",
-        "lean": "HOME",
-        "edge_pts": 8.3,
-        "confidence": "MEDIUM"
-      }
-    ]
+    "bets": []
   },
   {
     "game_id": "401812378",
@@ -427,31 +504,18 @@
       "predicted_total": 131.1
     },
     "edge": {
-      "spread_edge": -8.0,
-      "vegas_spread": -12.5,
+      "spread_edge": NaN,
+      "vegas_spread": NaN,
       "model_spread": 4.5,
-      "total_edge": -8.4,
-      "vegas_total": 139.5,
+      "total_edge": NaN,
+      "vegas_total": NaN,
       "model_total": 131.1,
       "ou_lean": "UNDER",
       "model_win_prob": 0.587,
-      "vegas_implied_prob": 0.889,
-      "win_prob_edge": -0.302
+      "vegas_implied_prob": NaN,
+      "win_prob_edge": NaN
     },
-    "bets": [
-      {
-        "market": "SPREAD",
-        "lean": "AWAY",
-        "edge_pts": 8.0,
-        "confidence": "MEDIUM"
-      },
-      {
-        "market": "TOTAL",
-        "lean": "UNDER",
-        "edge_pts": 8.4,
-        "confidence": "MEDIUM"
-      }
-    ]
+    "bets": []
   },
   {
     "game_id": "401812331",
@@ -469,25 +533,18 @@
       "predicted_total": 151.5
     },
     "edge": {
-      "spread_edge": -1.2,
-      "vegas_spread": -5.5,
+      "spread_edge": NaN,
+      "vegas_spread": NaN,
       "model_spread": 4.3,
-      "total_edge": 12.0,
-      "vegas_total": 139.5,
+      "total_edge": NaN,
+      "vegas_total": NaN,
       "model_total": 151.5,
-      "ou_lean": "OVER",
+      "ou_lean": "UNDER",
       "model_win_prob": 0.666,
-      "vegas_implied_prob": 0.677,
-      "win_prob_edge": -0.011
+      "vegas_implied_prob": NaN,
+      "win_prob_edge": NaN
     },
-    "bets": [
-      {
-        "market": "TOTAL",
-        "lean": "OVER",
-        "edge_pts": 12.0,
-        "confidence": "HIGH"
-      }
-    ]
+    "bets": []
   },
   {
     "game_id": "401812168",
@@ -513,10 +570,23 @@
       "model_total": 140.1,
       "ou_lean": "UNDER",
       "model_win_prob": 0.666,
-      "vegas_implied_prob": 0.857,
-      "win_prob_edge": -0.191
+      "vegas_implied_prob": NaN,
+      "win_prob_edge": NaN
     },
-    "bets": []
+    "bets": [
+      {
+        "market": "SPREAD",
+        "lean": "AWAY",
+        "edge_pts": 4.4,
+        "confidence": "HIGH"
+      },
+      {
+        "market": "TOTAL",
+        "lean": "UNDER",
+        "edge_pts": 6.4,
+        "confidence": "HIGH"
+      }
+    ]
   },
   {
     "game_id": "401812086",
@@ -542,10 +612,17 @@
       "model_total": 135.4,
       "ou_lean": "UNDER",
       "model_win_prob": 0.536,
-      "vegas_implied_prob": 0.535,
-      "win_prob_edge": 0.001
+      "vegas_implied_prob": NaN,
+      "win_prob_edge": NaN
     },
-    "bets": []
+    "bets": [
+      {
+        "market": "TOTAL",
+        "lean": "UNDER",
+        "edge_pts": 6.1,
+        "confidence": "HIGH"
+      }
+    ]
   },
   {
     "game_id": "401812085",
@@ -566,15 +643,22 @@
       "spread_edge": 0.6,
       "vegas_spread": -5.5,
       "model_spread": 6.1,
-      "total_edge": -6.2,
-      "vegas_total": 144.0,
+      "total_edge": -6.7,
+      "vegas_total": 144.5,
       "model_total": 137.8,
       "ou_lean": "UNDER",
       "model_win_prob": 0.666,
-      "vegas_implied_prob": 0.699,
-      "win_prob_edge": -0.033
+      "vegas_implied_prob": NaN,
+      "win_prob_edge": NaN
     },
-    "bets": []
+    "bets": [
+      {
+        "market": "TOTAL",
+        "lean": "UNDER",
+        "edge_pts": 6.7,
+        "confidence": "HIGH"
+      }
+    ]
   },
   {
     "game_id": "401812084",
@@ -600,8 +684,8 @@
       "model_total": 143.9,
       "ou_lean": "UNDER",
       "model_win_prob": 1.0,
-      "vegas_implied_prob": 0.909,
-      "win_prob_edge": 0.091
+      "vegas_implied_prob": NaN,
+      "win_prob_edge": NaN
     },
     "bets": []
   },
@@ -621,16 +705,16 @@
       "predicted_total": 148.9
     },
     "edge": {
-      "spread_edge": -0.2,
-      "vegas_spread": -4.5,
+      "spread_edge": NaN,
+      "vegas_spread": NaN,
       "model_spread": 4.3,
-      "total_edge": 5.4,
-      "vegas_total": 143.5,
+      "total_edge": NaN,
+      "vegas_total": NaN,
       "model_total": 148.9,
-      "ou_lean": "OVER",
+      "ou_lean": "UNDER",
       "model_win_prob": 0.666,
-      "vegas_implied_prob": 0.667,
-      "win_prob_edge": -0.001
+      "vegas_implied_prob": NaN,
+      "win_prob_edge": NaN
     },
     "bets": []
   },
@@ -653,25 +737,25 @@
       "spread_edge": -7.0,
       "vegas_spread": -11.5,
       "model_spread": 4.5,
-      "total_edge": -10.0,
-      "vegas_total": 165.0,
+      "total_edge": -10.5,
+      "vegas_total": 165.5,
       "model_total": 155.0,
       "ou_lean": "UNDER",
       "model_win_prob": 0.666,
-      "vegas_implied_prob": 0.867,
-      "win_prob_edge": -0.201
+      "vegas_implied_prob": NaN,
+      "win_prob_edge": NaN
     },
     "bets": [
       {
         "market": "SPREAD",
         "lean": "AWAY",
         "edge_pts": 7.0,
-        "confidence": "MEDIUM"
+        "confidence": "HIGH"
       },
       {
         "market": "TOTAL",
         "lean": "UNDER",
-        "edge_pts": 10.0,
+        "edge_pts": 10.5,
         "confidence": "HIGH"
       }
     ]
@@ -700,10 +784,16 @@
       "model_total": 145.7,
       "ou_lean": "UNDER",
       "model_win_prob": 0.536,
-      "vegas_implied_prob": 0.644,
-      "win_prob_edge": -0.108
+      "vegas_implied_prob": 0.658,
+      "win_prob_edge": -0.122
     },
     "bets": [
+      {
+        "market": "SPREAD",
+        "lean": "AWAY",
+        "edge_pts": 3.1,
+        "confidence": "MEDIUM"
+      },
       {
         "market": "TOTAL",
         "lean": "UNDER",
@@ -731,20 +821,20 @@
       "spread_edge": -2.2,
       "vegas_spread": -7.5,
       "model_spread": 5.3,
-      "total_edge": 8.4,
-      "vegas_total": 134.0,
+      "total_edge": 7.9,
+      "vegas_total": 134.5,
       "model_total": 142.4,
       "ou_lean": "OVER",
       "model_win_prob": 0.536,
-      "vegas_implied_prob": 0.753,
-      "win_prob_edge": -0.217
+      "vegas_implied_prob": NaN,
+      "win_prob_edge": NaN
     },
     "bets": [
       {
         "market": "TOTAL",
         "lean": "OVER",
-        "edge_pts": 8.4,
-        "confidence": "MEDIUM"
+        "edge_pts": 7.9,
+        "confidence": "HIGH"
       }
     ]
   },
@@ -767,15 +857,28 @@
       "spread_edge": 3.0,
       "vegas_spread": 5.5,
       "model_spread": -2.5,
-      "total_edge": -3.3,
-      "vegas_total": 160.5,
+      "total_edge": -4.3,
+      "vegas_total": 161.5,
       "model_total": 157.2,
       "ou_lean": "UNDER",
       "model_win_prob": 0.419,
-      "vegas_implied_prob": 0.345,
-      "win_prob_edge": 0.074
+      "vegas_implied_prob": NaN,
+      "win_prob_edge": NaN
     },
-    "bets": []
+    "bets": [
+      {
+        "market": "SPREAD",
+        "lean": "HOME",
+        "edge_pts": 3.0,
+        "confidence": "MEDIUM"
+      },
+      {
+        "market": "TOTAL",
+        "lean": "UNDER",
+        "edge_pts": 4.3,
+        "confidence": "MEDIUM"
+      }
+    ]
   },
   {
     "game_id": "401804950",
@@ -832,13 +935,13 @@
       "spread_edge": -1.4,
       "vegas_spread": -2.5,
       "model_spread": 1.1,
-      "total_edge": 2.9,
-      "vegas_total": 137.2,
+      "total_edge": 3.1,
+      "vegas_total": 137.0,
       "model_total": 140.1,
       "ou_lean": "OVER",
       "model_win_prob": 0.536,
-      "vegas_implied_prob": 0.6,
-      "win_prob_edge": -0.064
+      "vegas_implied_prob": 0.603,
+      "win_prob_edge": -0.067
     },
     "bets": []
   },
@@ -861,19 +964,25 @@
       "spread_edge": -7.0,
       "vegas_spread": -7.5,
       "model_spread": 0.5,
-      "total_edge": 4.5,
-      "vegas_total": 139.8,
+      "total_edge": 4.3,
+      "vegas_total": 140.0,
       "model_total": 144.3,
       "ou_lean": "OVER",
       "model_win_prob": 0.536,
-      "vegas_implied_prob": 0.779,
-      "win_prob_edge": -0.243
+      "vegas_implied_prob": 0.785,
+      "win_prob_edge": -0.249
     },
     "bets": [
       {
         "market": "SPREAD",
         "lean": "AWAY",
         "edge_pts": 7.0,
+        "confidence": "HIGH"
+      },
+      {
+        "market": "TOTAL",
+        "lean": "OVER",
+        "edge_pts": 4.3,
         "confidence": "MEDIUM"
       }
     ]
@@ -902,15 +1011,15 @@
       "model_total": 143.9,
       "ou_lean": "UNDER",
       "model_win_prob": 0.606,
-      "vegas_implied_prob": 0.716,
-      "win_prob_edge": -0.11
+      "vegas_implied_prob": 0.722,
+      "win_prob_edge": -0.116
     },
     "bets": [
       {
         "market": "TOTAL",
         "lean": "UNDER",
         "edge_pts": 7.6,
-        "confidence": "MEDIUM"
+        "confidence": "HIGH"
       }
     ]
   },
@@ -930,18 +1039,25 @@
       "predicted_total": 143.5
     },
     "edge": {
-      "spread_edge": -5.1,
-      "vegas_spread": -7.5,
+      "spread_edge": -4.6,
+      "vegas_spread": -7.0,
       "model_spread": 2.4,
-      "total_edge": 1.0,
-      "vegas_total": 142.5,
+      "total_edge": 2.0,
+      "vegas_total": 141.5,
       "model_total": 143.5,
       "ou_lean": "OVER",
       "model_win_prob": 0.606,
-      "vegas_implied_prob": 0.765,
-      "win_prob_edge": -0.159
+      "vegas_implied_prob": 0.767,
+      "win_prob_edge": -0.161
     },
-    "bets": []
+    "bets": [
+      {
+        "market": "SPREAD",
+        "lean": "AWAY",
+        "edge_pts": 4.6,
+        "confidence": "HIGH"
+      }
+    ]
   },
   {
     "game_id": "401829691",
@@ -967,8 +1083,8 @@
       "model_total": 147.9,
       "ou_lean": "OVER",
       "model_win_prob": 0.786,
-      "vegas_implied_prob": 0.769,
-      "win_prob_edge": 0.017
+      "vegas_implied_prob": NaN,
+      "win_prob_edge": NaN
     },
     "bets": []
   },
@@ -996,10 +1112,17 @@
       "model_total": 150.7,
       "ou_lean": "UNDER",
       "model_win_prob": 0.415,
-      "vegas_implied_prob": 0.379,
-      "win_prob_edge": 0.036
+      "vegas_implied_prob": NaN,
+      "win_prob_edge": NaN
     },
-    "bets": []
+    "bets": [
+      {
+        "market": "TOTAL",
+        "lean": "UNDER",
+        "edge_pts": 4.8,
+        "confidence": "MEDIUM"
+      }
+    ]
   },
   {
     "game_id": "401818433",
@@ -1025,8 +1148,8 @@
       "model_total": 149.0,
       "ou_lean": "OVER",
       "model_win_prob": 0.141,
-      "vegas_implied_prob": 0.175,
-      "win_prob_edge": -0.034
+      "vegas_implied_prob": NaN,
+      "win_prob_edge": NaN
     },
     "bets": []
   },
@@ -1054,15 +1177,15 @@
       "model_total": 162.3,
       "ou_lean": "OVER",
       "model_win_prob": 1.0,
-      "vegas_implied_prob": 0.958,
-      "win_prob_edge": 0.042
+      "vegas_implied_prob": NaN,
+      "win_prob_edge": NaN
     },
     "bets": [
       {
         "market": "TOTAL",
         "lean": "OVER",
         "edge_pts": 7.8,
-        "confidence": "MEDIUM"
+        "confidence": "HIGH"
       }
     ]
   },
@@ -1090,10 +1213,17 @@
       "model_total": 138.6,
       "ou_lean": "UNDER",
       "model_win_prob": 0.419,
-      "vegas_implied_prob": 0.59,
-      "win_prob_edge": -0.171
+      "vegas_implied_prob": NaN,
+      "win_prob_edge": NaN
     },
-    "bets": []
+    "bets": [
+      {
+        "market": "SPREAD",
+        "lean": "AWAY",
+        "edge_pts": 2.6,
+        "confidence": "MEDIUM"
+      }
+    ]
   },
   {
     "game_id": "401805206",
@@ -1114,20 +1244,20 @@
       "spread_edge": -11.3,
       "vegas_spread": -16.5,
       "model_spread": 5.2,
-      "total_edge": -1.0,
-      "vegas_total": 141.5,
+      "total_edge": -2.0,
+      "vegas_total": 142.5,
       "model_total": 140.5,
       "ou_lean": "UNDER",
       "model_win_prob": 0.606,
-      "vegas_implied_prob": 0.96,
-      "win_prob_edge": -0.354
+      "vegas_implied_prob": 0.966,
+      "win_prob_edge": -0.36
     },
     "bets": [
       {
         "market": "SPREAD",
         "lean": "AWAY",
         "edge_pts": 11.3,
-        "confidence": "LOW"
+        "confidence": "HIGH"
       }
     ]
   },
@@ -1155,8 +1285,8 @@
       "model_total": 144.2,
       "ou_lean": "UNDER",
       "model_win_prob": 0.674,
-      "vegas_implied_prob": 0.826,
-      "win_prob_edge": -0.152
+      "vegas_implied_prob": NaN,
+      "win_prob_edge": NaN
     },
     "bets": []
   },
@@ -1202,15 +1332,15 @@
       "model_total": 131.7,
       "ou_lean": "UNDER",
       "model_win_prob": 0.587,
-      "vegas_implied_prob": 0.923,
-      "win_prob_edge": -0.336
+      "vegas_implied_prob": NaN,
+      "win_prob_edge": NaN
     },
     "bets": [
       {
         "market": "SPREAD",
         "lean": "AWAY",
         "edge_pts": 11.0,
-        "confidence": "LOW"
+        "confidence": "HIGH"
       }
     ]
   },
@@ -1248,18 +1378,31 @@
       "predicted_total": 139.7
     },
     "edge": {
-      "spread_edge": -5.0,
-      "vegas_spread": -7.5,
+      "spread_edge": -6.0,
+      "vegas_spread": -8.5,
       "model_spread": 2.5,
-      "total_edge": -5.3,
-      "vegas_total": 145.0,
+      "total_edge": -4.8,
+      "vegas_total": 144.5,
       "model_total": 139.7,
       "ou_lean": "UNDER",
       "model_win_prob": 0.536,
-      "vegas_implied_prob": 0.791,
-      "win_prob_edge": -0.255
+      "vegas_implied_prob": NaN,
+      "win_prob_edge": NaN
     },
-    "bets": []
+    "bets": [
+      {
+        "market": "SPREAD",
+        "lean": "AWAY",
+        "edge_pts": 6.0,
+        "confidence": "HIGH"
+      },
+      {
+        "market": "TOTAL",
+        "lean": "UNDER",
+        "edge_pts": 4.8,
+        "confidence": "MEDIUM"
+      }
+    ]
   },
   {
     "game_id": "401828249",
@@ -1277,18 +1420,25 @@
       "predicted_total": 151.6
     },
     "edge": {
-      "spread_edge": 1.9,
-      "vegas_spread": -1.2,
+      "spread_edge": 2.1,
+      "vegas_spread": -1.0,
       "model_spread": 3.1,
-      "total_edge": 4.1,
-      "vegas_total": 147.5,
+      "total_edge": 4.6,
+      "vegas_total": 147.0,
       "model_total": 151.6,
       "ou_lean": "OVER",
       "model_win_prob": 0.666,
-      "vegas_implied_prob": 0.543,
-      "win_prob_edge": 0.123
+      "vegas_implied_prob": 0.541,
+      "win_prob_edge": 0.125
     },
-    "bets": []
+    "bets": [
+      {
+        "market": "TOTAL",
+        "lean": "OVER",
+        "edge_pts": 4.6,
+        "confidence": "MEDIUM"
+      }
+    ]
   },
   {
     "game_id": "401826049",
@@ -1306,23 +1456,29 @@
       "predicted_total": 151.5
     },
     "edge": {
-      "spread_edge": -5.0,
-      "vegas_spread": -11.2,
+      "spread_edge": -4.8,
+      "vegas_spread": -11.0,
       "model_spread": 6.2,
       "total_edge": 8.0,
       "vegas_total": 143.5,
       "model_total": 151.5,
       "ou_lean": "OVER",
       "model_win_prob": 0.666,
-      "vegas_implied_prob": 0.885,
-      "win_prob_edge": -0.219
+      "vegas_implied_prob": 0.889,
+      "win_prob_edge": -0.223
     },
     "bets": [
+      {
+        "market": "SPREAD",
+        "lean": "AWAY",
+        "edge_pts": 4.8,
+        "confidence": "HIGH"
+      },
       {
         "market": "TOTAL",
         "lean": "OVER",
         "edge_pts": 8.0,
-        "confidence": "MEDIUM"
+        "confidence": "HIGH"
       }
     ]
   },
@@ -1350,8 +1506,8 @@
       "model_total": 151.8,
       "ou_lean": "UNDER",
       "model_win_prob": 0.666,
-      "vegas_implied_prob": 0.608,
-      "win_prob_edge": 0.058
+      "vegas_implied_prob": NaN,
+      "win_prob_edge": NaN
     },
     "bets": []
   },
@@ -1374,19 +1530,25 @@
       "spread_edge": 5.8,
       "vegas_spread": 1.5,
       "model_spread": 4.3,
-      "total_edge": -11.1,
-      "vegas_total": 150.2,
+      "total_edge": -10.9,
+      "vegas_total": 150.0,
       "model_total": 139.1,
       "ou_lean": "UNDER",
       "model_win_prob": 0.587,
-      "vegas_implied_prob": 0.0,
-      "win_prob_edge": 0.587
+      "vegas_implied_prob": 0.488,
+      "win_prob_edge": 0.099
     },
     "bets": [
       {
+        "market": "SPREAD",
+        "lean": "HOME",
+        "edge_pts": 5.8,
+        "confidence": "HIGH"
+      },
+      {
         "market": "TOTAL",
         "lean": "UNDER",
-        "edge_pts": 11.1,
+        "edge_pts": 10.9,
         "confidence": "HIGH"
       }
     ]
@@ -1433,10 +1595,17 @@
       "model_total": 141.3,
       "ou_lean": "UNDER",
       "model_win_prob": 0.881,
-      "vegas_implied_prob": 0.765,
-      "win_prob_edge": 0.116
+      "vegas_implied_prob": NaN,
+      "win_prob_edge": NaN
     },
-    "bets": []
+    "bets": [
+      {
+        "market": "TOTAL",
+        "lean": "UNDER",
+        "edge_pts": 21.2,
+        "confidence": "HIGH"
+      }
+    ]
   },
   {
     "game_id": "401808485",
@@ -1454,18 +1623,25 @@
       "predicted_total": 143.7
     },
     "edge": {
-      "spread_edge": -5.1,
-      "vegas_spread": -11.0,
+      "spread_edge": -5.6,
+      "vegas_spread": -11.5,
       "model_spread": 5.9,
-      "total_edge": -3.3,
-      "vegas_total": 147.0,
+      "total_edge": -3.8,
+      "vegas_total": 147.5,
       "model_total": 143.7,
       "ou_lean": "UNDER",
       "model_win_prob": 0.666,
-      "vegas_implied_prob": 0.867,
-      "win_prob_edge": -0.201
+      "vegas_implied_prob": NaN,
+      "win_prob_edge": NaN
     },
-    "bets": []
+    "bets": [
+      {
+        "market": "SPREAD",
+        "lean": "AWAY",
+        "edge_pts": 5.6,
+        "confidence": "HIGH"
+      }
+    ]
   },
   {
     "game_id": "401808468",
@@ -1483,18 +1659,25 @@
       "predicted_total": 156.2
     },
     "edge": {
-      "spread_edge": 1.3,
-      "vegas_spread": 0.0,
+      "spread_edge": 2.8,
+      "vegas_spread": 1.5,
       "model_spread": 1.3,
-      "total_edge": 0.2,
-      "vegas_total": 156.0,
+      "total_edge": -0.3,
+      "vegas_total": 156.5,
       "model_total": 156.2,
-      "ou_lean": "OVER",
+      "ou_lean": "UNDER",
       "model_win_prob": 0.536,
-      "vegas_implied_prob": 0.522,
-      "win_prob_edge": 0.014
+      "vegas_implied_prob": NaN,
+      "win_prob_edge": NaN
     },
-    "bets": []
+    "bets": [
+      {
+        "market": "SPREAD",
+        "lean": "HOME",
+        "edge_pts": 2.8,
+        "confidence": "MEDIUM"
+      }
+    ]
   },
   {
     "game_id": "401805205",
@@ -1520,10 +1703,17 @@
       "model_total": 144.7,
       "ou_lean": "OVER",
       "model_win_prob": 0.606,
-      "vegas_implied_prob": 0.627,
-      "win_prob_edge": -0.021
+      "vegas_implied_prob": NaN,
+      "win_prob_edge": NaN
     },
-    "bets": []
+    "bets": [
+      {
+        "market": "TOTAL",
+        "lean": "OVER",
+        "edge_pts": 5.2,
+        "confidence": "MEDIUM"
+      }
+    ]
   },
   {
     "game_id": "401804947",
@@ -1544,15 +1734,28 @@
       "spread_edge": 3.6,
       "vegas_spread": -6.5,
       "model_spread": 10.1,
-      "total_edge": -13.3,
-      "vegas_total": 165.2,
+      "total_edge": -12.1,
+      "vegas_total": 164.0,
       "model_total": 151.9,
       "ou_lean": "UNDER",
       "model_win_prob": 0.674,
-      "vegas_implied_prob": 0.749,
-      "win_prob_edge": -0.075
+      "vegas_implied_prob": 0.767,
+      "win_prob_edge": -0.093
     },
-    "bets": []
+    "bets": [
+      {
+        "market": "SPREAD",
+        "lean": "HOME",
+        "edge_pts": 3.6,
+        "confidence": "MEDIUM"
+      },
+      {
+        "market": "TOTAL",
+        "lean": "UNDER",
+        "edge_pts": 12.1,
+        "confidence": "HIGH"
+      }
+    ]
   },
   {
     "game_id": "401827080",
@@ -1578,10 +1781,23 @@
       "model_total": 150.1,
       "ou_lean": "UNDER",
       "model_win_prob": 0.536,
-      "vegas_implied_prob": 0.699,
-      "win_prob_edge": -0.163
+      "vegas_implied_prob": NaN,
+      "win_prob_edge": NaN
     },
-    "bets": []
+    "bets": [
+      {
+        "market": "SPREAD",
+        "lean": "AWAY",
+        "edge_pts": 5.6,
+        "confidence": "HIGH"
+      },
+      {
+        "market": "TOTAL",
+        "lean": "UNDER",
+        "edge_pts": 13.4,
+        "confidence": "HIGH"
+      }
+    ]
   },
   {
     "game_id": "401809163",
@@ -1602,13 +1818,13 @@
       "spread_edge": -1.5,
       "vegas_spread": -4.5,
       "model_spread": 3.0,
-      "total_edge": -3.6,
-      "vegas_total": 159.8,
+      "total_edge": -3.8,
+      "vegas_total": 160.0,
       "model_total": 156.2,
       "ou_lean": "UNDER",
       "model_win_prob": 0.536,
-      "vegas_implied_prob": 0.699,
-      "win_prob_edge": -0.163
+      "vegas_implied_prob": 0.714,
+      "win_prob_edge": -0.178
     },
     "bets": []
   },
@@ -1646,18 +1862,24 @@
       "predicted_total": 139.1
     },
     "edge": {
-      "spread_edge": -6.1,
-      "vegas_spread": -15.2,
+      "spread_edge": -5.9,
+      "vegas_spread": -15.0,
       "model_spread": 9.1,
       "total_edge": -11.4,
       "vegas_total": 150.5,
       "model_total": 139.1,
       "ou_lean": "UNDER",
       "model_win_prob": 0.666,
-      "vegas_implied_prob": 0.941,
-      "win_prob_edge": -0.275
+      "vegas_implied_prob": 0.947,
+      "win_prob_edge": -0.281
     },
     "bets": [
+      {
+        "market": "SPREAD",
+        "lean": "AWAY",
+        "edge_pts": 5.9,
+        "confidence": "HIGH"
+      },
       {
         "market": "TOTAL",
         "lean": "UNDER",
@@ -1685,19 +1907,25 @@
       "spread_edge": -5.9,
       "vegas_spread": -6.5,
       "model_spread": 0.6,
-      "total_edge": 9.0,
-      "vegas_total": 134.2,
+      "total_edge": 9.2,
+      "vegas_total": 134.0,
       "model_total": 143.2,
       "ou_lean": "OVER",
       "model_win_prob": 0.536,
-      "vegas_implied_prob": 0.755,
-      "win_prob_edge": -0.219
+      "vegas_implied_prob": 0.762,
+      "win_prob_edge": -0.226
     },
     "bets": [
       {
+        "market": "SPREAD",
+        "lean": "AWAY",
+        "edge_pts": 5.9,
+        "confidence": "HIGH"
+      },
+      {
         "market": "TOTAL",
         "lean": "OVER",
-        "edge_pts": 9.0,
+        "edge_pts": 9.2,
         "confidence": "HIGH"
       }
     ]

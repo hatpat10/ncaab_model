@@ -282,9 +282,7 @@
     "bets": [],
     "actual": {
       "home_score": 72,
-      "away_score": 85,
-      "margin": -13,
-      "total": 157
+      "away_score": 85
     }
   },
   {
@@ -306,9 +304,7 @@
     "bets": [],
     "actual": {
       "home_score": 83,
-      "away_score": 86,
-      "margin": -3,
-      "total": 169
+      "away_score": 86
     }
   },
   {
@@ -330,9 +326,7 @@
     "bets": [],
     "actual": {
       "home_score": 82,
-      "away_score": 76,
-      "margin": 6,
-      "total": 158
+      "away_score": 76
     }
   },
   {
@@ -354,9 +348,7 @@
     "bets": [],
     "actual": {
       "home_score": 89,
-      "away_score": 93,
-      "margin": -4,
-      "total": 182
+      "away_score": 93
     }
   },
   {
@@ -378,9 +370,7 @@
     "bets": [],
     "actual": {
       "home_score": 106,
-      "away_score": 82,
-      "margin": 24,
-      "total": 188
+      "away_score": 82
     }
   },
   {
@@ -402,9 +392,7 @@
     "bets": [],
     "actual": {
       "home_score": 69,
-      "away_score": 78,
-      "margin": -9,
-      "total": 147
+      "away_score": 78
     }
   },
   {

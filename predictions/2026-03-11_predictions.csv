@@ -1,0 +1,39 @@
+date,away_team,home_team,predicted_margin,home_win_prob,predicted_total,vegas_spread,spread_edge,vegas_total,total_edge,ou_lean,bets
+2026-03-11,San José State Spartans,Boise State Broncos,6.4,0.686,150.0,-2.8,3.6,164.8,-14.8,UNDER,
+2026-03-11,UC Santa Barbara Gauchos,UC Davis Aggies,-0.5,0.486,140.4,-3.5,-4.0,139.8,0.6,OVER,
+2026-03-11,Idaho Vandals,Montana Grizzlies,2.0,0.541,144.0,4.2,6.2,134.5,9.5,OVER,TOTAL OVER
+2026-03-11,Arizona State Sun Devils,Iowa State Cyclones,10.2,0.686,147.5,5.5,15.7,143.5,4.0,OVER,
+2026-03-11,SMU Mustangs,Louisville Cardinals,-1.5,0.486,154.6,1.8,0.3,154.5,0.1,OVER,
+2026-03-11,St. Bonaventure Bonnies,La Salle Explorers,-7.5,0.152,139.5,,,,,,
+2026-03-11,Maryland Terrapins,Iowa Hawkeyes,-4.9,0.349,149.9,-1.5,-6.4,139.2,10.7,OVER,TOTAL OVER
+2026-03-11,Pittsburgh Panthers,NC State Wolfpack,-4.5,0.359,150.3,-5.8,-10.3,148.8,1.5,OVER,SPREAD AWAY
+2026-03-11,LSU Tigers,Kentucky Wildcats,3.3,0.606,162.5,3.5,6.8,148.8,13.7,OVER,
+2026-03-11,Prairie View A&M Panthers,Bethune-Cookman Wildcats,2.1,0.606,154.6,,,,,,
+2026-03-11,Loyola Chicago Ramblers,Richmond Spiders,-5.0,0.336,140.5,,,,,,
+2026-03-11,USC Trojans,Washington Huskies,-6.2,0.333,154.1,-7.5,-13.7,156.5,-2.4,UNDER,SPREAD AWAY
+2026-03-11,Wyoming Cowboys,UNLV Rebels,-0.6,0.541,150.3,-6.5,-7.1,157.8,-7.5,UNDER,"SPREAD AWAY, TOTAL UNDER"
+2026-03-11,Mississippi State Bulldogs,Auburn Tigers,3.2,0.606,156.1,-5.5,-2.3,148.2,7.9,OVER,TOTAL OVER
+2026-03-11,Cincinnati Bearcats,UCF Knights,-6.4,0.349,151.8,-16.2,-22.6,159.8,-8.0,UNDER,TOTAL UNDER
+2026-03-11,Providence Friars,Butler Bulldogs,-7.4,0.333,154.2,,,,,,
+2026-03-11,McNeese Cowboys,Stephen F. Austin Lumberjacks,-7.8,0.244,137.7,,,,,,
+2026-03-11,Air Force Falcons,Nevada Wolf Pack,13.1,0.923,133.5,-2.2,10.9,139.8,-6.3,UNDER,SPREAD HOME
+2026-03-11,Delaware State Hornets,Morgan State Bears,-1.1,0.435,143.5,,,,,,
+2026-03-11,Missouri State Bears,Liberty Flames,-0.4,0.486,139.5,,,,,,
+2026-03-11,Northwestern Wildcats,Indiana Hoosiers,-5.7,0.359,146.9,,,,,,
+2026-03-11,Xavier Musketeers,Marquette Golden Eagles,-0.6,0.472,157.1,,,,,,
+2026-03-11,Ole Miss Rebels,Texas Longhorns,2.3,0.545,150.9,,,,,,
+2026-03-11,Boston University Terriers,Lehigh Mountain Hawks,0.0,0.472,145.8,,,,,,
+2026-03-11,BYU Cougars,West Virginia Mountaineers,-12.4,0.152,146.0,,,,,,
+2026-03-11,Tulane Green Wave,Memphis Tigers,2.0,0.486,157.3,,,,,,
+2026-03-11,California Golden Bears,Florida State Seminoles,-1.1,0.472,155.6,,,,,,
+2026-03-11,Tarleton State Texans,Abilene Christian Wildcats,-3.9,0.336,133.5,-3.5,-7.4,142.5,-9.0,UNDER,"SPREAD AWAY, TOTAL UNDER"
+2026-03-11,Jackson State Tigers,Florida A&M Rattlers,-2.3,0.472,144.9,,,,,,
+2026-03-11,Fresno State Bulldogs,Colorado State Rams,4.9,0.606,142.1,,,,,,
+2026-03-11,New Mexico State Aggies,Sam Houston Bearkats,1.8,0.541,145.1,,,,,,
+2026-03-11,Cal Poly Mustangs,UC San Diego Tritons,5.2,0.606,145.4,3.5,8.7,155.5,-10.1,UNDER,"SPREAD HOME, TOTAL UNDER"
+2026-03-11,Rutgers Scarlet Knights,Minnesota Golden Gophers,-3.7,0.349,140.8,,,,,,
+2026-03-11,Georgetown Hoyas,DePaul Blue Demons,-2.0,0.396,141.8,,,,,,
+2026-03-11,Wake Forest Demon Deacons,Clemson Tigers,-0.1,0.486,145.2,-1.5,-1.6,141.2,4.0,OVER,
+2026-03-11,South Carolina Gamecocks,Oklahoma Sooners,-2.8,0.472,146.6,-2.5,-5.3,162.8,-16.2,UNDER,
+2026-03-11,Temple Owls,Florida Atlantic Owls,0.5,0.541,149.1,2.5,3.0,137.5,11.6,OVER,TOTAL OVER
+2026-03-11,Oklahoma State Cowboys,TCU Horned Frogs,-1.1,0.396,152.0,-5.5,-6.6,141.5,10.5,OVER,TOTAL OVER

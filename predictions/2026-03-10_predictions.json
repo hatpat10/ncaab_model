@@ -1,0 +1,482 @@
+[
+  {
+    "game_id": "401851762",
+    "date": "2026-03-10",
+    "home_team": "Gonzaga Bulldogs",
+    "away_team": "Santa Clara Broncos",
+    "tipoff": "2026-03-11T01:07Z",
+    "venue": "Orleans Arena",
+    "neutral": true,
+    "game_tier": "mid",
+    "status": "STATUS_FINAL",
+    "predictions": {},
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 79,
+      "away_score": 68,
+      "margin": 11,
+      "total": 147
+    }
+  },
+  {
+    "game_id": "401851282",
+    "date": "2026-03-10",
+    "home_team": "Arizona State Sun Devils",
+    "away_team": "Baylor Bears",
+    "tipoff": "2026-03-10T16:30Z",
+    "venue": "T-Mobile Center",
+    "neutral": true,
+    "game_tier": "high",
+    "status": "STATUS_FINAL",
+    "predictions": {},
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 83,
+      "away_score": 79,
+      "margin": 4,
+      "total": 162
+    }
+  },
+  {
+    "game_id": "401851716",
+    "date": "2026-03-10",
+    "home_team": "Prairie View A&M Panthers",
+    "away_team": "Alcorn State Braves",
+    "tipoff": "2026-03-10T18:00Z",
+    "venue": "Gateway Center",
+    "neutral": true,
+    "game_tier": "low",
+    "status": "STATUS_FINAL",
+    "predictions": {},
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 65,
+      "away_score": 56,
+      "margin": 9,
+      "total": 121
+    }
+  },
+  {
+    "game_id": "401851170",
+    "date": "2026-03-10",
+    "home_team": "Stanford Cardinal",
+    "away_team": "Pittsburgh Panthers",
+    "tipoff": "2026-03-10T18:00Z",
+    "venue": "Spectrum Center",
+    "neutral": true,
+    "game_tier": "high",
+    "status": "STATUS_FINAL",
+    "predictions": {},
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 63,
+      "away_score": 64,
+      "margin": -1,
+      "total": 127
+    }
+  },
+  {
+    "game_id": "401851283",
+    "date": "2026-03-10",
+    "home_team": "Cincinnati Bearcats",
+    "away_team": "Utah Utes",
+    "tipoff": "2026-03-10T19:00Z",
+    "venue": "T-Mobile Center",
+    "neutral": true,
+    "game_tier": "high",
+    "status": "STATUS_FINAL",
+    "predictions": {},
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 73,
+      "away_score": 66,
+      "margin": 7,
+      "total": 139
+    }
+  },
+  {
+    "game_id": "401851171",
+    "date": "2026-03-10",
+    "home_team": "SMU Mustangs",
+    "away_team": "Syracuse Orange",
+    "tipoff": "2026-03-10T20:30Z",
+    "venue": "Spectrum Center",
+    "neutral": true,
+    "game_tier": "high",
+    "status": "STATUS_FINAL",
+    "predictions": {},
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 86,
+      "away_score": 69,
+      "margin": 17,
+      "total": 155
+    }
+  },
+  {
+    "game_id": "401851362",
+    "date": "2026-03-10",
+    "home_team": "Oregon Ducks",
+    "away_team": "Maryland Terrapins",
+    "tipoff": "2026-03-10T21:00Z",
+    "venue": "United Center",
+    "neutral": true,
+    "game_tier": "high",
+    "status": "STATUS_FINAL",
+    "predictions": {},
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 60,
+      "away_score": 70,
+      "margin": -10,
+      "total": 130
+    }
+  },
+  {
+    "game_id": "401851202",
+    "date": "2026-03-10",
+    "home_team": "UMBC Retrievers",
+    "away_team": "UMass Lowell River Hawks",
+    "tipoff": "2026-03-10T22:00Z",
+    "venue": "Chesapeake Employers Insurance Arena",
+    "neutral": false,
+    "game_tier": "low",
+    "status": "STATUS_FINAL",
+    "predictions": {},
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 91,
+      "away_score": 69,
+      "margin": 22,
+      "total": 160
+    }
+  },
+  {
+    "game_id": "401851405",
+    "date": "2026-03-10",
+    "home_team": "Florida International Panthers",
+    "away_team": "Missouri State Bears",
+    "tipoff": "2026-03-10T22:30Z",
+    "venue": "Propst Arena",
+    "neutral": true,
+    "game_tier": "mid",
+    "status": "STATUS_FINAL",
+    "predictions": {},
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 72,
+      "away_score": 75,
+      "margin": -3,
+      "total": 147
+    }
+  },
+  {
+    "game_id": "401856433",
+    "date": "2026-03-10",
+    "home_team": "Hofstra Pride",
+    "away_team": "Monmouth Hawks",
+    "tipoff": "2026-03-10T23:00Z",
+    "venue": "CareFirst Arena",
+    "neutral": true,
+    "game_tier": "mid",
+    "status": "STATUS_FINAL",
+    "predictions": {},
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 75,
+      "away_score": 69,
+      "margin": 6,
+      "total": 144
+    }
+  },
+  {
+    "game_id": "401851611",
+    "date": "2026-03-10",
+    "home_team": "Stephen F. Austin Lumberjacks",
+    "away_team": "Texas A&M-Corpus Christi Islanders",
+    "tipoff": "2026-03-10T23:00Z",
+    "venue": "Townsley Law Arena",
+    "neutral": true,
+    "game_tier": "low",
+    "status": "STATUS_FINAL",
+    "predictions": {},
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 60,
+      "away_score": 58,
+      "margin": 2,
+      "total": 118
+    }
+  },
+  {
+    "game_id": "401851521",
+    "date": "2026-03-10",
+    "home_team": "Long Island University Sharks",
+    "away_team": "Mercyhurst Lakers",
+    "tipoff": "2026-03-10T23:00Z",
+    "venue": "Steinberg Wellness Center",
+    "neutral": false,
+    "game_tier": "low",
+    "status": "STATUS_FINAL",
+    "predictions": {},
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 79,
+      "away_score": 70,
+      "margin": 9,
+      "total": 149
+    }
+  },
+  {
+    "game_id": "401851434",
+    "date": "2026-03-10",
+    "home_team": "Wright State Raiders",
+    "away_team": "Detroit Mercy Titans",
+    "tipoff": "2026-03-10T23:00Z",
+    "venue": "Corteva Coliseum",
+    "neutral": true,
+    "game_tier": "low",
+    "status": "STATUS_FINAL",
+    "predictions": {},
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 66,
+      "away_score": 63,
+      "margin": 3,
+      "total": 129
+    }
+  },
+  {
+    "game_id": "401851285",
+    "date": "2026-03-10",
+    "home_team": "BYU Cougars",
+    "away_team": "Kansas State Wildcats",
+    "tipoff": "2026-03-10T23:00Z",
+    "venue": "T-Mobile Center",
+    "neutral": true,
+    "game_tier": "high",
+    "status": "STATUS_FINAL",
+    "predictions": {},
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 105,
+      "away_score": 91,
+      "margin": 14,
+      "total": 196
+    }
+  },
+  {
+    "game_id": "401851204",
+    "date": "2026-03-10",
+    "home_team": "Vermont Catamounts",
+    "away_team": "NJIT Highlanders",
+    "tipoff": "2026-03-10T23:00Z",
+    "venue": "Patrick Gymnasium",
+    "neutral": false,
+    "game_tier": "low",
+    "status": "STATUS_FINAL",
+    "predictions": {},
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 63,
+      "away_score": 54,
+      "margin": 9,
+      "total": 117
+    }
+  },
+  {
+    "game_id": "401851172",
+    "date": "2026-03-10",
+    "home_team": "Virginia Tech Hokies",
+    "away_team": "Wake Forest Demon Deacons",
+    "tipoff": "2026-03-10T23:00Z",
+    "venue": "Spectrum Center",
+    "neutral": true,
+    "game_tier": "high",
+    "status": "STATUS_FINAL",
+    "predictions": {},
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 89,
+      "away_score": 95,
+      "margin": -6,
+      "total": 184
+    }
+  },
+  {
+    "game_id": "401851363",
+    "date": "2026-03-10",
+    "home_team": "Northwestern Wildcats",
+    "away_team": "Penn State Nittany Lions",
+    "tipoff": "2026-03-10T23:30Z",
+    "venue": "United Center",
+    "neutral": true,
+    "game_tier": "high",
+    "status": "STATUS_FINAL",
+    "predictions": {},
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 76,
+      "away_score": 66,
+      "margin": 10,
+      "total": 142
+    }
+  },
+  {
+    "game_id": "401851717",
+    "date": "2026-03-10",
+    "home_team": "Jackson State Tigers",
+    "away_team": "Grambling Tigers",
+    "tipoff": "2026-03-11T00:30Z",
+    "venue": "Gateway Center",
+    "neutral": true,
+    "game_tier": "low",
+    "status": "STATUS_FINAL",
+    "predictions": {},
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 68,
+      "away_score": 65,
+      "margin": 3,
+      "total": 133
+    }
+  },
+  {
+    "game_id": "401851467",
+    "date": "2026-03-10",
+    "home_team": "Merrimack Warriors",
+    "away_team": "Siena Saints",
+    "tipoff": "2026-03-11T01:00Z",
+    "venue": "Jim Whelan Boardwalk Hall",
+    "neutral": true,
+    "game_tier": "low",
+    "status": "STATUS_FINAL",
+    "predictions": {},
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 54,
+      "away_score": 64,
+      "margin": -10,
+      "total": 118
+    }
+  },
+  {
+    "game_id": "401851334",
+    "date": "2026-03-10",
+    "home_team": "Portland State Vikings",
+    "away_team": "Montana Grizzlies",
+    "tipoff": "2026-03-11T01:00Z",
+    "venue": "Idaho Central Arena",
+    "neutral": true,
+    "game_tier": "low",
+    "status": "STATUS_FINAL",
+    "predictions": {},
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 72,
+      "away_score": 75,
+      "margin": -3,
+      "total": 147
+    }
+  },
+  {
+    "game_id": "401851406",
+    "date": "2026-03-10",
+    "home_team": "Jacksonville State Gamecocks",
+    "away_team": "New Mexico State Aggies",
+    "tipoff": "2026-03-11T01:17Z",
+    "venue": "Propst Arena",
+    "neutral": true,
+    "game_tier": "mid",
+    "status": "STATUS_FINAL",
+    "predictions": {},
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 63,
+      "away_score": 68,
+      "margin": -5,
+      "total": 131
+    }
+  },
+  {
+    "game_id": "401851612",
+    "date": "2026-03-10",
+    "home_team": "McNeese Cowboys",
+    "away_team": "UT Rio Grande Valley Vaqueros",
+    "tipoff": "2026-03-11T01:30Z",
+    "venue": "Townsley Law Arena",
+    "neutral": true,
+    "game_tier": "low",
+    "status": "STATUS_FINAL",
+    "predictions": {},
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 84,
+      "away_score": 80,
+      "margin": 4,
+      "total": 164
+    }
+  },
+  {
+    "game_id": "401851287",
+    "date": "2026-03-10",
+    "home_team": "Colorado Buffaloes",
+    "away_team": "Oklahoma State Cowboys",
+    "tipoff": "2026-03-11T01:43Z",
+    "venue": "T-Mobile Center",
+    "neutral": true,
+    "game_tier": "high",
+    "status": "STATUS_FINAL",
+    "predictions": {},
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 83,
+      "away_score": 92,
+      "margin": -9,
+      "total": 175
+    }
+  },
+  {
+    "game_id": "401851335",
+    "date": "2026-03-10",
+    "home_team": "Eastern Washington Eagles",
+    "away_team": "Idaho Vandals",
+    "tipoff": "2026-03-11T03:50Z",
+    "venue": "Idaho Central Arena",
+    "neutral": true,
+    "game_tier": "low",
+    "status": "STATUS_FINAL",
+    "predictions": {},
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 68,
+      "away_score": 81,
+      "margin": -13,
+      "total": 149
+    }
+  }
+]

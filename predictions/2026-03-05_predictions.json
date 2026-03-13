@@ -1,55 +1,5 @@
 [
   {
-    "game_id": "401825560",
-    "date": "2026-03-05",
-    "home_team": "Iowa Hawkeyes",
-    "away_team": "Michigan Wolverines",
-    "tipoff": "2026-03-06T01:00Z",
-    "venue": "Carver-Hawkeye Arena",
-    "neutral": false,
-    "game_tier": "high",
-    "status": "STATUS_FINAL",
-    "predictions": {
-      "predicted_margin": 0.8,
-      "home_win_prob": 0.486,
-      "away_win_prob": 0.514,
-      "predicted_total": 154.0
-    },
-    "edge": {},
-    "bets": [],
-    "actual": {
-      "home_score": 68,
-      "away_score": 71,
-      "margin": -3,
-      "total": 139
-    }
-  },
-  {
-    "game_id": "401825561",
-    "date": "2026-03-05",
-    "home_team": "Michigan State Spartans",
-    "away_team": "Rutgers Scarlet Knights",
-    "tipoff": "2026-03-06T01:00Z",
-    "venue": "Breslin Center",
-    "neutral": false,
-    "game_tier": "high",
-    "status": "STATUS_FINAL",
-    "predictions": {
-      "predicted_margin": 10.0,
-      "home_win_prob": 0.816,
-      "away_win_prob": 0.184,
-      "predicted_total": 145.7
-    },
-    "edge": {},
-    "bets": [],
-    "actual": {
-      "home_score": 91,
-      "away_score": 87,
-      "margin": 4,
-      "total": 178
-    }
-  },
-  {
     "game_id": "401851485",
     "date": "2026-03-05",
     "home_team": "Southern Illinois Salukis",
@@ -58,20 +8,36 @@
     "venue": "Enterprise Center",
     "neutral": true,
     "game_tier": "mid",
-    "status": "STATUS_FINAL",
+    "status": "STATUS_SCHEDULED",
     "predictions": {
       "predicted_margin": -7.1,
       "home_win_prob": 0.244,
       "away_win_prob": 0.756,
       "predicted_total": 132.3
     },
-    "edge": {},
-    "bets": [],
+    "edge": {
+      "spread_edge": -11.6,
+      "vegas_spread": -4.5,
+      "model_spread": -7.1,
+      "total_edge": -3.2,
+      "vegas_total": 135.5,
+      "model_total": 132.3,
+      "ou_lean": "UNDER",
+      "model_win_prob": 0.244,
+      "vegas_implied_prob": 0.672,
+      "win_prob_edge": -0.428
+    },
+    "bets": [
+      {
+        "market": "SPREAD",
+        "lean": "AWAY",
+        "edge_pts": 11.6,
+        "confidence": "MEDIUM"
+      }
+    ],
     "actual": {
       "home_score": 63,
-      "away_score": 67,
-      "margin": -4,
-      "total": 130
+      "away_score": 67
     }
   },
   {
@@ -83,20 +49,42 @@
     "venue": "McDougald-McLendon Arena",
     "neutral": false,
     "game_tier": "low",
-    "status": "STATUS_FINAL",
+    "status": "STATUS_SCHEDULED",
     "predictions": {
       "predicted_margin": 0.6,
       "home_win_prob": 0.541,
       "away_win_prob": 0.459,
       "predicted_total": 136.5
     },
-    "edge": {},
-    "bets": [],
+    "edge": {
+      "spread_edge": -7.6,
+      "vegas_spread": -8.2,
+      "model_spread": 0.6,
+      "total_edge": -8.7,
+      "vegas_total": 145.2,
+      "model_total": 136.5,
+      "ou_lean": "UNDER",
+      "model_win_prob": 0.541,
+      "vegas_implied_prob": 0.782,
+      "win_prob_edge": -0.241
+    },
+    "bets": [
+      {
+        "market": "SPREAD",
+        "lean": "AWAY",
+        "edge_pts": 7.6,
+        "confidence": "LOW"
+      },
+      {
+        "market": "TOTAL",
+        "lean": "UNDER",
+        "edge_pts": 8.7,
+        "confidence": "LOW"
+      }
+    ],
     "actual": {
       "home_score": 64,
-      "away_score": 80,
-      "margin": -16,
-      "total": 144
+      "away_score": 80
     }
   },
   {
@@ -108,7 +96,7 @@
     "venue": "Pensacola Bay Center",
     "neutral": true,
     "game_tier": "mid",
-    "status": "STATUS_FINAL",
+    "status": "STATUS_SCHEDULED",
     "predictions": {
       "predicted_margin": -9.7,
       "home_win_prob": 0.152,
@@ -116,36 +104,28 @@
       "predicted_total": 145.9
     },
     "edge": {
-      "spread_edge": -14.2,
-      "vegas_spread": -4.5,
+      "spread_edge": -7.9,
+      "vegas_spread": 1.8,
       "model_spread": -9.7,
-      "total_edge": 9.4,
-      "vegas_total": 136.5,
+      "total_edge": 2.1,
+      "vegas_total": 143.8,
       "model_total": 145.9,
       "ou_lean": "OVER",
       "model_win_prob": 0.152,
-      "vegas_implied_prob": 0.648,
-      "win_prob_edge": -0.496
+      "vegas_implied_prob": 0.478,
+      "win_prob_edge": -0.326
     },
     "bets": [
       {
         "market": "SPREAD",
         "lean": "AWAY",
-        "edge_pts": 14.2,
-        "confidence": "MEDIUM"
-      },
-      {
-        "market": "TOTAL",
-        "lean": "OVER",
-        "edge_pts": 9.4,
+        "edge_pts": 7.9,
         "confidence": "MEDIUM"
       }
     ],
     "actual": {
       "home_score": 86,
-      "away_score": 80,
-      "margin": 6,
-      "total": 166
+      "away_score": 80
     }
   },
   {
@@ -157,20 +137,29 @@
     "venue": "Jim Whelan Boardwalk Hall",
     "neutral": true,
     "game_tier": "low",
-    "status": "STATUS_FINAL",
+    "status": "STATUS_SCHEDULED",
     "predictions": {
       "predicted_margin": -1.8,
       "home_win_prob": 0.486,
       "away_win_prob": 0.514,
       "predicted_total": 142.2
     },
-    "edge": {},
+    "edge": {
+      "spread_edge": -4.3,
+      "vegas_spread": -2.5,
+      "model_spread": -1.8,
+      "total_edge": -5.3,
+      "vegas_total": 147.5,
+      "model_total": 142.2,
+      "ou_lean": "UNDER",
+      "model_win_prob": 0.486,
+      "vegas_implied_prob": 0.62,
+      "win_prob_edge": -0.134
+    },
     "bets": [],
     "actual": {
       "home_score": 80,
-      "away_score": 91,
-      "margin": -11,
-      "total": 171
+      "away_score": 91
     }
   },
   {
@@ -182,7 +171,7 @@
     "venue": "Denny Sanford Premier Center",
     "neutral": true,
     "game_tier": "low",
-    "status": "STATUS_FINAL",
+    "status": "STATUS_SCHEDULED",
     "predictions": {
       "predicted_margin": 2.0,
       "home_win_prob": 0.541,
@@ -190,13 +179,7 @@
       "predicted_total": 149.7
     },
     "edge": {},
-    "bets": [],
-    "actual": {
-      "home_score": 76,
-      "away_score": 65,
-      "margin": 11,
-      "total": 141
-    }
+    "bets": []
   },
   {
     "game_id": "401851546",
@@ -207,21 +190,33 @@
     "venue": "Stabler Arena",
     "neutral": false,
     "game_tier": "low",
-    "status": "STATUS_FINAL",
+    "status": "STATUS_SCHEDULED",
     "predictions": {
       "predicted_margin": 7.5,
       "home_win_prob": 0.686,
       "away_win_prob": 0.314,
       "predicted_total": 149.7
     },
-    "edge": {},
-    "bets": [],
-    "actual": {
-      "home_score": 69,
-      "away_score": 66,
-      "margin": 3,
-      "total": 135
-    }
+    "edge": {
+      "spread_edge": 1.0,
+      "vegas_spread": -6.5,
+      "model_spread": 7.5,
+      "total_edge": 8.2,
+      "vegas_total": 141.5,
+      "model_total": 149.7,
+      "ou_lean": "OVER",
+      "model_win_prob": 0.686,
+      "vegas_implied_prob": NaN,
+      "win_prob_edge": NaN
+    },
+    "bets": [
+      {
+        "market": "TOTAL",
+        "lean": "OVER",
+        "edge_pts": 8.2,
+        "confidence": "LOW"
+      }
+    ]
   },
   {
     "game_id": "401851545",
@@ -232,21 +227,26 @@
     "venue": "Cotterell Court",
     "neutral": false,
     "game_tier": "low",
-    "status": "STATUS_FINAL",
+    "status": "STATUS_SCHEDULED",
     "predictions": {
       "predicted_margin": 9.3,
       "home_win_prob": 0.816,
       "away_win_prob": 0.184,
       "predicted_total": 145.7
     },
-    "edge": {},
-    "bets": [],
-    "actual": {
-      "home_score": 90,
-      "away_score": 77,
-      "margin": 13,
-      "total": 167
-    }
+    "edge": {
+      "spread_edge": 2.8,
+      "vegas_spread": -6.5,
+      "model_spread": 9.3,
+      "total_edge": -5.8,
+      "vegas_total": 151.5,
+      "model_total": 145.7,
+      "ou_lean": "UNDER",
+      "model_win_prob": 0.816,
+      "vegas_implied_prob": 0.733,
+      "win_prob_edge": 0.083
+    },
+    "bets": []
   },
   {
     "game_id": "401851544",
@@ -257,7 +257,7 @@
     "venue": "Case Gym",
     "neutral": false,
     "game_tier": "low",
-    "status": "STATUS_FINAL",
+    "status": "STATUS_SCHEDULED",
     "predictions": {
       "predicted_margin": 3.9,
       "home_win_prob": 0.545,
@@ -265,13 +265,7 @@
       "predicted_total": 141.1
     },
     "edge": {},
-    "bets": [],
-    "actual": {
-      "home_score": 75,
-      "away_score": 73,
-      "margin": 2,
-      "total": 148
-    }
+    "bets": []
   },
   {
     "game_id": "401851543",
@@ -282,21 +276,39 @@
     "venue": "Alumni Hall (Navy)",
     "neutral": false,
     "game_tier": "low",
-    "status": "STATUS_FINAL",
+    "status": "STATUS_SCHEDULED",
     "predictions": {
       "predicted_margin": 2.7,
       "home_win_prob": 0.606,
       "away_win_prob": 0.394,
       "predicted_total": 142.4
     },
-    "edge": {},
-    "bets": [],
-    "actual": {
-      "home_score": 74,
-      "away_score": 69,
-      "margin": 5,
-      "total": 143
-    }
+    "edge": {
+      "spread_edge": -13.8,
+      "vegas_spread": -16.5,
+      "model_spread": 2.7,
+      "total_edge": 8.9,
+      "vegas_total": 133.5,
+      "model_total": 142.4,
+      "ou_lean": "OVER",
+      "model_win_prob": 0.606,
+      "vegas_implied_prob": NaN,
+      "win_prob_edge": NaN
+    },
+    "bets": [
+      {
+        "market": "SPREAD",
+        "lean": "AWAY",
+        "edge_pts": 13.8,
+        "confidence": "LOW"
+      },
+      {
+        "market": "TOTAL",
+        "lean": "OVER",
+        "edge_pts": 8.9,
+        "confidence": "LOW"
+      }
+    ]
   },
   {
     "game_id": "401851526",
@@ -307,7 +319,7 @@
     "venue": "Ford Center",
     "neutral": true,
     "game_tier": "low",
-    "status": "STATUS_FINAL",
+    "status": "STATUS_SCHEDULED",
     "predictions": {
       "predicted_margin": 3.7,
       "home_win_prob": 0.494,
@@ -315,13 +327,7 @@
       "predicted_total": 134.8
     },
     "edge": {},
-    "bets": [],
-    "actual": {
-      "home_score": 66,
-      "away_score": 63,
-      "margin": 3,
-      "total": 129
-    }
+    "bets": []
   },
   {
     "game_id": "401851486",
@@ -332,21 +338,52 @@
     "venue": "Enterprise Center",
     "neutral": true,
     "game_tier": "mid",
-    "status": "STATUS_FINAL",
+    "status": "STATUS_SCHEDULED",
     "predictions": {
       "predicted_margin": -11.4,
       "home_win_prob": 0.152,
       "away_win_prob": 0.848,
       "predicted_total": 157.9
     },
+    "edge": {
+      "spread_edge": -13.9,
+      "vegas_spread": -2.5,
+      "model_spread": -11.4,
+      "total_edge": 22.4,
+      "vegas_total": 135.5,
+      "model_total": 157.9,
+      "ou_lean": "OVER",
+      "model_win_prob": 0.152,
+      "vegas_implied_prob": 0.602,
+      "win_prob_edge": -0.45
+    },
+    "bets": [
+      {
+        "market": "SPREAD",
+        "lean": "AWAY",
+        "edge_pts": 13.9,
+        "confidence": "MEDIUM"
+      }
+    ]
+  },
+  {
+    "game_id": "401828732",
+    "date": "2026-03-05",
+    "home_team": "Norfolk State Spartans",
+    "away_team": "Howard Bison",
+    "tipoff": "2026-03-06T00:00Z",
+    "venue": "Joseph G. Echols Hall",
+    "neutral": false,
+    "game_tier": "low",
+    "status": "STATUS_SCHEDULED",
+    "predictions": {
+      "predicted_margin": 4.7,
+      "home_win_prob": 0.606,
+      "away_win_prob": 0.394,
+      "predicted_total": 148.9
+    },
     "edge": {},
-    "bets": [],
-    "actual": {
-      "home_score": 63,
-      "away_score": 62,
-      "margin": 1,
-      "total": 125
-    }
+    "bets": []
   },
   {
     "game_id": "401828259",
@@ -357,21 +394,26 @@
     "venue": "Liacouras Center",
     "neutral": false,
     "game_tier": "mid",
-    "status": "STATUS_FINAL",
+    "status": "STATUS_SCHEDULED",
     "predictions": {
       "predicted_margin": -1.3,
       "home_win_prob": 0.472,
       "away_win_prob": 0.528,
       "predicted_total": 147.2
     },
-    "edge": {},
-    "bets": [],
-    "actual": {
-      "home_score": 89,
-      "away_score": 60,
-      "margin": 29,
-      "total": 149
-    }
+    "edge": {
+      "spread_edge": -5.8,
+      "vegas_spread": -4.5,
+      "model_spread": -1.3,
+      "total_edge": 2.7,
+      "vegas_total": 144.5,
+      "model_total": 147.2,
+      "ou_lean": "OVER",
+      "model_win_prob": 0.472,
+      "vegas_implied_prob": 0.677,
+      "win_prob_edge": -0.205
+    },
+    "bets": []
   },
   {
     "game_id": "401828257",
@@ -382,21 +424,76 @@
     "venue": "Minges Coliseum",
     "neutral": false,
     "game_tier": "mid",
-    "status": "STATUS_FINAL",
+    "status": "STATUS_SCHEDULED",
     "predictions": {
       "predicted_margin": 4.2,
       "home_win_prob": 0.686,
       "away_win_prob": 0.314,
       "predicted_total": 144.0
     },
-    "edge": {},
-    "bets": [],
-    "actual": {
-      "home_score": 66,
-      "away_score": 93,
-      "margin": -27,
-      "total": 159
-    }
+    "edge": {
+      "spread_edge": 13.7,
+      "vegas_spread": 9.5,
+      "model_spread": 4.2,
+      "total_edge": -12.2,
+      "vegas_total": 156.2,
+      "model_total": 144.0,
+      "ou_lean": "UNDER",
+      "model_win_prob": 0.686,
+      "vegas_implied_prob": 0.211,
+      "win_prob_edge": 0.475
+    },
+    "bets": [
+      {
+        "market": "SPREAD",
+        "lean": "HOME",
+        "edge_pts": 13.7,
+        "confidence": "MEDIUM"
+      }
+    ]
+  },
+  {
+    "game_id": "401823056",
+    "date": "2026-03-05",
+    "home_team": "Maryland Eastern Shore Hawks",
+    "away_team": "Delaware State Hornets",
+    "tipoff": "2026-03-06T00:00Z",
+    "venue": "Hytche Center",
+    "neutral": false,
+    "game_tier": "low",
+    "status": "STATUS_SCHEDULED",
+    "predictions": {
+      "predicted_margin": -3.2,
+      "home_win_prob": 0.359,
+      "away_win_prob": 0.641,
+      "predicted_total": 135.9
+    },
+    "edge": {
+      "spread_edge": -9.7,
+      "vegas_spread": -6.5,
+      "model_spread": -3.2,
+      "total_edge": 9.4,
+      "vegas_total": 126.5,
+      "model_total": 135.9,
+      "ou_lean": "OVER",
+      "model_win_prob": 0.359,
+      "vegas_implied_prob": 0.731,
+      "win_prob_edge": -0.372
+    },
+    "bets": [
+      {
+        "market": "SPREAD",
+        "lean": "AWAY",
+        "edge_pts": 9.7,
+        "confidence": "LOW"
+      },
+      {
+        "market": "TOTAL",
+        "lean": "OVER",
+        "edge_pts": 9.4,
+        "confidence": "LOW"
+      }
+    ]
   },
   {
     "game_id": "401804962",
@@ -407,7 +504,7 @@
     "venue": "Ocean Bank Convocation Center",
     "neutral": false,
     "game_tier": "mid",
-    "status": "STATUS_FINAL",
+    "status": "STATUS_SCHEDULED",
     "predictions": {
       "predicted_margin": -1.4,
       "home_win_prob": 0.486,
@@ -415,13 +512,7 @@
       "predicted_total": 145.9
     },
     "edge": {},
-    "bets": [],
-    "actual": {
-      "home_score": 67,
-      "away_score": 73,
-      "margin": -6,
-      "total": 140
-    }
+    "bets": []
   },
   {
     "game_id": "401804958",
@@ -432,7 +523,7 @@
     "venue": "Liberty Arena (VA)",
     "neutral": false,
     "game_tier": "mid",
-    "status": "STATUS_FINAL",
+    "status": "STATUS_SCHEDULED",
     "predictions": {
       "predicted_margin": 2.0,
       "home_win_prob": 0.606,
@@ -440,24 +531,18 @@
       "predicted_total": 138.0
     },
     "edge": {
-      "spread_edge": -2.5,
-      "vegas_spread": -4.5,
+      "spread_edge": -6.5,
+      "vegas_spread": -8.5,
       "model_spread": 2.0,
-      "total_edge": -17.5,
-      "vegas_total": 155.5,
+      "total_edge": -0.2,
+      "vegas_total": 138.2,
       "model_total": 138.0,
       "ou_lean": "UNDER",
       "model_win_prob": 0.606,
-      "vegas_implied_prob": 0.663,
-      "win_prob_edge": -0.057
+      "vegas_implied_prob": 0.821,
+      "win_prob_edge": -0.215
     },
-    "bets": [],
-    "actual": {
-      "home_score": 71,
-      "away_score": 76,
-      "margin": -5,
-      "total": 147
-    }
+    "bets": []
   },
   {
     "game_id": "401804957",
@@ -468,7 +553,7 @@
     "venue": "Bob Carpenter Center",
     "neutral": false,
     "game_tier": "mid",
-    "status": "STATUS_FINAL",
+    "status": "STATUS_SCHEDULED",
     "predictions": {
       "predicted_margin": -4.4,
       "home_win_prob": 0.407,
@@ -476,31 +561,18 @@
       "predicted_total": 141.5
     },
     "edge": {
-      "spread_edge": -2.6,
-      "vegas_spread": 1.8,
+      "spread_edge": 2.1,
+      "vegas_spread": 6.5,
       "model_spread": -4.4,
-      "total_edge": 8.0,
-      "vegas_total": 133.5,
+      "total_edge": -5.7,
+      "vegas_total": 147.2,
       "model_total": 141.5,
-      "ou_lean": "OVER",
+      "ou_lean": "UNDER",
       "model_win_prob": 0.407,
-      "vegas_implied_prob": 0.474,
-      "win_prob_edge": -0.067
+      "vegas_implied_prob": 0.305,
+      "win_prob_edge": 0.102
     },
-    "bets": [
-      {
-        "market": "TOTAL",
-        "lean": "OVER",
-        "edge_pts": 8.0,
-        "confidence": "MEDIUM"
-      }
-    ],
-    "actual": {
-      "home_score": 83,
-      "away_score": 80,
-      "margin": 3,
-      "total": 163
-    }
+    "bets": []
   },
   {
     "game_id": "401827126",
@@ -511,46 +583,107 @@
     "venue": "Al Lawson Center",
     "neutral": false,
     "game_tier": "low",
-    "status": "STATUS_FINAL",
+    "status": "STATUS_SCHEDULED",
     "predictions": {
       "predicted_margin": -0.9,
       "home_win_prob": 0.486,
       "away_win_prob": 0.514,
       "predicted_total": 142.4
     },
-    "edge": {},
-    "bets": [],
-    "actual": {
-      "home_score": 81,
-      "away_score": 77,
-      "margin": 4,
-      "total": 158
-    }
+    "edge": {
+      "spread_edge": 1.6,
+      "vegas_spread": 2.5,
+      "model_spread": -0.9,
+      "total_edge": -3.4,
+      "vegas_total": 145.8,
+      "model_total": 142.4,
+      "ou_lean": "UNDER",
+      "model_win_prob": 0.486,
+      "vegas_implied_prob": 0.461,
+      "win_prob_edge": 0.025
+    },
+    "bets": []
   },
   {
-    "game_id": "401828732",
+    "game_id": "401825560",
     "date": "2026-03-05",
-    "home_team": "Norfolk State Spartans",
-    "away_team": "Howard Bison",
+    "home_team": "Iowa Hawkeyes",
+    "away_team": "Michigan Wolverines",
     "tipoff": "2026-03-06T01:00Z",
-    "venue": "Joseph G. Echols Hall",
+    "venue": "Carver-Hawkeye Arena",
     "neutral": false,
-    "game_tier": "low",
-    "status": "STATUS_FINAL",
+    "game_tier": "high",
+    "status": "STATUS_SCHEDULED",
     "predictions": {
-      "predicted_margin": 4.7,
-      "home_win_prob": 0.606,
-      "away_win_prob": 0.394,
-      "predicted_total": 148.9
+      "predicted_margin": 0.8,
+      "home_win_prob": 0.486,
+      "away_win_prob": 0.514,
+      "predicted_total": 154.0
+    },
+    "edge": {
+      "spread_edge": 10.0,
+      "vegas_spread": 9.2,
+      "model_spread": 0.8,
+      "total_edge": 7.8,
+      "vegas_total": 146.2,
+      "model_total": 154.0,
+      "ou_lean": "OVER",
+      "model_win_prob": 0.486,
+      "vegas_implied_prob": 0.219,
+      "win_prob_edge": 0.267
+    },
+    "bets": [
+      {
+        "market": "SPREAD",
+        "lean": "HOME",
+        "edge_pts": 10.0,
+        "confidence": "HIGH"
+      },
+      {
+        "market": "TOTAL",
+        "lean": "OVER",
+        "edge_pts": 7.8,
+        "confidence": "MEDIUM"
+      }
+    ]
+  },
+  {
+    "game_id": "401825561",
+    "date": "2026-03-05",
+    "home_team": "Michigan State Spartans",
+    "away_team": "Rutgers Scarlet Knights",
+    "tipoff": "2026-03-06T01:00Z",
+    "venue": "Breslin Center",
+    "neutral": false,
+    "game_tier": "high",
+    "status": "STATUS_SCHEDULED",
+    "predictions": {
+      "predicted_margin": 10.0,
+      "home_win_prob": 0.816,
+      "away_win_prob": 0.184,
+      "predicted_total": 145.7
     },
     "edge": {},
-    "bets": [],
-    "actual": {
-      "home_score": 76,
-      "away_score": 84,
-      "margin": -8,
-      "total": 160
-    }
+    "bets": []
+  },
+  {
+    "game_id": "401828670",
+    "date": "2026-03-05",
+    "home_team": "Jackson State Tigers",
+    "away_team": "Mississippi Valley State Delta Devils",
+    "tipoff": "2026-03-06T01:00Z",
+    "venue": "Lee E. Williams Athletics and Assembly Center",
+    "neutral": false,
+    "game_tier": "low",
+    "status": "STATUS_SCHEDULED",
+    "predictions": {
+      "predicted_margin": 23.4,
+      "home_win_prob": 1.0,
+      "away_win_prob": 0.0,
+      "predicted_total": 146.1
+    },
+    "edge": {},
+    "bets": []
   },
   {
     "game_id": "401827106",
@@ -561,7 +694,7 @@
     "venue": "Dunn-Oliver Acadome",
     "neutral": false,
     "game_tier": "low",
-    "status": "STATUS_FINAL",
+    "status": "STATUS_SCHEDULED",
     "predictions": {
       "predicted_margin": 0.2,
       "home_win_prob": 0.606,
@@ -569,13 +702,7 @@
       "predicted_total": 139.4
     },
     "edge": {},
-    "bets": [],
-    "actual": {
-      "home_score": 63,
-      "away_score": 65,
-      "margin": -2,
-      "total": 128
-    }
+    "bets": []
   },
   {
     "game_id": "401827082",
@@ -586,46 +713,45 @@
     "venue": "H&PE Arena",
     "neutral": false,
     "game_tier": "low",
-    "status": "STATUS_FINAL",
+    "status": "STATUS_SCHEDULED",
     "predictions": {
       "predicted_margin": 6.4,
       "home_win_prob": 0.686,
       "away_win_prob": 0.314,
       "predicted_total": 156.7
     },
-    "edge": {},
-    "bets": [],
-    "actual": {
-      "home_score": 59,
-      "away_score": 70,
-      "margin": -11,
-      "total": 129
-    }
+    "edge": {
+      "spread_edge": 2.9,
+      "vegas_spread": -3.5,
+      "model_spread": 6.4,
+      "total_edge": 1.2,
+      "vegas_total": 155.5,
+      "model_total": 156.7,
+      "ou_lean": "OVER",
+      "model_win_prob": 0.686,
+      "vegas_implied_prob": 0.627,
+      "win_prob_edge": 0.059
+    },
+    "bets": []
   },
   {
-    "game_id": "401823056",
+    "game_id": "401822780",
     "date": "2026-03-05",
-    "home_team": "Maryland Eastern Shore Hawks",
-    "away_team": "Delaware State Hornets",
+    "home_team": "Morgan State Bears",
+    "away_team": "Coppin State Eagles",
     "tipoff": "2026-03-06T01:00Z",
-    "venue": "Hytche Center",
+    "venue": "Hill Field House",
     "neutral": false,
     "game_tier": "low",
-    "status": "STATUS_FINAL",
+    "status": "STATUS_SCHEDULED",
     "predictions": {
-      "predicted_margin": -3.2,
-      "home_win_prob": 0.359,
-      "away_win_prob": 0.641,
-      "predicted_total": 135.9
+      "predicted_margin": 10.6,
+      "home_win_prob": 0.923,
+      "away_win_prob": 0.077,
+      "predicted_total": 139.2
     },
     "edge": {},
-    "bets": [],
-    "actual": {
-      "home_score": 56,
-      "away_score": 57,
-      "margin": -1,
-      "total": 113
-    }
+    "bets": []
   },
   {
     "game_id": "401805212",
@@ -636,21 +762,33 @@
     "venue": "Wisdom Gym",
     "neutral": false,
     "game_tier": "mid",
-    "status": "STATUS_FINAL",
+    "status": "STATUS_SCHEDULED",
     "predictions": {
       "predicted_margin": -6.3,
       "home_win_prob": 0.336,
       "away_win_prob": 0.664,
       "predicted_total": 137.6
     },
-    "edge": {},
-    "bets": [],
-    "actual": {
-      "home_score": 60,
-      "away_score": 65,
-      "margin": -5,
-      "total": 125
-    }
+    "edge": {
+      "spread_edge": -8.1,
+      "vegas_spread": -1.8,
+      "model_spread": -6.3,
+      "total_edge": 1.4,
+      "vegas_total": 136.2,
+      "model_total": 137.6,
+      "ou_lean": "OVER",
+      "model_win_prob": 0.336,
+      "vegas_implied_prob": 0.569,
+      "win_prob_edge": -0.233
+    },
+    "bets": [
+      {
+        "market": "SPREAD",
+        "lean": "AWAY",
+        "edge_pts": 8.1,
+        "confidence": "MEDIUM"
+      }
+    ]
   },
   {
     "game_id": "401804961",
@@ -661,7 +799,7 @@
     "venue": "Great Southern Bank Arena",
     "neutral": false,
     "game_tier": "mid",
-    "status": "STATUS_FINAL",
+    "status": "STATUS_SCHEDULED",
     "predictions": {
       "predicted_margin": -1.7,
       "home_win_prob": 0.486,
@@ -669,13 +807,7 @@
       "predicted_total": 155.3
     },
     "edge": {},
-    "bets": [],
-    "actual": {
-      "home_score": 87,
-      "away_score": 74,
-      "margin": 13,
-      "total": 161
-    }
+    "bets": []
   },
   {
     "game_id": "401851699",
@@ -686,7 +818,7 @@
     "venue": "Pensacola Bay Center",
     "neutral": true,
     "game_tier": "mid",
-    "status": "STATUS_FINAL",
+    "status": "STATUS_SCHEDULED",
     "predictions": {
       "predicted_margin": 6.6,
       "home_win_prob": 0.686,
@@ -694,13 +826,7 @@
       "predicted_total": 155.2
     },
     "edge": {},
-    "bets": [],
-    "actual": {
-      "home_score": 77,
-      "away_score": 80,
-      "margin": -3,
-      "total": 157
-    }
+    "bets": []
   },
   {
     "game_id": "401851456",
@@ -711,71 +837,63 @@
     "venue": "Jim Whelan Boardwalk Hall",
     "neutral": true,
     "game_tier": "low",
-    "status": "STATUS_FINAL",
+    "status": "STATUS_SCHEDULED",
     "predictions": {
       "predicted_margin": 2.8,
       "home_win_prob": 0.606,
       "away_win_prob": 0.394,
       "predicted_total": 151.2
     },
-    "edge": {},
-    "bets": [],
-    "actual": {
-      "home_score": 71,
-      "away_score": 60,
-      "margin": 11,
-      "total": 131
-    }
+    "edge": {
+      "spread_edge": -2.7,
+      "vegas_spread": -5.5,
+      "model_spread": 2.8,
+      "total_edge": 1.7,
+      "vegas_total": 149.5,
+      "model_total": 151.2,
+      "ou_lean": "OVER",
+      "model_win_prob": 0.606,
+      "vegas_implied_prob": 0.714,
+      "win_prob_edge": -0.108
+    },
+    "bets": []
   },
   {
-    "game_id": "401828670",
+    "game_id": "401827038",
     "date": "2026-03-05",
-    "home_team": "Jackson State Tigers",
-    "away_team": "Mississippi Valley State Delta Devils",
+    "home_team": "Alabama A&M Bulldogs",
+    "away_team": "Southern Jaguars",
     "tipoff": "2026-03-06T01:30Z",
-    "venue": "Lee E. Williams Athletics and Assembly Center",
+    "venue": "Event Center",
     "neutral": false,
     "game_tier": "low",
-    "status": "STATUS_FINAL",
+    "status": "STATUS_SCHEDULED",
     "predictions": {
-      "predicted_margin": 23.4,
-      "home_win_prob": 1.0,
-      "away_win_prob": 0.0,
-      "predicted_total": 146.1
+      "predicted_margin": -1.9,
+      "home_win_prob": 0.472,
+      "away_win_prob": 0.528,
+      "predicted_total": 137.9
     },
-    "edge": {},
-    "bets": [],
-    "actual": {
-      "home_score": 85,
-      "away_score": 77,
-      "margin": 8,
-      "total": 162
-    }
-  },
-  {
-    "game_id": "401822780",
-    "date": "2026-03-05",
-    "home_team": "Morgan State Bears",
-    "away_team": "Coppin State Eagles",
-    "tipoff": "2026-03-06T01:30Z",
-    "venue": "Hill Field House",
-    "neutral": false,
-    "game_tier": "low",
-    "status": "STATUS_FINAL",
-    "predictions": {
-      "predicted_margin": 10.6,
-      "home_win_prob": 0.923,
-      "away_win_prob": 0.077,
-      "predicted_total": 139.2
+    "edge": {
+      "spread_edge": -0.4,
+      "vegas_spread": 1.5,
+      "model_spread": -1.9,
+      "total_edge": -11.1,
+      "vegas_total": 149.0,
+      "model_total": 137.9,
+      "ou_lean": "UNDER",
+      "model_win_prob": 0.472,
+      "vegas_implied_prob": 0.51,
+      "win_prob_edge": -0.038
     },
-    "edge": {},
-    "bets": [],
-    "actual": {
-      "home_score": 70,
-      "away_score": 66,
-      "margin": 4,
-      "total": 136
-    }
+    "bets": [
+      {
+        "market": "TOTAL",
+        "lean": "UNDER",
+        "edge_pts": 11.1,
+        "confidence": "LOW"
+      }
+    ]
   },
   {
     "game_id": "401805213",
@@ -786,7 +904,7 @@
     "venue": "America First Events Center",
     "neutral": false,
     "game_tier": "mid",
-    "status": "STATUS_FINAL",
+    "status": "STATUS_SCHEDULED",
     "predictions": {
       "predicted_margin": -4.4,
       "home_win_prob": 0.394,
@@ -794,24 +912,18 @@
       "predicted_total": 145.3
     },
     "edge": {
-      "spread_edge": 1.1,
-      "vegas_spread": 5.5,
+      "spread_edge": 5.1,
+      "vegas_spread": 9.5,
       "model_spread": -4.4,
-      "total_edge": -2.2,
-      "vegas_total": 147.5,
+      "total_edge": -6.2,
+      "vegas_total": 151.5,
       "model_total": 145.3,
       "ou_lean": "UNDER",
       "model_win_prob": 0.394,
-      "vegas_implied_prob": 0.333,
-      "win_prob_edge": 0.061
+      "vegas_implied_prob": 0.227,
+      "win_prob_edge": 0.167
     },
-    "bets": [],
-    "actual": {
-      "home_score": 88,
-      "away_score": 92,
-      "margin": -4,
-      "total": 180
-    }
+    "bets": []
   },
   {
     "game_id": "401851745",
@@ -822,7 +934,7 @@
     "venue": "Orleans Arena",
     "neutral": true,
     "game_tier": "mid",
-    "status": "STATUS_FINAL",
+    "status": "STATUS_SCHEDULED",
     "predictions": {
       "predicted_margin": -3.4,
       "home_win_prob": 0.394,
@@ -830,31 +942,61 @@
       "predicted_total": 145.5
     },
     "edge": {
-      "spread_edge": -7.9,
-      "vegas_spread": -4.5,
+      "spread_edge": -5.2,
+      "vegas_spread": -1.8,
       "model_spread": -3.4,
-      "total_edge": 2.0,
-      "vegas_total": 143.5,
+      "total_edge": -6.7,
+      "vegas_total": 152.2,
       "model_total": 145.5,
-      "ou_lean": "OVER",
+      "ou_lean": "UNDER",
       "model_win_prob": 0.394,
-      "vegas_implied_prob": 0.645,
-      "win_prob_edge": -0.251
+      "vegas_implied_prob": 0.58,
+      "win_prob_edge": -0.186
+    },
+    "bets": []
+  },
+  {
+    "game_id": "401828260",
+    "date": "2026-03-05",
+    "home_team": "Memphis Tigers",
+    "away_team": "South Florida Bulls",
+    "tipoff": "2026-03-06T02:00Z",
+    "venue": "FedExForum",
+    "neutral": false,
+    "game_tier": "mid",
+    "status": "STATUS_SCHEDULED",
+    "predictions": {
+      "predicted_margin": 3.3,
+      "home_win_prob": 0.686,
+      "away_win_prob": 0.314,
+      "predicted_total": 152.9
+    },
+    "edge": {
+      "spread_edge": 9.1,
+      "vegas_spread": 5.8,
+      "model_spread": 3.3,
+      "total_edge": -7.3,
+      "vegas_total": 160.2,
+      "model_total": 152.9,
+      "ou_lean": "UNDER",
+      "model_win_prob": 0.686,
+      "vegas_implied_prob": 0.312,
+      "win_prob_edge": 0.374
     },
     "bets": [
       {
         "market": "SPREAD",
-        "lean": "AWAY",
-        "edge_pts": 7.9,
+        "lean": "HOME",
+        "edge_pts": 9.1,
+        "confidence": "MEDIUM"
+      },
+      {
+        "market": "TOTAL",
+        "lean": "UNDER",
+        "edge_pts": 7.3,
         "confidence": "MEDIUM"
       }
-    ],
-    "actual": {
-      "home_score": 77,
-      "away_score": 68,
-      "margin": 9,
-      "total": 145
-    }
+    ]
   },
   {
     "game_id": "401827152",
@@ -865,7 +1007,7 @@
     "venue": "Davey L. Whitney Complex",
     "neutral": false,
     "game_tier": "low",
-    "status": "STATUS_FINAL",
+    "status": "STATUS_SCHEDULED",
     "predictions": {
       "predicted_margin": 10.0,
       "home_win_prob": 0.686,
@@ -873,13 +1015,7 @@
       "predicted_total": 144.5
     },
     "edge": {},
-    "bets": [],
-    "actual": {
-      "home_score": 48,
-      "away_score": 83,
-      "margin": -35,
-      "total": 131
-    }
+    "bets": []
   },
   {
     "game_id": "401804960",
@@ -890,7 +1026,7 @@
     "venue": "Don Haskins Center",
     "neutral": false,
     "game_tier": "mid",
-    "status": "STATUS_FINAL",
+    "status": "STATUS_SCHEDULED",
     "predictions": {
       "predicted_margin": 0.9,
       "home_win_prob": 0.545,
@@ -898,31 +1034,18 @@
       "predicted_total": 146.5
     },
     "edge": {
-      "spread_edge": 2.4,
-      "vegas_spread": 1.5,
+      "spread_edge": 3.4,
+      "vegas_spread": 2.5,
       "model_spread": 0.9,
-      "total_edge": 7.0,
-      "vegas_total": 139.5,
+      "total_edge": -3.0,
+      "vegas_total": 149.5,
       "model_total": 146.5,
-      "ou_lean": "OVER",
+      "ou_lean": "UNDER",
       "model_win_prob": 0.545,
-      "vegas_implied_prob": 0.5,
-      "win_prob_edge": 0.045
+      "vegas_implied_prob": 0.442,
+      "win_prob_edge": 0.103
     },
-    "bets": [
-      {
-        "market": "TOTAL",
-        "lean": "OVER",
-        "edge_pts": 7.0,
-        "confidence": "MEDIUM"
-      }
-    ],
-    "actual": {
-      "home_score": 78,
-      "away_score": 71,
-      "margin": 7,
-      "total": 149
-    }
+    "bets": []
   },
   {
     "game_id": "401804959",
@@ -933,7 +1056,7 @@
     "venue": "Pan American Center",
     "neutral": false,
     "game_tier": "mid",
-    "status": "STATUS_FINAL",
+    "status": "STATUS_SCHEDULED",
     "predictions": {
       "predicted_margin": -0.8,
       "home_win_prob": 0.494,
@@ -941,63 +1064,7 @@
       "predicted_total": 139.5
     },
     "edge": {},
-    "bets": [],
-    "actual": {
-      "home_score": 77,
-      "away_score": 75,
-      "margin": 2,
-      "total": 152
-    }
-  },
-  {
-    "game_id": "401828260",
-    "date": "2026-03-05",
-    "home_team": "Memphis Tigers",
-    "away_team": "South Florida Bulls",
-    "tipoff": "2026-03-06T02:05Z",
-    "venue": "FedExForum",
-    "neutral": false,
-    "game_tier": "mid",
-    "status": "STATUS_FINAL",
-    "predictions": {
-      "predicted_margin": 3.3,
-      "home_win_prob": 0.686,
-      "away_win_prob": 0.314,
-      "predicted_total": 152.9
-    },
-    "edge": {},
-    "bets": [],
-    "actual": {
-      "home_score": 89,
-      "away_score": 96,
-      "margin": -7,
-      "total": 185
-    }
-  },
-  {
-    "game_id": "401827038",
-    "date": "2026-03-05",
-    "home_team": "Alabama A&M Bulldogs",
-    "away_team": "Southern Jaguars",
-    "tipoff": "2026-03-06T02:20Z",
-    "venue": "Event Center",
-    "neutral": false,
-    "game_tier": "low",
-    "status": "STATUS_FINAL",
-    "predictions": {
-      "predicted_margin": -1.9,
-      "home_win_prob": 0.472,
-      "away_win_prob": 0.528,
-      "predicted_total": 137.9
-    },
-    "edge": {},
-    "bets": [],
-    "actual": {
-      "home_score": 85,
-      "away_score": 88,
-      "margin": -3,
-      "total": 173
-    }
+    "bets": []
   },
   {
     "game_id": "401851622",
@@ -1008,7 +1075,7 @@
     "venue": "Denny Sanford Premier Center",
     "neutral": true,
     "game_tier": "low",
-    "status": "STATUS_FINAL",
+    "status": "STATUS_SCHEDULED",
     "predictions": {
       "predicted_margin": -0.0,
       "home_win_prob": 0.472,
@@ -1016,13 +1083,7 @@
       "predicted_total": 148.6
     },
     "edge": {},
-    "bets": [],
-    "actual": {
-      "home_score": 80,
-      "away_score": 67,
-      "margin": 13,
-      "total": 147
-    }
+    "bets": []
   },
   {
     "game_id": "401851528",
@@ -1033,7 +1094,7 @@
     "venue": "Ford Center",
     "neutral": true,
     "game_tier": "low",
-    "status": "STATUS_FINAL",
+    "status": "STATUS_SCHEDULED",
     "predictions": {
       "predicted_margin": 1.9,
       "home_win_prob": 0.541,
@@ -1041,13 +1102,7 @@
       "predicted_total": 149.3
     },
     "edge": {},
-    "bets": [],
-    "actual": {
-      "home_score": 68,
-      "away_score": 66,
-      "margin": 2,
-      "total": 134
-    }
+    "bets": []
   },
   {
     "game_id": "401851487",
@@ -1058,21 +1113,39 @@
     "venue": "Enterprise Center",
     "neutral": true,
     "game_tier": "mid",
-    "status": "STATUS_FINAL",
+    "status": "STATUS_SCHEDULED",
     "predictions": {
       "predicted_margin": 4.9,
       "home_win_prob": 0.609,
       "away_win_prob": 0.391,
       "predicted_total": 133.7
     },
-    "edge": {},
-    "bets": [],
-    "actual": {
-      "home_score": 68,
-      "away_score": 59,
-      "margin": 9,
-      "total": 127
-    }
+    "edge": {
+      "spread_edge": -9.6,
+      "vegas_spread": -14.5,
+      "model_spread": 4.9,
+      "total_edge": 8.5,
+      "vegas_total": 125.2,
+      "model_total": 133.7,
+      "ou_lean": "OVER",
+      "model_win_prob": 0.609,
+      "vegas_implied_prob": 0.932,
+      "win_prob_edge": -0.323
+    },
+    "bets": [
+      {
+        "market": "SPREAD",
+        "lean": "AWAY",
+        "edge_pts": 9.6,
+        "confidence": "MEDIUM"
+      },
+      {
+        "market": "TOTAL",
+        "lean": "OVER",
+        "edge_pts": 8.5,
+        "confidence": "MEDIUM"
+      }
+    ]
   },
   {
     "game_id": "401823271",
@@ -1083,7 +1156,7 @@
     "venue": "Icardo Center",
     "neutral": false,
     "game_tier": "mid",
-    "status": "STATUS_FINAL",
+    "status": "STATUS_SCHEDULED",
     "predictions": {
       "predicted_margin": -9.7,
       "home_win_prob": 0.333,
@@ -1091,13 +1164,7 @@
       "predicted_total": 151.7
     },
     "edge": {},
-    "bets": [],
-    "actual": {
-      "home_score": 84,
-      "away_score": 86,
-      "margin": -2,
-      "total": 170
-    }
+    "bets": []
   },
   {
     "game_id": "401809138",
@@ -1108,7 +1175,7 @@
     "venue": "Walter Pyramid",
     "neutral": false,
     "game_tier": "mid",
-    "status": "STATUS_FINAL",
+    "status": "STATUS_SCHEDULED",
     "predictions": {
       "predicted_margin": -4.1,
       "home_win_prob": 0.349,
@@ -1116,13 +1183,7 @@
       "predicted_total": 145.3
     },
     "edge": {},
-    "bets": [],
-    "actual": {
-      "home_score": 70,
-      "away_score": 76,
-      "margin": -6,
-      "total": 146
-    }
+    "bets": []
   },
   {
     "game_id": "401809121",
@@ -1133,7 +1194,7 @@
     "venue": "Bren Events Center",
     "neutral": false,
     "game_tier": "mid",
-    "status": "STATUS_FINAL",
+    "status": "STATUS_SCHEDULED",
     "predictions": {
       "predicted_margin": 12.0,
       "home_win_prob": 0.923,
@@ -1144,28 +1205,15 @@
       "spread_edge": 2.5,
       "vegas_spread": -9.5,
       "model_spread": 12.0,
-      "total_edge": 11.6,
-      "vegas_total": 146.0,
+      "total_edge": 2.1,
+      "vegas_total": 155.5,
       "model_total": 157.6,
       "ou_lean": "OVER",
       "model_win_prob": 0.923,
-      "vegas_implied_prob": 0.796,
-      "win_prob_edge": 0.127
+      "vegas_implied_prob": 0.83,
+      "win_prob_edge": 0.093
     },
-    "bets": [
-      {
-        "market": "TOTAL",
-        "lean": "OVER",
-        "edge_pts": 11.6,
-        "confidence": "MEDIUM"
-      }
-    ],
-    "actual": {
-      "home_score": 107,
-      "away_score": 85,
-      "margin": 22,
-      "total": 192
-    }
+    "bets": []
   },
   {
     "game_id": "401809103",
@@ -1176,7 +1224,7 @@
     "venue": "Titan Gym",
     "neutral": false,
     "game_tier": "mid",
-    "status": "STATUS_FINAL",
+    "status": "STATUS_SCHEDULED",
     "predictions": {
       "predicted_margin": -9.6,
       "home_win_prob": 0.333,
@@ -1184,13 +1232,7 @@
       "predicted_total": 149.5
     },
     "edge": {},
-    "bets": [],
-    "actual": {
-      "home_score": 75,
-      "away_score": 71,
-      "margin": 4,
-      "total": 146
-    }
+    "bets": []
   },
   {
     "game_id": "401805211",
@@ -1201,7 +1243,7 @@
     "venue": "Dale E. and Sarah Ann Fowler Events Center",
     "neutral": false,
     "game_tier": "mid",
-    "status": "STATUS_FINAL",
+    "status": "STATUS_SCHEDULED",
     "predictions": {
       "predicted_margin": 4.7,
       "home_win_prob": 0.712,
@@ -1209,37 +1251,18 @@
       "predicted_total": 135.7
     },
     "edge": {
-      "spread_edge": 10.2,
-      "vegas_spread": 5.5,
+      "spread_edge": -4.8,
+      "vegas_spread": -9.5,
       "model_spread": 4.7,
-      "total_edge": -11.8,
-      "vegas_total": 147.5,
+      "total_edge": 0.2,
+      "vegas_total": 135.5,
       "model_total": 135.7,
-      "ou_lean": "UNDER",
+      "ou_lean": "OVER",
       "model_win_prob": 0.712,
-      "vegas_implied_prob": 0.333,
-      "win_prob_edge": 0.379
+      "vegas_implied_prob": 0.817,
+      "win_prob_edge": -0.105
     },
-    "bets": [
-      {
-        "market": "SPREAD",
-        "lean": "HOME",
-        "edge_pts": 10.2,
-        "confidence": "MEDIUM"
-      },
-      {
-        "market": "TOTAL",
-        "lean": "UNDER",
-        "edge_pts": 11.8,
-        "confidence": "MEDIUM"
-      }
-    ],
-    "actual": {
-      "home_score": 87,
-      "away_score": 48,
-      "margin": 39,
-      "total": 135
-    }
+    "bets": []
   },
   {
     "game_id": "401851746",
@@ -1250,21 +1273,26 @@
     "venue": "Orleans Arena",
     "neutral": true,
     "game_tier": "mid",
-    "status": "STATUS_FINAL",
+    "status": "STATUS_SCHEDULED",
     "predictions": {
       "predicted_margin": 2.6,
       "home_win_prob": 0.541,
       "away_win_prob": 0.459,
       "predicted_total": 149.4
     },
-    "edge": {},
-    "bets": [],
-    "actual": {
-      "home_score": 62,
-      "away_score": 66,
-      "margin": -4,
-      "total": 128
-    }
+    "edge": {
+      "spread_edge": -2.9,
+      "vegas_spread": -5.5,
+      "model_spread": 2.6,
+      "total_edge": 3.9,
+      "vegas_total": 145.5,
+      "model_total": 149.4,
+      "ou_lean": "OVER",
+      "model_win_prob": 0.541,
+      "vegas_implied_prob": 0.71,
+      "win_prob_edge": -0.169
+    },
+    "bets": []
   },
   {
     "game_id": "401809151",
@@ -1275,7 +1303,7 @@
     "venue": "Stan Sheriff Center",
     "neutral": false,
     "game_tier": "mid",
-    "status": "STATUS_FINAL",
+    "status": "STATUS_SCHEDULED",
     "predictions": {
       "predicted_margin": 5.6,
       "home_win_prob": 0.686,
@@ -1283,30 +1311,17 @@
       "predicted_total": 151.4
     },
     "edge": {
-      "spread_edge": -8.2,
-      "vegas_spread": -13.8,
+      "spread_edge": -5.9,
+      "vegas_spread": -11.5,
       "model_spread": 5.6,
-      "total_edge": 2.6,
-      "vegas_total": 148.8,
+      "total_edge": 2.9,
+      "vegas_total": 148.5,
       "model_total": 151.4,
       "ou_lean": "OVER",
       "model_win_prob": 0.686,
-      "vegas_implied_prob": 0.917,
-      "win_prob_edge": -0.231
+      "vegas_implied_prob": 0.869,
+      "win_prob_edge": -0.183
     },
-    "bets": [
-      {
-        "market": "SPREAD",
-        "lean": "AWAY",
-        "edge_pts": 8.2,
-        "confidence": "MEDIUM"
-      }
-    ],
-    "actual": {
-      "home_score": 93,
-      "away_score": 74,
-      "margin": 19,
-      "total": 167
-    }
+    "bets": []
   }
 ]

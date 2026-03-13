@@ -222,9 +222,7 @@
     "bets": [],
     "actual": {
       "home_score": 64,
-      "away_score": 74,
-      "margin": -10,
-      "total": 138
+      "away_score": 74
     }
   },
   {
@@ -329,9 +327,7 @@
     "bets": [],
     "actual": {
       "home_score": 67,
-      "away_score": 73,
-      "margin": -6,
-      "total": 140
+      "away_score": 73
     }
   },
   {
@@ -353,9 +349,7 @@
     "bets": [],
     "actual": {
       "home_score": 77,
-      "away_score": 104,
-      "margin": -27,
-      "total": 181
+      "away_score": 104
     }
   },
   {
@@ -364,7 +358,7 @@
     "home_team": "Rutgers Scarlet Knights",
     "away_team": "Washington Huskies",
     "tipoff": "2026-02-24T23:30Z",
-    "venue": "Jersey Mike\u2019s Arena",
+    "venue": "Jersey Mike’s Arena",
     "neutral": false,
     "status": "STATUS_FINAL",
     "predictions": {
@@ -377,9 +371,7 @@
     "bets": [],
     "actual": {
       "home_score": 72,
-      "away_score": 79,
-      "margin": -7,
-      "total": 151
+      "away_score": 79
     }
   },
   {
@@ -860,7 +852,7 @@
     "game_id": "401820573",
     "date": "2026-02-24",
     "home_team": "Air Force Falcons",
-    "away_team": "San Jos\u00e9 State Spartans",
+    "away_team": "San José State Spartans",
     "tipoff": "2026-02-25T02:00Z",
     "venue": "Clune Arena",
     "neutral": false,

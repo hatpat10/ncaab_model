@@ -7,13 +7,9 @@
     "tipoff": "2026-02-03T02:00Z",
     "venue": "United Supermarkets Arena",
     "neutral": false,
+    "game_tier": "high",
     "status": "STATUS_FINAL",
-    "predictions": {
-      "predicted_margin": 2.7,
-      "home_win_prob": 0.587,
-      "away_win_prob": 0.413,
-      "predicted_total": 153.1
-    },
+    "predictions": {},
     "edge": {},
     "bets": [],
     "actual": {
@@ -31,13 +27,9 @@
     "tipoff": "2026-02-03T00:00Z",
     "venue": "Dean E. Smith Center",
     "neutral": false,
+    "game_tier": "high",
     "status": "STATUS_FINAL",
-    "predictions": {
-      "predicted_margin": 10.7,
-      "home_win_prob": 0.881,
-      "away_win_prob": 0.119,
-      "predicted_total": 159.5
-    },
+    "predictions": {},
     "edge": {},
     "bets": [],
     "actual": {
@@ -55,13 +47,9 @@
     "tipoff": "2026-02-02T21:30Z",
     "venue": "McDougald-McLendon Arena",
     "neutral": false,
+    "game_tier": "low",
     "status": "STATUS_FINAL",
-    "predictions": {
-      "predicted_margin": 2.9,
-      "home_win_prob": 0.587,
-      "away_win_prob": 0.413,
-      "predicted_total": 133.7
-    },
+    "predictions": {},
     "edge": {},
     "bets": [],
     "actual": {
@@ -79,13 +67,9 @@
     "tipoff": "2026-02-02T23:00Z",
     "venue": "Physical Education Complex",
     "neutral": false,
+    "game_tier": "low",
     "status": "STATUS_FINAL",
-    "predictions": {
-      "predicted_margin": -7.5,
-      "home_win_prob": 0.141,
-      "away_win_prob": 0.859,
-      "predicted_total": 140.6
-    },
+    "predictions": {},
     "edge": {},
     "bets": [],
     "actual": {
@@ -103,13 +87,9 @@
     "tipoff": "2026-02-03T00:00Z",
     "venue": "Dunn-Oliver Acadome",
     "neutral": false,
+    "game_tier": "low",
     "status": "STATUS_FINAL",
-    "predictions": {
-      "predicted_margin": 1.1,
-      "home_win_prob": 0.536,
-      "away_win_prob": 0.464,
-      "predicted_total": 144.2
-    },
+    "predictions": {},
     "edge": {},
     "bets": [],
     "actual": {
@@ -127,13 +107,9 @@
     "tipoff": "2026-02-03T00:00Z",
     "venue": "Hart Center",
     "neutral": false,
+    "game_tier": "low",
     "status": "STATUS_FINAL",
-    "predictions": {
-      "predicted_margin": -3.4,
-      "home_win_prob": 0.415,
-      "away_win_prob": 0.585,
-      "predicted_total": 138.0
-    },
+    "predictions": {},
     "edge": {},
     "bets": [],
     "actual": {
@@ -151,13 +127,9 @@
     "tipoff": "2026-02-03T00:00Z",
     "venue": "Montagne Center",
     "neutral": false,
+    "game_tier": "low",
     "status": "STATUS_FINAL",
-    "predictions": {
-      "predicted_margin": 2.9,
-      "home_win_prob": 0.666,
-      "away_win_prob": 0.334,
-      "predicted_total": 131.5
-    },
+    "predictions": {},
     "edge": {},
     "bets": [],
     "actual": {
@@ -175,13 +147,9 @@
     "tipoff": "2026-02-03T00:30Z",
     "venue": "UTRGV Fieldhouse",
     "neutral": false,
+    "game_tier": "low",
     "status": "STATUS_FINAL",
-    "predictions": {
-      "predicted_margin": 7.8,
-      "home_win_prob": 0.674,
-      "away_win_prob": 0.326,
-      "predicted_total": 141.1
-    },
+    "predictions": {},
     "edge": {},
     "bets": [],
     "actual": {
@@ -199,13 +167,9 @@
     "tipoff": "2026-02-03T00:30Z",
     "venue": "Prather Coliseum",
     "neutral": false,
+    "game_tier": "low",
     "status": "STATUS_FINAL",
-    "predictions": {
-      "predicted_margin": 9.1,
-      "home_win_prob": 0.606,
-      "away_win_prob": 0.394,
-      "predicted_total": 134.6
-    },
+    "predictions": {},
     "edge": {},
     "bets": [],
     "actual": {
@@ -223,13 +187,9 @@
     "tipoff": "2026-02-03T00:30Z",
     "venue": "William R. Johnson Coliseum",
     "neutral": false,
+    "game_tier": "low",
     "status": "STATUS_FINAL",
-    "predictions": {
-      "predicted_margin": -4.1,
-      "home_win_prob": 0.419,
-      "away_win_prob": 0.581,
-      "predicted_total": 139.7
-    },
+    "predictions": {},
     "edge": {},
     "bets": [],
     "actual": {
@@ -247,13 +207,9 @@
     "tipoff": "2026-02-03T00:30Z",
     "venue": "The Field House",
     "neutral": false,
+    "game_tier": "low",
     "status": "STATUS_FINAL",
-    "predictions": {
-      "predicted_margin": -2.5,
-      "home_win_prob": 0.415,
-      "away_win_prob": 0.585,
-      "predicted_total": 137.3
-    },
+    "predictions": {},
     "edge": {},
     "bets": [],
     "actual": {
@@ -271,13 +227,9 @@
     "tipoff": "2026-02-03T01:00Z",
     "venue": "Event Center",
     "neutral": false,
+    "game_tier": "low",
     "status": "STATUS_FINAL",
-    "predictions": {
-      "predicted_margin": 0.4,
-      "home_win_prob": 0.485,
-      "away_win_prob": 0.515,
-      "predicted_total": 138.5
-    },
+    "predictions": {},
     "edge": {},
     "bets": [],
     "actual": {
@@ -295,13 +247,9 @@
     "tipoff": "2026-02-03T01:00Z",
     "venue": "Lee E. Williams Athletics and Assembly Center",
     "neutral": false,
+    "game_tier": "low",
     "status": "STATUS_FINAL",
-    "predictions": {
-      "predicted_margin": -2.1,
-      "home_win_prob": 0.468,
-      "away_win_prob": 0.532,
-      "predicted_total": 150.5
-    },
+    "predictions": {},
     "edge": {},
     "bets": [],
     "actual": {
@@ -319,13 +267,9 @@
     "tipoff": "2026-02-03T01:25Z",
     "venue": "Davey L. Whitney Complex",
     "neutral": false,
+    "game_tier": "low",
     "status": "STATUS_FINAL",
-    "predictions": {
-      "predicted_margin": -4.8,
-      "home_win_prob": 0.415,
-      "away_win_prob": 0.585,
-      "predicted_total": 138.0
-    },
+    "predictions": {},
     "edge": {},
     "bets": [],
     "actual": {
@@ -343,13 +287,9 @@
     "tipoff": "2026-02-03T01:30Z",
     "venue": "Gentry Center",
     "neutral": false,
+    "game_tier": "low",
     "status": "STATUS_FINAL",
-    "predictions": {
-      "predicted_margin": 5.8,
-      "home_win_prob": 0.606,
-      "away_win_prob": 0.394,
-      "predicted_total": 156.4
-    },
+    "predictions": {},
     "edge": {},
     "bets": [],
     "actual": {
@@ -367,13 +307,9 @@
     "tipoff": "2026-02-03T02:00Z",
     "venue": "Hilliard Center",
     "neutral": false,
+    "game_tier": "low",
     "status": "STATUS_FINAL",
-    "predictions": {
-      "predicted_margin": 4.0,
-      "home_win_prob": 0.666,
-      "away_win_prob": 0.334,
-      "predicted_total": 138.7
-    },
+    "predictions": {},
     "edge": {},
     "bets": [],
     "actual": {
@@ -391,13 +327,9 @@
     "tipoff": "2026-02-03T03:00Z",
     "venue": "Hornet Pavilion",
     "neutral": false,
+    "game_tier": "low",
     "status": "STATUS_FINAL",
-    "predictions": {
-      "predicted_margin": -5.4,
-      "home_win_prob": 0.343,
-      "away_win_prob": 0.657,
-      "predicted_total": 149.0
-    },
+    "predictions": {},
     "edge": {},
     "bets": [],
     "actual": {
@@ -415,13 +347,9 @@
     "tipoff": "2026-02-03T03:00Z",
     "venue": "Viking Pavilion",
     "neutral": false,
+    "game_tier": "low",
     "status": "STATUS_FINAL",
-    "predictions": {
-      "predicted_margin": 3.7,
-      "home_win_prob": 0.606,
-      "away_win_prob": 0.394,
-      "predicted_total": 141.6
-    },
+    "predictions": {},
     "edge": {},
     "bets": [],
     "actual": {

@@ -29,9 +29,7 @@
     "bets": [],
     "actual": {
       "home_score": 80,
-      "away_score": 91,
-      "margin": -11,
-      "total": 171
+      "away_score": 91
     }
   },
   {
@@ -413,9 +411,7 @@
     ],
     "actual": {
       "home_score": 75,
-      "away_score": 66,
-      "margin": 9,
-      "total": 141
+      "away_score": 66
     }
   },
   {
@@ -437,9 +433,7 @@
     "bets": [],
     "actual": {
       "home_score": 80,
-      "away_score": 72,
-      "margin": 8,
-      "total": 152
+      "away_score": 72
     }
   },
   {
@@ -461,9 +455,7 @@
     "bets": [],
     "actual": {
       "home_score": 89,
-      "away_score": 92,
-      "margin": -3,
-      "total": 181
+      "away_score": 92
     }
   },
   {
@@ -485,9 +477,7 @@
     "bets": [],
     "actual": {
       "home_score": 70,
-      "away_score": 72,
-      "margin": -2,
-      "total": 142
+      "away_score": 72
     }
   },
   {
@@ -509,9 +499,7 @@
     "bets": [],
     "actual": {
       "home_score": 66,
-      "away_score": 54,
-      "margin": 12,
-      "total": 120
+      "away_score": 54
     }
   },
   {
@@ -847,7 +835,7 @@
   {
     "game_id": "401829318",
     "date": "2026-02-17",
-    "home_team": "San Jos\u00e9 State Spartans",
+    "home_team": "San José State Spartans",
     "away_team": "Nevada Wolf Pack",
     "tipoff": "2026-02-18T03:00Z",
     "venue": "Provident Credit Union Event Center",

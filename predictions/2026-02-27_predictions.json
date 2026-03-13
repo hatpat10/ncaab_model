@@ -1,30 +1,5 @@
 [
   {
-    "game_id": "401825544",
-    "date": "2026-02-27",
-    "home_team": "Illinois Fighting Illini",
-    "away_team": "Michigan Wolverines",
-    "tipoff": "2026-02-28T01:00Z",
-    "venue": "State Farm Center",
-    "neutral": false,
-    "game_tier": "high",
-    "status": "STATUS_FINAL",
-    "predictions": {
-      "predicted_margin": 8.6,
-      "home_win_prob": 0.881,
-      "away_win_prob": 0.119,
-      "predicted_total": 151.6
-    },
-    "edge": {},
-    "bets": [],
-    "actual": {
-      "home_score": 70,
-      "away_score": 84,
-      "margin": -14,
-      "total": 154
-    }
-  },
-  {
     "game_id": "401814590",
     "date": "2026-02-27",
     "home_team": "Western Michigan Broncos",
@@ -32,21 +7,36 @@
     "tipoff": "2026-02-27T23:00Z",
     "venue": "University Arena (MI)",
     "neutral": false,
-    "game_tier": "low",
-    "status": "STATUS_FINAL",
+    "status": "STATUS_SCHEDULED",
     "predictions": {
       "predicted_margin": -3.0,
       "home_win_prob": 0.415,
       "away_win_prob": 0.585,
       "predicted_total": 149.1
     },
-    "edge": {},
-    "bets": [],
+    "edge": {
+      "spread_edge": 9.5,
+      "vegas_spread": 12.5,
+      "model_spread": -3.0,
+      "total_edge": -15.4,
+      "vegas_total": 164.5,
+      "model_total": 149.1,
+      "ou_lean": "UNDER",
+      "model_win_prob": 0.415,
+      "vegas_implied_prob": NaN,
+      "win_prob_edge": NaN
+    },
+    "bets": [
+      {
+        "market": "SPREAD",
+        "lean": "HOME",
+        "edge_pts": 9.5,
+        "confidence": "HIGH"
+      }
+    ],
     "actual": {
       "home_score": 67,
-      "away_score": 69,
-      "margin": -2,
-      "total": 136
+      "away_score": 69
     }
   },
   {
@@ -57,8 +47,7 @@
     "tipoff": "2026-02-27T23:00Z",
     "venue": "Newman Arena",
     "neutral": false,
-    "game_tier": "mid",
-    "status": "STATUS_FINAL",
+    "status": "STATUS_SCHEDULED",
     "predictions": {
       "predicted_margin": -1.8,
       "home_win_prob": 0.415,
@@ -69,9 +58,7 @@
     "bets": [],
     "actual": {
       "home_score": 72,
-      "away_score": 69,
-      "margin": 3,
-      "total": 141
+      "away_score": 69
     }
   },
   {
@@ -82,8 +69,7 @@
     "tipoff": "2026-02-27T23:30Z",
     "venue": "Gallagher Center",
     "neutral": false,
-    "game_tier": "low",
-    "status": "STATUS_FINAL",
+    "status": "STATUS_SCHEDULED",
     "predictions": {
       "predicted_margin": -5.0,
       "home_win_prob": 0.343,
@@ -94,9 +80,7 @@
     "bets": [],
     "actual": {
       "home_score": 78,
-      "away_score": 76,
-      "margin": 2,
-      "total": 154
+      "away_score": 76
     }
   },
   {
@@ -107,8 +91,7 @@
     "tipoff": "2026-02-28T00:00Z",
     "venue": "Charles E. Smith Center",
     "neutral": false,
-    "game_tier": "mid",
-    "status": "STATUS_FINAL",
+    "status": "STATUS_SCHEDULED",
     "predictions": {
       "predicted_margin": 0.1,
       "home_win_prob": 0.419,
@@ -116,13 +99,7 @@
       "predicted_total": 146.5
     },
     "edge": {},
-    "bets": [],
-    "actual": {
-      "home_score": 66,
-      "away_score": 68,
-      "margin": -2,
-      "total": 134
-    }
+    "bets": []
   },
   {
     "game_id": "401823856",
@@ -132,8 +109,7 @@
     "tipoff": "2026-02-28T00:00Z",
     "venue": "Hynes Athletics Center",
     "neutral": false,
-    "game_tier": "low",
-    "status": "STATUS_FINAL",
+    "status": "STATUS_SCHEDULED",
     "predictions": {
       "predicted_margin": 2.4,
       "home_win_prob": 0.606,
@@ -141,13 +117,7 @@
       "predicted_total": 139.2
     },
     "edge": {},
-    "bets": [],
-    "actual": {
-      "home_score": 80,
-      "away_score": 58,
-      "margin": 22,
-      "total": 138
-    }
+    "bets": []
   },
   {
     "game_id": "401818546",
@@ -157,8 +127,7 @@
     "tipoff": "2026-02-28T00:00Z",
     "venue": "Levien Gymnasium",
     "neutral": false,
-    "game_tier": "mid",
-    "status": "STATUS_FINAL",
+    "status": "STATUS_SCHEDULED",
     "predictions": {
       "predicted_margin": 2.0,
       "home_win_prob": 0.536,
@@ -166,13 +135,7 @@
       "predicted_total": 151.3
     },
     "edge": {},
-    "bets": [],
-    "actual": {
-      "home_score": 80,
-      "away_score": 62,
-      "margin": 18,
-      "total": 142
-    }
+    "bets": []
   },
   {
     "game_id": "401813432",
@@ -182,8 +145,7 @@
     "tipoff": "2026-02-28T00:00Z",
     "venue": "Leo D. Mahoney Arena",
     "neutral": false,
-    "game_tier": "low",
-    "status": "STATUS_FINAL",
+    "status": "STATUS_SCHEDULED",
     "predictions": {
       "predicted_margin": 5.6,
       "home_win_prob": 0.666,
@@ -191,13 +153,7 @@
       "predicted_total": 145.4
     },
     "edge": {},
-    "bets": [],
-    "actual": {
-      "home_score": 72,
-      "away_score": 58,
-      "margin": 14,
-      "total": 130
-    }
+    "bets": []
   },
   {
     "game_id": "401813418",
@@ -207,8 +163,7 @@
     "tipoff": "2026-02-28T00:00Z",
     "venue": "William H. Pitt Center",
     "neutral": false,
-    "game_tier": "low",
-    "status": "STATUS_FINAL",
+    "status": "STATUS_SCHEDULED",
     "predictions": {
       "predicted_margin": -0.1,
       "home_win_prob": 0.419,
@@ -216,13 +171,7 @@
       "predicted_total": 152.5
     },
     "edge": {},
-    "bets": [],
-    "actual": {
-      "home_score": 77,
-      "away_score": 69,
-      "margin": 8,
-      "total": 146
-    }
+    "bets": []
   },
   {
     "game_id": "401813371",
@@ -232,8 +181,7 @@
     "tipoff": "2026-02-28T00:00Z",
     "venue": "Koessler Athletic Center",
     "neutral": false,
-    "game_tier": "low",
-    "status": "STATUS_FINAL",
+    "status": "STATUS_SCHEDULED",
     "predictions": {
       "predicted_margin": -4.7,
       "home_win_prob": 0.415,
@@ -241,13 +189,7 @@
       "predicted_total": 130.8
     },
     "edge": {},
-    "bets": [],
-    "actual": {
-      "home_score": 67,
-      "away_score": 62,
-      "margin": 5,
-      "total": 129
-    }
+    "bets": []
   },
   {
     "game_id": "401813318",
@@ -257,8 +199,7 @@
     "tipoff": "2026-02-28T00:00Z",
     "venue": "Yanitelli Center",
     "neutral": false,
-    "game_tier": "low",
-    "status": "STATUS_FINAL",
+    "status": "STATUS_SCHEDULED",
     "predictions": {
       "predicted_margin": 6.7,
       "home_win_prob": 0.674,
@@ -266,13 +207,7 @@
       "predicted_total": 145.8
     },
     "edge": {},
-    "bets": [],
-    "actual": {
-      "home_score": 75,
-      "away_score": 65,
-      "margin": 10,
-      "total": 140
-    }
+    "bets": []
   },
   {
     "game_id": "401812623",
@@ -282,8 +217,7 @@
     "tipoff": "2026-02-28T00:00Z",
     "venue": "Jadwin Gymnasium",
     "neutral": false,
-    "game_tier": "mid",
-    "status": "STATUS_FINAL",
+    "status": "STATUS_SCHEDULED",
     "predictions": {
       "predicted_margin": 6.6,
       "home_win_prob": 0.606,
@@ -291,13 +225,7 @@
       "predicted_total": 141.1
     },
     "edge": {},
-    "bets": [],
-    "actual": {
-      "home_score": 56,
-      "away_score": 58,
-      "margin": -2,
-      "total": 114
-    }
+    "bets": []
   },
   {
     "game_id": "401812596",
@@ -307,8 +235,7 @@
     "tipoff": "2026-02-28T00:00Z",
     "venue": "The Palestra",
     "neutral": false,
-    "game_tier": "mid",
-    "status": "STATUS_FINAL",
+    "status": "STATUS_SCHEDULED",
     "predictions": {
       "predicted_margin": 1.7,
       "home_win_prob": 0.666,
@@ -316,13 +243,7 @@
       "predicted_total": 145.0
     },
     "edge": {},
-    "bets": [],
-    "actual": {
-      "home_score": 80,
-      "away_score": 71,
-      "margin": 9,
-      "total": 151
-    }
+    "bets": []
   },
   {
     "game_id": "401808700",
@@ -332,8 +253,7 @@
     "tipoff": "2026-02-28T00:00Z",
     "venue": "Trojan Arena",
     "neutral": false,
-    "game_tier": "mid",
-    "status": "STATUS_FINAL",
+    "status": "STATUS_SCHEDULED",
     "predictions": {
       "predicted_margin": 7.3,
       "home_win_prob": 0.666,
@@ -341,13 +261,7 @@
       "predicted_total": 143.9
     },
     "edge": {},
-    "bets": [],
-    "actual": {
-      "home_score": 80,
-      "away_score": 65,
-      "margin": 15,
-      "total": 145
-    }
+    "bets": []
   },
   {
     "game_id": "401808694",
@@ -357,8 +271,7 @@
     "tipoff": "2026-02-28T00:30Z",
     "venue": "GSU Convocation Center",
     "neutral": false,
-    "game_tier": "mid",
-    "status": "STATUS_FINAL",
+    "status": "STATUS_SCHEDULED",
     "predictions": {
       "predicted_margin": 4.1,
       "home_win_prob": 0.592,
@@ -366,13 +279,43 @@
       "predicted_total": 146.4
     },
     "edge": {},
-    "bets": [],
-    "actual": {
-      "home_score": 73,
-      "away_score": 81,
-      "margin": -8,
-      "total": 154
-    }
+    "bets": []
+  },
+  {
+    "game_id": "401825544",
+    "date": "2026-02-27",
+    "home_team": "Illinois Fighting Illini",
+    "away_team": "Michigan Wolverines",
+    "tipoff": "2026-02-28T01:00Z",
+    "venue": "State Farm Center",
+    "neutral": false,
+    "status": "STATUS_SCHEDULED",
+    "predictions": {
+      "predicted_margin": 8.6,
+      "home_win_prob": 0.881,
+      "away_win_prob": 0.119,
+      "predicted_total": 151.6
+    },
+    "edge": {
+      "spread_edge": 10.1,
+      "vegas_spread": 1.5,
+      "model_spread": 8.6,
+      "total_edge": -4.4,
+      "vegas_total": 156.0,
+      "model_total": 151.6,
+      "ou_lean": "UNDER",
+      "model_win_prob": 0.881,
+      "vegas_implied_prob": 0.524,
+      "win_prob_edge": 0.357
+    },
+    "bets": [
+      {
+        "market": "SPREAD",
+        "lean": "HOME",
+        "edge_pts": 10.1,
+        "confidence": "LOW"
+      }
+    ]
   },
   {
     "game_id": "401814586",
@@ -382,8 +325,7 @@
     "tipoff": "2026-02-28T01:00Z",
     "venue": "M.A.C. Center",
     "neutral": false,
-    "game_tier": "low",
-    "status": "STATUS_FINAL",
+    "status": "STATUS_SCHEDULED",
     "predictions": {
       "predicted_margin": -3.1,
       "home_win_prob": 0.415,
@@ -391,13 +333,7 @@
       "predicted_total": 151.0
     },
     "edge": {},
-    "bets": [],
-    "actual": {
-      "home_score": 70,
-      "away_score": 92,
-      "margin": -22,
-      "total": 162
-    }
+    "bets": []
   },
   {
     "game_id": "401808697",
@@ -407,8 +343,7 @@
     "tipoff": "2026-02-28T01:00Z",
     "venue": "Strahan Arena at the University Events Center",
     "neutral": false,
-    "game_tier": "mid",
-    "status": "STATUS_FINAL",
+    "status": "STATUS_SCHEDULED",
     "predictions": {
       "predicted_margin": 0.6,
       "home_win_prob": 0.536,
@@ -416,13 +351,7 @@
       "predicted_total": 139.6
     },
     "edge": {},
-    "bets": [],
-    "actual": {
-      "home_score": 60,
-      "away_score": 57,
-      "margin": 3,
-      "total": 117
-    }
+    "bets": []
   },
   {
     "game_id": "401808695",
@@ -432,8 +361,7 @@
     "tipoff": "2026-02-28T01:00Z",
     "venue": "Atlantic Union Bank Center",
     "neutral": false,
-    "game_tier": "mid",
-    "status": "STATUS_FINAL",
+    "status": "STATUS_SCHEDULED",
     "predictions": {
       "predicted_margin": 9.4,
       "home_win_prob": 0.936,
@@ -441,13 +369,7 @@
       "predicted_total": 147.3
     },
     "edge": {},
-    "bets": [],
-    "actual": {
-      "home_score": 68,
-      "away_score": 69,
-      "margin": -1,
-      "total": 137
-    }
+    "bets": []
   },
   {
     "game_id": "401808699",
@@ -457,8 +379,7 @@
     "tipoff": "2026-02-28T01:30Z",
     "venue": "Mitchell Center",
     "neutral": false,
-    "game_tier": "mid",
-    "status": "STATUS_FINAL",
+    "status": "STATUS_SCHEDULED",
     "predictions": {
       "predicted_margin": 8.7,
       "home_win_prob": 0.674,
@@ -466,13 +387,25 @@
       "predicted_total": 148.0
     },
     "edge": {},
-    "bets": [],
-    "actual": {
-      "home_score": 55,
-      "away_score": 68,
-      "margin": -13,
-      "total": 123
-    }
+    "bets": []
+  },
+  {
+    "game_id": "401808698",
+    "date": "2026-02-27",
+    "home_team": "Arkansas State Red Wolves",
+    "away_team": "Louisiana Ragin' Cajuns",
+    "tipoff": "2026-02-28T01:30Z",
+    "venue": "First National Bank Arena",
+    "neutral": false,
+    "status": "STATUS_SCHEDULED",
+    "predictions": {
+      "predicted_margin": 13.3,
+      "home_win_prob": 0.881,
+      "away_win_prob": 0.119,
+      "predicted_total": 151.7
+    },
+    "edge": {},
+    "bets": []
   },
   {
     "game_id": "401808696",
@@ -482,8 +415,7 @@
     "tipoff": "2026-02-28T02:00Z",
     "venue": "Cam Henderson Center",
     "neutral": false,
-    "game_tier": "mid",
-    "status": "STATUS_FINAL",
+    "status": "STATUS_SCHEDULED",
     "predictions": {
       "predicted_margin": 5.6,
       "home_win_prob": 0.666,
@@ -491,37 +423,6 @@
       "predicted_total": 157.9
     },
     "edge": {},
-    "bets": [],
-    "actual": {
-      "home_score": 82,
-      "away_score": 99,
-      "margin": -17,
-      "total": 181
-    }
-  },
-  {
-    "game_id": "401808698",
-    "date": "2026-02-27",
-    "home_team": "Arkansas State Red Wolves",
-    "away_team": "Louisiana Ragin' Cajuns",
-    "tipoff": "2026-02-28T02:10Z",
-    "venue": "First National Bank Arena",
-    "neutral": false,
-    "game_tier": "mid",
-    "status": "STATUS_FINAL",
-    "predictions": {
-      "predicted_margin": 13.3,
-      "home_win_prob": 0.881,
-      "away_win_prob": 0.119,
-      "predicted_total": 151.7
-    },
-    "edge": {},
-    "bets": [],
-    "actual": {
-      "home_score": 81,
-      "away_score": 58,
-      "margin": 23,
-      "total": 139
-    }
+    "bets": []
   }
 ]
