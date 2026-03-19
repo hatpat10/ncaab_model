@@ -1,0 +1,251 @@
+[
+  {
+    "game_id": "401856436",
+    "date": "2026-03-18",
+    "home_team": "SMU Mustangs",
+    "away_team": "Miami (OH) RedHawks",
+    "tipoff": "2026-03-19T01:15Z",
+    "venue": "UD Arena",
+    "neutral": true,
+    "game_tier": "low",
+    "status": "STATUS_FINAL",
+    "predictions": {
+      "predicted_margin": -3.2,
+      "home_win_prob": 0.396,
+      "away_win_prob": 0.604,
+      "predicted_total": 155.1
+    },
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 79,
+      "away_score": 89,
+      "margin": -10,
+      "total": 168
+    }
+  },
+  {
+    "game_id": "401856437",
+    "date": "2026-03-18",
+    "home_team": "Lehigh Mountain Hawks",
+    "away_team": "Prairie View A&M Panthers",
+    "tipoff": "2026-03-18T22:40Z",
+    "venue": "UD Arena",
+    "neutral": true,
+    "game_tier": "low",
+    "status": "STATUS_FINAL",
+    "predictions": {
+      "predicted_margin": 0.2,
+      "home_win_prob": 0.486,
+      "away_win_prob": 0.514,
+      "predicted_total": 158.5
+    },
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 55,
+      "away_score": 67,
+      "margin": -12,
+      "total": 122
+    }
+  },
+  {
+    "game_id": "401858348",
+    "date": "2026-03-18",
+    "home_team": "Colorado State Rams",
+    "away_team": "Saint Joseph's Hawks",
+    "tipoff": "2026-03-19T03:05Z",
+    "venue": "Moby Arena",
+    "neutral": false,
+    "game_tier": "mid",
+    "status": "STATUS_IN_PROGRESS",
+    "predictions": {
+      "predicted_margin": 4.5,
+      "home_win_prob": 0.625,
+      "away_win_prob": 0.375,
+      "predicted_total": 140.8
+    },
+    "edge": {},
+    "bets": []
+  },
+  {
+    "game_id": "401858347",
+    "date": "2026-03-18",
+    "home_team": "California Golden Bears",
+    "away_team": "UIC Flames",
+    "tipoff": "2026-03-19T03:05Z",
+    "venue": "Haas Pavilion",
+    "neutral": false,
+    "game_tier": "mid",
+    "status": "STATUS_IN_PROGRESS",
+    "predictions": {
+      "predicted_margin": 4.1,
+      "home_win_prob": 0.606,
+      "away_win_prob": 0.394,
+      "predicted_total": 148.0
+    },
+    "edge": {
+      "spread_edge": -5.7,
+      "vegas_spread": -9.8,
+      "model_spread": 4.1,
+      "total_edge": -18.0,
+      "vegas_total": 166.0,
+      "model_total": 148.0,
+      "ou_lean": "UNDER",
+      "model_win_prob": 0.606,
+      "vegas_implied_prob": 0.996,
+      "win_prob_edge": -0.39
+    },
+    "bets": []
+  },
+  {
+    "game_id": "401858344",
+    "date": "2026-03-18",
+    "home_team": "Wake Forest Demon Deacons",
+    "away_team": "Navy Midshipmen",
+    "tipoff": "2026-03-18T23:00Z",
+    "venue": "LJVM Coliseum",
+    "neutral": false,
+    "game_tier": "low",
+    "status": "STATUS_FINAL",
+    "predictions": {
+      "predicted_margin": 19.3,
+      "home_win_prob": 1.0,
+      "away_win_prob": 0.0,
+      "predicted_total": 149.6
+    },
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 82,
+      "away_score": 72,
+      "margin": 10,
+      "total": 154
+    }
+  },
+  {
+    "game_id": "401858345",
+    "date": "2026-03-18",
+    "home_team": "Illinois State Redbirds",
+    "away_team": "Kent State Golden Flashes",
+    "tipoff": "2026-03-19T00:00Z",
+    "venue": "CEFCU Arena",
+    "neutral": false,
+    "game_tier": "low",
+    "status": "STATUS_FINAL",
+    "predictions": {
+      "predicted_margin": 3.8,
+      "home_win_prob": 0.609,
+      "away_win_prob": 0.391,
+      "predicted_total": 145.0
+    },
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 79,
+      "away_score": 58,
+      "margin": 21,
+      "total": 137
+    }
+  },
+  {
+    "game_id": "401858343",
+    "date": "2026-03-18",
+    "home_team": "Utah Valley Wolverines",
+    "away_team": "George Washington Revolutionaries",
+    "tipoff": "2026-03-19T00:00Z",
+    "venue": "UCCU Center",
+    "neutral": false,
+    "game_tier": "mid",
+    "status": "STATUS_FINAL",
+    "predictions": {
+      "predicted_margin": 6.2,
+      "home_win_prob": 0.606,
+      "away_win_prob": 0.394,
+      "predicted_total": 148.7
+    },
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 78,
+      "away_score": 79,
+      "margin": -1,
+      "total": 157
+    }
+  },
+  {
+    "game_id": "401858346",
+    "date": "2026-03-18",
+    "home_team": "Bradley Braves",
+    "away_team": "Dayton Flyers",
+    "tipoff": "2026-03-19T01:00Z",
+    "venue": "Carver Arena",
+    "neutral": false,
+    "game_tier": "mid",
+    "status": "STATUS_FINAL",
+    "predictions": {
+      "predicted_margin": 1.8,
+      "home_win_prob": 0.541,
+      "away_win_prob": 0.459,
+      "predicted_total": 144.2
+    },
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 66,
+      "away_score": 80,
+      "margin": -14,
+      "total": 146
+    }
+  },
+  {
+    "game_id": "401858342",
+    "date": "2026-03-18",
+    "home_team": "New Mexico Lobos",
+    "away_team": "Sam Houston Bearkats",
+    "tipoff": "2026-03-19T01:00Z",
+    "venue": "The Pit",
+    "neutral": false,
+    "game_tier": "mid",
+    "status": "STATUS_FINAL",
+    "predictions": {
+      "predicted_margin": 28.8,
+      "home_win_prob": 1.0,
+      "away_win_prob": 0.0,
+      "predicted_total": 156.2
+    },
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 107,
+      "away_score": 83,
+      "margin": 24,
+      "total": 190
+    }
+  },
+  {
+    "game_id": "401858341",
+    "date": "2026-03-18",
+    "home_team": "Nevada Wolf Pack",
+    "away_team": "Murray State Racers",
+    "tipoff": "2026-03-19T02:00Z",
+    "venue": "Lawlor Events Center",
+    "neutral": false,
+    "game_tier": "mid",
+    "status": "STATUS_FINAL",
+    "predictions": {
+      "predicted_margin": 16.1,
+      "home_win_prob": 0.923,
+      "away_win_prob": 0.077,
+      "predicted_total": 143.6
+    },
+    "edge": {},
+    "bets": [],
+    "actual": {
+      "home_score": 89,
+      "away_score": 75,
+      "margin": 14,
+      "total": 164
+    }
+  }
+]

@@ -1,0 +1,33 @@
+round,region,away_seed,away_team,home_seed,home_team,favored,predicted_spread,predicted_total,home_win_prob,away_win_prob,vegas_spread,spread_edge,vegas_total,total_edge,upset_alert,bets,date
+Round of 64,East,16,Siena,1,Duke,Duke,Duke -9.6,139.2,83.0%,17.0%,-28.2,-18.6,135.5,3.7,False,,2026-03-20
+Round of 64,East,9,TCU,8,Ohio St,TCU,TCU -12.4,150.5,15.2%,84.8%,-2.5,-14.9,146.5,4.0,True,SPREAD AWAY [HIGH],2026-03-20
+Round of 64,East,12,Northern Iowa,5,St Johns,St Johns,St Johns -5.2,149.1,64.6%,35.4%,-10.5,-5.3,131.5,17.6,False,,2026-03-20
+Round of 64,East,13,california baptist,4,Kansas,california baptist,california baptist -0.9,142.7,66.6%,33.4%,-14.5,-15.4,138.2,4.5,False,,2026-03-20
+Round of 64,East,11,South Florida,6,Louisville,Louisville,Louisville -0.4,152.8,51.1%,48.9%,-4.8,-4.4,165.2,-12.4,True,,2026-03-21
+Round of 64,East,14,north dakota state,3,Michigan St,Michigan St,Michigan St -8.7,155.2,81.6%,18.4%,-16.2,-7.5,143.5,11.7,False,"SPREAD AWAY [MEDIUM], TOTAL OVER [HIGH]",2026-03-21
+Round of 64,East,10,UCF,7,UCLA,UCF,UCF -2.6,149.1,45.2%,54.8%,-5.5,-8.1,152.5,-3.4,True,SPREAD AWAY [MEDIUM],2026-03-21
+Round of 64,East,15,Furman,2,UConn,UConn,UConn -11.5,147.7,80.6%,19.4%,-20.5,-9.0,136.5,11.2,False,"SPREAD AWAY [MEDIUM], TOTAL OVER [HIGH]",2026-03-21
+Round of 64,West,16,liu,1,Arizona,Arizona,Arizona -8.8,163.8,83.0%,17.0%,-30.8,-22.0,150.5,13.3,False,,2026-03-20
+Round of 64,West,9,Utah State,8,Villanova,Villanova,Villanova -0.7,150.4,48.6%,51.4%,1.5,2.2,146.8,3.6,True,,2026-03-20
+Round of 64,West,12,High Point,5,Wisconsin,High Point,High Point -2.9,159.8,56.6%,43.4%,-9.8,-12.7,164.5,-4.7,False,SPREAD AWAY [HIGH],2026-03-20
+Round of 64,West,13,Hawai'i,4,Arkansas,Hawai'i,Hawai'i -1.0,153.5,58.6%,41.4%,-15.5,-16.5,160.2,-6.7,False,,2026-03-20
+Round of 64,West,11,NC State,6,BYU,NC State,NC State -4.4,156.4,44.2%,55.8%,-3.2,-7.6,153.5,2.9,True,SPREAD AWAY [MEDIUM],2026-03-21
+Round of 64,West,14,kennesaw state,3,Gonzaga,Gonzaga,Gonzaga -16.8,161.2,81.6%,18.4%,-20.5,-3.7,154.5,6.7,False,,2026-03-21
+Round of 64,West,10,Missouri,7,Miami,Missouri,Missouri -0.6,149.7,46.6%,53.4%,-1.8,-2.4,147.5,2.2,True,,2026-03-21
+Round of 64,West,15,queens (nc),2,Purdue,Purdue,Purdue -5.3,158.3,67.6%,32.4%,-25.5,-20.2,163.5,-5.2,False,,2026-03-21
+Round of 64,South,16,Lehigh,1,Florida,Florida,Florida -7.0,170.7,92.3%,7.7%,-3.5,3.5,142.8,27.9,False,,2026-03-20
+Round of 64,South,9,Iowa,8,Clemson,Clemson,Clemson -0.7,152.5,48.6%,51.4%,2.5,3.2,128.8,23.7,True,,2026-03-20
+Round of 64,South,12,mcneese state,5,Vanderbilt,mcneese state,mcneese state -7.2,143.7,30.9%,69.1%,-11.5,-18.7,150.5,-6.8,True,,2026-03-20
+Round of 64,South,13,Troy,4,Nebraska,Nebraska,Nebraska -2.5,153.3,52.5%,47.5%,-12.8,-10.3,137.5,15.8,False,SPREAD AWAY [HIGH],2026-03-20
+Round of 64,South,11,VCU,6,North Carolina,North Carolina,North Carolina -1.0,145.7,57.6%,42.4%,-2.5,-1.5,153.5,-7.8,False,TOTAL UNDER [MEDIUM],2026-03-21
+Round of 64,South,14,Penn,3,Illinois,Illinois,Illinois -16.6,152.5,83.0%,17.0%,-6.2,10.4,153.5,-1.0,False,SPREAD HOME [HIGH],2026-03-21
+Round of 64,South,10,Texas A&M,7,saint mary's (ca),Texas A&M,Texas A&M -1.7,139.9,46.6%,53.4%,-3.0,-4.7,147.5,-7.6,True,TOTAL UNDER [MEDIUM],2026-03-21
+Round of 64,South,15,Idaho,2,Houston,Houston,Houston -1.4,139.1,82.0%,18.0%,-23.5,-22.1,136.2,2.9,False,,2026-03-21
+Round of 64,Midwest,16,UMBC,1,Michigan,Michigan,Michigan -12.6,165.8,92.3%,7.7%,-16.2,-3.6,143.5,22.3,False,,2026-03-20
+Round of 64,Midwest,9,Saint Louis,8,Georgia,Saint Louis,Saint Louis -1.2,156.2,48.6%,51.4%,-1.8,-3.0,169.5,-13.3,True,,2026-03-20
+Round of 64,Midwest,12,Akron,5,Texas Tech,Akron,Akron -0.7,149.5,50.1%,49.9%,-8.2,-8.9,156.2,-6.7,True,SPREAD AWAY [MEDIUM],2026-03-20
+Round of 64,Midwest,13,Hofstra,4,Alabama,Alabama,Alabama -6.0,167.6,66.6%,33.4%,-11.5,-5.5,159.5,8.1,False,TOTAL OVER [MEDIUM],2026-03-20
+Round of 64,Midwest,11,miami (oh),6,Tennessee,Tennessee,Tennessee -1.2,153.7,65.6%,34.4%,-6.5,-5.3,163.8,-10.1,False,TOTAL UNDER [MEDIUM],2026-03-21
+Round of 64,Midwest,14,wright state,3,Virginia,Virginia,Virginia -2.9,145.1,60.6%,39.4%,-18.2,-15.3,144.8,0.3,False,,2026-03-21
+Round of 64,Midwest,10,Santa Clara,7,Kentucky,Kentucky,Kentucky -3.5,163.1,58.6%,41.4%,-3.2,0.3,160.5,2.6,False,,2026-03-21
+Round of 64,Midwest,15,tennessee st,2,Iowa State,tennessee st,tennessee st -0.3,143.6,33.9%,66.1%,-24.5,-24.8,148.8,-5.2,True,,2026-03-21

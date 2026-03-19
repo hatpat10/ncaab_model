@@ -1,0 +1,35 @@
+date,away_team,home_team,predicted_margin,home_win_prob,predicted_total,vegas_spread,spread_edge,vegas_total,total_edge,ou_lean,bets
+2026-03-13,George Washington Revolutionaries,Saint Louis Billikens,7.4,0.686,157.1,-6.5,0.9,161.5,-4.4,UNDER,
+2026-03-13,Ohio State Buckeyes,Michigan Wolverines,4.7,0.686,151.6,-12.5,-7.8,154.5,-2.9,UNDER,SPREAD AWAY
+2026-03-13,Missouri State Bears,Louisiana Tech Bulldogs,-3.8,0.394,138.8,-1.5,-5.3,134.8,4.0,OVER,
+2026-03-13,Kentucky Wildcats,Florida Gators,3.2,0.541,173.0,-10.5,-7.3,159.5,13.5,OVER,SPREAD AWAY
+2026-03-13,Charlotte 49ers,UAB Blazers,-2.2,0.396,144.7,-4.8,-7.0,145.8,-1.1,UNDER,SPREAD AWAY
+2026-03-13,Prairie View A&M Panthers,Alabama A&M Bulldogs,1.6,0.541,150.0,1.5,3.1,143.5,6.5,OVER,
+2026-03-13,St. Bonaventure Bonnies,Dayton Flyers,-1.4,0.349,143.4,-6.5,-7.9,140.5,2.9,OVER,SPREAD AWAY
+2026-03-13,Wisconsin Badgers,Illinois Fighting Illini,-3.7,0.486,156.1,-7.8,-11.5,156.2,-0.1,UNDER,SPREAD AWAY
+2026-03-13,Kennesaw State Owls,Sam Houston Bearkats,2.9,0.606,153.9,-4.5,-1.6,162.2,-8.3,UNDER,TOTAL UNDER
+2026-03-13,Tennessee Volunteers,Vanderbilt Commodores,-15.6,0.059,153.7,-1.5,-17.1,147.8,5.9,OVER,
+2026-03-13,North Texas Mean Green,Tulsa Golden Hurricane,-5.2,0.333,133.8,-7.5,-12.7,142.8,-9.0,UNDER,"SPREAD AWAY, TOTAL UNDER"
+2026-03-13,Massachusetts Minutemen,Toledo Rockets,-5.4,0.336,154.4,-3.5,-8.9,158.5,-4.1,UNDER,SPREAD AWAY
+2026-03-13,Duquesne Dukes,VCU Rams,0.4,0.486,142.6,-8.8,-8.4,153.5,-10.9,UNDER,"SPREAD AWAY, TOTAL UNDER"
+2026-03-13,Seton Hall Pirates,St. John's Red Storm,11.0,0.816,147.7,-7.5,3.5,133.0,14.7,OVER,
+2026-03-13,South Carolina State Bulldogs,Howard Bison,0.8,0.541,146.7,-14.8,-14.0,144.5,2.2,OVER,SPREAD AWAY
+2026-03-13,Purdue Boilermakers,Nebraska Cornhuskers,-9.0,0.333,145.4,3.5,-5.5,142.5,2.9,OVER,
+2026-03-13,Iowa State Cyclones,Arizona Wildcats,-6.2,0.396,155.7,-4.5,-10.7,143.5,12.2,OVER,SPREAD AWAY
+2026-03-13,Miami Hurricanes,Virginia Cavaliers,2.7,0.606,138.8,-3.5,-0.8,143.8,-5.0,UNDER,
+2026-03-13,Ole Miss Rebels,Alabama Crimson Tide,5.0,0.606,168.8,-10.5,-5.5,163.5,5.3,OVER,
+2026-03-13,Kent State Golden Flashes,Akron Zips,4.4,0.606,149.4,-6.5,-2.1,163.5,-14.1,UNDER,
+2026-03-13,Davidson Wildcats,Saint Joseph's Hawks,-1.6,0.435,140.3,-1.5,-3.1,131.5,8.8,OVER,TOTAL OVER
+2026-03-13,Georgetown Hoyas,UConn Huskies,10.0,0.83,145.7,-13.5,-3.5,140.2,5.5,OVER,
+2026-03-13,Delaware State Hornets,North Carolina Central Eagles,-1.2,0.472,139.3,-4.5,-5.7,133.5,5.8,OVER,
+2026-03-13,Southern Jaguars,Florida A&M Rattlers,-5.3,0.349,143.3,2.5,-2.8,145.5,-2.2,UNDER,
+2026-03-13,UCLA Bruins,Michigan State Spartans,2.0,0.606,138.7,,,,,,
+2026-03-13,UT Arlington Mavericks,Utah Valley Wolverines,-2.3,0.359,148.4,-8.5,-10.8,134.5,13.9,OVER,SPREAD AWAY
+2026-03-13,Cal State Northridge Matadors,UC Irvine Anteaters,3.7,0.606,153.3,-4.5,-0.8,149.5,3.8,OVER,
+2026-03-13,Clemson Tigers,Duke Blue Devils,0.7,0.544,140.6,-11.5,-10.8,134.2,6.4,OVER,SPREAD AWAY
+2026-03-13,Kansas Jayhawks,Houston Cougars,5.0,0.686,141.4,-5.5,-0.5,135.2,6.2,OVER,
+2026-03-13,Oklahoma Sooners,Arkansas Razorbacks,-2.7,0.472,157.7,-6.5,-9.2,168.8,-11.1,UNDER,"SPREAD AWAY, TOTAL UNDER"
+2026-03-13,Nevada Wolf Pack,Utah State Aggies,-3.6,0.394,148.7,-6.5,-10.1,144.8,3.9,OVER,SPREAD AWAY
+2026-03-13,Utah Tech Trailblazers,California Baptist Lancers,2.1,0.545,138.6,-6.5,-4.4,137.5,1.1,OVER,
+2026-03-13,Cal State Fullerton Titans,Hawai'i Rainbow Warriors,3.1,0.606,147.4,-3.5,-0.4,158.5,-11.1,UNDER,TOTAL UNDER
+2026-03-13,New Mexico Lobos,San Diego State Aztecs,-3.4,0.472,146.0,,,,,,

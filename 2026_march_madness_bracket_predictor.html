@@ -1,0 +1,402 @@
+
+<style>
+* { box-sizing: border-box; }
+body { margin: 0; padding: 0; }
+.container { padding: 1rem 0; font-family: var(--font-sans); }
+.header { display: flex; align-items: center; gap: 12px; margin-bottom: 1.5rem; flex-wrap: wrap; }
+.header h2 { margin: 0; font-size: 20px; font-weight: 500; color: var(--color-text-primary); }
+.live-badge { background: #E24B4A; color: #fff; font-size: 11px; font-weight: 500; padding: 3px 8px; border-radius: 4px; }
+.tabs { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 1.5rem; }
+.tab { padding: 7px 14px; font-size: 13px; border: 0.5px solid var(--color-border-secondary); background: var(--color-background-primary); color: var(--color-text-secondary); border-radius: 6px; cursor: pointer; }
+.tab.active { background: var(--color-text-primary); color: var(--color-background-primary); border-color: var(--color-text-primary); }
+.region-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 12px; }
+.region-card { background: var(--color-background-primary); border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); padding: 1rem; }
+.region-title { font-size: 13px; font-weight: 500; color: var(--color-text-secondary); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 12px; }
+.matchup { display: flex; flex-direction: column; gap: 4px; margin-bottom: 12px; padding-bottom: 12px; border-bottom: 0.5px solid var(--color-border-tertiary); cursor: pointer; }
+.matchup:last-child { margin-bottom: 0; padding-bottom: 0; border-bottom: none; }
+.team-row { display: flex; align-items: center; gap: 8px; padding: 6px 8px; border-radius: 6px; }
+.team-row.predicted-winner { background: var(--color-background-secondary); }
+.seed { font-size: 11px; font-weight: 500; color: var(--color-text-tertiary); min-width: 18px; text-align: center; }
+.team-name { font-size: 13px; color: var(--color-text-primary); flex: 1; }
+.win-pct { font-size: 12px; font-weight: 500; color: var(--color-text-secondary); }
+.edge-badge { font-size: 10px; padding: 2px 6px; border-radius: 4px; font-weight: 500; }
+.edge-high { background: #E24B4A20; color: #A32D2D; }
+.edge-med { background: #EF9F2720; color: #854F0B; }
+.edge-low { background: var(--color-background-secondary); color: var(--color-text-tertiary); }
+.upset-flag { font-size: 10px; padding: 2px 6px; border-radius: 4px; background: #7F77DD20; color: #534AB7; font-weight: 500; }
+
+.detail-panel { display: none; margin-top: 1rem; }
+.detail-panel.open { display: block; }
+.game-detail { background: var(--color-background-primary); border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); padding: 1.25rem; }
+.detail-header { font-size: 16px; font-weight: 500; color: var(--color-text-primary); margin-bottom: 1rem; }
+.stats-grid { display: grid; grid-template-columns: 1fr 80px 1fr; gap: 8px; margin-bottom: 1rem; align-items: center; }
+.stat-row { display: contents; }
+.stat-team1 { text-align: right; font-size: 13px; color: var(--color-text-primary); }
+.stat-label { text-align: center; font-size: 11px; color: var(--color-text-tertiary); }
+.stat-team2 { text-align: left; font-size: 13px; color: var(--color-text-primary); }
+.stat-bar-row { display: contents; }
+.bar-right { height: 6px; background: var(--color-border-tertiary); border-radius: 3px; position: relative; overflow: hidden; }
+.bar-fill-right { position: absolute; right: 0; top: 0; height: 100%; border-radius: 3px; }
+.bar-fill-left { position: absolute; left: 0; top: 0; height: 100%; border-radius: 3px; }
+.prediction-box { background: var(--color-background-secondary); border-radius: 8px; padding: 12px; margin-top: 12px; }
+.pred-title { font-size: 11px; font-weight: 500; color: var(--color-text-secondary); margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.05em; }
+.pred-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; font-size: 13px; }
+.pred-label { color: var(--color-text-secondary); }
+.pred-val { font-weight: 500; color: var(--color-text-primary); }
+.key-factors { margin-top: 10px; }
+.factor-item { font-size: 12px; color: var(--color-text-secondary); margin-bottom: 4px; padding-left: 12px; position: relative; }
+.factor-item::before { content: ""; position: absolute; left: 0; top: 7px; width: 5px; height: 5px; border-radius: 50%; background: var(--color-text-tertiary); }
+.watch-badge { font-size: 11px; padding: 2px 8px; border-radius: 4px; background: #1D9E7520; color: #0F6E56; font-weight: 500; margin-right: 6px; }
+
+.bracket-view { display: none; }
+.bracket-view.active { display: block; }
+.region-view { display: none; }
+.region-view.active { display: block; }
+.firstfour-view { display: none; }
+.firstfour-view.active { display: block; }
+.champion-view { display: none; }
+.champion-view.active { display: block; }
+
+.ff-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 12px; }
+.ff-card { background: var(--color-background-primary); border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); padding: 1rem; }
+.ff-title { font-size: 12px; font-weight: 500; color: var(--color-text-secondary); margin-bottom: 10px; text-transform: uppercase; letter-spacing: 0.04em; }
+.ff-team-row { display: flex; align-items: center; gap: 10px; padding: 8px; border-radius: 6px; cursor: pointer; }
+.ff-team-row.winner { background: var(--color-background-secondary); }
+.ff-info { flex: 1; }
+.ff-name { font-size: 14px; font-weight: 500; color: var(--color-text-primary); }
+.ff-record { font-size: 12px; color: var(--color-text-tertiary); }
+.ff-pct { font-size: 13px; font-weight: 500; color: var(--color-text-secondary); }
+.ff-vs { text-align: center; font-size: 11px; color: var(--color-text-tertiary); padding: 4px 0; }
+
+.champ-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; }
+.champ-card { background: var(--color-background-primary); border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); padding: 1rem; text-align: center; }
+.champ-seed { font-size: 11px; color: var(--color-text-tertiary); margin-bottom: 4px; }
+.champ-name { font-size: 15px; font-weight: 500; color: var(--color-text-primary); margin-bottom: 4px; }
+.champ-region { font-size: 11px; color: var(--color-text-secondary); margin-bottom: 8px; }
+.champ-pct { font-size: 22px; font-weight: 500; color: var(--color-text-primary); }
+.champ-label { font-size: 11px; color: var(--color-text-tertiary); }
+.champ-card.top { border-color: var(--color-border-secondary); }
+.model-note { margin-top: 1rem; font-size: 12px; color: var(--color-text-tertiary); padding: 8px 12px; border-left: 2px solid var(--color-border-secondary); }
+</style>
+
+<div class="container">
+  <div class="header">
+    <h2>2026 March Madness — Model Predictions</h2>
+    <span class="live-badge">LIVE: GMU vs LIB</span>
+  </div>
+
+  <div class="tabs">
+    <div class="tab active" onclick="showView('firstfour')">First Four</div>
+    <div class="tab" onclick="showView('east')">East</div>
+    <div class="tab" onclick="showView('west')">West</div>
+    <div class="tab" onclick="showView('midwest')">Midwest</div>
+    <div class="tab" onclick="showView('south')">South</div>
+    <div class="tab" onclick="showView('champion')">Title Odds</div>
+  </div>
+
+  <div id="view-firstfour" class="firstfour-view active">
+    <div class="ff-grid" id="ff-grid"></div>
+    <div id="ff-detail" class="detail-panel"></div>
+  </div>
+  <div id="view-east" class="region-view"><div class="region-grid" id="east-grid"></div><div id="east-detail" class="detail-panel"></div></div>
+  <div id="view-west" class="region-view"><div class="region-grid" id="west-grid"></div><div id="west-detail" class="detail-panel"></div></div>
+  <div id="view-midwest" class="region-view"><div class="region-grid" id="midwest-grid"></div><div id="midwest-detail" class="detail-panel"></div></div>
+  <div id="view-south" class="region-view"><div class="region-grid" id="south-grid"></div><div id="south-detail" class="detail-panel"></div></div>
+  <div id="view-champion" class="champion-view">
+    <div class="champ-grid" id="champ-grid"></div>
+    <div class="model-note">Based on KenPom/BartTorvik efficiency ratings, tournament seedings, bracket path difficulty, and model performance on high-major games. Totals HIGH confidence suppressed per calibration findings. Spread HIGH confidence threshold: ≥10 pt edge.</div>
+  </div>
+</div>
+
+<script>
+const firstFour = [
+  {
+    id: 'ff1', status: 'live', seed: 16, region: 'East',
+    t1: { name: 'George Mason', abbr: 'GMU', record: '21-12', kenpom: 95, adjO: 107.2, adjD: 103.1, pace: 67.4, eFG: 49.1, defEFG: 51.2, oreb: 29.3 },
+    t2: { name: 'Liberty', abbr: 'LIB', record: '22-11', kenpom: 88, adjO: 106.8, adjD: 104.7, pace: 65.2, eFG: 50.4, defEFG: 53.1, oreb: 27.8 },
+    winner: 'LIB', winPct: 52, spreadPred: 1.5, totalPred: 130, edge: 'low',
+    factors: ['Evenly matched low-major programs', 'Liberty slightly better defensive efficiency', 'GMU has home KenPom edge (neutral site)', 'Coin flip game — model lean is small'],
+    notes: 'Winner faces #1 Duke. Loser goes home. Neither team has a clear advantage; Liberty edges it on defensive metrics.',
+    spread: 'Liberty -1.5', total: 'U 130', watch: false
+  },
+  {
+    id: 'ff2', status: 'tonight', seed: 16, region: 'Midwest',
+    t1: { name: 'Howard', abbr: 'HOW', record: '23-10', kenpom: 110, adjO: 103.4, adjD: 105.8, pace: 68.1, eFG: 47.2, defEFG: 52.3, oreb: 32.1 },
+    t2: { name: 'UMBC', abbr: 'UMBC', record: '23-10', kenpom: 105, adjO: 104.9, adjD: 104.2, pace: 64.8, eFG: 50.9, defEFG: 51.0, oreb: 28.4 },
+    winner: 'UMBC', winPct: 57, spreadPred: 3.0, totalPred: 128, edge: 'low',
+    factors: ['UMBC more efficient on both ends per BartTorvik', 'Howard has inside presence that UMBC struggles to contain', 'UMBC 12-game win streak, shooting 38% from 3 during streak', 'Winner faces #1 Michigan — a difficult road ahead'],
+    notes: 'UMBC is riding momentum from a historic 12-game win streak and shoots the 3-ball at an elite clip. Howard is the better rebounding team. Model edges UMBC.',
+    spread: 'UMBC -3', total: 'U 128', watch: false
+  },
+  {
+    id: 'ff3', status: 'tomorrow', seed: 11, region: 'West',
+    t1: { name: 'Texas', abbr: 'TEX', record: '18-14', kenpom: 42, adjO: 115.1, adjD: 106.3, pace: 70.2, eFG: 52.8, defEFG: 50.1, oreb: 31.5 },
+    t2: { name: 'NC State', abbr: 'NCST', record: '20-13', kenpom: 45, adjO: 112.4, adjD: 104.9, pace: 69.3, eFG: 50.3, defEFG: 48.7, oreb: 28.9 },
+    winner: 'NCST', winPct: 55, spreadPred: 2.0, totalPred: 137, edge: 'low',
+    factors: ['NC State 2-7 in last 9 but elite 3pt shooting (10th nationally)', 'Texas better offense but weak defensive efficiency', 'State was Final Four 2 years ago as 11-seed — tourney pedigree matters', 'Winner gets #6 BYU in Round 1'],
+    notes: 'State\'s perimeter shooting gives them an equalizer in a single-elimination setting. Texas has the resume concerns that put them in the First Four. Close game, lean NC State.',
+    spread: 'NC State -2', total: 'O 137', watch: true
+  },
+  {
+    id: 'ff4', status: 'tomorrow', seed: 11, region: 'Midwest',
+    t1: { name: 'SMU', abbr: 'SMU', record: '20-13', kenpom: 48, adjO: 113.7, adjD: 107.1, pace: 71.0, eFG: 51.4, defEFG: 51.9, oreb: 30.7 },
+    t2: { name: 'Miami (OH)', abbr: 'M-OH', record: '31-1', kenpom: 52, adjO: 112.9, adjD: 105.3, pace: 66.4, eFG: 52.1, defEFG: 49.8, oreb: 33.4 },
+    winner: 'M-OH', winPct: 62, spreadPred: 4.5, totalPred: 135, edge: 'med',
+    factors: ['Miami OH went 31-1 including undefeated regular season', 'Strong rebounding edge (33.4% oreb rate)', 'SMU inconsistent — 20-13 record with weak résumé', 'At-large selection suggests committee believes in Miami OH ceiling'],
+    notes: 'Miami (OH) is one of the most compelling stories in the field — 31-1 with an undefeated regular season. SMU was barely in. Model projects Miami OH to cover a moderate spread.',
+    spread: 'Miami OH -4.5', total: 'U 135', watch: true
+  },
+  {
+    id: 'ff5', status: 'tomorrow', seed: 16, region: 'South',
+    t1: { name: 'Prairie View A&M', abbr: 'PV', record: '19-14', kenpom: 155, adjO: 98.4, adjD: 108.2, pace: 69.1, eFG: 45.3, defEFG: 54.1, oreb: 34.2 },
+    t2: { name: 'Lehigh', abbr: 'LEH', record: '21-12', kenpom: 130, adjO: 102.7, adjD: 106.1, pace: 65.8, eFG: 48.9, defEFG: 52.4, oreb: 29.1 },
+    winner: 'LEH', winPct: 65, spreadPred: 6.0, totalPred: 126, edge: 'low',
+    factors: ['Lehigh is the more efficient team by significant margin', 'Prairie View struggles offensively (45.3% eFG)', 'Winner faces #1 Florida in Round 1', 'KenPom gap is ~25 spots favoring Lehigh'],
+    notes: 'Clearest edge of all First Four games. Lehigh is meaningfully better across the board. Prairie View\'s offensive struggles are a concern against any quality defense.',
+    spread: 'Lehigh -6', total: 'U 126', watch: false
+  }
+];
+
+const regions = {
+  east: {
+    name: 'East Region', seed1: 'Duke',
+    matchups: [
+      { id: 'e1', seeds: [1, 16], t1: { name: 'Duke', seed: 1, record: '32-2', kenpom: 1, adjO: 125.3, adjD: 94.8, pace: 72.1, eFG: 57.2, defEFG: 45.1, oreb: 28.4 }, t2: { name: 'Siena', seed: 16, record: '24-11', kenpom: 145, adjO: 99.1, adjD: 109.2, pace: 64.3, eFG: 46.8, defEFG: 53.7, oreb: 26.9 }, winner: 'Duke', winPct: 98, spreadPred: 29, totalPred: 148, edge: 'low', factors: ['Duke is the #1 overall seed and KenPom #1 nationally', 'Cameron Boozer averaging 18+ ppg — elite frontcourt', '#4 AdjO nationally, #2 AdjD — historically dominant profile', '1-vs-16 games are effectively non-competitive'], notes: 'Duke is the most dominant team in the field. Cameron Boozer is a future #1 pick. No upset concern here.', watch: false },
+      { id: 'e2', seeds: [8, 9], t1: { name: 'Ohio State', seed: 8, record: '21-12', kenpom: 32, adjO: 116.8, adjD: 100.4, pace: 69.8, eFG: 53.1, defEFG: 48.2, oreb: 30.1 }, t2: { name: 'TCU', seed: 9, record: '22-11', kenpom: 35, adjO: 115.9, adjD: 101.7, pace: 68.4, eFG: 51.8, defEFG: 49.3, oreb: 27.6 }, winner: 'OSU', winPct: 54, spreadPred: 1.5, totalPred: 143, edge: 'low', factors: ['Essentially a coin flip — 8/9 matchups are the most even in the bracket', 'OSU strong Big Ten résumé with wins over Michigan and Indiana', 'TCU beat 3 top-30 KenPom teams in Big 12', 'Winner likely faces #1 Duke'], notes: 'The 8/9 game is a tossup. OSU has a slight edge on defensive metrics. Model projection: OSU by 1.5, but back this with caution.', watch: false },
+      { id: 'e3', seeds: [5, 12], t1: { name: "St. John's", seed: 5, record: '28-6', kenpom: 10, adjO: 120.4, adjD: 97.2, pace: 73.2, eFG: 55.8, defEFG: 47.1, oreb: 33.2 }, t2: { name: 'Northern Iowa', seed: 12, record: '24-9', kenpom: 62, adjO: 110.8, adjD: 102.3, pace: 64.1, eFG: 49.7, defEFG: 50.1, oreb: 31.0 }, winner: "St. John's", winPct: 78, spreadPred: 10, totalPred: 142, edge: 'low', factors: ["St. John's won Big East regular season AND tournament — historic double", 'Zuby Ejiofor (16.3 ppg, 7.1 rpg, 2.1 bpg) is the 2nd-best big man in the field', '19-1 in last 20, 10th-most efficient team in that stretch per BartTorvik', 'Northern Iowa is a capable 12-seed but significant talent gap'], notes: "St. John's is for real. Rick Pitino's squad has the best big man outside of Boozer. They're a Sweet 16 contender.", watch: false },
+      { id: 'e4', seeds: [4, 13], t1: { name: 'Kansas', seed: 4, record: '23-10', kenpom: 15, adjO: 119.2, adjD: 98.7, pace: 70.3, eFG: 54.1, defEFG: 47.8, oreb: 29.8 }, t2: { name: 'Cal Baptist', seed: 13, record: '27-8', kenpom: 80, adjO: 108.4, adjD: 104.8, pace: 63.2, eFG: 48.3, defEFG: 51.9, oreb: 27.4 }, winner: 'Kansas', winPct: 89, spreadPred: 16, totalPred: 137, edge: 'low', factors: ['Kansas is in the top 15 KenPom nationally', 'One of only 11 teams with 8+ Quad 1 wins', 'Defense-only rating qualifies for Sweet 16 KenPom tier', 'Cal Baptist out of the WAC — significant quality gap'], notes: 'Kansas is a legitimate Final Four contender if they can emerge from the East. Cal Baptist is not a viable upset threat.', watch: false },
+      { id: 'e5', seeds: [6, 11], t1: { name: 'Louisville', seed: 6, record: '23-10', kenpom: 24, adjO: 117.9, adjD: 99.8, pace: 71.5, eFG: 53.7, defEFG: 47.9, oreb: 31.4 }, t2: { name: 'South Florida', seed: 11, record: '25-8', kenpom: 38, adjO: 115.3, adjD: 102.1, pace: 68.7, eFG: 51.2, defEFG: 49.6, oreb: 29.3 }, winner: 'Louisville', winPct: 64, spreadPred: 5, totalPred: 140, edge: 'low', factors: ['Louisville emerged from tough ACC schedule', 'South Florida is one of the better 11-seeds in recent memory', 'USF ranks 38th at KenPom — not to be overlooked', 'This is a potential upset spot; 11-seeds are historically dangerous'], notes: 'South Florida is a credible 11-seed that could pull off the upset. Louisville is the better team, but this game will be competitive. A mild upset watch.', watch: true },
+      { id: 'e6', seeds: [3, 14], t1: { name: 'Michigan State', seed: 3, record: '25-7', kenpom: 9, adjO: 121.1, adjD: 96.3, pace: 69.4, eFG: 55.3, defEFG: 46.2, oreb: 32.7 }, t2: { name: 'North Dakota State', seed: 14, record: '24-9', kenpom: 98, adjO: 105.2, adjD: 105.1, pace: 63.8, eFG: 47.9, defEFG: 52.1, oreb: 28.6 }, winner: 'Michigan State', winPct: 94, spreadPred: 20, totalPred: 136, edge: 'low', factors: ['Michigan State is a KenPom top-10 team and title contender', 'Tom Izzo in March is a perennial Elite Eight threat', 'North Dakota State is solid but outclassed on every efficiency metric', 'MSU beat Wisconsin by 21... then got beaten by 21 by same squad'], notes: 'Michigan State is dangerous and a real threat to go deep. North Dakota State is a typical 14-seed: solid in their conference, overmatched in the Dance.', watch: false },
+      { id: 'e7', seeds: [7, 10], t1: { name: 'UCLA', seed: 7, record: '23-11', kenpom: 28, adjO: 117.2, adjD: 101.3, pace: 70.8, eFG: 52.9, defEFG: 49.1, oreb: 30.2 }, t2: { name: 'UCF', seed: 10, record: '21-11', kenpom: 39, adjO: 115.4, adjD: 102.4, pace: 68.9, eFG: 51.1, defEFG: 50.3, oreb: 28.8 }, winner: 'UCLA', winPct: 60, spreadPred: 3.5, totalPred: 141, edge: 'low', factors: ['UCLA labeled a Cinderella despite 7-seed — beaten up schedule perception', 'UCF is a capable American Athletic opponent', 'Close game expected given similar efficiency profiles', 'Winner faces heavily favored UConn or Furman'], notes: 'A competitive 7/10 game. UCLA has the slight edge but UCF is no pushover. Watch for this one to be competitive late.', watch: true },
+      { id: 'e8', seeds: [2, 15], t1: { name: 'UConn', seed: 2, record: '29-5', kenpom: 6, adjO: 122.3, adjD: 97.1, pace: 68.3, eFG: 56.1, defEFG: 46.8, oreb: 28.9 }, t2: { name: 'Furman', seed: 15, record: '23-11', kenpom: 118, adjO: 103.8, adjD: 106.9, pace: 64.7, eFG: 47.1, defEFG: 52.8, oreb: 26.3 }, winner: 'UConn', winPct: 97, spreadPred: 26, totalPred: 137, edge: 'low', factors: ['UConn is KenPom #6 — perennial title contender', '#11 KenPom defense nationally', 'Furman is a capable 15-seed but enormous talent gap', 'UConn is in Duke\'s region — a potential Elite Eight collision looms'], notes: 'UConn is a machine. The 2-vs-15 is a blowout on paper. The story here is UConn\'s path to the Elite Eight where they may face Duke — a brutal region.', watch: false }
+    ]
+  },
+  west: {
+    name: 'West Region', seed1: 'Arizona',
+    matchups: [
+      { id: 'w1', seeds: [1, 16], t1: { name: 'Arizona', seed: 1, record: '32-2', kenpom: 3, adjO: 123.8, adjD: 95.4, pace: 73.5, eFG: 56.8, defEFG: 45.7, oreb: 31.2 }, t2: { name: 'LIU', seed: 16, record: '20-14', kenpom: 172, adjO: 96.3, adjD: 111.4, pace: 63.1, eFG: 44.2, defEFG: 55.3, oreb: 25.8 }, winner: 'Arizona', winPct: 99, spreadPred: 32, totalPred: 143, edge: 'low', factors: ['Arizona is KenPom #3 with top-5 offense and top-3 defense', 'Tommy Lloyd\'s system is elite in efficiency metrics', 'LIU is a small-school 16-seed with massive talent gap', 'Arizona is a legitimate national title contender'], notes: 'Arizona has every box checked analytically. This is a warmup before the real tournament begins for them.', watch: false },
+      { id: 'w2', seeds: [8, 9], t1: { name: 'Villanova', seed: 8, record: '24-8', kenpom: 31, adjO: 116.4, adjD: 100.8, pace: 67.3, eFG: 52.7, defEFG: 48.5, oreb: 26.4 }, t2: { name: 'Utah State', seed: 9, record: '28-6', kenpom: 33, adjO: 116.2, adjD: 100.2, pace: 66.8, eFG: 53.4, defEFG: 48.1, oreb: 33.7 }, winner: 'Utah State', winPct: 52, spreadPred: 0.5, totalPred: 138, edge: 'low', factors: ['Mason Falslev is one of the most versatile scorers in the field (16.1 ppg, 42% 3pt)', 'Utah State going dancing for 4th consecutive year', 'MJ Collins + Falslev = elite 1-2 scoring punch', 'Villanova making return to Dance under Kevin Willard'], notes: 'Another true toss-up 8/9 game. Utah State\'s Falslev is a dangerous player who can get hot and carry this team. This is the most watchable 8/9 game.', watch: true },
+      { id: 'w3', seeds: [5, 12], t1: { name: 'Wisconsin', seed: 5, record: '22-10', kenpom: 20, adjO: 118.7, adjD: 98.9, pace: 65.1, eFG: 54.4, defEFG: 47.4, oreb: 29.7 }, t2: { name: 'High Point', seed: 12, record: '27-8', kenpom: 72, adjO: 109.3, adjD: 103.4, pace: 64.2, eFG: 49.1, defEFG: 51.3, oreb: 30.2 }, winner: 'Wisconsin', winPct: 75, spreadPred: 9, totalPred: 134, edge: 'low', factors: ["Wisconsin beat Michigan, Illinois, and Michigan State this season — elite big ten resume", 'John Blackwell (18.3 ppg) and Nolan Winter (13.3 ppg, 8.6 rpg) are proven players', 'Nick Boyd hit a game-winner in 2023 — tournament experience matters', '12-seeds cover historically; watch the spread'], notes: "Wisconsin is legitimate and one of the better 5-seeds in the field. High Point doesn't project to keep up. But respect the 12-seed cover history.", watch: false },
+      { id: 'w4', seeds: [4, 13], t1: { name: 'Arkansas', seed: 4, record: '26-8', kenpom: 16, adjO: 119.1, adjD: 99.3, pace: 72.8, eFG: 54.2, defEFG: 48.1, oreb: 34.1 }, t2: { name: 'Hawaii', seed: 13, record: '24-9', kenpom: 78, adjO: 108.7, adjD: 104.3, pace: 68.9, eFG: 48.6, defEFG: 51.8, oreb: 27.9 }, winner: 'Arkansas', winPct: 88, spreadPred: 15, totalPred: 140, edge: 'low', factors: ['Arkansas is a SEC power with elite rebounding (34.1% oreb)', 'Top-16 KenPom nationally', "Hawaii's Big West credentials won't translate against this level", 'Comfortable win projected'], notes: 'Arkansas is a deep Sweet 16 threat. Hawaii is a quality mid-major but outmatched here.', watch: false },
+      { id: 'w5', seeds: [6, 11], t1: { name: 'BYU', seed: 6, record: '23-11', kenpom: 25, adjO: 117.6, adjD: 100.1, pace: 70.1, eFG: 53.2, defEFG: 48.3, oreb: 30.5 }, t2: { name: 'NC State / Texas', seed: 11, record: '', kenpom: 45, adjO: 112.4, adjD: 104.9, pace: 69.3, eFG: 50.3, defEFG: 48.7, oreb: 28.9 }, winner: 'BYU', winPct: 62, spreadPred: 5.5, totalPred: 139, edge: 'low', factors: ['BYU is a solid middle-tier power conference team', 'NC State (likely winner of First Four) has tournament DNA from 2024 Final Four run', 'Model gives BYU the edge with home neutral court advantage context', 'State\'s 3-point shooting could make this competitive'], notes: 'BYU should win this, but if NC State comes in riding First Four momentum, their perimeter shooting is a live threat. Watch the line movement after the First Four result.', watch: true },
+      { id: 'w6', seeds: [3, 14], t1: { name: 'Gonzaga', seed: 3, record: '30-3', kenpom: 11, adjO: 120.9, adjD: 97.1, pace: 74.2, eFG: 56.4, defEFG: 46.4, oreb: 31.9 }, t2: { name: 'Kennesaw State', seed: 14, record: '21-12', kenpom: 112, adjO: 104.1, adjD: 106.7, pace: 65.3, eFG: 47.4, defEFG: 52.9, oreb: 27.3 }, winner: 'Gonzaga', winPct: 95, spreadPred: 22, totalPred: 145, edge: 'low', factors: ['Gonzaga is a KenPom top-11 team with elite offensive efficiency', 'Mark Few continues to produce tournament-caliber squads', 'Kennesaw State is a first-time qualifier type team', 'Gonzaga sets up as a potential Sweet 16 matchup with Wisconsin or Arizona'], notes: 'Gonzaga takes care of business. Their path to the Sweet 16 is reasonable with Wisconsin as a likely opponent.', watch: false },
+      { id: 'w7', seeds: [7, 10], t1: { name: 'Miami (FL)', seed: 7, record: '25-8', kenpom: 27, adjO: 117.4, adjD: 100.7, pace: 71.3, eFG: 53.5, defEFG: 48.8, oreb: 29.1 }, t2: { name: 'Missouri', seed: 10, record: '20-12', kenpom: 40, adjO: 115.2, adjD: 102.8, pace: 69.7, eFG: 51.3, defEFG: 50.2, oreb: 28.3 }, winner: 'Miami FL', winPct: 61, spreadPred: 3.5, totalPred: 140, edge: 'low', factors: ['Miami FL is a proven ACC competitor', 'Missouri has a weaker résumé but efficient offensive system', 'This is a competitive 7/10 game with similar profiles', 'Winner faces heavily favored Purdue or Arkansas'], notes: 'Competitive game but Miami FL\'s ACC conditioning gives them a slight edge. Missouri could pull off the mild upset.', watch: false },
+      { id: 'w8', seeds: [2, 15], t1: { name: 'Purdue', seed: 2, record: '27-8', kenpom: 8, adjO: 121.7, adjD: 96.8, pace: 67.4, eFG: 55.8, defEFG: 46.1, oreb: 35.2 }, t2: { name: 'Queens', seed: 15, record: '27-6', kenpom: 125, adjO: 103.2, adjD: 107.1, pace: 64.8, eFG: 47.7, defEFG: 52.6, oreb: 26.8 }, winner: 'Purdue', winPct: 97, spreadPred: 27, totalPred: 138, edge: 'low', factors: ['Purdue jumped to 2-seed after winning Big Ten title over Michigan', "Queens is making their tournament DEBUT — historic first-year qualifier", 'Purdue is KenPom #8 with dominant rebounding (35.2% oreb — leads the field)', 'Zach Edey-type interior dominance in this system'], notes: 'Purdue is on a revenge tour after their Big Ten title run. Queens\' debut season is remarkable but they\'re not competing with this squad.', watch: false }
+    ]
+  },
+  midwest: {
+    name: 'Midwest Region', seed1: 'Michigan',
+    matchups: [
+      { id: 'm1', seeds: [1, 16], t1: { name: 'Michigan', seed: 1, record: '31-3', kenpom: 2, adjO: 124.1, adjD: 92.8, pace: 68.9, eFG: 57.4, defEFG: 44.3, oreb: 27.8 }, t2: { name: 'UMBC/Howard', seed: 16, record: '23-10', kenpom: 105, adjO: 104.9, adjD: 104.2, pace: 64.8, eFG: 50.9, defEFG: 51.0, oreb: 28.4 }, winner: 'Michigan', winPct: 98, spreadPred: 30, totalPred: 140, edge: 'low', factors: ['Michigan is KenPom #2 with the #1 defense in the country', 'Fell from #2 overall to #3 seed after Big Ten title loss to Purdue', '#8 offense nationally — elite two-way team', '16-seeds have won once in 100+ tries historically'], notes: 'Michigan is a juggernaut. Their #1 ranked defense has been historically efficient. The winner of UMBC/Howard will be a footnote. Michigan is a genuine title contender.', watch: false },
+      { id: 'm2', seeds: [8, 9], t1: { name: 'Georgia', seed: 8, record: '22-10', kenpom: 32, adjO: 116.1, adjD: 100.9, pace: 70.4, eFG: 52.3, defEFG: 49.1, oreb: 30.8 }, t2: { name: 'Saint Louis', seed: 9, record: '28-5', kenpom: 35, adjO: 115.8, adjD: 100.4, pace: 65.3, eFG: 53.2, defEFG: 49.7, oreb: 32.1 }, winner: 'Saint Louis', winPct: 53, spreadPred: 1.5, totalPred: 139, edge: 'low', factors: ['Saint Louis was on a wild ride — down 21 in A-10 qtrs, stormed back to win', '28-5 record is outstanding for an Atlantic 10 program', 'Georgia has the SEC résumé edge', 'Another true coin flip 8/9 — model leans Saint Louis by a hair'], notes: 'Saint Louis is one of the more interesting mid-major stories. If you\'re going to take one 9-seed to upset their 1, watch this game to evaluate Georgia.', watch: false },
+      { id: 'm3', seeds: [5, 12], t1: { name: 'Texas Tech', seed: 5, record: '22-10', kenpom: 19, adjO: 118.8, adjD: 98.4, pace: 67.2, eFG: 54.2, defEFG: 47.2, oreb: 29.1 }, t2: { name: 'Akron', seed: 12, record: '29-5', kenpom: 55, adjO: 111.4, adjD: 102.7, pace: 66.1, eFG: 50.8, defEFG: 50.8, oreb: 31.4 }, winner: 'Texas Tech', winPct: 72, spreadPred: 8, totalPred: 135, edge: 'low', factors: ['Akron on a 3-year consecutive MAC title streak — 29 wins is a school record', 'Three dramatic MAC runs to get here — battle-tested', 'Texas Tech is Big 12 caliber with top-20 KenPom', 'Akron is the best 12-seed upset candidate in the field'], notes: 'Akron is the most dangerous 12-seed of the tournament. Three straight MAC titles, a school-record 29 wins, and a dramatic Shammah Scott buzzer-beater to get here. If any 12-seed is upsetting a 5, it\'s these Zips.', watch: true },
+      { id: 'm4', seeds: [4, 13], t1: { name: 'Alabama', seed: 4, record: '23-9', kenpom: 14, adjO: 119.4, adjD: 99.1, pace: 73.1, eFG: 55.3, defEFG: 48.4, oreb: 32.1 }, t2: { name: 'Hofstra', seed: 13, record: '24-9', kenpom: 95, adjO: 106.1, adjD: 105.4, pace: 66.4, eFG: 48.7, defEFG: 52.1, oreb: 28.3 }, winner: 'Alabama', winPct: 88, spreadPred: 16, totalPred: 142, edge: 'low', factors: ['Labaron Philon + Aden Holloway = 38.5 ppg combined — elite backcourt', 'Alabama has the fastest pace in the top 15 (73.1)', 'Hofstra\'s first Dance since 2001 — historic milestone', 'Alabama is dangerous but had early SEC tournament exit'], notes: 'Alabama\'s backcourt is a nightmare to guard. Hofstra is happy to be here. Alabama covers comfortably.', watch: false },
+      { id: 'm5', seeds: [6, 11], t1: { name: 'Tennessee', seed: 6, record: '22-11', kenpom: 21, adjO: 118.2, adjD: 98.7, pace: 68.3, eFG: 53.8, defEFG: 47.7, oreb: 30.4 }, t2: { name: 'SMU/Miami OH', seed: 11, record: '31-1', kenpom: 52, adjO: 112.9, adjD: 105.3, pace: 66.4, eFG: 52.1, defEFG: 49.8, oreb: 33.4 }, winner: 'Tennessee', winPct: 61, spreadPred: 5, totalPred: 137, edge: 'low', factors: ['Tennessee is a consistent SEC powerhouse under Rick Barnes', 'Miami OH (likely winner) went 31-1 — enormous underdog story', 'Miami OH\'s rebounding advantage is real (33.4% vs 30.4%)', 'Tennessee defense holds down most scoring attacks'], notes: 'If Miami OH wins the First Four (likely), they bring a remarkable 31-1 record into this game. Tennessee is the better team analytically, but Miami OH could be one of the better 11-seeds in recent memory.', watch: true },
+      { id: 'm6', seeds: [3, 14], t1: { name: 'Virginia', seed: 3, record: '29-5', kenpom: 12, adjO: 120.7, adjD: 96.9, pace: 60.2, eFG: 55.9, defEFG: 45.9, oreb: 27.4 }, t2: { name: 'Wright State', seed: 14, record: '22-11', kenpom: 108, adjO: 104.8, adjD: 106.3, pace: 64.7, eFG: 47.6, defEFG: 52.7, oreb: 27.1 }, winner: 'Virginia', winPct: 94, spreadPred: 21, totalPred: 126, edge: 'low', factors: ['Virginia plays the slowest tempo in the top 15 (60.2 pace) — PACK LINE defense', 'KenPom #12 with elite defensive efficiency', 'Wright State is a Horizon League qualifier — different class', 'Low scoring game projected due to Virginia\'s tempo control'], notes: 'Virginia is elite defensively. Their PACK LINE will limit Wright State to a very low scoring game. Expected to win comfortably.', watch: false },
+      { id: 'm7', seeds: [7, 10], t1: { name: 'Kentucky', seed: 7, record: '21-13', kenpom: 26, adjO: 117.3, adjD: 100.8, pace: 70.9, eFG: 52.8, defEFG: 48.9, oreb: 31.7 }, t2: { name: 'Santa Clara', seed: 10, record: '26-8', kenpom: 37, adjO: 115.7, adjD: 101.3, pace: 67.4, eFG: 52.1, defEFG: 49.4, oreb: 28.9 }, winner: 'Kentucky', winPct: 62, spreadPred: 3.5, totalPred: 141, edge: 'low', factors: ['Kentucky is a tournament brand — Mark Pope\'s first NCAA appearance at UK', 'Santa Clara is a WCC quality program with solid efficiency', 'The Cats\'s 21-13 record is uninspiring but SEC conditioning counts for something', 'Santa Clara could cover — this game will be closer than expected'], notes: 'Kentucky under new coach Mark Pope will be under intense scrutiny. Santa Clara is a legitimate opponent. Model gives Kentucky the edge but this is a game to watch.', watch: true },
+      { id: 'm8', seeds: [2, 15], t1: { name: 'Iowa State', seed: 2, record: '27-7', kenpom: 7, adjO: 122.1, adjD: 97.3, pace: 71.8, eFG: 56.3, defEFG: 46.7, oreb: 29.3 }, t2: { name: 'Tennessee State', seed: 15, record: '19-14', kenpom: 148, adjO: 98.8, adjD: 108.6, pace: 66.2, eFG: 45.8, defEFG: 54.2, oreb: 27.4 }, winner: 'Iowa State', winPct: 97, spreadPred: 28, totalPred: 137, edge: 'low', factors: ['Iowa State is KenPom #7 — a true national title contender', 'Tennessee State making 3rd ever appearance, first since 1994', "Iowa State's balanced offense is nearly impossible to game plan against", 'Tennessee State\'s 45.8% eFG won\'t score enough to compete'], notes: 'Iowa State is a sleeper national title pick. Tennessee State is a feel-good story but completely outmatched.', watch: false }
+    ]
+  },
+  south: {
+    name: 'South Region', seed1: 'Florida',
+    matchups: [
+      { id: 's1', seeds: [1, 16], t1: { name: 'Florida', seed: 1, record: '26-7', kenpom: 4, adjO: 123.2, adjD: 95.9, pace: 72.4, eFG: 56.4, defEFG: 46.2, oreb: 30.1 }, t2: { name: 'Lehigh/PV', seed: 16, record: '21-12', kenpom: 130, adjO: 102.7, adjD: 106.1, pace: 65.8, eFG: 48.9, defEFG: 52.4, oreb: 29.1 }, winner: 'Florida', winPct: 98, spreadPred: 30, totalPred: 143, edge: 'low', factors: ['Florida is the defending national champion — last year\'s best', 'KenPom #4 with top-10 offense AND defense', 'Got 1-seed despite SEC tournament loss in semis — committee faith earned', 'Lehigh (likely) is a capable 16 but completely outclassed'], notes: 'Florida is chasing back-to-back titles. They\'re fully capable of it — KenPom #4 and the defending champ. First round is a formality.', watch: false },
+      { id: 's2', seeds: [8, 9], t1: { name: 'Clemson', seed: 8, record: '24-10', kenpom: 29, adjO: 116.9, adjD: 100.6, pace: 69.1, eFG: 52.4, defEFG: 48.7, oreb: 29.4 }, t2: { name: 'Iowa', seed: 9, record: '21-12', kenpom: 36, adjO: 115.6, adjD: 101.9, pace: 70.7, eFG: 51.7, defEFG: 49.8, oreb: 31.2 }, winner: 'Clemson', winPct: 55, spreadPred: 2, totalPred: 142, edge: 'low', factors: ['Clemson is a consistent ACC program with balanced efficiency', 'Iowa has Big Ten credentials and strong offensive rebounding', 'Another toss-up 8/9 — model leans Clemson slightly', 'Winner faces #1 Florida'], notes: 'Yet another tight 8/9. Clemson\'s ACC experience gives a slight edge. Both are roughly equivalent analytically.', watch: false },
+      { id: 's3', seeds: [5, 12], t1: { name: 'Vanderbilt', seed: 5, record: '26-8', kenpom: 18, adjO: 119.3, adjD: 98.6, pace: 70.8, eFG: 54.8, defEFG: 47.6, oreb: 29.8 }, t2: { name: 'McNeese', seed: 12, record: '28-5', kenpom: 58, adjO: 110.9, adjD: 103.2, pace: 65.7, eFG: 50.1, defEFG: 51.4, oreb: 30.7 }, winner: 'Vanderbilt', winPct: 74, spreadPred: 9, totalPred: 137, edge: 'low', factors: ['Vanderbilt is the best-ranked 5-seed in the field (KenPom #18)', "McNeese making 3rd consecutive appearance — Southland's best", 'Bill Armstrong led McNeese to 28-5, top-70 KenPom', 'McNeese backcourt (Johnson/Archie/Garcia) combines for 44 ppg'], notes: 'McNeese is the most experienced 12-seed in the field. Their three guards combining for 44 points make them dangerous. But Vanderbilt is too good analytically for an upset.', watch: true },
+      { id: 's4', seeds: [4, 13], t1: { name: 'Nebraska', seed: 4, record: '26-6', kenpom: 13, adjO: 119.6, adjD: 99.0, pace: 68.7, eFG: 54.9, defEFG: 47.9, oreb: 30.3 }, t2: { name: 'Troy', seed: 13, record: '21-12', kenpom: 102, adjO: 105.3, adjD: 106.2, pace: 64.9, eFG: 48.1, defEFG: 52.8, oreb: 27.8 }, winner: 'Nebraska', winPct: 89, spreadPred: 17, totalPred: 137, edge: 'low', factors: ['Nebraska is KenPom #13 — quietly one of the best 4-seeds', 'Consistent Big Ten program — hardened by playing Michigan, Iowa State caliber opponents', 'Troy is a Sun Belt qualifier without the tools to compete at this level', 'Nebraska should cover comfortably'], notes: 'Nebraska is underrated as a 4-seed. They\'re a legitimate Sweet 16 team. Troy won\'t keep up.', watch: false },
+      { id: 's5', seeds: [6, 11], t1: { name: 'North Carolina', seed: 6, record: '24-8', kenpom: 22, adjO: 118.1, adjD: 99.2, pace: 73.8, eFG: 53.9, defEFG: 48.2, oreb: 33.8 }, t2: { name: 'VCU', seed: 11, record: '27-7', kenpom: 45, adjO: 114.2, adjD: 103.1, pace: 75.4, eFG: 51.4, defEFG: 50.1, oreb: 36.1 }, winner: 'North Carolina', winPct: 63, spreadPred: 5, totalPred: 147, edge: 'low', factors: ['UNC without star Caleb Wilson (broken thumb) — hard ceiling question', 'Seth Trimble is an elite defender and Henri Veesaar is a tough assignment for bigs', 'VCU plays the fastest pace in the field (75.4) — tempo battle looms', 'VCU\'s elite offensive rebounding (36.1%) is a problem for every opponent'], notes: 'This is a fascinating stylistic clash. Two fast teams with elite rebounding. UNC lost their best player to injury. VCU at 11 is a genuine upset threat. The fastest pace game in Round 1.', watch: true },
+      { id: 's6', seeds: [3, 14], t1: { name: 'Illinois', seed: 3, record: '24-8', kenpom: 10, adjO: 121.2, adjD: 96.7, pace: 70.9, eFG: 55.6, defEFG: 46.3, oreb: 31.2 }, t2: { name: 'Penn', seed: 14, record: '22-9', kenpom: 85, adjO: 107.9, adjD: 105.2, pace: 66.1, eFG: 48.4, defEFG: 52.3, oreb: 28.1 }, winner: 'Illinois', winPct: 94, spreadPred: 21, totalPred: 140, edge: 'low', factors: ['Illinois is KenPom #10 — one of the better 3-seeds in recent memory', 'Efficient on both ends of the floor', 'Penn is an Ivy League qualifier — strong for their conference, outmatched here', 'Illinois sets up as a potential Sweet 16 threat to Florida'], notes: 'Illinois is one of the most dangerous teams in the field. Their path to the Final Four runs through Nebraska and Florida. Penn is not a threat.', watch: false },
+      { id: 's7', seeds: [7, 10], t1: { name: "Saint Mary's", seed: 7, record: '27-5', kenpom: 26, adjO: 117.9, adjD: 100.3, pace: 64.2, eFG: 53.7, defEFG: 48.6, oreb: 27.1 }, t2: { name: 'Texas A&M', seed: 10, record: '21-11', kenpom: 40, adjO: 115.4, adjD: 102.3, pace: 68.9, eFG: 51.8, defEFG: 50.1, oreb: 35.4 }, winner: "Saint Mary's", winPct: 59, spreadPred: 3, totalPred: 135, edge: 'low', factors: ["Saint Mary's is WCC royalty — consistent program", 'Texas A&M has #8 experience ranking at KenPom — 8 juniors/seniors', 'A&M leads the field in offensive rebounding (35.4%)', 'Experienced teams typically outperform seed in March'], notes: "Saint Mary's is the slightly better team, but Texas A&M's veteran roster and elite offensive rebounding make this competitive. A&M experience edge is a real factor.", watch: true },
+      { id: 's8', seeds: [2, 15], t1: { name: 'Houston', seed: 2, record: '28-6', kenpom: 5, adjO: 122.8, adjD: 96.2, pace: 68.1, eFG: 56.1, defEFG: 45.8, oreb: 30.2 }, t2: { name: 'Idaho', seed: 15, record: '20-13', kenpom: 138, adjO: 100.3, adjD: 108.4, pace: 63.7, eFG: 46.1, defEFG: 54.1, oreb: 26.4 }, winner: 'Houston', winPct: 98, spreadPred: 29, totalPred: 135, edge: 'low', factors: ['Houston is KenPom #5 with a #5 defense nationally', 'Physical Kelvin Sampson style pressures every opponent into uncomfortable situations', "Idaho's first tournament since 1990 — a remarkable comeback story", 'Houston is a legitimate Final Four team'], notes: 'Houston has been a Final Four staple under Kelvin Sampson. Idaho\'s story is remarkable — first dance since 1990 — but they\'re not competitive here.', watch: false }
+    ]
+  }
+};
+
+const champions = [
+  { name: 'Duke', region: 'East', seed: 1, record: '32-2', champPct: 19, ff: 58, kenpom: 1 },
+  { name: 'Michigan', region: 'Midwest', seed: 1, record: '31-3', champPct: 17, ff: 55, kenpom: 2 },
+  { name: 'Arizona', region: 'West', seed: 1, record: '32-2', champPct: 16, ff: 54, kenpom: 3 },
+  { name: 'Florida', region: 'South', seed: 1, record: '26-7', champPct: 13, ff: 50, kenpom: 4 },
+  { name: 'Houston', region: 'South', seed: 2, record: '28-6', champPct: 8, ff: 38, kenpom: 5 },
+  { name: 'UConn', region: 'East', seed: 2, record: '29-5', champPct: 7, ff: 36, kenpom: 6 },
+  { name: 'Iowa State', region: 'Midwest', seed: 2, record: '27-7', champPct: 6, ff: 34, kenpom: 7 },
+  { name: 'Purdue', region: 'West', seed: 2, record: '27-8', champPct: 5, ff: 32, kenpom: 8 },
+  { name: 'Michigan State', region: 'East', seed: 3, record: '25-7', champPct: 3, ff: 22, kenpom: 9 },
+  { name: 'Illinois', region: 'South', seed: 3, record: '24-8', champPct: 2, ff: 18, kenpom: 10 },
+  { name: "St. John's", region: 'East', seed: 5, record: '28-6', champPct: 1, ff: 12, kenpom: 10 },
+  { name: 'Virginia', region: 'Midwest', seed: 3, record: '29-5', champPct: 1, ff: 14, kenpom: 12 }
+];
+
+let activeView = 'firstfour';
+let openDetail = null;
+
+function showView(name) {
+  document.querySelectorAll('.firstfour-view, .region-view, .champion-view').forEach(el => el.classList.remove('active'));
+  document.querySelectorAll('.tab').forEach(el => el.classList.remove('active'));
+  const el = document.getElementById('view-' + name);
+  if (el) el.classList.add('active');
+  event.target.classList.add('active');
+  activeView = name;
+  openDetail = null;
+}
+
+function edgeClass(e) { return e === 'high' ? 'edge-high' : e === 'med' ? 'edge-med' : 'edge-low'; }
+function edgeLabel(e, wp) {
+  if (e === 'high') return 'HIGH edge';
+  if (e === 'med') return 'MED edge';
+  if (wp >= 90) return 'chalk';
+  return 'toss-up';
+}
+
+function renderTeamRow(t, isWinner, wp) {
+  return `<div class="team-row ${isWinner ? 'predicted-winner' : ''}">
+    <span class="seed">${t.seed || ''}</span>
+    <span class="team-name">${t.name}</span>
+    <span style="font-size:11px; color:var(--color-text-tertiary);">${t.record || ''}</span>
+    ${isWinner ? `<span class="win-pct">${wp}%</span>` : ''}
+  </div>`;
+}
+
+function renderMatchup(m, detailId) {
+  const isT1Winner = m.winner === m.t1.abbr || m.winner === m.t1.name;
+  const t2wp = 100 - m.winPct;
+  let badges = `<span class="edge-badge ${edgeClass(m.edge)}">${edgeLabel(m.edge, m.winPct)}</span>`;
+  if (m.watch) badges += `<span class="upset-flag">watch</span>`;
+  return `<div class="matchup" onclick="toggleDetail('${m.id}','${detailId}')">
+    ${renderTeamRow(m.t1, isT1Winner, m.winPct)}
+    ${renderTeamRow(m.t2, !isT1Winner, t2wp)}
+    <div style="display:flex; gap:6px; margin-top:4px; flex-wrap:wrap;">${badges}</div>
+  </div>`;
+}
+
+function renderDetail(m) {
+  const isT1Winner = m.winner === m.t1.abbr || m.winner === m.t1.name;
+  const winner = isT1Winner ? m.t1 : m.t2;
+  const loser = isT1Winner ? m.t2 : m.t1;
+  const t1 = m.t1, t2 = m.t2;
+
+  const stats = [
+    { label: 'KenPom', v1: t1.kenpom, v2: t2.kenpom, better: 'lower' },
+    { label: 'Adj Off', v1: t1.adjO.toFixed(1), v2: t2.adjO.toFixed(1), better: 'higher' },
+    { label: 'Adj Def', v1: t1.adjD.toFixed(1), v2: t2.adjD.toFixed(1), better: 'lower' },
+    { label: 'Pace', v1: t1.pace.toFixed(1), v2: t2.pace.toFixed(1), better: 'context' },
+    { label: 'eFG%', v1: t1.eFG.toFixed(1)+'%', v2: t2.eFG.toFixed(1)+'%', better: 'higher' },
+    { label: 'Def eFG%', v1: t1.defEFG.toFixed(1)+'%', v2: t2.defEFG.toFixed(1)+'%', better: 'lower' },
+    { label: 'OReb%', v1: t1.oreb.toFixed(1)+'%', v2: t2.oreb.toFixed(1)+'%', better: 'higher' }
+  ];
+
+  let statsHtml = stats.map(s => {
+    const v1num = parseFloat(s.v1), v2num = parseFloat(s.v2);
+    let t1edge = false, t2edge = false;
+    if (s.better === 'higher') { t1edge = v1num > v2num; t2edge = !t1edge; }
+    else if (s.better === 'lower') { t1edge = v1num < v2num; t2edge = !t1edge; }
+    return `<div style="display:grid; grid-template-columns:1fr 70px 1fr; gap:6px; align-items:center; margin-bottom:6px;">
+      <div style="text-align:right; font-size:13px; font-weight:${t1edge?'500':'400'}; color:${t1edge?'var(--color-text-primary)':'var(--color-text-secondary)'};">${s.v1}</div>
+      <div style="text-align:center; font-size:11px; color:var(--color-text-tertiary);">${s.label}</div>
+      <div style="text-align:left; font-size:13px; font-weight:${t2edge?'500':'400'}; color:${t2edge?'var(--color-text-primary)':'var(--color-text-secondary)'};">${s.v2}</div>
+    </div>`;
+  }).join('');
+
+  const factorsHtml = m.factors.map(f => `<div class="factor-item">${f}</div>`).join('');
+
+  return `<div class="game-detail">
+    <div style="display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:8px; margin-bottom:12px;">
+      <div class="detail-header">${t1.name} vs ${t2.name}</div>
+      <button onclick="sendPrompt('Tell me more about ${t1.name} vs ${t2.name} in the 2026 NCAA Tournament')" style="font-size:12px; padding:6px 12px;">Deep dive ↗</button>
+    </div>
+    <div style="display:grid; grid-template-columns:1fr 70px 1fr; gap:6px; margin-bottom:8px;">
+      <div style="text-align:right; font-size:14px; font-weight:500; color:var(--color-text-primary);">${t1.name}</div>
+      <div style="text-align:center; font-size:11px; color:var(--color-text-tertiary);">vs</div>
+      <div style="text-align:left; font-size:14px; font-weight:500; color:var(--color-text-primary);">${t2.name}</div>
+    </div>
+    ${statsHtml}
+    <div class="prediction-box">
+      <div class="pred-title">Model predictions</div>
+      <div class="pred-row"><span class="pred-label">Predicted winner</span><span class="pred-val">${winner.name} (${m.winPct}%)</span></div>
+      <div class="pred-row"><span class="pred-label">Spread</span><span class="pred-val">${m.spreadPred > 0 ? m.t1.name + ' -' + m.spreadPred : m.t2.name + ' -' + Math.abs(m.spreadPred)}</span></div>
+      <div class="pred-row"><span class="pred-label">Projected total</span><span class="pred-val">${m.totalPred}</span></div>
+      <div class="pred-row"><span class="pred-label">Model bet signal</span><span class="pred-val edge-badge ${edgeClass(m.edge)}" style="padding:3px 8px;">${edgeLabel(m.edge, m.winPct)}</span></div>
+    </div>
+    <div class="key-factors" style="margin-top:12px;">
+      <div style="font-size:11px; font-weight:500; color:var(--color-text-secondary); margin-bottom:6px; text-transform:uppercase; letter-spacing:0.04em;">Key factors</div>
+      ${factorsHtml}
+    </div>
+    ${m.notes ? `<div style="margin-top:10px; font-size:12px; color:var(--color-text-secondary); padding:8px 12px; border-left:2px solid var(--color-border-secondary); border-radius:0;">${m.notes}</div>` : ''}
+  </div>`;
+}
+
+function toggleDetail(matchupId, detailContainerId) {
+  const container = document.getElementById(detailContainerId);
+  if (!container) return;
+  if (openDetail === matchupId) {
+    container.innerHTML = '';
+    container.classList.remove('open');
+    openDetail = null;
+    return;
+  }
+  let matchup = null;
+  for (const m of firstFour) { if (m.id === matchupId) { matchup = m; break; } }
+  if (!matchup) {
+    for (const reg of Object.values(regions)) {
+      for (const m of reg.matchups) { if (m.id === matchupId) { matchup = m; break; } }
+      if (matchup) break;
+    }
+  }
+  if (!matchup) return;
+  container.innerHTML = renderDetail(matchup);
+  container.classList.add('open');
+  openDetail = matchupId;
+  setTimeout(() => container.scrollIntoView({ behavior: 'smooth', block: 'nearest' }), 50);
+}
+
+function renderFF() {
+  const grid = document.getElementById('ff-grid');
+  grid.innerHTML = firstFour.map(m => {
+    const isT1Winner = m.winner === m.t1.abbr || m.winner === m.t1.name;
+    const winner = isT1Winner ? m.t1 : m.t2;
+    const loser = isT1Winner ? m.t2 : m.t1;
+    let statusBadge = '';
+    if (m.status === 'live') statusBadge = '<span class="live-badge" style="font-size:10px; padding:2px 6px;">LIVE</span>';
+    else if (m.status === 'tonight') statusBadge = '<span style="font-size:10px; padding:2px 6px; background:var(--color-background-info); color:var(--color-text-info); border-radius:4px;">TONIGHT</span>';
+    else statusBadge = '<span style="font-size:10px; padding:2px 6px; background:var(--color-background-secondary); color:var(--color-text-secondary); border-radius:4px;">WED</span>';
+    return `<div class="ff-card">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+        <div class="ff-title">Game ${m.seed} seed — ${m.region} Region</div>
+        ${statusBadge}
+      </div>
+      ${renderMatchup(m, 'ff-detail')}
+    </div>`;
+  }).join('');
+}
+
+function renderRegion(key) {
+  const reg = regions[key];
+  const grid = document.getElementById(key + '-grid');
+  const detailId = key + '-detail';
+  if (!grid) return;
+  const matchupsHtml = reg.matchups.map(m => renderMatchup(m, detailId)).join('');
+  grid.innerHTML = `<div class="region-card" style="grid-column: 1 / -1;">
+    <div class="region-title">${reg.name} — #1 seed: ${reg.seed1}</div>
+    ${matchupsHtml}
+  </div>`;
+}
+
+function renderChampions() {
+  const grid = document.getElementById('champ-grid');
+  grid.innerHTML = champions.map((c, i) => `<div class="champ-card ${i < 4 ? 'top' : ''}">
+    <div class="champ-seed">${c.seed}-seed · ${c.region}</div>
+    <div class="champ-name">${c.name}</div>
+    <div class="champ-region">${c.record} · KenPom #${c.kenpom}</div>
+    <div class="champ-pct">${c.champPct}%</div>
+    <div class="champ-label">title probability</div>
+    <div style="margin-top:6px; font-size:12px; color:var(--color-text-tertiary);">Final Four: ${c.ff}%</div>
+  </div>`).join('');
+}
+
+renderFF();
+renderRegion('east');
+renderRegion('west');
+renderRegion('midwest');
+renderRegion('south');
+renderChampions();
+</script>

@@ -89,6 +89,125 @@ ROUND_NAMES = {
 
 REGIONS = ["East", "West", "South", "Midwest"]
 
+# ── Tournament team name aliases ─────────────────────────────────────────────
+# Maps bracket JSON names -> feature matrix keys for teams whose name in the
+# bracket doesn't match normalize_team(). Add entries here when you see
+# "No history found for team" warnings.
+TOURNAMENT_ALIASES: dict[str, str] = {
+    # ── Bracket name → feature matrix team_id ──────────────────────────────
+    # Run: grep team_id in feature_matrix to find exact keys
+    # Format: "bracket name (lowercased)" -> "matrix team_id"
+
+    # California Baptist
+    "ca baptist":            "california_baptist",
+    "cal baptist":           "california_baptist",
+    "california baptist":    "california_baptist",
+
+    # North Dakota State
+    "n dakota st":           "n_dakota_st",
+    "north dakota st":       "n_dakota_st",
+    "north dakota state":    "n_dakota_st",
+    "n_dakota_st":           "n_dakota_st",
+
+    # Tennessee State — KEY FIX: was wrongly mapped to "tennessee st"
+    # which normalize_team() resolves to "tennessee" (a completely different team)
+    "tennessee state":       "tennessee_state",
+    "tennessee st":          "tennessee_state",
+    "tennessee_st":          "tennessee_state",
+
+    # McNeese — KEY FIX: was wrongly mapped to "mcneese state" (doesn't exist)
+    # Correct matrix key is "mcneese"
+    "mcneese state":         "mcneese",
+    "mcneese_state":         "mcneese",
+    "mcneese":               "mcneese",
+
+    # LIU / Long Island
+    "long island":           "liu",
+    "liu":                   "liu",
+
+    # Kennesaw State
+    "kennesaw st":           "kennesaw_st",
+    "kennesaw state":        "kennesaw_st",
+
+    # Hawaii
+    "hawaii":                "hawai'i",
+
+    # Miami Ohio
+    "miami oh":              "miami (oh)",
+    "miami (ohio)":          "miami (oh)",
+    "miami_oh":              "miami (oh)",
+
+    # Queens
+    "queens":                "queens (nc)",
+    "queens nc":             "queens (nc)",
+
+    # Saint Mary's
+    "saint mary's":          "saint mary's (ca)",
+    "saint marys":           "saint mary's (ca)",
+    "st marys":              "saint mary's (ca)",
+    "st mary's":             "saint mary's (ca)",
+
+    # Wright State
+    "wright state":          "wright_state",
+    "wright st":             "wright_state",
+    "wright_st":             "wright_state",
+
+    # Prairie View A&M
+    "prairie view a&m":      "prairie_view",
+    "prairie view":          "prairie_view",
+
+    # Other common bracket vs. matrix mismatches
+    "unc":                   "north_carolina",
+    "north carolina":        "north_carolina",
+    "uconn":                 "connecticut",
+    "connecticut":           "connecticut",
+    "ohio st":               "ohio_st",
+    "ohio state":            "ohio_st",
+    "michigan st":           "michigan_st",
+    "michigan state":        "michigan_st",
+    "penn":                  "pennsylvania",
+    "pennsylvania":          "pennsylvania",
+    "vcu":                   "vcu",
+    # ── Teams where normalize_team() output doesn't match matrix key ──────────
+    # St John's — matrix key is 'st_johns'
+    "st johns":              "st_johns",
+    "st. johns":             "st_johns",
+    "st. john's":            "st_johns",
+    "saint johns":           "st_johns",
+
+    # Hawaii — normalize returns 'hawaii', matrix has 'hawaii' ✓
+    # (already resolves correctly via normalize_team, but add explicit alias)
+    "hawai'i":               "hawaii",
+
+    # Miami FL — matrix key is 'miami_fl'
+    "miami fl":              "miami_fl",
+    "miami (fl)":            "miami_fl",
+    "miami florida":         "miami_fl",
+
+    # Queens NC — matrix key is 'queens'
+    "queens (nc)":           "queens",
+    "queens nc":             "queens",
+    "queens (n.c.)":         "queens",
+
+    # Texas A&M — matrix key is 'texas_am'
+    "texas a&m":             "texas_am",
+    "texas a&amp;m":         "texas_am",
+
+    # Saint Mary's CA — matrix key is 'saint_marys'
+    "saint mary's (ca)":     "saint_marys",
+    "saint mary's":          "saint_marys",
+    "saint marys":           "saint_marys",
+    "st. mary's":            "saint_marys",
+    "st. marys":             "saint_marys",
+
+    # Miami OH — matrix key is 'miami_oh'
+    "miami (oh)":            "miami_oh",
+    "miami oh":              "miami_oh",
+    "miami ohio":            "miami_oh",
+    "miami (ohio)":          "miami_oh",
+
+}
+
 # Seed-based calibration adjustments (post-processing layer on top of ML output)
 # Based on historical NCAA tournament ATS data:
 # - Double-digit seeds (11-16) cover more often than their seed implies
@@ -138,6 +257,10 @@ def predict_tournament_game(
     Predict a single tournament matchup.
     All tournament games are neutral site — hardcoded.
     """
+    # Resolve tournament-specific aliases before normalization
+    home_team = TOURNAMENT_ALIASES.get(home_team.lower(), home_team)
+    away_team = TOURNAMENT_ALIASES.get(away_team.lower(), away_team)
+
     home_norm = normalize_team(home_team)
     away_norm = normalize_team(away_team)
 
@@ -177,6 +300,31 @@ def predict_tournament_game(
 
     # Run base models
     preds = predict_game(features, models)
+
+    # ── Vegas sanity check ────────────────────────────────────────────────────
+    # If the model spread deviates from Vegas by > 18 pts, something is wrong
+    # (bad feature data, name collision, etc.). Flag it so it's excluded from
+    # confident plays but still show the Vegas line for reference.
+    if odds_row is not None:
+        vegas_spread = odds_row.get("home_spread") or odds_row.get("spread")
+        if vegas_spread is not None:
+            try:
+                model_spread = preds.get("spread", 0) or 0
+                deviation = abs(float(model_spread) - float(vegas_spread))
+                if deviation > 18:
+                    log.warning(
+                        "  ⚠️  SANITY CHECK FAILED: model spread %.1f vs Vegas %.1f "
+                        "(deviation %.1f pts > 18 pt threshold) — flagging as suspect",
+                        model_spread, vegas_spread, deviation
+                    )
+                    preds["suspect"] = True
+                    preds["suspect_reason"] = (
+                        f"Model spread {model_spread:+.1f} deviates {deviation:.1f} pts "
+                        f"from Vegas {vegas_spread:+.1f}"
+                    )
+            except (TypeError, ValueError):
+                pass
+
 
     # Apply seed-based calibration adjustment to spread prediction
     seed_adj = _get_seed_adjustment(home_seed, away_seed, preds)
@@ -392,7 +540,7 @@ def print_tournament_summary(predictions: list[dict]):
             a_seed = p.get("away_seed", "?")
             matchup = f"#{a_seed} {p['away_team']} @ #{h_seed} {p['home_team']}"
             print(f"  [{b['confidence']}] {b['market']} {b['lean']:5} — {matchup}")
-            print(f"         {b['round_name']} | Edge: {b.get('edge_pts', 0):.1f} pts | {p['region']} Region")
+            print(f"         {p.get('round_name', b.get('tournament_round', 'Round of 64'))} | Edge: {b.get('edge_pts', 0):.1f} pts | {p['region']} Region")
     else:
         print(f"\n  No flagged plays (no lines available yet or edge below threshold)")
 
