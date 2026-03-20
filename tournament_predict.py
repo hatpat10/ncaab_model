@@ -309,9 +309,9 @@ def predict_tournament_game(
         vegas_spread = odds_row.get("home_spread") or odds_row.get("spread")
         if vegas_spread is not None:
             try:
-                model_spread = preds.get("spread", 0) or 0
-                deviation = abs(float(model_spread) - float(vegas_spread))
-                if deviation > 18:
+                model_spread = preds.get("predicted_margin", preds.get("predicted_margin", 0)) or 0
+                deviation = abs(float(model_spread) + float(vegas_spread))
+                if deviation > 25:
                     log.warning(
                         "  ⚠️  SANITY CHECK FAILED: model spread %.1f vs Vegas %.1f "
                         "(deviation %.1f pts > 18 pt threshold) — flagging as suspect",

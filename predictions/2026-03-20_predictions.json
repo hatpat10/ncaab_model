@@ -1,0 +1,521 @@
+[
+  {
+    "game_id": "401856525",
+    "date": "2026-03-20",
+    "home_team": "Kentucky Wildcats",
+    "away_team": "Santa Clara Broncos",
+    "tipoff": "2026-03-20T16:15Z",
+    "venue": "Enterprise Center",
+    "neutral": true,
+    "game_tier": "mid",
+    "status": "STATUS_SCHEDULED",
+    "predictions": {
+      "predicted_margin": 4.0,
+      "home_win_prob": 0.606,
+      "away_win_prob": 0.394,
+      "predicted_total": 163.1
+    },
+    "edge": {
+      "spread_edge": 1.2,
+      "vegas_spread": -2.8,
+      "model_spread": 4.0,
+      "total_edge": 5.3,
+      "vegas_total": 157.8,
+      "model_total": 163.1,
+      "ou_lean": "OVER",
+      "model_win_prob": 0.606,
+      "vegas_implied_prob": 0.608,
+      "win_prob_edge": -0.002
+    },
+    "bets": []
+  },
+  {
+    "game_id": "401856520",
+    "date": "2026-03-20",
+    "home_team": "Texas Tech Red Raiders",
+    "away_team": "Akron Zips",
+    "tipoff": "2026-03-20T16:40Z",
+    "venue": "Benchmark International Arena",
+    "neutral": true,
+    "game_tier": "low",
+    "status": "STATUS_SCHEDULED",
+    "predictions": {
+      "predicted_margin": 0.8,
+      "home_win_prob": 0.541,
+      "away_win_prob": 0.459,
+      "predicted_total": 149.5
+    },
+    "edge": {
+      "spread_edge": -6.7,
+      "vegas_spread": -7.5,
+      "model_spread": 0.8,
+      "total_edge": -6.7,
+      "vegas_total": 156.2,
+      "model_total": 149.5,
+      "ou_lean": "UNDER",
+      "model_win_prob": 0.541,
+      "vegas_implied_prob": 0.764,
+      "win_prob_edge": -0.223
+    },
+    "bets": []
+  },
+  {
+    "game_id": "401856529",
+    "date": "2026-03-20",
+    "home_team": "Arizona Wildcats",
+    "away_team": "Long Island University Sharks",
+    "tipoff": "2026-03-20T17:35Z",
+    "venue": "Viejas Arena",
+    "neutral": true,
+    "game_tier": "low",
+    "status": "STATUS_SCHEDULED",
+    "predictions": {
+      "predicted_margin": 7.3,
+      "home_win_prob": 0.83,
+      "away_win_prob": 0.17,
+      "predicted_total": 163.8
+    },
+    "edge": {
+      "spread_edge": -23.2,
+      "vegas_spread": -30.5,
+      "model_spread": 7.3,
+      "total_edge": 14.3,
+      "vegas_total": 149.5,
+      "model_total": 163.8,
+      "ou_lean": "OVER",
+      "model_win_prob": 0.83,
+      "vegas_implied_prob": 0.999,
+      "win_prob_edge": -0.169
+    },
+    "bets": []
+  },
+  {
+    "game_id": "401856526",
+    "date": "2026-03-20",
+    "home_team": "Virginia Cavaliers",
+    "away_team": "Wright State Raiders",
+    "tipoff": "2026-03-20T17:50Z",
+    "venue": "Xfinity Mobile Arena",
+    "neutral": true,
+    "game_tier": "low",
+    "status": "STATUS_SCHEDULED",
+    "predictions": {
+      "predicted_margin": 2.4,
+      "home_win_prob": 0.606,
+      "away_win_prob": 0.394,
+      "predicted_total": 145.1
+    },
+    "edge": {
+      "spread_edge": -15.8,
+      "vegas_spread": -18.2,
+      "model_spread": 2.4,
+      "total_edge": -0.1,
+      "vegas_total": 145.2,
+      "model_total": 145.1,
+      "ou_lean": "UNDER",
+      "model_win_prob": 0.606,
+      "vegas_implied_prob": 0.969,
+      "win_prob_edge": -0.363
+    },
+    "bets": []
+  },
+  {
+    "game_id": "401856524",
+    "date": "2026-03-20",
+    "home_team": "Iowa State Cyclones",
+    "away_team": "Tennessee State Tigers",
+    "tipoff": "2026-03-20T18:50Z",
+    "venue": "Enterprise Center",
+    "neutral": true,
+    "game_tier": "low",
+    "status": "STATUS_SCHEDULED",
+    "predictions": {
+      "predicted_margin": 1.5,
+      "home_win_prob": 0.816,
+      "away_win_prob": 0.184,
+      "predicted_total": 146.5
+    },
+    "edge": {
+      "spread_edge": -23.0,
+      "vegas_spread": -24.5,
+      "model_spread": 1.5,
+      "total_edge": -2.0,
+      "vegas_total": 148.5,
+      "model_total": 146.5,
+      "ou_lean": "UNDER",
+      "model_win_prob": 0.816,
+      "vegas_implied_prob": 0.989,
+      "win_prob_edge": -0.173
+    },
+    "bets": []
+  },
+  {
+    "game_id": "401856521",
+    "date": "2026-03-20",
+    "home_team": "Alabama Crimson Tide",
+    "away_team": "Hofstra Pride",
+    "tipoff": "2026-03-20T19:15Z",
+    "venue": "Benchmark International Arena",
+    "neutral": true,
+    "game_tier": "mid",
+    "status": "STATUS_SCHEDULED",
+    "predictions": {
+      "predicted_margin": 6.5,
+      "home_win_prob": 0.686,
+      "away_win_prob": 0.314,
+      "predicted_total": 167.6
+    },
+    "edge": {
+      "spread_edge": -5.0,
+      "vegas_spread": -11.5,
+      "model_spread": 6.5,
+      "total_edge": 9.4,
+      "vegas_total": 158.2,
+      "model_total": 167.6,
+      "ou_lean": "OVER",
+      "model_win_prob": 0.686,
+      "vegas_implied_prob": 0.887,
+      "win_prob_edge": -0.201
+    },
+    "bets": [
+      {
+        "market": "TOTAL",
+        "lean": "OVER",
+        "edge_pts": 9.4,
+        "confidence": "MEDIUM",
+        "game_tier": "mid"
+      }
+    ]
+  },
+  {
+    "game_id": "401856528",
+    "date": "2026-03-20",
+    "home_team": "Villanova Wildcats",
+    "away_team": "Utah State Aggies",
+    "tipoff": "2026-03-20T20:10Z",
+    "venue": "Viejas Arena",
+    "neutral": true,
+    "game_tier": "mid",
+    "status": "STATUS_SCHEDULED",
+    "predictions": {
+      "predicted_margin": 2.2,
+      "home_win_prob": 0.606,
+      "away_win_prob": 0.394,
+      "predicted_total": 148.3
+    },
+    "edge": {
+      "spread_edge": 4.0,
+      "vegas_spread": 1.8,
+      "model_spread": 2.2,
+      "total_edge": 0.8,
+      "vegas_total": 147.5,
+      "model_total": 148.3,
+      "ou_lean": "OVER",
+      "model_win_prob": 0.606,
+      "vegas_implied_prob": 0.474,
+      "win_prob_edge": 0.132
+    },
+    "bets": []
+  },
+  {
+    "game_id": "401856527",
+    "date": "2026-03-20",
+    "home_team": "Tennessee Volunteers",
+    "away_team": "Miami (OH) RedHawks",
+    "tipoff": "2026-03-20T20:25Z",
+    "venue": "Xfinity Mobile Arena",
+    "neutral": true,
+    "game_tier": "low",
+    "status": "STATUS_SCHEDULED",
+    "predictions": {
+      "predicted_margin": 2.2,
+      "home_win_prob": 0.686,
+      "away_win_prob": 0.314,
+      "predicted_total": 153.7
+    },
+    "edge": {
+      "spread_edge": -22.3,
+      "vegas_spread": -24.5,
+      "model_spread": 2.2,
+      "total_edge": 5.2,
+      "vegas_total": 148.5,
+      "model_total": 153.7,
+      "ou_lean": "OVER",
+      "model_win_prob": 0.686,
+      "vegas_implied_prob": 0.989,
+      "win_prob_edge": -0.303
+    },
+    "bets": []
+  },
+  {
+    "game_id": "401856522",
+    "date": "2026-03-20",
+    "home_team": "Clemson Tigers",
+    "away_team": "Iowa Hawkeyes",
+    "tipoff": "2026-03-20T22:50Z",
+    "venue": "Benchmark International Arena",
+    "neutral": true,
+    "game_tier": "high",
+    "status": "STATUS_SCHEDULED",
+    "predictions": {
+      "predicted_margin": 0.7,
+      "home_win_prob": 0.486,
+      "away_win_prob": 0.514,
+      "predicted_total": 152.5
+    },
+    "edge": {
+      "spread_edge": 3.2,
+      "vegas_spread": 2.5,
+      "model_spread": 0.7,
+      "total_edge": 23.0,
+      "vegas_total": 129.5,
+      "model_total": 152.5,
+      "ou_lean": "OVER",
+      "model_win_prob": 0.486,
+      "vegas_implied_prob": 0.472,
+      "win_prob_edge": 0.014
+    },
+    "bets": []
+  },
+  {
+    "game_id": "401856494",
+    "date": "2026-03-20",
+    "home_team": "St. John's Red Storm",
+    "away_team": "Northern Iowa Panthers",
+    "tipoff": "2026-03-20T23:10Z",
+    "venue": "Viejas Arena",
+    "neutral": true,
+    "game_tier": "mid",
+    "status": "STATUS_SCHEDULED",
+    "predictions": {
+      "predicted_margin": 6.7,
+      "home_win_prob": 0.686,
+      "away_win_prob": 0.314,
+      "predicted_total": 149.1
+    },
+    "edge": {
+      "spread_edge": -2.8,
+      "vegas_spread": -9.5,
+      "model_spread": 6.7,
+      "total_edge": 17.6,
+      "vegas_total": 131.5,
+      "model_total": 149.1,
+      "ou_lean": "OVER",
+      "model_win_prob": 0.686,
+      "vegas_implied_prob": 0.839,
+      "win_prob_edge": -0.153
+    },
+    "bets": []
+  },
+  {
+    "game_id": "401856496",
+    "date": "2026-03-20",
+    "home_team": "UCLA Bruins",
+    "away_team": "UCF Knights",
+    "tipoff": "2026-03-20T23:25Z",
+    "venue": "Xfinity Mobile Arena",
+    "neutral": true,
+    "game_tier": "high",
+    "status": "STATUS_SCHEDULED",
+    "predictions": {
+      "predicted_margin": -2.1,
+      "home_win_prob": 0.472,
+      "away_win_prob": 0.528,
+      "predicted_total": 149.1
+    },
+    "edge": {
+      "spread_edge": -7.6,
+      "vegas_spread": -5.5,
+      "model_spread": -2.1,
+      "total_edge": -3.4,
+      "vegas_total": 152.5,
+      "model_total": 149.1,
+      "ou_lean": "UNDER",
+      "model_win_prob": 0.472,
+      "vegas_implied_prob": 0.708,
+      "win_prob_edge": -0.236
+    },
+    "bets": [
+      {
+        "market": "SPREAD",
+        "lean": "AWAY",
+        "edge_pts": 7.6,
+        "confidence": "MEDIUM",
+        "game_tier": "high"
+      }
+    ]
+  },
+  {
+    "game_id": "401856519",
+    "date": "2026-03-20",
+    "home_team": "Purdue Boilermakers",
+    "away_team": "Queens University Royals",
+    "tipoff": "2026-03-20T23:35Z",
+    "venue": "Enterprise Center",
+    "neutral": true,
+    "game_tier": "low",
+    "status": "STATUS_SCHEDULED",
+    "predictions": {
+      "predicted_margin": 4.3,
+      "home_win_prob": 0.686,
+      "away_win_prob": 0.314,
+      "predicted_total": 158.3
+    },
+    "edge": {
+      "spread_edge": -21.2,
+      "vegas_spread": -25.5,
+      "model_spread": 4.3,
+      "total_edge": -4.2,
+      "vegas_total": 162.5,
+      "model_total": 158.3,
+      "ou_lean": "UNDER",
+      "model_win_prob": 0.686,
+      "vegas_implied_prob": 0.994,
+      "win_prob_edge": -0.308
+    },
+    "bets": []
+  },
+  {
+    "game_id": "401856523",
+    "date": "2026-03-20",
+    "home_team": "Florida Gators",
+    "away_team": "Prairie View A&M Panthers",
+    "tipoff": "2026-03-21T01:25Z",
+    "venue": "Benchmark International Arena",
+    "neutral": true,
+    "game_tier": "low",
+    "status": "STATUS_SCHEDULED",
+    "predictions": {
+      "predicted_margin": 10.3,
+      "home_win_prob": 0.923,
+      "away_win_prob": 0.077,
+      "predicted_total": 177.9
+    },
+    "edge": {
+      "spread_edge": -25.2,
+      "vegas_spread": -35.5,
+      "model_spread": 10.3,
+      "total_edge": 22.4,
+      "vegas_total": 155.5,
+      "model_total": 177.9,
+      "ou_lean": "OVER",
+      "model_win_prob": 0.923,
+      "vegas_implied_prob": 0.999,
+      "win_prob_edge": -0.076
+    },
+    "bets": []
+  },
+  {
+    "game_id": "401856495",
+    "date": "2026-03-20",
+    "home_team": "Kansas Jayhawks",
+    "away_team": "California Baptist Lancers",
+    "tipoff": "2026-03-21T01:45Z",
+    "venue": "Viejas Arena",
+    "neutral": true,
+    "game_tier": "mid",
+    "status": "STATUS_SCHEDULED",
+    "predictions": {
+      "predicted_margin": -0.4,
+      "home_win_prob": 0.686,
+      "away_win_prob": 0.314,
+      "predicted_total": 142.7
+    },
+    "edge": {
+      "spread_edge": -14.6,
+      "vegas_spread": -14.2,
+      "model_spread": -0.4,
+      "total_edge": 4.5,
+      "vegas_total": 138.2,
+      "model_total": 142.7,
+      "ou_lean": "OVER",
+      "model_win_prob": 0.686,
+      "vegas_implied_prob": 0.93,
+      "win_prob_edge": -0.244
+    },
+    "bets": [
+      {
+        "market": "SPREAD",
+        "lean": "AWAY",
+        "edge_pts": 14.6,
+        "confidence": "MEDIUM",
+        "game_tier": "mid"
+      }
+    ]
+  },
+  {
+    "game_id": "401856497",
+    "date": "2026-03-20",
+    "home_team": "UConn Huskies",
+    "away_team": "Furman Paladins",
+    "tipoff": "2026-03-21T02:00Z",
+    "venue": "Xfinity Mobile Arena",
+    "neutral": true,
+    "game_tier": "mid",
+    "status": "STATUS_SCHEDULED",
+    "predictions": {
+      "predicted_margin": 10.5,
+      "home_win_prob": 0.816,
+      "away_win_prob": 0.184,
+      "predicted_total": 147.7
+    },
+    "edge": {
+      "spread_edge": -10.0,
+      "vegas_spread": -20.5,
+      "model_spread": 10.5,
+      "total_edge": 11.2,
+      "vegas_total": 136.5,
+      "model_total": 147.7,
+      "ou_lean": "OVER",
+      "model_win_prob": 0.816,
+      "vegas_implied_prob": 0.982,
+      "win_prob_edge": -0.166
+    },
+    "bets": [
+      {
+        "market": "SPREAD",
+        "lean": "AWAY",
+        "edge_pts": 10.0,
+        "confidence": "MEDIUM",
+        "game_tier": "mid"
+      },
+      {
+        "market": "TOTAL",
+        "lean": "OVER",
+        "edge_pts": 11.2,
+        "confidence": "MEDIUM",
+        "game_tier": "mid"
+      }
+    ]
+  },
+  {
+    "game_id": "401856518",
+    "date": "2026-03-20",
+    "home_team": "Miami Hurricanes",
+    "away_team": "Missouri Tigers",
+    "tipoff": "2026-03-21T02:10Z",
+    "venue": "Enterprise Center",
+    "neutral": true,
+    "game_tier": "high",
+    "status": "STATUS_SCHEDULED",
+    "predictions": {
+      "predicted_margin": -0.1,
+      "home_win_prob": 0.486,
+      "away_win_prob": 0.514,
+      "predicted_total": 149.7
+    },
+    "edge": {
+      "spread_edge": -1.9,
+      "vegas_spread": -1.8,
+      "model_spread": -0.1,
+      "total_edge": 2.9,
+      "vegas_total": 146.8,
+      "model_total": 149.7,
+      "ou_lean": "OVER",
+      "model_win_prob": 0.486,
+      "vegas_implied_prob": 0.569,
+      "win_prob_edge": -0.083
+    },
+    "bets": []
+  }
+]
